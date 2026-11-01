@@ -1,0 +1,68 @@
+=== stage1b fix2 2026-11-01T08:15:03Z ===
+amrfinder binary: HTTP 200 size=5.5M sha256=68045a8bccdbe3c5...
+extracted into .tools/:
+amr_report
+amrfinder
+amrfinder_binaries_v4.2.7.tar.gz
+amrfinder_index
+amrfinder_update
+disruption2genesymbol
+dna_mutation
+fasta2parts
+fasta_check
+fasta_extract
+gff_check
+mutate
+stx
+stxtyper
+test_amrfinder.sh
+test_both.expected
+test_disrupt.expected
+test_disrupt.fa
+test_dna.expected
+test_dna.fa
+test_dna_mut_all.expected
+test_prot.expected
+test_prot.fa
+test_prot.gff
+test_prot.gz.fa
+version.txt
+sourmash LICENSE @latest: HTTP 200 ======= License =======  Files: * Copyright: 2016, The Regen
+sourmash LICENSE @main: HTTP 404 404: Not Found
+sourmash LICENSE @develop: HTTP 404 404: Not Found
+py:biopython: no LICENSE file in /home/z/.venv/lib/python3.12/site-packages/biopython-1.86.dist-info
+py:joblib: no LICENSE file in /home/z/.venv/lib/python3.12/site-packages/joblib-1.5.3.dist-info
+py:pytest: no LICENSE file in /home/z/.venv/lib/python3.12/site-packages/pytest-9.0.2.dist-info
+ncbi_antibiogram_docs: HTTP 200 sha=008bc41b0dca size=72K
+iso_20776_2: HTTP 403 sha=8d438a89cd03 size=8.0K
+fda_stic: HTTP 401 sha=2cf76c162405 size=8.0K
+amrfinder_wiki: HTTP 200 sha=fd2c963daf7b size=256K
+eucast_breakpoints_page: HTTP 200 sha=d15bfb665d12 size=100K
+-- AMRFinderPlus wiki pages found:
+href="/ncbi/amr/wiki/AMRFinderPlus-database"
+href="/ncbi/amr/wiki/AMRFinderPlus-database#availability"
+href="/ncbi/amr/wiki/AMRFinderPlus-database#database-curation-methods"
+href="/ncbi/amr/wiki/AMRFinderPlus-database#file-formats"
+href="/ncbi/amr/wiki/AMRFinderPlus-database#files"
+href="/ncbi/amr/wiki/AMRFinderPlus-database#geneprotein-hierarchy"
+href="/ncbi/amr/wiki/BioConda-installation"
+href="/ncbi/amr/wiki/Bioconda-prerequisite-installation"
+href="/ncbi/amr/wiki/Compile-AMRFinder-from-source"
+href="/ncbi/amr/wiki/Compile-from-source"
+href="/ncbi/amr/wiki/Curated-organisms"
+href="/ncbi/amr/wiki/Home"
+href="/ncbi/amr/wiki/Home#citation"
+href="/ncbi/amr/wiki/Home/_history"
+href="/ncbi/amr/wiki/Install-with-binary"
+href="/ncbi/amr/wiki/Install-with-bioconda"
+href="/ncbi/amr/wiki/Installing-AMRFinder"
+href="/ncbi/amr/wiki/Installing-AMRFinder#docker"
+href="/ncbi/amr/wiki/Interpreting-results"
+href="/ncbi/amr/wiki/Interpreting-results#class-and-subclass"
+href="/ncbi/amr/wiki/Interpreting-results#element-type-and-subtype"
+href="/ncbi/amr/wiki/Interpreting-results#genotype-vs-phenotype"
+href="/ncbi/amr/wiki/Interpreting-results#stxtyper-output"
+href="/ncbi/amr/wiki/Interpreting-results#the-method-column"
+href="/ncbi/amr/wiki/Interpreting-results#the-scope-column-and-the---plus-option"
+-- EUCAST breakpoint-table links on page:
+=== done ===

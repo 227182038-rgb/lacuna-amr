@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>0</Count><RetMax>0</RetMax><RetStart>0</RetStart><IdList/><TranslationSet/><QueryTranslation>("leave-one-clade-out"[TIAB] OR "leave-lineage-out"[TIAB] OR "lineage holdout"[TIAB]) AND (resistance[TIAB] OR antimicrobial[TIAB])</QueryTranslation><WarningList><QuotedPhraseNotFound>"leave-one-clade-out"[TIAB]</QuotedPhraseNotFound><QuotedPhraseNotFound>"leave-lineage-out"[TIAB]</QuotedPhraseNotFound><QuotedPhraseNotFound>"lineage holdout"[TIAB]</QuotedPhraseNotFound><OutputMessage>No items found.</OutputMessage></WarningList></eSearchResult>

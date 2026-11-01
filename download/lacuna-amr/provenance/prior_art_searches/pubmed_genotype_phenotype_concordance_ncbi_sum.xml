@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>42653162</Id>
+	<Item Name="PubDate" Type="Date">2026 Aug 10</Item>
+	<Item Name="EPubDate" Type="Date">2026 Aug 10</Item>
+	<Item Name="Source" Type="String">Int J Mol Sci</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Alshehri AA</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Alshehri AA</Item>
+	<Item Name="Title" Type="String">Antibiotic-Specific Genotype-Phenotype Concordance and Cross-Database Interoperability in Public Escherichia coli/Shigella WGS-AMR Metadata.</Item>
+	<Item Name="Volume" Type="String">27</Item>
+	<Item Name="Issue" Type="String">16</Item>
+	<Item Name="Pages" Type="String"></Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101092791</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">1422-0067</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">42653162</Item>
+		<Item Name="pmc" Type="String">PMC13513162</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC13513162;</Item>
+		<Item Name="doi" Type="String">10.3390/ijms27167157</Item>
+		<Item Name="pii" Type="String">ijms27167157</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3390/ijms27167157</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2026/06/23 00:00</Item>
+		<Item Name="revised" Type="Date">2026/08/02 00:00</Item>
+		<Item Name="accepted" Type="Date">2026/08/03 00:00</Item>
+		<Item Name="medline" Type="Date">2026/08/27 05:36</Item>
+		<Item Name="pubmed" Type="Date">2026/08/27 05:35</Item>
+		<Item Name="entrez" Type="Date">2026/08/27 01:07</Item>
+		<Item Name="pmc-release" Type="Date">2026/08/10 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">56</Item>
+	<Item Name="FullJournalName" Type="String">International journal of molecular sciences</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3390/ijms27167157</Item>
+	<Item Name="SO" Type="String">2026 Aug 10;27(16)</Item>
+</DocSum>
+
+<DocSum>
+	<Id>38775752</Id>
+	<Item Name="PubDate" Type="Date">2024 Jul 1</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">J Antimicrob Chemother</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Ivanova M</Item>
+		<Item Name="Author" Type="String">Ovsepian A</Item>
+		<Item Name="Author" Type="String">Leekitcharoenphon P</Item>
+		<Item Name="Author" Type="String">Seyfarth AM</Item>
+		<Item Name="Author" Type="String">Mordhorst H</Item>
+		<Item Name="Author" Type="String">Otani S</Item>
+		<Item Name="Author" Type="String">Koeberl-Jelovcan S</Item>
+		<Item Name="Author" Type="String">Milanov M</Item>
+		<Item Name="Author" Type="String">Kompes G</Item>
+		<Item Name="Author" Type="String">Liapi M</Item>
+		<Item Name="Author" Type="String">Černý T</Item>
+		<Item Name="Author" Type="String">Vester CT</Item>
+		<Item Name="Author" Type="String">Perrin-Guyomard A</Item>
+		<Item Name="Author" Type="String">Hammerl JA</Item>
+		<Item Name="Author" Type="String">Grobbel M</Item>
+		<Item Name="Author" Type="String">Valkanou E</Item>
+		<Item Name="Author" Type="String">Jánosi S</Item>
+		<Item Name="Author" Type="String">Slowey R</Item>
+		<Item Name="Author" Type="String">Alba P</Item>
+		<Item Name="Author" Type="String">Carfora V</Item>
+		<Item Name="Author" Type="String">Avsejenko J</Item>
+		<Item Name="Author" Type="String">Pereckiene A</Item>
+		<Item Name="Author" Type="String">Claude D</Item>
+		<Item Name="Author" Type="String">Zerafa R</Item>
+		<Item Name="Author" Type="String">Veldman KT</Item>
+		<Item Name="Author" Type="String">Boland C</Item>
+		<Item Name="Author" Type="String">Garcia-Graells C</Item>
+		<Item Name="Author" Type="String">Wattiau P</Item>
+		<Item Name="Author" Type="String">Butaye P</Item>
+		<Item Name="Author" Type="String">Zając M</Item>
+		<Item Name="Author" Type="String">Amaro A</Item>
+		<Item Name="Author" Type="String">Clemente L</Item>
+		<Item Name="Author" Type="String">Vaduva AM</Item>
+		<Item Name="Author" Type="String">Romascu LM</Item>
+		<Item Name="Author" Type="String">Milita NM</Item>
+		<Item Name="Author" Type="String">Mojžišová A</Item>
+		<Item Name="Author" Type="String">Zdovc I</Item>
+		<Item Name="Author" Type="String">Escribano MJZ</Item>
+		<Item Name="Author" Type="String">De Frutos Escobar C</Item>
+		<Item Name="Author" Type="String">Overesch G</Item>
+		<Item Name="Author" Type="String">Teale C</Item>
+		<Item Name="Author" Type="String">Loneragan GH</Item>
+		<Item Name="Author" Type="String">Guerra B</Item>
+		<Item Name="Author" Type="String">Beloeil PA</Item>
+		<Item Name="Author" Type="String">Brown AMV</Item>
+		<Item Name="Author" Type="String">Hendriksen RS</Item>
+		<Item Name="Author" Type="String">Bortolaia V</Item>
+		<Item Name="Author" Type="String">Kjeldgaard JS</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Kjeldgaard JS</Item>
+	<Item Name="Title" Type="String">Azithromycin resistance in Escherichia coli and Salmonella from food-producing animals and meat in Europe.</Item>
+	<Item Name="Volume" Type="String">79</Item>
+	<Item Name="Issue" Type="String">7</Item>
+	<Item Name="Pages" Type="String">1657-1667</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">7513617</Item>
+	<Item Name="ISSN" Type="String">0305-7453</Item>
+	<Item Name="ESSN" Type="String">1460-2091</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">38775752</Item>
+		<Item Name="pmc" Type="String">PMC11215539</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC11215539;</Item>
+		<Item Name="doi" Type="String">10.1093/jac/dkae161</Item>
+		<Item Name="pii" Type="String">7679708</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1093/jac/dkae161</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2023/07/12 00:00</Item>
+		<Item Name="accepted" Type="Date">2024/04/30 00:00</Item>
+		<Item Name="medline" Type="Date">2024/07/01 12:42</Item>
+		<Item Name="pubmed" Type="Date">2024/05/22 12:43</Item>
+		<Item Name="entrez" Type="Date">2024/05/22 10:23</Item>
+		<Item Name="pmc-release" Type="Date">2024/05/22 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">45</Item>
+	<Item Name="FullJournalName" Type="String">The Journal of antimicrobial chemotherapy</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1093/jac/dkae161</Item>
+	<Item Name="SO" Type="String">2024 Jul 1;79(7):1657-1667</Item>
+</DocSum>
+
+<DocSum>
+	<Id>38965152</Id>
+	<Item Name="PubDate" Type="Date">2024 Jul 4</Item>
+	<Item Name="EPubDate" Type="Date">2024 Jul 4</Item>
+	<Item Name="Source" Type="String">AMB Express</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Sundaresan AK</Item>
+		<Item Name="Author" Type="String">Gangwar J</Item>
+		<Item Name="Author" Type="String">Murugavel A</Item>
+		<Item Name="Author" Type="String">Malli Mohan GB</Item>
+		<Item Name="Author" Type="String">Ramakrishnan J</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Ramakrishnan J</Item>
+	<Item Name="Title" Type="String">Complete genome sequence, phenotypic correlation and pangenome analysis of uropathogenic Klebsiella spp.</Item>
+	<Item Name="Volume" Type="String">14</Item>
+	<Item Name="Issue" Type="String">1</Item>
+	<Item Name="Pages" Type="String">78</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101561785</Item>
+	<Item Name="ISSN" Type="String">2191-0855</Item>
+	<Item Name="ESSN" Type="String">2191-0855</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">38965152</Item>
+		<Item Name="pmc" Type="String">PMC11224175</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC11224175;</Item>
+		<Item Name="doi" Type="String">10.1186/s13568-024-01737-w</Item>
+		<Item Name="pii" Type="String">10.1186/s13568-024-01737-w</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1186/s13568-024-01737-w</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/04/08 00:00</Item>
+		<Item Name="accepted" Type="Date">2024/06/25 00:00</Item>
+		<Item Name="medline" Type="Date">2024/07/05 00:43</Item>
+		<Item Name="pubmed" Type="Date">2024/07/05 00:42</Item>
+		<Item Name="entrez" Type="Date">2024/07/04 23:15</Item>
+		<Item Name="pmc-release" Type="Date">2024/07/04 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">72</Item>
+	<Item Name="FullJournalName" Type="String">AMB Express</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1186/s13568-024-01737-w</Item>
+	<Item Name="SO" Type="String">2024 Jul 4;14(1):78</Item>
+</DocSum>
+
+<DocSum>
+	<Id>26142410</Id>
+	<Item Name="PubDate" Type="Date">2015 Oct</Item>
+	<Item Name="EPubDate" Type="Date">2015 Jul 3</Item>
+	<Item Name="Source" Type="String">J Antimicrob Chemother</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Tyson GH</Item>
+		<Item Name="Author" Type="String">McDermott PF</Item>
+		<Item Name="Author" Type="String">Li C</Item>
+		<Item Name="Author" Type="String">Chen Y</Item>
+		<Item Name="Author" Type="String">Tadesse DA</Item>
+		<Item Name="Author" Type="String">Mukherjee S</Item>
+		<Item Name="Author" Type="String">Bodeis-Jones S</Item>
+		<Item Name="Author" Type="String">Kabera C</Item>
+		<Item Name="Author" Type="String">Gaines SA</Item>
+		<Item Name="Author" Type="String">Loneragan GH</Item>
+		<Item Name="Author" Type="String">Edrington TS</Item>
+		<Item Name="Author" Type="String">Torrence M</Item>
+		<Item Name="Author" Type="String">Harhay DM</Item>
+		<Item Name="Author" Type="String">Zhao S</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Zhao S</Item>
+	<Item Name="Title" Type="String">WGS accurately predicts antimicrobial resistance in Escherichia coli.</Item>
+	<Item Name="Volume" Type="String">70</Item>
+	<Item Name="Issue" Type="String">10</Item>
+	<Item Name="Pages" Type="String">2763-9</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">7513617</Item>
+	<Item Name="ISSN" Type="String">0305-7453</Item>
+	<Item Name="ESSN" Type="String">1460-2091</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, U.S. Gov't, Non-P.H.S.</Item>
+		<Item Name="PubType" Type="String">Research Support, U.S. Gov't, P.H.S.</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">26142410</Item>
+		<Item Name="mid" Type="String">NIHMS2033906</Item>
+		<Item Name="pmc" Type="String">PMC11606221</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC11606221;manuscript-id: NIHMS2033906;</Item>
+		<Item Name="doi" Type="String">10.1093/jac/dkv186</Item>
+		<Item Name="pii" Type="String">dkv186</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1093/jac/dkv186</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2015/03/23 00:00</Item>
+		<Item Name="accepted" Type="Date">2015/06/10 00:00</Item>
+		<Item Name="entrez" Type="Date">2015/07/05 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/07/05 06:00</Item>
+		<Item Name="medline" Type="Date">2016/06/28 06:00</Item>
+		<Item Name="pmc-release" Type="Date">2024/11/29 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">33</Item>
+	<Item Name="FullJournalName" Type="String">The Journal of antimicrobial chemotherapy</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1093/jac/dkv186</Item>
+	<Item Name="SO" Type="String">2015 Oct;70(10):2763-9</Item>
+</DocSum>
+
+<DocSum>
+	<Id>41394595</Id>
+	<Item Name="PubDate" Type="Date">2025 Nov 24</Item>
+	<Item Name="EPubDate" Type="Date">2025 Nov 24</Item>
+	<Item Name="Source" Type="String">bioRxiv</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Deka N</Item>
+		<Item Name="Author" Type="String">Brauer AL</Item>
+		<Item Name="Author" Type="String">Connerton K</Item>
+		<Item Name="Author" Type="String">Hanson B</Item>
+		<Item Name="Author" Type="String">Walker JN</Item>
+		<Item Name="Author" Type="String">Armbruster CE</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Armbruster CE</Item>
+	<Item Name="Title" Type="String">Pangenome Analysis of Proteus mirabilis Reveals Lineage-Specific Antimicrobial Resistance Profiles and Discordant Genotype-Phenotype Correlations.</Item>
+	<Item Name="Volume" Type="String"></Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String"></Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101680187</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2692-8205</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Preprint</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">41394595</Item>
+		<Item Name="pmc" Type="String">PMC12699317</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC12699317;</Item>
+		<Item Name="doi" Type="String">10.1101/2025.11.21.689858</Item>
+		<Item Name="pii" Type="String">2025.11.21.689858</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1101/2025.11.21.689858</Item>
+	<Item Name="History" Type="List">
+		<Item Name="pubmed" Type="Date">2025/12/15 13:10</Item>
+		<Item Name="medline" Type="Date">2025/12/15 13:11</Item>
+		<Item Name="entrez" Type="Date">2025/12/15 06:21</Item>
+		<Item Name="pmc-release" Type="Date">2025/12/12 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Update in" Type="String">Antimicrob Agents Chemother. 2026 Jul;70(7):e0176825. doi: 10.1128/aac.01768-25. PMID: 42210697</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">bioRxiv : the preprint server for biology</Item>
+	<Item Name="ELocationID" Type="String">pii: 2025.11.21.689858. doi: 10.1101/2025.11.21.689858</Item>
+	<Item Name="SO" Type="String">2025 Nov 24;</Item>
+</DocSum>
+
+</eSummaryResult>

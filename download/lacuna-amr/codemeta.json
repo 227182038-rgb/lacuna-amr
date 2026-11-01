@@ -1,0 +1,18 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "lacuna-amr",
+  "version": "0.1.0",
+  "description": "License-clean local auditing of genome-based antimicrobial-resistance predictions: label heterogeneity, clonal de-duplication, lineage/time/site-aware evaluation, calibrated probabilities and Mondrian split-conformal prediction sets. Research use only.",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "programmingLanguage": "Python 3.11+",
+  "applicationCategory": "bioinformatics",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-11-01",
+  "softwareRequirements": [
+    "numpy", "scipy", "scikit-learn", "pandas",
+    "AMRFinderPlus (external, public domain)", "sourmash (BSD-3, optional for sketching)"
+  ],
+  "relatedLink": [],
+  "keywords": ["antimicrobial resistance", "conformal prediction", "audit", "genomics"]
+}

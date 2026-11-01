@@ -1,0 +1,20 @@
+/home/z/.venv/lib/python3.12/site-packages/openpyxl/reader/drawings.py:33: UserWarning: DrawingML support is incomplete and limited to charts and images only. Shapes and drawings will be lost.
+  warn("DrawingML support is incomplete and limited to charts and images only. Shapes and drawings will be lost.")
+header cells: {'S': ('B', 9), 'R': ('C', 9)}
+=== EUCAST v16.1 Enterobacterales rows for study drugs (K. pneumoniae uses generic rows) ===
+ciprofloxacin  A82=Ciprofloxacin (indications other than meningi   S≤='0.25'   R>='0.5'    notes='None'
+meropenem      A68=Meropenem (indications other than meningitis)   S≤='2'      R>='8'      notes='None'
+colistin       A141=Colistin2                                       S≤='(2)3'   R>='(2)3'   notes='None'
+gentamicin     A97=Gentamicin (systemic infections)                S≤='(2)1'   R>='(2)1'   notes='None'
+ceftazidime    A50=Ceftazidime                                     S≤='1'      R>='4'      notes='None'
+
+version cell A9: 'Version 16.1, valid from 2026-06-24'
+citation cell A11: 'This document should be cited as "The European Committee on Antimicrobial Susceptibility Testing. Breakpoint tables for interpretation of MICs and zone diameters. Version 16.1, 2026. https://www.eucast.org."'
+title cell A8: 'Breakpoint tables for interpretation of MICs and zone diameters '
+cross-check ciprofloxacin: openpyxl=(0.25,0.5) pandas=(0.25,0.5) match=True
+cross-check meropenem: openpyxl=(2,8) pandas=(2,8) match=True
+cross-check colistin: openpyxl=((2)3,(2)3) pandas=((2)3,(2)3) match=True
+cross-check gentamicin: openpyxl=((2)1,(2)1) pandas=((2)1,(2)1) match=True
+cross-check ceftazidime: openpyxl=(1,4) pandas=(1,4) match=True
+
+wrote /home/z/my-project/download/lacuna-amr/results/tables/breakpoints_eucast_v16_1.json; cross-check mismatches: []

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>41993275</Id>
+	<Item Name="PubDate" Type="Date">2026 Apr 9</Item>
+	<Item Name="EPubDate" Type="Date">2026 Apr 9</Item>
+	<Item Name="Source" Type="String">bioRxiv</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Zhao Y</Item>
+		<Item Name="Author" Type="String">Finkbeiner C</Item>
+		<Item Name="Author" Type="String">Setty M</Item>
+		<Item Name="Author" Type="String">Lin KZ</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Lin KZ</Item>
+	<Item Name="Title" Type="String">SCOPE: Localizing fate-decision states and their regulatory drivers in single-cell differentiation.</Item>
+	<Item Name="Volume" Type="String"></Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String"></Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101680187</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2692-8205</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Preprint</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">41993275</Item>
+		<Item Name="pmc" Type="String">PMC13081856</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC13081856;</Item>
+		<Item Name="doi" Type="String">10.64898/2026.04.07.717037</Item>
+		<Item Name="pii" Type="String">2026.04.07.717037</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.64898/2026.04.07.717037</Item>
+	<Item Name="History" Type="List">
+		<Item Name="pubmed" Type="Date">2026/04/17 06:32</Item>
+		<Item Name="medline" Type="Date">2026/04/17 06:33</Item>
+		<Item Name="entrez" Type="Date">2026/04/17 05:19</Item>
+		<Item Name="pmc-release" Type="Date">2026/04/15 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">70</Item>
+	<Item Name="FullJournalName" Type="String">bioRxiv : the preprint server for biology</Item>
+	<Item Name="ELocationID" Type="String">pii: 2026.04.07.717037. doi: 10.64898/2026.04.07.717037</Item>
+	<Item Name="SO" Type="String">2026 Apr 9;</Item>
+</DocSum>
+
+</eSummaryResult>

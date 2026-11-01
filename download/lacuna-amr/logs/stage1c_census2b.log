@@ -1,0 +1,26 @@
+pool size: 2518
+systematic sample: every 10th uid -> n=250
+
+=== sample of 250 K. pneumoniae antibiogram BioSamples ===
+records with an antibiogram table: 0
+with collection_date: 244 | with geo_loc: 244 | with BioProject link: 0
+
+drug	presence-of-field counts (sample): rows / has_meas / mg/L / dilution / disk / no_method / other / phen
+ciprofloxacin	0	0	0	0	0	0	0	0
+meropenem	0	0	0	0	0	0	0	0
+colistin	0	0	0	0	0	0	0	0
+gentamicin	0	0	0	0	0	0	0	0
+ceftazidime	0	0	0	0	0	0	0	0
+
+extrapolated to full pool (n=2518):
+two estimates per drug: any-dilution (incl. automated platforms) and non-automated dilution
+   ciprofloxacin: any=0 nonauto=0 (sample 0/0 of 250)
+   meropenem: any=0 nonauto=0 (sample 0/0 of 250)
+   colistin: any=0 nonauto=0 (sample 0/0 of 250)
+   gentamicin: any=0 nonauto=0 (sample 0/0 of 250)
+   ceftazidime: any=0 nonauto=0 (sample 0/0 of 250)
+
+platform distribution (all drug rows): {}
+standard distribution (all drug rows): {}
+method distribution (all drug rows): {}
+wrote results/tables/census_eligibility.{json,tsv}

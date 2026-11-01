@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>2</Count><RetMax>2</RetMax><RetStart>0</RetStart><IdList>
+<Id>9036521</Id>
+<Id>6731751</Id>
+</IdList><TranslationSet/><TranslationStack>   <TermSet>    <Term>SAMN12255969[All Fields]</Term>    <Field>All Fields</Field>    <Count>2</Count>    <Explode>N</Explode>   </TermSet>   <OP>GROUP</OP>  </TranslationStack><QueryTranslation>SAMN12255969[All Fields]</QueryTranslation></eSearchResult>

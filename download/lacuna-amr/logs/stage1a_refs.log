@@ -1,0 +1,14 @@
+=== stage1a reference verification 2026-11-01T08:05:16Z ===
+R01 VERIFIED   doi:302 cr:OK | Feldgarden     2021 | AMRFinderPlus and the Reference Gene Catalog facilitate exam | pmid=1:34135355
+R02 VERIFIED   doi:302 cr:OK | Yu             2025 | Biased sampling driven by bacterial population structure con | pmid=1:41401143
+R03 VERIFIED   doi:302 cr:OK | Lüftinger      2021 | Learning From Limited Data: Towards Best Practice Techniques | pmid=1:33659219
+R04 VERIFIED   doi:302 cr:OK | Aselstyne      2026 | A systematic analysis of machine learning pipelines for robu | pmid=0:
+R06 MISMATCH   doi:302 cr:OK | Inda-Díaz      2026 | Confidence-based prediction of antibiotic resistance at the  | pmid=1:41575464
+R07 VERIFIED   doi:302 cr:OK | Pei            2022 | Genome-wide association study of Klebsiella pneumoniae ident | pmid=1:36386631
+R08 VERIFIED   doi:302 cr:OK | Cornacchia     2023 | Multi-approach methods to predict cryptic carbapenem resista | pmid=1:37700864
+R09 VERIFIED   doi:302 cr:OK | Cusack         2019 | Impact of CLSI and EUCAST breakpoint discrepancies on report | pmid=1:30910717
+R10 VERIFIED   doi:302 cr:OK | Walsh          2021 | DOME: recommendations for supervised machine learning valida | pmid=1:34316068
+R11 VERIFIED   doi:302 cr:OK | Collins        2024 | TRIPOD+AI statement: updated guidance for reporting clinical | pmid=1:38626948
+R12 VERIFIED   doi:302 cr:OK | Lees           2018 | pyseer: a comprehensive tool for microbial pangenome-wide as | pmid=1:30535304
+R13 VERIFIED   doi:302 cr:OK | Jaillard       2018 | A fast and agnostic method for bacterial genome-wide associa | pmid=1:30419019
+--- wrote provenance/reference_verification.tsv (12 refs)

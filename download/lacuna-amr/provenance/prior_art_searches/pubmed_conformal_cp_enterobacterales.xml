@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>2</Count><RetMax>2</RetMax><RetStart>0</RetStart><IdList>
+<Id>41346025</Id>
+<Id>42943754</Id>
+</IdList><TranslationSet/><QueryTranslation>("conformal prediction"[Title/Abstract] OR "conformal predictor"[Title/Abstract]) AND ("Enterobacterales"[Title/Abstract] OR "enterobacteri*"[Title/Abstract] OR "Klebsiella"[Title/Abstract] OR "Escherichia"[Title/Abstract])</QueryTranslation></eSearchResult>

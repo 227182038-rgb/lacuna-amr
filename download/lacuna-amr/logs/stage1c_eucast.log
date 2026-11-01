@@ -1,0 +1,29 @@
+EUCAST v16.1 xlsx sha256=ee5709eb5b7c9beb1c9ba8182a4e7032e71963aaca30e618b9f76dc53f6bab73
+sheets: ['Content', 'Changes', 'Notes', 'Guidance', 'Dosages', 'Technical uncertainty', 'Enterobacterales', 'Pseudomonas', 'S.maltophilia', 'Acinetobacter', 'Staphylococcus', 'Enterococcus', 'Streptococcus A,B,C,G', 'S.pneumoniae', 'Viridans group streptococci', 'H.influenzae', 'M.catarrhalis', 'N.gonorrhoeae', 'N.meningitidis', 'Anaerobic bacteria_G-negative', 'Anaerobic bacteria_G-positive', 'H.pylori', 'L.monocytogenes', 'Pasteurella', 'C.jejuni_C.coli', 'Corynebacterium', 'C.diphtheriae_C.ulcerans', 'A.sanguinicola_A.urinae', 'K.kingae', 'Aeromonas', 'A.xylosoxidans', 'Vibrio', 'Bacillus', 'B.anthracis', 'B.melitensis ', 'B.pseudomallei', 'B.cepacia', 'L.pneumophila', 'M.tuberculosis', 'Topical agents', 'PK PD breakpoints', 'PK PD cutoffs']
+
+=== Klebsiella pneumoniae x study-drug rows ===
+
+=== notes (colistin+broth / copyright / reuse) ===
+--- sheet 'Enterobacterales':
+   A140=Chloramphenicol
+   B140=Note1
+   C140=Note1
+   F140=NoteA
+   G140=NoteA
+   I140=1/A. Efficacy for Enterobacterales is uncertain. Screening cut-off values can be used to distinguish wild-type isolates from isolates with acquired resistance (presence of resistan
+--- sheet 'Pseudomonas':
+   A127=Chloramphenicol
+   B127=-
+   C127=-
+   F127=-
+   G127=-
+   I127=1. Colistin MIC determination should be performed with broth microdilution. Quality control must be performed with both a susceptible QC strain (E. coli ATCC 25922 or P. aeruginosa
+--- sheet 'Acinetobacter':
+   A126=Chloramphenicol
+   B126=-
+   C126=-
+   F126=-
+   G126=-
+   I126=1. Colistin MIC determination should be performed with broth microdilution. Quality control must be performed with both a susceptible QC strain (E. coli ATCC 25922 or P. aeruginosa
+
+discovery pass complete; extraction pass next

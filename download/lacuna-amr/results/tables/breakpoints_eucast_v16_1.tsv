@@ -1,0 +1,6 @@
+drug	row_label	S_le_mg_L	R_gt_mg_L	source_cells	notes
+ciprofloxacin	Ciprofloxacin (indications other than meningitis)	0.25	0.5	{"label": "Enterobacterales!A82", "S_le": "Enterobacterales!B82", "R_gt": "Enterobacterales!C82", "notes": "Enterobacterales!I82"}	
+meropenem	Meropenem (indications other than meningitis)	2	8	{"label": "Enterobacterales!A68", "S_le": "Enterobacterales!B68", "R_gt": "Enterobacterales!C68", "notes": "Enterobacterales!I68"}	
+colistin	Colistin2	(2)3	(2)3	{"label": "Enterobacterales!A141", "S_le": "Enterobacterales!B141", "R_gt": "Enterobacterales!C141", "notes": "Enterobacterales!I141"}	
+gentamicin	Gentamicin (systemic infections)	(2)1	(2)1	{"label": "Enterobacterales!A97", "S_le": "Enterobacterales!B97", "R_gt": "Enterobacterales!C97", "notes": "Enterobacterales!I97"}	
+ceftazidime	Ceftazidime	1	4	{"label": "Enterobacterales!A50", "S_le": "Enterobacterales!B50", "R_gt": "Enterobacterales!C50", "notes": "Enterobacterales!I50"}	

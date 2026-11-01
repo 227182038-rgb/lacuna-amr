@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>32318038</Id>
+	<Item Name="PubDate" Type="Date">2020</Item>
+	<Item Name="EPubDate" Type="Date">2020 Apr 3</Item>
+	<Item Name="Source" Type="String">Front Microbiol</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Cooper AL</Item>
+		<Item Name="Author" Type="String">Low AJ</Item>
+		<Item Name="Author" Type="String">Koziol AG</Item>
+		<Item Name="Author" Type="String">Thomas MC</Item>
+		<Item Name="Author" Type="String">Leclair D</Item>
+		<Item Name="Author" Type="String">Tamber S</Item>
+		<Item Name="Author" Type="String">Wong A</Item>
+		<Item Name="Author" Type="String">Blais BW</Item>
+		<Item Name="Author" Type="String">Carrillo CD</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Carrillo CD</Item>
+	<Item Name="Title" Type="String">Systematic Evaluation of Whole Genome Sequence-Based Predictions of Salmonella Serotype and Antimicrobial Resistance.</Item>
+	<Item Name="Volume" Type="String">11</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">549</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101548977</Item>
+	<Item Name="ISSN" Type="String">1664-302X</Item>
+	<Item Name="ESSN" Type="String">1664-302X</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed</Item>
+	<Item Name="PubStatus" Type="String"></Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">32318038</Item>
+		<Item Name="pmc" Type="String">PMC7147080</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC7147080;</Item>
+		<Item Name="doi" Type="String">10.3389/fmicb.2020.00549</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3389/fmicb.2020.00549</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2020/01/20 00:00</Item>
+		<Item Name="accepted" Type="Date">2020/03/13 00:00</Item>
+		<Item Name="entrez" Type="Date">2020/04/23 06:00</Item>
+		<Item Name="pubmed" Type="Date">2020/04/23 06:00</Item>
+		<Item Name="medline" Type="Date">2020/04/23 06:01</Item>
+		<Item Name="pmc-release" Type="Date">2020/04/03 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">94</Item>
+	<Item Name="FullJournalName" Type="String">Frontiers in microbiology</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3389/fmicb.2020.00549</Item>
+	<Item Name="SO" Type="String">2020;11:549</Item>
+</DocSum>
+
+<DocSum>
+	<Id>34867917</Id>
+	<Item Name="PubDate" Type="Date">2021</Item>
+	<Item Name="EPubDate" Type="Date">2021 Nov 16</Item>
+	<Item Name="Source" Type="String">Front Microbiol</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Hodges LM</Item>
+		<Item Name="Author" Type="String">Taboada EN</Item>
+		<Item Name="Author" Type="String">Koziol A</Item>
+		<Item Name="Author" Type="String">Mutschall S</Item>
+		<Item Name="Author" Type="String">Blais BW</Item>
+		<Item Name="Author" Type="String">Inglis GD</Item>
+		<Item Name="Author" Type="String">Leclair D</Item>
+		<Item Name="Author" Type="String">Carrillo CD</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Carrillo CD</Item>
+	<Item Name="Title" Type="String">Systematic Evaluation of Whole-Genome Sequencing Based Prediction of Antimicrobial Resistance in Campylobacter jejuni and C. coli.</Item>
+	<Item Name="Volume" Type="String">12</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">776967</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101548977</Item>
+	<Item Name="ISSN" Type="String">1664-302X</Item>
+	<Item Name="ESSN" Type="String">1664-302X</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed</Item>
+	<Item Name="PubStatus" Type="String"></Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">34867917</Item>
+		<Item Name="pmc" Type="String">PMC8635091</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC8635091;</Item>
+		<Item Name="doi" Type="String">10.3389/fmicb.2021.776967</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3389/fmicb.2021.776967</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2021/09/14 00:00</Item>
+		<Item Name="accepted" Type="Date">2021/10/25 00:00</Item>
+		<Item Name="entrez" Type="Date">2021/12/06 09:07</Item>
+		<Item Name="pubmed" Type="Date">2021/12/07 06:00</Item>
+		<Item Name="medline" Type="Date">2021/12/07 06:01</Item>
+		<Item Name="pmc-release" Type="Date">2021/11/16 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">57</Item>
+	<Item Name="FullJournalName" Type="String">Frontiers in microbiology</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3389/fmicb.2021.776967</Item>
+	<Item Name="SO" Type="String">2021;12:776967</Item>
+</DocSum>
+
+<DocSum>
+	<Id>38892433</Id>
+	<Item Name="PubDate" Type="Date">2024 Jun 6</Item>
+	<Item Name="EPubDate" Type="Date">2024 Jun 6</Item>
+	<Item Name="Source" Type="String">Int J Mol Sci</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Sharma MK</Item>
+		<Item Name="Author" Type="String">Stobart M</Item>
+		<Item Name="Author" Type="String">Akochy PM</Item>
+		<Item Name="Author" Type="String">Adam H</Item>
+		<Item Name="Author" Type="String">Janella D</Item>
+		<Item Name="Author" Type="String">Rabb M</Item>
+		<Item Name="Author" Type="String">Alawa M</Item>
+		<Item Name="Author" Type="String">Sekirov I</Item>
+		<Item Name="Author" Type="String">Tyrrell GJ</Item>
+		<Item Name="Author" Type="String">Soualhine H</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Soualhine H</Item>
+	<Item Name="Title" Type="String">Evaluation of Whole Genome Sequencing-Based Predictions of Antimicrobial Resistance to TB First Line Agents: A Lesson from 5 Years of Data.</Item>
+	<Item Name="Volume" Type="String">25</Item>
+	<Item Name="Issue" Type="String">11</Item>
+	<Item Name="Pages" Type="String"></Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101092791</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">1422-0067</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">38892433</Item>
+		<Item Name="pmc" Type="String">PMC11172968</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC11172968;</Item>
+		<Item Name="doi" Type="String">10.3390/ijms25116245</Item>
+		<Item Name="pii" Type="String">ijms25116245</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3390/ijms25116245</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/04/13 00:00</Item>
+		<Item Name="revised" Type="Date">2024/05/24 00:00</Item>
+		<Item Name="accepted" Type="Date">2024/05/31 00:00</Item>
+		<Item Name="medline" Type="Date">2024/06/19 06:43</Item>
+		<Item Name="pubmed" Type="Date">2024/06/19 06:42</Item>
+		<Item Name="entrez" Type="Date">2024/06/19 01:10</Item>
+		<Item Name="pmc-release" Type="Date">2024/06/06 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">45</Item>
+	<Item Name="FullJournalName" Type="String">International journal of molecular sciences</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3390/ijms25116245</Item>
+	<Item Name="SO" Type="String">2024 Jun 6;25(11)</Item>
+</DocSum>
+
+</eSummaryResult>

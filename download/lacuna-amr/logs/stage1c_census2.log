@@ -1,0 +1,25 @@
+-- amrfinder db version (threads fixed):
+Running: ./.tools/amrfinder --database .tools/amrdb/latest/ --database_version --threads 2
+Software directory: '/home/z/my-project/download/lacuna-amr/.tools/'
+-- EUCAST footnotes (rows 150-200 + colistin/gentamicin footnotes):
+-- census2 eligibility run:
+pool size: 2518
+
+=== sample of 250 K. pneumoniae antibiogram BioSamples ===
+records with an antibiogram table: 0
+with collection_date: 250 | with geo_loc: 250 | with BioProject link: 0
+
+drug	presence-of-field counts (sample): rows / has_meas / mg/L / dilution / disk / no_method / other / phen
+ciprofloxacin	0	0	0	0	0	0	0	0
+meropenem	0	0	0	0	0	0	0	0
+colistin	0	0	0	0	0	0	0	0
+gentamicin	0	0	0	0	0	0	0	0
+ceftazidime	0	0	0	0	0	0	0	0
+
+extrapolated to full pool (n=2518):
+   ciprofloxacin: 0 (sample 0/250)
+   meropenem: 0 (sample 0/250)
+   colistin: 0 (sample 0/250)
+   gentamicin: 0 (sample 0/250)
+   ceftazidime: 0 (sample 0/250)
+wrote results/tables/census_eligibility.{json,tsv}

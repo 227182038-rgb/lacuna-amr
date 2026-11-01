@@ -1,0 +1,14 @@
+ref_id	doi	doi_resolves	crossref_ok	crossref_title	crossref_first_author	crossref_year	crossref_type	crossref_venue	pubmed	verdict
+R01	10.1038/s41598-021-91456-0	302	True	AMRFinderPlus and the Reference Gene Catalog facilitate examination of the genomic links among antimicrobial r	Feldgarden	2021	journal-article	Scientific Reports	1:34135355	VERIFIED
+R02	10.1371/journal.pbio.3003539	302	True	Biased sampling driven by bacterial population structure confounds machine learning prediction of antimicrobia	Yu	2025	journal-article	PLOS Biology	1:41401143	VERIFIED
+R03	10.3389/fcimb.2021.610348	302	True	Learning From Limited Data: Towards Best Practice Techniques for Antimicrobial Resistance Prediction From Whol	Lüftinger	2021	journal-article	Frontiers in Cellular and Infection Microbiology	1:33659219	VERIFIED
+R04	10.64898/2026.06.28.734076	302	True	A systematic analysis of machine learning pipelines for robust antimicrobial resistance prediction	Aselstyne	2026	posted-content		0:	VERIFIED
+R06	10.1128/mbio.03431-25	302	True	Confidence-based prediction of antibiotic resistance at the patient level	Inda-Díaz	2026	journal-article	mBio	1:41575464	MISMATCH
+R07	10.3389/fmicb.2022.997769	302	True	Genome-wide association study of Klebsiella pneumoniae identifies variations linked to carbapenems resistance	Pei	2022	journal-article	Frontiers in Microbiology	1:36386631	VERIFIED
+R08	10.3389/fmicb.2023.1242693	302	True	Multi-approach methods to predict cryptic carbapenem resistance mechanisms in Klebsiella pneumoniae detected i	Cornacchia	2023	journal-article	Frontiers in Microbiology	1:37700864	VERIFIED
+R09	10.1016/j.cmi.2019.03.007	302	True	Impact of CLSI and EUCAST breakpoint discrepancies on reporting of antimicrobial susceptibility and AMR survei	Cusack	2019	journal-article	Clinical Microbiology and Infection	1:30910717	VERIFIED
+R10	10.1038/s41592-021-01205-4	302	True	DOME: recommendations for supervised machine learning validation in biology	Walsh	2021	journal-article	Nature Methods	1:34316068	VERIFIED
+R11	10.1136/bmj-2023-078378	302	True	TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine 	Collins	2024	journal-article	BMJ	1:38626948	VERIFIED
+R12	10.1093/bioinformatics/bty539	302	True	pyseer: a comprehensive tool for microbial pangenome-wide association studies	Lees	2018	journal-article	Bioinformatics	1:30535304	VERIFIED
+R13	10.1371/journal.pgen.1007758	302	True	A fast and agnostic method for bacterial genome-wide association studies: Bridging the gap between k-mers and 	Jaillard	2018	journal-article	PLOS Genetics	1:30419019	VERIFIED
+R14	10.1038/s41597-022-01710-x	302	True	Introducing the FAIR Principles for research software	Barker	2022	journal-article	Scientific Data	1:36241754	VERIFIED

@@ -1,0 +1,10 @@
+.tools/
+data/assemblies/
+data/sigs/
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+/tmp/

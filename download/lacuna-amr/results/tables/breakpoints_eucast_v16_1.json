@@ -1,0 +1,76 @@
+{
+  "source_file": "data/external/eucast/EUCAST_v16.1_Breakpoint_Tables.xlsx",
+  "source_sha256": "ee5709eb5b7c9beb1c9ba8182a4e7032e71963aaca30e618b9f76dc53f6bab73",
+  "source_url": "https://www.eucast.org/fileadmin/eucast/pdf/breakpoints/v_16.1_Breakpoint_Tables.xlsx",
+  "version": "Version 16.1, valid from 2026-06-24",
+  "document_title": "Breakpoint tables for interpretation of MICs and zone diameters ",
+  "citation_statement": "This document should be cited as \"The European Committee on Antimicrobial Susceptibility Testing. Breakpoint tables for interpretation of MICs and zone diameters. Version 16.1, 2026. https://www.eucast.org.\"",
+  "organism_scope": "Enterobacterales (generic rows apply to K. pneumoniae; no separate K. pneumoniae row for these drugs)",
+  "breakpoints": {
+    "ciprofloxacin": {
+      "row_label": "Ciprofloxacin (indications other than meningitis)",
+      "source_cells": {
+        "label": "Enterobacterales!A82",
+        "S_le": "Enterobacterales!B82",
+        "R_gt": "Enterobacterales!C82",
+        "notes": "Enterobacterales!I82"
+      },
+      "S_le_mg_L": "0.25",
+      "R_gt_mg_L": "0.5",
+      "notes": ""
+    },
+    "meropenem": {
+      "row_label": "Meropenem (indications other than meningitis)",
+      "source_cells": {
+        "label": "Enterobacterales!A68",
+        "S_le": "Enterobacterales!B68",
+        "R_gt": "Enterobacterales!C68",
+        "notes": "Enterobacterales!I68"
+      },
+      "S_le_mg_L": "2",
+      "R_gt_mg_L": "8",
+      "notes": ""
+    },
+    "colistin": {
+      "row_label": "Colistin2",
+      "source_cells": {
+        "label": "Enterobacterales!A141",
+        "S_le": "Enterobacterales!B141",
+        "R_gt": "Enterobacterales!C141",
+        "notes": "Enterobacterales!I141"
+      },
+      "S_le_mg_L": "(2)3",
+      "R_gt_mg_L": "(2)3",
+      "notes": ""
+    },
+    "gentamicin": {
+      "row_label": "Gentamicin (systemic infections)",
+      "source_cells": {
+        "label": "Enterobacterales!A97",
+        "S_le": "Enterobacterales!B97",
+        "R_gt": "Enterobacterales!C97",
+        "notes": "Enterobacterales!I97"
+      },
+      "S_le_mg_L": "(2)1",
+      "R_gt_mg_L": "(2)1",
+      "notes": ""
+    },
+    "ceftazidime": {
+      "row_label": "Ceftazidime",
+      "source_cells": {
+        "label": "Enterobacterales!A50",
+        "S_le": "Enterobacterales!B50",
+        "R_gt": "Enterobacterales!C50",
+        "notes": "Enterobacterales!I50"
+      },
+      "S_le_mg_L": "1",
+      "R_gt_mg_L": "4",
+      "notes": ""
+    }
+  },
+  "cross_check": {
+    "method": "pandas.read_excel second extraction",
+    "mismatches": []
+  },
+  "retrieved_utc": "2026-11-01T08:23:17Z"
+}

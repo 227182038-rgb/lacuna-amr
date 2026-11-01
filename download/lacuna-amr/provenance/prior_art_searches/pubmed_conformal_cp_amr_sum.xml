@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>41346025</Id>
+	<Item Name="PubDate" Type="Date">2026 Jan</Item>
+	<Item Name="EPubDate" Type="Date">2025 Dec 31</Item>
+	<Item Name="Source" Type="String">J Comput Biol</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Corvelo Benz N</Item>
+		<Item Name="Author" Type="String">Miranda L</Item>
+		<Item Name="Author" Type="String">Chen D</Item>
+		<Item Name="Author" Type="String">Sattler J</Item>
+		<Item Name="Author" Type="String">Borgwardt K</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Borgwardt K</Item>
+	<Item Name="Title" Type="String">Conformal Prediction with Knowledge Graphs for Reliable Antimicrobial Resistance Detection with MALDI-TOF Mass Spectra.</Item>
+	<Item Name="Volume" Type="String">33</Item>
+	<Item Name="Issue" Type="String">1</Item>
+	<Item Name="Pages" Type="String">19-35</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">9433358</Item>
+	<Item Name="ISSN" Type="String">1066-5277</Item>
+	<Item Name="ESSN" Type="String">1557-8666</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">41346025</Item>
+		<Item Name="doi" Type="String">10.1177/15578666251396558</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1177/15578666251396558</Item>
+	<Item Name="History" Type="List">
+		<Item Name="medline" Type="Date">2026/01/30 13:18</Item>
+		<Item Name="pubmed" Type="Date">2025/12/05 06:27</Item>
+		<Item Name="entrez" Type="Date">2025/12/05 00:54</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Journal of computational biology : a journal of computational molecular cell biology</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1177/15578666251396558</Item>
+	<Item Name="SO" Type="String">2026 Jan;33(1):19-35</Item>
+</DocSum>
+
+<DocSum>
+	<Id>41575464</Id>
+	<Item Name="PubDate" Type="Date">2026 Feb 11</Item>
+	<Item Name="EPubDate" Type="Date">2026 Jan 23</Item>
+	<Item Name="Source" Type="String">mBio</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Inda-Díaz JS</Item>
+		<Item Name="Author" Type="String">Johnning A</Item>
+		<Item Name="Author" Type="String">Hessel M</Item>
+		<Item Name="Author" Type="String">Sjöberg A</Item>
+		<Item Name="Author" Type="String">Lokrantz A</Item>
+		<Item Name="Author" Type="String">Helldal L</Item>
+		<Item Name="Author" Type="String">Jirstrand M</Item>
+		<Item Name="Author" Type="String">Svensson L</Item>
+		<Item Name="Author" Type="String">Kristiansson E</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Kristiansson E</Item>
+	<Item Name="Title" Type="String">Confidence-based prediction of antibiotic resistance at the patient level.</Item>
+	<Item Name="Volume" Type="String">17</Item>
+	<Item Name="Issue" Type="String">2</Item>
+	<Item Name="Pages" Type="String">e0343125</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101519231</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2150-7511</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">41575464</Item>
+		<Item Name="pmc" Type="String">PMC12892988</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC12892988;</Item>
+		<Item Name="doi" Type="String">10.1128/mbio.03431-25</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1128/mbio.03431-25</Item>
+	<Item Name="History" Type="List">
+		<Item Name="medline" Type="Date">2026/02/11 13:08</Item>
+		<Item Name="pubmed" Type="Date">2026/01/23 13:05</Item>
+		<Item Name="entrez" Type="Date">2026/01/23 10:52</Item>
+		<Item Name="pmc-release" Type="Date">2026/01/23 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">43</Item>
+	<Item Name="FullJournalName" Type="String">mBio</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1128/mbio.03431-25</Item>
+	<Item Name="SO" Type="String">2026 Feb 11;17(2):e0343125</Item>
+</DocSum>
+
+<DocSum>
+	<Id>42943754</Id>
+	<Item Name="PubDate" Type="Date">2026 Oct 14</Item>
+	<Item Name="EPubDate" Type="Date">2026 Oct 14</Item>
+	<Item Name="Source" Type="String">Molecules</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Guzzi PH</Item>
+		<Item Name="Author" Type="String">Defilippo A</Item>
+		<Item Name="Author" Type="String">Veltri P</Item>
+		<Item Name="Author" Type="String">Ceccarelli G</Item>
+		<Item Name="Author" Type="String">Scarpa F</Item>
+		<Item Name="Author" Type="String">Ciccozzi M</Item>
+		<Item Name="Author" Type="String">Branda F</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Branda F</Item>
+	<Item Name="Title" Type="String">A Computational Workflow Integrating Explainable AI and Database Mining for the Prioritization of Antimicrobial Natural Products.</Item>
+	<Item Name="Volume" Type="String">31</Item>
+	<Item Name="Issue" Type="String">20</Item>
+	<Item Name="Pages" Type="String"></Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">100964009</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">1420-3049</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">42943754</Item>
+		<Item Name="pmc" Type="String">PMC13707975</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC13707975;</Item>
+		<Item Name="doi" Type="String">10.3390/molecules31203683</Item>
+		<Item Name="pii" Type="String">molecules31203683</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3390/molecules31203683</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2026/09/09 00:00</Item>
+		<Item Name="revised" Type="Date">2026/10/10 00:00</Item>
+		<Item Name="accepted" Type="Date">2026/10/10 00:00</Item>
+		<Item Name="medline" Type="Date">2026/10/27 22:06</Item>
+		<Item Name="pubmed" Type="Date">2026/10/27 11:32</Item>
+		<Item Name="entrez" Type="Date">2026/10/27 10:46</Item>
+		<Item Name="pmc-release" Type="Date">2026/10/14 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">50</Item>
+	<Item Name="FullJournalName" Type="String">Molecules (Basel, Switzerland)</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3390/molecules31203683</Item>
+	<Item Name="SO" Type="String">2026 Oct 14;31(20)</Item>
+</DocSum>
+
+</eSummaryResult>

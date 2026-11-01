@@ -1,0 +1,57 @@
+=== stage1c census 2026-11-01T08:19:57Z ===
+Klebsiella pneumoniae: total antibiogram records = 2518
+   ciprofloxacin   1414
+   meropenem       1408
+   colistin        602
+   gentamicin      1414
+   ceftazidime     2085
+Escherichia coli: total antibiogram records = 11126
+   ciprofloxacin   9136
+   meropenem       7385
+   colistin        840
+   gentamicin      10042
+   ceftazidime     5995
+Acinetobacter baumannii: total antibiogram records = 1275
+   ciprofloxacin   1243
+   meropenem       837
+   colistin        418
+   gentamicin      1212
+   ceftazidime     1092
+
+discovery: fetching 3 K. pneumoniae antibiogram records: ['64272505', '51434902', '51434901']
+sample efetch bytes=30067 sha256=c58d3e292a673125...
+element tags found:
+   <Attribute> attrs: ['attribute_name', 'display_name', 'harmonized_name']
+   <Attributes> attrs: []
+   <BioSample> attrs: ['access', 'accession', 'id', 'last_update', 'publication_date', 'submission_date']
+   <BioSampleSet> attrs: []
+   <Body> attrs: []
+   <Caption> attrs: []
+   <Cell> attrs: []
+   <Comment> attrs: []
+   <Contact> attrs: []
+   <Contacts> attrs: []
+   <Description> attrs: []
+   <First> attrs: []
+   <Header> attrs: []
+   <Id> attrs: ['db', 'db_label', 'is_primary']
+   <Ids> attrs: []
+   <Last> attrs: []
+   <Link> attrs: ['label', 'target', 'type']
+   <Links> attrs: []
+   <Model> attrs: []
+   <Models> attrs: []
+   <Name> attrs: ['url']
+   <Organism> attrs: ['taxonomy_id', 'taxonomy_name']
+   <OrganismName> attrs: []
+   <Owner> attrs: []
+   <Package> attrs: ['display_name']
+   <Paragraph> attrs: []
+   <Row> attrs: []
+   <Status> attrs: ['status', 'when']
+   <Table> attrs: ['class']
+   <Title> attrs: []
+harmonized attribute names present: ['collected_by', 'collection_date', 'geo_loc_name', 'host', 'host_disease', 'isolate_name_alias', 'isolation_source', 'lat_lon', 'purpose_of_sampling', 'sequenced_by', 'source_type', 'strain']
+contains 'antibiogram': True | contains 'Measurement': True
+antibiotic-table links on docs page: []
+=== census phase A done ===

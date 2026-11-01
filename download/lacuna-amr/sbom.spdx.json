@@ -1,0 +1,218 @@
+{
+ "spdxVersion": "SPDX-2.3",
+ "dataLicense": "CC0-1.0",
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": "lacuna-amr-0.1.0-SBOM",
+ "documentNamespace": "https://example.invalid/lacuna-amr/0.1.0/sbom",
+ "creationInfo": {
+  "created": "2026-11-01T11:32:41Z",
+  "creators": [
+   "Tool: lacuna-amr build"
+  ]
+ },
+ "packages": [
+  {
+   "name": "lacuna-amr",
+   "versionInfo": "0.1.0",
+   "SPDXID": "SPDXRef-Package-lacuna",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "Apache-2.0",
+   "licenseDeclared": "Apache-2.0",
+   "copyrightText": "NOASSERTION"
+  },
+  {
+   "name": "numpy",
+   "versionInfo": "2.1.3",
+   "SPDXID": "SPDXRef-Package-0",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "BSD-3-Clause",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "comment": "pypi",
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/numpy@2.1.3"
+    }
+   ]
+  },
+  {
+   "name": "scipy",
+   "versionInfo": "1.14.1",
+   "SPDXID": "SPDXRef-Package-1",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "BSD-3-Clause",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "comment": "pypi",
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/scipy@1.14.1"
+    }
+   ]
+  },
+  {
+   "name": "scikit-learn",
+   "versionInfo": "1.5.2",
+   "SPDXID": "SPDXRef-Package-2",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "BSD-3-Clause",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "comment": "pypi",
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/scikit-learn@1.5.2"
+    }
+   ]
+  },
+  {
+   "name": "pandas",
+   "versionInfo": "2.2.3",
+   "SPDXID": "SPDXRef-Package-3",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "BSD-3-Clause",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "comment": "pypi",
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/pandas@2.2.3"
+    }
+   ]
+  },
+  {
+   "name": "matplotlib",
+   "versionInfo": "3.9.2",
+   "SPDXID": "SPDXRef-Package-4",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "PSF-based (Matplotlib license)",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "comment": "pypi",
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/matplotlib@3.9.2"
+    }
+   ]
+  },
+  {
+   "name": "openpyxl",
+   "versionInfo": "3.1.5",
+   "SPDXID": "SPDXRef-Package-5",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "MIT",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "comment": "pypi",
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/openpyxl@3.1.5"
+    }
+   ]
+  },
+  {
+   "name": "biopython",
+   "versionInfo": "1.86",
+   "SPDXID": "SPDXRef-Package-6",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "Biopython License Agreement (BSD-style, dual)",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "comment": "pypi",
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/biopython@1.86"
+    }
+   ]
+  },
+  {
+   "name": "joblib",
+   "versionInfo": "1.5.3",
+   "SPDXID": "SPDXRef-Package-7",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "BSD-3-Clause",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "comment": "pypi",
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/joblib@1.5.3"
+    }
+   ]
+  },
+  {
+   "name": "statsmodels",
+   "versionInfo": "0.14.5",
+   "SPDXID": "SPDXRef-Package-8",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "BSD-3-Clause",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "comment": "pypi",
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/statsmodels@0.14.5"
+    }
+   ]
+  },
+  {
+   "name": "sourmash",
+   "versionInfo": "4.9.4",
+   "SPDXID": "SPDXRef-Package-9",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "BSD-3-Clause",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "comment": "pypi",
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/sourmash@4.9.4"
+    }
+   ]
+  },
+  {
+   "name": "pytest",
+   "versionInfo": "9.0.2",
+   "SPDXID": "SPDXRef-Package-10",
+   "downloadLocation": "NOASSERTION",
+   "licenseConcluded": "MIT",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "comment": "pypi",
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:pypi/pytest@9.0.2"
+    }
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "spdxElementId": "SPDXRef-DOCUMENT",
+   "relationshipType": "DESCRIBES",
+   "relatedSpdxElement": "SPDXRef-Package-lacuna"
+  }
+ ]
+}

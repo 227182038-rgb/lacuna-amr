@@ -1,0 +1,4 @@
+file	sha256	provenance
+SAMN31087230_biosample.xml	51cf9681661a9461cff8c15ec6d33aafe6d3ef403b131f0005cb0777c7249138	verbatim BioSample record with antibiogram table, downloaded via NCBI EUtils efetch 2026-11-01 (provenance/snapshots/stage3_ecoli_batch_*.xml)
+SAMN03177617_amrfinder.tsv	ee992a62608989bcce3875ad10da8d15f214e20f8ed91c9fa2a45e80c2b94c96	verbatim AMRFinderPlus 4.2.7 output (DB 2026-08-07.1) for a cohort isolate, run 2026-11-01
+user_breakpoints.tsv	7507b80a61fcb6dfe4a9c85f5863519a3bc07a7fcbe82923c016da4000e2305c	breakpoint table in the documented user-supplied schema; values transcribed programmatically from results/tables/breakpoints_eucast_v16_1.json

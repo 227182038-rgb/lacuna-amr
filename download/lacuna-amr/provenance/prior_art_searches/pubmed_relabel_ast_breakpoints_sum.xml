@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>16145095</Id>
+	<Item Name="PubDate" Type="Date">2005 Sep</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">J Clin Microbiol</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Morosini MI</Item>
+		<Item Name="Author" Type="String">García-Castillo M</Item>
+		<Item Name="Author" Type="String">Loza E</Item>
+		<Item Name="Author" Type="String">Pérez-Vázquez M</Item>
+		<Item Name="Author" Type="String">Baquero F</Item>
+		<Item Name="Author" Type="String">Cantón R</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Cantón R</Item>
+	<Item Name="Title" Type="String">Breakpoints for predicting Pseudomonas aeruginosa susceptibility to inhaled tobramycin in cystic fibrosis patients: use of high-range Etest strips.</Item>
+	<Item Name="Volume" Type="String">43</Item>
+	<Item Name="Issue" Type="String">9</Item>
+	<Item Name="Pages" Type="String">4480-5</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">7505564</Item>
+	<Item Name="ISSN" Type="String">0095-1137</Item>
+	<Item Name="ESSN" Type="String">1098-660X</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Evaluation Study</Item>
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">16145095</Item>
+		<Item Name="pmc" Type="String">PMC1234086</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC1234086;</Item>
+		<Item Name="doi" Type="String">10.1128/JCM.43.9.4480-4485.2005</Item>
+		<Item Name="pii" Type="String">43/9/4480</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1128/JCM.43.9.4480-4485.2005</Item>
+	<Item Name="History" Type="List">
+		<Item Name="pubmed" Type="Date">2005/09/08 09:00</Item>
+		<Item Name="medline" Type="Date">2005/10/26 09:00</Item>
+		<Item Name="entrez" Type="Date">2005/09/08 09:00</Item>
+		<Item Name="pmc-release" Type="Date">2005/09/01 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">35</Item>
+	<Item Name="FullJournalName" Type="String">Journal of clinical microbiology</Item>
+	<Item Name="ELocationID" Type="String"></Item>
+	<Item Name="SO" Type="String">2005 Sep;43(9):4480-5</Item>
+</DocSum>
+
+</eSummaryResult>

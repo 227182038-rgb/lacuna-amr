@@ -1,0 +1,46 @@
+=== stage1b fixup 2026-11-01T08:13:30Z ===
+-- local python packages:
+PERMITTED        py:numpy               Copyright (c) 2005-2024, NumPy Developers. All rights r
+PERMITTED        py:scipy               Copyright (c) 2001-2002 Enthought, Inc. 2003-2024, SciP
+PERMITTED        py:scikit-learn        BSD 3-Clause License Copyright (c) 2007-2024 The scikit
+PERMITTED        py:pandas              BSD 3-Clause License Copyright (c) 2008-2011, AQR Capit
+PERMITTED        py:matplotlib          License agreement for matplotlib versions 1.3.0 and lat
+PERMITTED        py:openpyxl            MIT License :: OSI Approved :: MIT License
+REVIEW-AMBIGUOUS py:biopython           License :: Freely Distributable
+REVIEW-AMBIGUOUS py:joblib              
+PERMITTED        py:statsmodels         BSD License License :: OSI Approved :: BSD License
+REVIEW-AMBIGUOUS py:pytest              
+PERMITTED        py:python-dateutil     Dual License License :: OSI Approved :: BSD License Lic
+PERMITTED        py:pytz                MIT License :: OSI Approved :: MIT License
+PERMITTED        py:six                 MIT License :: OSI Approved :: MIT License
+PERMITTED        py:threadpoolctl       BSD-3-Clause License :: OSI Approved :: BSD License
+-- CARD license sentences:
+   * Nothing on this website should be interpreted to grant any license to use any trade mark or official mark without the express written permission of McMaster University.
+   * Copyright and Disclaimer All of the materials on this website, including but not limited to the CARD, the RGI, and the underlying HTML, text, illustration, designs, icons, audio clips, video clips, documents, products, s
+   * Any other organization must seek to obtain a license described in section 5 below.
+   * Commercial uses of the Materials on the site are offered only pursuant to a written license and user fee.
+   * To obtain permission and begin the licensing process, please contact McMaster University using the address in section 3.
+   * Exception : Ontologies at the Comprehensive Antibiotic Resistance Database are freely available under the Creative Commons CC-BY license version 4.0 6.
+EXCLUDED         card-data-rgi          custom (see excerpt)
+-- EUCAST candidate pages:
+   ERR /44780/tou/: HTTPError
+   ERR /copyright/: HTTPError
+   ERR /terms/: HTTPError
+   200 /disclaimer/  title=ESCMID: Legal Mentions
+   ERR /policies/: HTTPError
+   ERR /about/: HTTPError
+-- NCBI policy sentences (restriction/submitter):
+   * It is the responsibility of the user to examine the copyright and licensing restrictions of linked pages and to secure all necessary permissions.
+   * Therefore, NCBI itself places no restrictions on the use or distribution of the data contained therein.
+   * Nor do we accept data when the submitter has requested restrictions on reuse or redistribution.
+   * Therefore, NCBI cannot provide comment or unrestricted permission concerning the use, copying, or distribution of the information contained in the molecular databases.
+   * Human Genomic Data Submitted to Unrestricted-Access Repositories If you plan to submit large-scale human genomic data, as defined by the NIH Genomic Data Sharing (GDS) Policy , to be maintained in an unrestricted-access NCBI datab
+   pypi pyseer ERR HTTPError
+   pypi sourmash: v4.9.4 lic='' classifiers='' home=https://github.com/sourmash-bio/sourmash
+PENDING-REVIEW   pypi:sourmash           | 
+-- AMRFinderPlus release tags found: ['amrfinder_v3.11.26', 'amrfinder_v3.12.8', 'amrfinder_v4.0.15', 'amrfinder_v4.0.19', 'amrfinder_v4.0.22', 'amrfinder_v4.0.23', 'amrfinder_v4.0.3', 'amrfinder_v4.2.4']
+   latest tag amrfinder_v4.2.7; 1 assets:
+      /ncbi/amr/releases/download/amrfinder_v4.2.7/amrfinder_binaries_v4.2.7.tar.gz
+-- OpenReview v1 ERR HTTPError: HTTP Error 403: Forbidden
+-- R14 FAIR4RS: VERIFIED Introducing the FAIR Principles for research software (Barker 2022)
+=== stage1b fixup done ===

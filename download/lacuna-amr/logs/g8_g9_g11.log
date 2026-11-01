@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "<stdin>", line 120, in <module>
+  File "/home/z/.venv/lib/python3.12/site-packages/pandas/core/indexing.py", line 1184, in __getitem__
+    return self._getitem_tuple(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z/.venv/lib/python3.12/site-packages/pandas/core/indexing.py", line 1375, in _getitem_tuple
+    return self._multi_take(tup)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z/.venv/lib/python3.12/site-packages/pandas/core/indexing.py", line 1327, in _multi_take
+    axis: self._get_listlike_indexer(key, axis)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z/.venv/lib/python3.12/site-packages/pandas/core/indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/z/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/z/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['SAMN43563275', 'SAMN50215824', 'SAMN02581291', 'SAMN50215179', 'SAMN50215775', 'SAMN50215451', 'SAMN50215304', 'SAMN50215246', 'SAMN10620176', 'SAMN50215533', 'SAMN50215812', 'SAMN50215297', 'SAMN04022944', 'SAMN30466958', 'SAMN10221040', 'SAMN50215602', 'SAMN04014889', 'SAMN04014978', 'SAMN12359698', 'SAMN18988758', 'SAMN50215145', 'SAMN07291545', 'SAMN13176242', 'SAMN50215793', 'SAMN50215455', 'SAMN55283941', 'SAMN50215313'] not in index"

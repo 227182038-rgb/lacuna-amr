@@ -1,0 +1,7020 @@
+{
+ "ciprofloxacin": {
+  "S0": [
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.8787878787878788,
+      "AUPRC": 0.3333333333333333,
+      "Brier": 0.21621621621621623,
+      "ECE": 0.21621621621621626,
+      "CA": 0.7837837837837838,
+      "VME": 0.0,
+      "ME": 0.24242424242424243,
+      "n_R": 4,
+      "n_S": 33
+     },
+     "ci95": {
+      "AUROC": [
+       0.75,
+       0.9285714285714286
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.14285714285714285,
+       0.5
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.7837837837837838,
+      "coverage_R": 1.0,
+      "coverage_S": 0.7575757575757576,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.01995752713218585,
+      "ECE": 0.048371168140313246,
+      "CA": 0.972972972972973,
+      "VME": 0.25,
+      "ME": 0.0,
+      "n_R": 4,
+      "n_S": 33
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.5
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8378378378378378,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8181818181818182,
+      "mean_set_size": 1.0810810810810811,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.9578407138149659,
+     "sets_marginal": {
+      "coverage_overall": 0.918918918918919,
+      "coverage_R": 0.75,
+      "coverage_S": 0.9393939393939394,
+      "mean_set_size": 0.918918918918919,
+      "abstention": 0.08108108108108109,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.7424242424242423,
+      "AUPRC": 0.4280913978494624,
+      "Brier": 0.09220976668167744,
+      "ECE": 0.0456321916539333,
+      "CA": 0.7297297297297297,
+      "VME": 0.25,
+      "ME": 0.2727272727272727,
+      "n_R": 4,
+      "n_S": 33
+     },
+     "ci95": {
+      "AUROC": [
+       0.5555555555555556,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.5
+      ],
+      "ME": [
+       0.07142857142857142,
+       0.5263157894736842
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.918918918918919,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9090909090909091,
+      "mean_set_size": 1.7297297297297298,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.08111194378066514,
+     "sets_marginal": {
+      "coverage_overall": 0.8918918918918919,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.972972972972973,
+      "abstention": 0.02702702702702703,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.90625,
+      "AUPRC": 0.4,
+      "Brier": 0.16666666666666666,
+      "ECE": 0.16666666666666666,
+      "CA": 0.8333333333333334,
+      "VME": 0.0,
+      "ME": 0.1875,
+      "n_R": 4,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.6785714285714286,
+       0.9528301886792453
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.09433962264150944,
+       0.6428571428571429
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8333333333333334,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8125,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0025138638729922708,
+      "ECE": 0.025206037045425175,
+      "CA": 0.9722222222222222,
+      "VME": 0.25,
+      "ME": 0.0,
+      "n_R": 4,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.9999999999999999,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9722222222222222,
+      "coverage_R": 1.0,
+      "coverage_S": 0.96875,
+      "mean_set_size": 1.0277777777777777,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.9809301561909517,
+     "sets_marginal": {
+      "coverage_overall": 0.9722222222222222,
+      "coverage_R": 1.0,
+      "coverage_S": 0.96875,
+      "mean_set_size": 0.9722222222222222,
+      "abstention": 0.027777777777777776,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.77734375,
+      "AUPRC": 0.594758064516129,
+      "Brier": 0.09677498220247556,
+      "ECE": 0.02996410952627511,
+      "CA": 0.25,
+      "VME": 0.0,
+      "ME": 0.84375,
+      "n_R": 4,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.09210526315789469,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.125,
+       0.9466666666666667
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9722222222222222,
+      "coverage_R": 0.75,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.8333333333333333,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     },
+     "threshold": 0.07814185198166405,
+     "sets_marginal": {
+      "coverage_overall": 0.8888888888888888,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.90625,
+      "AUPRC": 0.3333333333333333,
+      "Brier": 0.17142857142857143,
+      "ECE": 0.17142857142857143,
+      "CA": 0.8285714285714286,
+      "VME": 0.0,
+      "ME": 0.1875,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.775,
+       0.9482758620689655
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.10344827586206896,
+       0.45
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8285714285714286,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8125,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9791666666666666,
+      "AUPRC": 0.8666666666666667,
+      "Brier": 0.04223067470060191,
+      "ECE": 0.07210380745937041,
+      "CA": 0.9428571428571428,
+      "VME": 0.3333333333333333,
+      "ME": 0.03125,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.9558823529411765,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.15
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 1.0,
+      "coverage_S": 0.90625,
+      "mean_set_size": 1.1428571428571428,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.8067248353711332,
+     "sets_marginal": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 0.6666666666666666,
+      "coverage_S": 0.9375,
+      "mean_set_size": 0.9142857142857143,
+      "abstention": 0.08571428571428572,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5729166666666666,
+      "AUPRC": 0.11406784936196701,
+      "Brier": 0.0828368975574568,
+      "ECE": 0.05686523473349525,
+      "CA": 0.6285714285714286,
+      "VME": 0.3333333333333333,
+      "ME": 0.375,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.18518518518518517,
+       0.7941176470588236
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.23529411764705882,
+       0.4827586206896552
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8285714285714286,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8125,
+      "mean_set_size": 1.8,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.09866664469427451,
+     "sets_marginal": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.890625,
+      "AUPRC": 0.3,
+      "Brier": 0.2,
+      "ECE": 0.19999999999999998,
+      "CA": 0.8,
+      "VME": 0.0,
+      "ME": 0.21875,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.8596491228070176,
+       0.9166666666666667
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.16666666666666666,
+       0.2807017543859649
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8,
+      "coverage_R": 1.0,
+      "coverage_S": 0.78125,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9375,
+      "AUPRC": 0.7777777777777777,
+      "Brier": 0.04607247808283673,
+      "ECE": 0.030090582868712048,
+      "CA": 0.9428571428571428,
+      "VME": 0.6666666666666666,
+      "ME": 0.0,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.9042063492063492,
+       0.9607843137254902
+      ],
+      "VME": [
+       0.6666666666666666,
+       0.6666666666666666
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9428571428571428,
+      "coverage_R": 0.6666666666666666,
+      "coverage_S": 0.96875,
+      "mean_set_size": 0.9714285714285714,
+      "abstention": 0.02857142857142857,
+      "VME_nonabstained": 0.3333333333333333
+     },
+     "threshold": 0.8998077524968927,
+     "sets_marginal": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 0.3333333333333333,
+      "coverage_S": 0.96875,
+      "mean_set_size": 0.9428571428571428,
+      "abstention": 0.05714285714285714,
+      "VME_nonabstained": 0.5
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.7031249999999999,
+      "AUPRC": 0.2595307917888563,
+      "Brier": 0.07846218161520424,
+      "ECE": 0.040296989655485685,
+      "CA": 0.8,
+      "VME": 0.6666666666666666,
+      "ME": 0.15625,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.638152426861702,
+       0.7407407407407407
+      ],
+      "VME": [
+       0.6666666666666666,
+       0.6666666666666666
+      ],
+      "ME": [
+       0.10526315789473684,
+       0.25
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9714285714285714,
+      "coverage_R": 1.0,
+      "coverage_S": 0.96875,
+      "mean_set_size": 1.8571428571428572,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.0631581775815244,
+     "sets_marginal": {
+      "coverage_overall": 0.8857142857142857,
+      "coverage_R": 0.0,
+      "coverage_S": 0.96875,
+      "mean_set_size": 0.9714285714285714,
+      "abstention": 0.02857142857142857,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.953125,
+      "AUPRC": 0.5,
+      "Brier": 0.08571428571428572,
+      "ECE": 0.08571428571428572,
+      "CA": 0.9142857142857143,
+      "VME": 0.0,
+      "ME": 0.09375,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.9107142857142857,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.17857142857142858
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 1.0,
+      "coverage_S": 0.90625,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.010243766499665047,
+      "ECE": 0.06412829053961183,
+      "CA": 0.9428571428571428,
+      "VME": 0.6666666666666666,
+      "ME": 0.0,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.9999999999999999,
+       1.0
+      ],
+      "VME": [
+       0.5,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 1.0,
+      "coverage_S": 0.90625,
+      "mean_set_size": 1.1428571428571428,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.948024177254655,
+     "sets_marginal": {
+      "coverage_overall": 0.8571428571428571,
+      "coverage_R": 0.3333333333333333,
+      "coverage_S": 0.90625,
+      "mean_set_size": 0.8571428571428571,
+      "abstention": 0.14285714285714285,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.11979166666666666,
+      "AUPRC": 0.07107843137254902,
+      "Brier": 0.07909276669585724,
+      "ECE": 0.017050586596961764,
+      "CA": 0.9142857142857143,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.04545454545454544,
+       0.22916666666666669
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 1.0,
+      "coverage_S": 0.90625,
+      "mean_set_size": 1.8857142857142857,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 0.8285714285714286,
+      "coverage_R": 0.0,
+      "coverage_S": 0.90625,
+      "mean_set_size": 0.9142857142857143,
+      "abstention": 0.08571428571428572,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9242424242424243,
+      "AUPRC": 0.4444444444444444,
+      "Brier": 0.13513513513513514,
+      "ECE": 0.13513513513513514,
+      "CA": 0.8648648648648649,
+      "VME": 0.0,
+      "ME": 0.15151515151515152,
+      "n_R": 4,
+      "n_S": 33
+     },
+     "ci95": {
+      "AUROC": [
+       0.8125,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.375
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8648648648648649,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8484848484848485,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9924242424242423,
+      "AUPRC": 0.95,
+      "Brier": 0.039915151558392696,
+      "ECE": 0.06714367826691602,
+      "CA": 0.918918918918919,
+      "VME": 0.75,
+      "ME": 0.0,
+      "n_R": 4,
+      "n_S": 33
+     },
+     "ci95": {
+      "AUROC": [
+       0.9830508474576272,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9459459459459459,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9393939393939394,
+      "mean_set_size": 1.0810810810810811,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.927990283449896,
+     "sets_marginal": {
+      "coverage_overall": 0.8918918918918919,
+      "coverage_R": 0.25,
+      "coverage_S": 0.9696969696969697,
+      "mean_set_size": 0.8918918918918919,
+      "abstention": 0.10810810810810811,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5757575757575757,
+      "AUPRC": 0.1737012987012987,
+      "Brier": 0.09905451902224029,
+      "ECE": 0.04730402272290615,
+      "CA": 0.8108108108108109,
+      "VME": 0.5,
+      "ME": 0.15151515151515152,
+      "n_R": 4,
+      "n_S": 33
+     },
+     "ci95": {
+      "AUROC": [
+       0.2711864406779661,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.375
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.972972972972973,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9696969696969697,
+      "mean_set_size": 1.864864864864865,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.08358219120149502,
+     "sets_marginal": {
+      "coverage_overall": 0.8918918918918919,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.890625,
+      "AUPRC": 0.36363636363636365,
+      "Brier": 0.19444444444444445,
+      "ECE": 0.19444444444444445,
+      "CA": 0.8055555555555556,
+      "VME": 0.0,
+      "ME": 0.21875,
+      "n_R": 4,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.79765625,
+       0.9553030303030302
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0893939393939394,
+       0.4046875
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8055555555555556,
+      "coverage_R": 1.0,
+      "coverage_S": 0.78125,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.984375,
+      "AUPRC": 0.8875,
+      "Brier": 0.03911030428063527,
+      "ECE": 0.06252287931473423,
+      "CA": 0.9444444444444444,
+      "VME": 0.5,
+      "ME": 0.0,
+      "n_R": 4,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.9777777777777777,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9166666666666666,
+      "coverage_R": 1.0,
+      "coverage_S": 0.90625,
+      "mean_set_size": 1.0833333333333333,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.8724663672999846,
+     "sets_marginal": {
+      "coverage_overall": 0.8611111111111112,
+      "coverage_R": 0.5,
+      "coverage_S": 0.90625,
+      "mean_set_size": 0.8611111111111112,
+      "abstention": 0.1388888888888889,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.1796875,
+      "AUPRC": 0.09294871794871795,
+      "Brier": 0.1031059683236358,
+      "ECE": 0.05456257153971317,
+      "CA": 0.8888888888888888,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 4,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.047619047619047616,
+       0.30911377708978327
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.7777777777777778,
+      "coverage_R": 1.0,
+      "coverage_S": 0.75,
+      "mean_set_size": 1.7777777777777777,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 0.6666666666666666,
+      "coverage_R": 0.0,
+      "coverage_S": 0.75,
+      "mean_set_size": 0.7777777777777778,
+      "abstention": 0.2222222222222222,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.953125,
+      "AUPRC": 0.5,
+      "Brier": 0.08571428571428572,
+      "ECE": 0.08571428571428572,
+      "CA": 0.9142857142857143,
+      "VME": 0.0,
+      "ME": 0.09375,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.9117647058823529,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.17647058823529413
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 1.0,
+      "coverage_S": 0.90625,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.00354952464618187,
+      "ECE": 0.03300262794563407,
+      "CA": 0.9714285714285714,
+      "VME": 0.3333333333333333,
+      "ME": 0.0,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.9999999999999999,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9714285714285714,
+      "coverage_R": 1.0,
+      "coverage_S": 0.96875,
+      "mean_set_size": 1.1428571428571428,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.9687301439406882,
+     "sets_marginal": {
+      "coverage_overall": 0.9714285714285714,
+      "coverage_R": 1.0,
+      "coverage_S": 0.96875,
+      "mean_set_size": 0.9714285714285714,
+      "abstention": 0.02857142857142857,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.9010416666666666,
+      "AUPRC": 0.38888888888888884,
+      "Brier": 0.07449570158080086,
+      "ECE": 0.02095053355413907,
+      "CA": 0.8285714285714286,
+      "VME": 0.0,
+      "ME": 0.1875,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.7957741477272727,
+       0.9375
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.08333333333333333,
+       0.46153846153846156
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9714285714285714,
+      "coverage_R": 1.0,
+      "coverage_S": 0.96875,
+      "mean_set_size": 1.8571428571428572,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.09433105856253256,
+     "sets_marginal": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.859375,
+      "AUPRC": 0.25,
+      "Brier": 0.2571428571428571,
+      "ECE": 0.2571428571428571,
+      "CA": 0.7428571428571429,
+      "VME": 0.0,
+      "ME": 0.28125,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.7,
+       0.9
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.2,
+       0.6
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.7428571428571429,
+      "coverage_R": 1.0,
+      "coverage_S": 0.71875,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.009954492253244154,
+      "ECE": 0.05758479786748818,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.9999999999999999,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8571428571428571,
+      "coverage_R": 1.0,
+      "coverage_S": 0.84375,
+      "mean_set_size": 1.0857142857142856,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.9694757137757961,
+     "sets_marginal": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 1.0,
+      "coverage_S": 0.90625,
+      "mean_set_size": 0.9142857142857143,
+      "abstention": 0.08571428571428572,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.7395833333333333,
+      "AUPRC": 0.2361111111111111,
+      "Brier": 0.07294431120292799,
+      "ECE": 0.025275343312394297,
+      "CA": 0.6285714285714286,
+      "VME": 0.0,
+      "ME": 0.40625,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.5943396226415094,
+       0.8863636363636364
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.25,
+       0.5
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 1.0,
+      "coverage_S": 0.90625,
+      "mean_set_size": 1.8571428571428572,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.0923309861439285,
+     "sets_marginal": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.90625,
+      "AUPRC": 0.3333333333333333,
+      "Brier": 0.17142857142857143,
+      "ECE": 0.17142857142857143,
+      "CA": 0.8285714285714286,
+      "VME": 0.0,
+      "ME": 0.1875,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.818590909090909,
+       0.9444444444444444
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.1111111111111111,
+       0.3628181818181813
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8285714285714286,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8125,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.90625,
+      "AUPRC": 0.75,
+      "Brier": 0.02968711933324143,
+      "ECE": 0.028434286523758602,
+      "CA": 0.9714285714285714,
+      "VME": 0.3333333333333333,
+      "ME": 0.0,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.8166666666666667,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.5
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8571428571428571,
+      "coverage_R": 0.6666666666666666,
+      "coverage_S": 0.875,
+      "mean_set_size": 0.9428571428571428,
+      "abstention": 0.05714285714285714,
+      "VME_nonabstained": 0.3333333333333333
+     },
+     "threshold": 0.876411036923804,
+     "sets_marginal": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 0.6666666666666666,
+      "coverage_S": 0.9375,
+      "mean_set_size": 0.9428571428571428,
+      "abstention": 0.05714285714285714,
+      "VME_nonabstained": 0.3333333333333333
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.7552083333333333,
+      "AUPRC": 0.18609625668449198,
+      "Brier": 0.07755046697428605,
+      "ECE": 0.026310585615020594,
+      "CA": 0.8285714285714286,
+      "VME": 0.6666666666666666,
+      "ME": 0.125,
+      "n_R": 3,
+      "n_S": 32
+     },
+     "ci95": {
+      "AUROC": [
+       0.6333333333333333,
+       0.8611111111111112
+      ],
+      "VME": [
+       0.5,
+       1.0
+      ],
+      "ME": [
+       0.04,
+       0.26666666666666666
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 1.0,
+      "coverage_S": 0.90625,
+      "mean_set_size": 1.8285714285714285,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.07701099027327898,
+     "sets_marginal": {
+      "coverage_overall": 0.9142857142857143,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   }
+  ],
+  "S1": {
+   "8": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.926470588235294,
+      "AUPRC": 0.3181818181818182,
+      "Brier": 0.13761467889908258,
+      "ECE": 0.13761467889908258,
+      "CA": 0.8623853211009175,
+      "VME": 0.0,
+      "ME": 0.14705882352941177,
+      "n_R": 7,
+      "n_S": 102
+     },
+     "ci95": {
+      "AUROC": [
+       0.926470588235294,
+       0.926470588235294
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.14705882352941177,
+       0.14705882352941177
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8623853211009175,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8529411764705882,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9369747899159664,
+      "AUPRC": 0.6152095453566042,
+      "Brier": 0.03655530337442009,
+      "ECE": 0.08510428381806963,
+      "CA": 0.9357798165137615,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 7,
+      "n_S": 102
+     },
+     "ci95": {
+      "AUROC": [
+       0.9369747899159664,
+       0.9369747899159664
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8623853211009175,
+      "coverage_R": 0.42857142857142855,
+      "coverage_S": 0.8921568627450981,
+      "mean_set_size": 0.8715596330275229,
+      "abstention": 0.12844036697247707,
+      "VME_nonabstained": 0.25
+     },
+     "threshold": 0.9925082149389286,
+     "sets_marginal": {
+      "coverage_overall": 0.963302752293578,
+      "coverage_R": 0.42857142857142855,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.5714285714285714
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.06422018348623854,
+      "Brier": 0.09918729152802204,
+      "ECE": 0.19771530039121843,
+      "CA": 0.9357798165137615,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 7,
+      "n_S": 102
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   "OTHER": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9305555555555556,
+      "AUPRC": 0.2857142857142857,
+      "Brier": 0.13157894736842105,
+      "ECE": 0.13157894736842105,
+      "CA": 0.868421052631579,
+      "VME": 0.0,
+      "ME": 0.1388888888888889,
+      "n_R": 2,
+      "n_S": 36
+     },
+     "ci95": {
+      "AUROC": [
+       0.8823529411764706,
+       0.972972972972973
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.05405405405405406,
+       0.23529411764705882
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.868421052631579,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8611111111111112,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0015571527796604992,
+      "ECE": 0.013945001838450705,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 2,
+      "n_S": 36
+     },
+     "ci95": {
+      "AUROC": [
+       0.9999999999999999,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9473684210526315,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9444444444444444,
+      "mean_set_size": 0.9473684210526315,
+      "abstention": 0.05263157894736842,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.7122669928860892,
+     "sets_marginal": {
+      "coverage_overall": 0.9210526315789473,
+      "coverage_R": 0.5,
+      "coverage_S": 0.9444444444444444,
+      "mean_set_size": 0.9210526315789473,
+      "abstention": 0.07894736842105263,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.9722222222222222,
+      "AUPRC": 0.75,
+      "Brier": 0.038282851887046464,
+      "ECE": 0.053179175929408365,
+      "CA": 0.9473684210526315,
+      "VME": 0.0,
+      "ME": 0.05555555555555555,
+      "n_R": 2,
+      "n_S": 36
+     },
+     "ci95": {
+      "AUROC": [
+       0.947875548245614,
+       0.9871794871794872
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.02564102564102564,
+       0.10424890350877199
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9473684210526315,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9444444444444444,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5522738123473109,
+     "sets_marginal": {
+      "coverage_overall": 0.9210526315789473,
+      "coverage_R": 0.5,
+      "coverage_S": 0.9444444444444444,
+      "mean_set_size": 0.9473684210526315,
+      "abstention": 0.05263157894736842,
+      "VME_nonabstained": 0.0
+     }
+    }
+   },
+   "3": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.782608695652174,
+      "AUPRC": 0.4444444444444444,
+      "Brier": 0.3225806451612903,
+      "ECE": 0.32258064516129037,
+      "CA": 0.6774193548387096,
+      "VME": 0.0,
+      "ME": 0.43478260869565216,
+      "n_R": 8,
+      "n_S": 23
+     },
+     "ci95": {
+      "AUROC": [
+       0.782608695652174,
+       0.782608695652174
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.43478260869565216,
+       0.43478260869565216
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.6774193548387096,
+      "coverage_R": 1.0,
+      "coverage_S": 0.5652173913043478,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9782608695652174,
+      "AUPRC": 0.9340277777777778,
+      "Brier": 0.04029764003851758,
+      "ECE": 0.0823880369747657,
+      "CA": 0.7419354838709677,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 8,
+      "n_S": 23
+     },
+     "ci95": {
+      "AUROC": [
+       0.9782608695652174,
+       0.9782608695652174
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.967741935483871,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9565217391304348,
+      "mean_set_size": 1.096774193548387,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.9972329694972163,
+     "sets_marginal": {
+      "coverage_overall": 0.8387096774193549,
+      "coverage_R": 0.5,
+      "coverage_S": 0.9565217391304348,
+      "mean_set_size": 0.8387096774193549,
+      "abstention": 0.16129032258064516,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.25806451612903225,
+      "Brier": 0.2283243198495068,
+      "ECE": 0.19198202573518713,
+      "CA": 0.7419354838709677,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 8,
+      "n_S": 23
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 0.7419354838709677,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   }
+  },
+  "S2": {
+   "forward_time": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.8731343283582089,
+      "AUPRC": 0.39285714285714285,
+      "Brier": 0.21794871794871795,
+      "ECE": 0.21794871794871798,
+      "CA": 0.782051282051282,
+      "VME": 0.0,
+      "ME": 0.2537313432835821,
+      "n_R": 11,
+      "n_S": 67
+     },
+     "ci95": {
+      "AUROC": [
+       0.7794117647058824,
+       0.9589285714285708
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.08214285714285721,
+       0.4411764705882353
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.782051282051282,
+      "coverage_R": 1.0,
+      "coverage_S": 0.746268656716418,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9742198100407056,
+      "AUPRC": 0.8728521478521478,
+      "Brier": 0.07069096472692671,
+      "ECE": 0.05748168182942962,
+      "CA": 0.8717948717948718,
+      "VME": 0.9090909090909091,
+      "ME": 0.0,
+      "n_R": 11,
+      "n_S": 67
+     },
+     "ci95": {
+      "AUROC": [
+       0.9583333333333334,
+       1.0
+      ],
+      "VME": [
+       0.75,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8076923076923077,
+      "coverage_R": 0.45454545454545453,
+      "coverage_S": 0.8656716417910447,
+      "mean_set_size": 0.8205128205128205,
+      "abstention": 0.1794871794871795,
+      "VME_nonabstained": 0.16666666666666666
+     },
+     "threshold": 0.9255020948734508,
+     "sets_marginal": {
+      "coverage_overall": 0.782051282051282,
+      "coverage_R": 0.09090909090909091,
+      "coverage_S": 0.8955223880597015,
+      "mean_set_size": 0.7948717948717948,
+      "abstention": 0.20512820512820512,
+      "VME_nonabstained": 0.5
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.32903663500678426,
+      "AUPRC": 0.11450974430514071,
+      "Brier": 0.1342822992264129,
+      "ECE": 0.11042420841387462,
+      "CA": 0.8589743589743589,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 11,
+      "n_S": 67
+     },
+     "ci95": {
+      "AUROC": [
+       0.0,
+       0.4275735607675905
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8461538461538461,
+      "coverage_R": 0.6363636363636364,
+      "coverage_S": 0.8805970149253731,
+      "mean_set_size": 1.7692307692307692,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 0.7564102564102564,
+      "coverage_R": 0.0,
+      "coverage_S": 0.8805970149253731,
+      "mean_set_size": 0.8974358974358975,
+      "abstention": 0.10256410256410256,
+      "VME_nonabstained": 1.0
+     }
+    }
+   }
+  },
+  "S3": {
+   "PRJNA292663|FDA": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9597701149425287,
+      "AUPRC": 0.125,
+      "Brier": 0.07954545454545454,
+      "ECE": 0.07954545454545454,
+      "CA": 0.9204545454545454,
+      "VME": 0.0,
+      "ME": 0.08045977011494253,
+      "n_R": 1,
+      "n_S": 87
+     },
+     "ci95": {
+      "AUROC": [
+       0.9476190476190477,
+       0.9691358024691358
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.06172839506172839,
+       0.10476190476190476
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9204545454545454,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9195402298850575,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.009600836576949703,
+      "ECE": 0.05709724194647321,
+      "CA": 0.9886363636363636,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 1,
+      "n_S": 87
+     },
+     "ci95": {
+      "AUROC": [
+       0.9999999999999999,
+       1.0
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9886363636363636,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9885057471264368,
+      "mean_set_size": 1.0795454545454546,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.8952641289361314,
+     "sets_marginal": {
+      "coverage_overall": 0.9772727272727273,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9885057471264368,
+      "mean_set_size": 0.9772727272727273,
+      "abstention": 0.022727272727272728,
+      "VME_nonabstained": null
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.3620689655172414,
+      "AUPRC": 0.0125,
+      "Brier": 0.027418781360184538,
+      "ECE": 0.12498385496831363,
+      "CA": 0.8636363636363636,
+      "VME": 1.0,
+      "ME": 0.12643678160919541,
+      "n_R": 1,
+      "n_S": 87
+     },
+     "ci95": {
+      "AUROC": [
+       0.31596129499005243,
+       0.41139240506329117
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.09995311767463666,
+       0.15053763440860216
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9886363636363636,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9885057471264368,
+      "mean_set_size": 1.8977272727272727,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.1642158816067658,
+     "sets_marginal": {
+      "coverage_overall": 0.9886363636363636,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0454545454545454,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   "PRJNA224116|Wageningen Bioveterinary Research": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.7272727272727273,
+      "AUPRC": 0.14285714285714285,
+      "Brier": 0.5,
+      "ECE": 0.5000000000000001,
+      "CA": 0.5,
+      "VME": 0.0,
+      "ME": 0.5454545454545454,
+      "n_R": 1,
+      "n_S": 11
+     },
+     "ci95": {
+      "AUROC": [
+       0.7272727272727273,
+       0.75
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.5,
+       0.5454545454545454
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.5,
+      "coverage_R": 1.0,
+      "coverage_S": 0.45454545454545453,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9090909090909091,
+      "AUPRC": 0.5,
+      "Brier": 0.0628263326645551,
+      "ECE": 0.06979699640823989,
+      "CA": 0.9166666666666666,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 1,
+      "n_S": 11
+     },
+     "ci95": {
+      "AUROC": [
+       0.9,
+       0.9090909090909091
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.5833333333333334,
+      "coverage_R": 1.0,
+      "coverage_S": 0.5454545454545454,
+      "mean_set_size": 1.0833333333333333,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.9171952909603358,
+     "sets_marginal": {
+      "coverage_overall": 0.8333333333333334,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9090909090909091,
+      "mean_set_size": 0.8333333333333334,
+      "abstention": 0.16666666666666666,
+      "VME_nonabstained": null
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.2272727272727273,
+      "AUPRC": 0.08333333333333333,
+      "Brier": 0.08651595600294543,
+      "ECE": 0.11996963335199633,
+      "CA": 0.9166666666666666,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 1,
+      "n_S": 11
+     },
+     "ci95": {
+      "AUROC": [
+       0.2272727272727273,
+       0.25
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.5833333333333334,
+      "coverage_R": 1.0,
+      "coverage_S": 0.5454545454545454,
+      "mean_set_size": 1.5833333333333333,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.17930387169726097,
+     "sets_marginal": {
+      "coverage_overall": 0.9166666666666666,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   "PRJNA514245|National Center for Biotechnology Information": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.8673469387755102,
+      "AUPRC": 0.3157894736842105,
+      "Brier": 0.23636363636363636,
+      "ECE": 0.23636363636363636,
+      "CA": 0.7636363636363637,
+      "VME": 0.0,
+      "ME": 0.2653061224489796,
+      "n_R": 6,
+      "n_S": 49
+     },
+     "ci95": {
+      "AUROC": [
+       0.7611536561264822,
+       0.9534883720930233
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.09302325581395349,
+       0.47769268774703555
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.7636363636363637,
+      "coverage_R": 1.0,
+      "coverage_S": 0.7346938775510204,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.02081961551656356,
+      "ECE": 0.07262362075280161,
+      "CA": 0.9272727272727272,
+      "VME": 0.6666666666666666,
+      "ME": 0.0,
+      "n_R": 6,
+      "n_S": 49
+     },
+     "ci95": {
+      "AUROC": [
+       0.9999999999999999,
+       1.0
+      ],
+      "VME": [
+       0.5,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8909090909090909,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8775510204081632,
+      "mean_set_size": 1.309090909090909,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.936966484803038,
+     "sets_marginal": {
+      "coverage_overall": 0.9090909090909091,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8979591836734694,
+      "mean_set_size": 0.9272727272727272,
+      "abstention": 0.07272727272727272,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.10909090909090909,
+      "Brier": 0.09908518584099095,
+      "ECE": 0.04353278300732502,
+      "CA": 0.8909090909090909,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 6,
+      "n_S": 49
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 0.8909090909090909,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   "OTHER_S3": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.8571428571428572,
+      "AUPRC": 0.6923076923076923,
+      "Brier": 0.17391304347826086,
+      "ECE": 0.17391304347826086,
+      "CA": 0.8260869565217391,
+      "VME": 0.0,
+      "ME": 0.2857142857142857,
+      "n_R": 9,
+      "n_S": 14
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.8928571428571428
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.21428571428571427,
+       1.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8260869565217391,
+      "coverage_R": 1.0,
+      "coverage_S": 0.7142857142857143,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9682539682539683,
+      "AUPRC": 0.9598765432098768,
+      "Brier": 0.13645572469210884,
+      "ECE": 0.16339875278880223,
+      "CA": 0.7391304347826086,
+      "VME": 0.6666666666666666,
+      "ME": 0.0,
+      "n_R": 9,
+      "n_S": 14
+     },
+     "ci95": {
+      "AUROC": [
+       0.9166666666666666,
+       1.0
+      ],
+      "VME": [
+       0.4,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8695652173913043,
+      "coverage_R": 0.8888888888888888,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 0.9565217391304348,
+      "abstention": 0.043478260869565216,
+      "VME_nonabstained": 0.1111111111111111
+     },
+     "threshold": 0.891782079421273,
+     "sets_marginal": {
+      "coverage_overall": 0.6521739130434783,
+      "coverage_R": 0.3333333333333333,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 0.6956521739130435,
+      "abstention": 0.30434782608695654,
+      "VME_nonabstained": 0.25
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.7182539682539683,
+      "AUPRC": 0.6933752521987817,
+      "Brier": 0.35343938612436093,
+      "ECE": 0.34722937818378014,
+      "CA": 0.6956521739130435,
+      "VME": 0.6666666666666666,
+      "ME": 0.07142857142857142,
+      "n_R": 9,
+      "n_S": 14
+     },
+     "ci95": {
+      "AUROC": [
+       0.6354166666666666,
+       1.0
+      ],
+      "VME": [
+       0.4,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.08333333333333333
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9565217391304348,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9285714285714286,
+      "mean_set_size": 1.7826086956521738,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.06687166252066426,
+     "sets_marginal": {
+      "coverage_overall": 0.5652173913043478,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9285714285714286,
+      "mean_set_size": 0.8260869565217391,
+      "abstention": 0.17391304347826086,
+      "VME_nonabstained": 1.0
+     }
+    }
+   }
+  },
+  "S0_mean_coverage": {
+   "M1": 0.912981552981553,
+   "M2": 0.9156177606177607
+  }
+ },
+ "gentamicin": {
+  "S0": [
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9194139194139195,
+      "AUPRC": 0.8214285714285714,
+      "Brier": 0.06331701597430672,
+      "ECE": 0.06154171554283553,
+      "CA": 0.9130434782608695,
+      "VME": 0.2857142857142857,
+      "ME": 0.05128205128205128,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.6785714285714286,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.6
+      ],
+      "ME": [
+       0.0,
+       0.075
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9565217391304348,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9487179487179487,
+      "mean_set_size": 1.2826086956521738,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.1431282056638023,
+     "sets_marginal": {
+      "coverage_overall": 0.9565217391304348,
+      "coverage_R": 0.7142857142857143,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.2857142857142857
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.8974358974358975,
+      "AUPRC": 0.8149350649350648,
+      "Brier": 0.08257213001649874,
+      "ECE": 0.10566381120419001,
+      "CA": 0.9130434782608695,
+      "VME": 0.2857142857142857,
+      "ME": 0.05128205128205128,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.5845192307692308,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.6
+      ],
+      "ME": [
+       0.0,
+       0.075
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8913043478260869,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8717948717948718,
+      "mean_set_size": 1.7608695652173914,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.14441668193260881,
+     "sets_marginal": {
+      "coverage_overall": 0.8478260869565217,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.8913043478260869,
+      "abstention": 0.10869565217391304,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9285714285714286,
+      "AUPRC": 0.8788819875776397,
+      "Brier": 0.021739130434782608,
+      "ECE": 0.021739130434782608,
+      "CA": 0.9782608695652174,
+      "VME": 0.14285714285714285,
+      "ME": 0.0,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.75,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.5
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9782608695652174,
+      "coverage_R": 0.8571428571428571,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.14285714285714285
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9157509157509157,
+      "AUPRC": 0.5137755102040816,
+      "Brier": 0.08612255914661779,
+      "ECE": 0.13402059196072197,
+      "CA": 0.8478260869565217,
+      "VME": 0.0,
+      "ME": 0.1794871794871795,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.6608187134502924,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.4
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8478260869565217,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8205128205128205,
+      "mean_set_size": 1.173913043478261,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.11749160254226565,
+     "sets_marginal": {
+      "coverage_overall": 0.782608695652174,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9230769230769231,
+      "mean_set_size": 0.8043478260869565,
+      "abstention": 0.1956521739130435,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.7783882783882784,
+      "AUPRC": 0.5689884649511978,
+      "Brier": 0.11633565738774779,
+      "ECE": 0.06121650777686784,
+      "CA": 0.7391304347826086,
+      "VME": 0.2857142857142857,
+      "ME": 0.2564102564102564,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.5254131355932202,
+       0.9271205357142854
+      ],
+      "VME": [
+       0.0,
+       0.7142857142857143
+      ],
+      "ME": [
+       0.1935483870967742,
+       0.6666666666666666
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9347826086956522,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9230769230769231,
+      "mean_set_size": 1.8478260869565217,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.08053418307780569,
+     "sets_marginal": {
+      "coverage_overall": 0.8478260869565217,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.9565217391304348,
+      "abstention": 0.043478260869565216,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9853479853479853,
+      "AUPRC": 0.948051948051948,
+      "Brier": 0.08041697642319698,
+      "ECE": 0.09281882083040041,
+      "CA": 0.8913043478260869,
+      "VME": 0.14285714285714285,
+      "ME": 0.10256410256410256,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.9545454545454545,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.3333333333333333
+      ],
+      "ME": [
+       0.0,
+       0.25
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9565217391304348,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9487179487179487,
+      "mean_set_size": 1.173913043478261,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.05827399102216571,
+     "sets_marginal": {
+      "coverage_overall": 0.8478260869565217,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.8695652173913043,
+      "abstention": 0.13043478260869565,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.9029304029304028,
+      "AUPRC": 0.6976190476190476,
+      "Brier": 0.11095636074077966,
+      "ECE": 0.07979161330423269,
+      "CA": 0.8913043478260869,
+      "VME": 0.2857142857142857,
+      "ME": 0.07692307692307693,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.7234375,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.6666666666666666
+      ],
+      "ME": [
+       0.0,
+       0.25
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9347826086956522,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9230769230769231,
+      "mean_set_size": 1.826086956521739,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.09909084230573796,
+     "sets_marginal": {
+      "coverage_overall": 0.782608695652174,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9230769230769231,
+      "mean_set_size": 0.8478260869565217,
+      "abstention": 0.15217391304347827,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9157509157509157,
+      "AUPRC": 0.7564330079858029,
+      "Brier": 0.043478260869565216,
+      "ECE": 0.04347826086956523,
+      "CA": 0.9565217391304348,
+      "VME": 0.14285714285714285,
+      "ME": 0.02564102564102564,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.6478376397287887,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.6666666666666666
+      ],
+      "ME": [
+       0.0,
+       0.038461538461538464
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9565217391304348,
+      "coverage_R": 0.8571428571428571,
+      "coverage_S": 0.9743589743589743,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.14285714285714285
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.8241758241758241,
+      "AUPRC": 0.48150183150183146,
+      "Brier": 0.10305512365006657,
+      "ECE": 0.08391810996228814,
+      "CA": 0.8043478260869565,
+      "VME": 0.42857142857142855,
+      "ME": 0.15384615384615385,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.6080683624801272,
+       1.0
+      ],
+      "VME": [
+       0.07692307692307693,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.19480519480519481
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9347826086956522,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9230769230769231,
+      "mean_set_size": 1.4782608695652173,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.11767912511880046,
+     "sets_marginal": {
+      "coverage_overall": 0.8260869565217391,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9743589743589743,
+      "mean_set_size": 0.9347826086956522,
+      "abstention": 0.06521739130434782,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.7490842490842491,
+      "AUPRC": 0.5880916469151763,
+      "Brier": 0.1101338872747759,
+      "ECE": 0.0627942443519717,
+      "CA": 0.8695652173913043,
+      "VME": 0.5714285714285714,
+      "ME": 0.05128205128205128,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.45,
+       0.9714285714285714
+      ],
+      "VME": [
+       0.1,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.07692307692307693
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8478260869565217,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8205128205128205,
+      "mean_set_size": 1.7391304347826086,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.1923244868070398,
+     "sets_marginal": {
+      "coverage_overall": 0.8478260869565217,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.9347826086956522,
+      "abstention": 0.06521739130434782,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9166666666666667,
+      "AUPRC": 0.8555555555555556,
+      "Brier": 0.022222222222222223,
+      "ECE": 0.022222222222222223,
+      "CA": 0.9777777777777777,
+      "VME": 0.16666666666666666,
+      "ME": 0.0,
+      "n_R": 6,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9777777777777777,
+      "coverage_R": 0.8333333333333334,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.16666666666666666
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9487179487179487,
+      "AUPRC": 0.7271825396825395,
+      "Brier": 0.09177317925574895,
+      "ECE": 0.07394384628769207,
+      "CA": 0.8666666666666667,
+      "VME": 0.5,
+      "ME": 0.07692307692307693,
+      "n_R": 6,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.9324116743471582,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.09302325581395349
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9333333333333333,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9230769230769231,
+      "mean_set_size": 1.1333333333333333,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.10491446716756378,
+     "sets_marginal": {
+      "coverage_overall": 0.8222222222222222,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9487179487179487,
+      "mean_set_size": 0.9111111111111111,
+      "abstention": 0.08888888888888889,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.752136752136752,
+      "AUPRC": 0.4365079365079365,
+      "Brier": 0.10963173043792782,
+      "ECE": 0.07599019941138686,
+      "CA": 0.8666666666666667,
+      "VME": 0.5,
+      "ME": 0.07692307692307693,
+      "n_R": 6,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.615,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.75
+      ],
+      "ME": [
+       0.0,
+       0.12903225806451613
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9333333333333333,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9230769230769231,
+      "mean_set_size": 1.8,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.09378392665287946,
+     "sets_marginal": {
+      "coverage_overall": 0.8,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9230769230769231,
+      "mean_set_size": 0.8666666666666667,
+      "abstention": 0.13333333333333333,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9157509157509157,
+      "AUPRC": 0.7564330079858029,
+      "Brier": 0.043478260869565216,
+      "ECE": 0.04347826086956523,
+      "CA": 0.9565217391304348,
+      "VME": 0.14285714285714285,
+      "ME": 0.02564102564102564,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.7299361702127659,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.5
+      ],
+      "ME": [
+       0.0,
+       0.041666666666666664
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9565217391304348,
+      "coverage_R": 0.8571428571428571,
+      "coverage_S": 0.9743589743589743,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.14285714285714285
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9267399267399268,
+      "AUPRC": 0.5829931972789115,
+      "Brier": 0.0828966293615521,
+      "ECE": 0.08345078332430386,
+      "CA": 0.8695652173913043,
+      "VME": 0.2857142857142857,
+      "ME": 0.10256410256410256,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.7857142857142857,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.6666666666666666
+      ],
+      "ME": [
+       0.0,
+       0.15384615384615385
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9130434782608695,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8974358974358975,
+      "mean_set_size": 1.1304347826086956,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.13926589568488754,
+     "sets_marginal": {
+      "coverage_overall": 0.8043478260869565,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9487179487179487,
+      "mean_set_size": 0.8695652173913043,
+      "abstention": 0.13043478260869565,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.7380952380952381,
+      "AUPRC": 0.4585109406081273,
+      "Brier": 0.13074550329432846,
+      "ECE": 0.07353588300828842,
+      "CA": 0.717391304347826,
+      "VME": 0.42857142857142855,
+      "ME": 0.2564102564102564,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.6287477954144621,
+       0.9
+      ],
+      "VME": [
+       0.0,
+       0.7777777777777778
+      ],
+      "ME": [
+       0.05714285714285714,
+       0.8571428571428571
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.782608695652174,
+      "coverage_R": 1.0,
+      "coverage_S": 0.7435897435897436,
+      "mean_set_size": 1.6956521739130435,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.09431364664772594,
+     "sets_marginal": {
+      "coverage_overall": 0.7391304347826086,
+      "coverage_R": 0.0,
+      "coverage_S": 0.8717948717948718,
+      "mean_set_size": 0.8043478260869565,
+      "abstention": 0.1956521739130435,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.8315018315018314,
+      "AUPRC": 0.7023809523809523,
+      "Brier": 0.09459862444828578,
+      "ECE": 0.11303798665676701,
+      "CA": 0.8043478260869565,
+      "VME": 0.42857142857142855,
+      "ME": 0.15384615384615385,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.6526227168949772,
+       1.0
+      ],
+      "VME": [
+       0.125,
+       0.75
+      ],
+      "ME": [
+       0.0,
+       0.25
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8695652173913043,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8461538461538461,
+      "mean_set_size": 1.391304347826087,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.12882922381533965,
+     "sets_marginal": {
+      "coverage_overall": 0.8478260869565217,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.9130434782608695,
+      "abstention": 0.08695652173913043,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.7509157509157509,
+      "AUPRC": 0.5692035707563659,
+      "Brier": 0.10970627339887527,
+      "ECE": 0.052371195099488545,
+      "CA": 0.782608695652174,
+      "VME": 0.42857142857142855,
+      "ME": 0.1794871794871795,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.47035718394582865,
+       1.0
+      ],
+      "VME": [
+       0.125,
+       0.75
+      ],
+      "ME": [
+       0.0,
+       0.2916666666666667
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9130434782608695,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8974358974358975,
+      "mean_set_size": 1.826086956521739,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.11800301913932668,
+     "sets_marginal": {
+      "coverage_overall": 0.8478260869565217,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.9565217391304348,
+      "abstention": 0.043478260869565216,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9706959706959707,
+      "AUPRC": 0.9081632653061225,
+      "Brier": 0.06108893624600636,
+      "ECE": 0.08810597613179275,
+      "CA": 0.8043478260869565,
+      "VME": 0.0,
+      "ME": 0.23076923076923078,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.8869047619047619,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.08695652173913043,
+       0.42857142857142855
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9782608695652174,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9743589743589743,
+      "mean_set_size": 1.326086956521739,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.06825980804118648,
+     "sets_marginal": {
+      "coverage_overall": 0.8260869565217391,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9743589743589743,
+      "mean_set_size": 0.8478260869565217,
+      "abstention": 0.15217391304347827,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.9084249084249084,
+      "AUPRC": 0.8584738243123337,
+      "Brier": 0.10055732685232668,
+      "ECE": 0.1122883273350367,
+      "CA": 0.9565217391304348,
+      "VME": 0.14285714285714285,
+      "ME": 0.02564102564102564,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.6374906716417911,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.5
+      ],
+      "ME": [
+       0.0,
+       0.039473684210526314
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9782608695652174,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9743589743589743,
+      "mean_set_size": 1.8478260869565217,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.17789470807108504,
+     "sets_marginal": {
+      "coverage_overall": 0.8478260869565217,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.8913043478260869,
+      "abstention": 0.10869565217391304,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9285714285714286,
+      "AUPRC": 0.8788819875776397,
+      "Brier": 0.021739130434782608,
+      "ECE": 0.021739130434782608,
+      "CA": 0.9782608695652174,
+      "VME": 0.14285714285714285,
+      "ME": 0.0,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.8636363636363636,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.2727272727272727
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9782608695652174,
+      "coverage_R": 0.8571428571428571,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.14285714285714285
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.8791208791208791,
+      "AUPRC": 0.7,
+      "Brier": 0.09301654504901949,
+      "ECE": 0.0689277676224177,
+      "CA": 0.8478260869565217,
+      "VME": 0.42857142857142855,
+      "ME": 0.10256410256410256,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.625,
+       1.0
+      ],
+      "VME": [
+       0.125,
+       0.8333333333333334
+      ],
+      "ME": [
+       0.0,
+       0.12631578947368421
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9565217391304348,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9487179487179487,
+      "mean_set_size": 1.3478260869565217,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.08780827670888917,
+     "sets_marginal": {
+      "coverage_overall": 0.8260869565217391,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9743589743589743,
+      "mean_set_size": 0.9130434782608695,
+      "abstention": 0.08695652173913043,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.7985347985347985,
+      "AUPRC": 0.6310102178523231,
+      "Brier": 0.11414319552386971,
+      "ECE": 0.07772809208913223,
+      "CA": 0.9130434782608695,
+      "VME": 0.42857142857142855,
+      "ME": 0.02564102564102564,
+      "n_R": 7,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.6935223034997131,
+       1.0
+      ],
+      "VME": [
+       0.125,
+       0.8333333333333334
+      ],
+      "ME": [
+       0.0,
+       0.07697368421052604
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9782608695652174,
+      "coverage_R": 0.8571428571428571,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.8478260869565217,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.3333333333333333
+     },
+     "threshold": 0.14912056746320507,
+     "sets_marginal": {
+      "coverage_overall": 0.8478260869565217,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.9565217391304348,
+      "abstention": 0.043478260869565216,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9166666666666667,
+      "AUPRC": 0.8555555555555556,
+      "Brier": 0.022222222222222223,
+      "ECE": 0.022222222222222223,
+      "CA": 0.9777777777777777,
+      "VME": 0.16666666666666666,
+      "ME": 0.0,
+      "n_R": 6,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.875,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.25
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9777777777777777,
+      "coverage_R": 0.8333333333333334,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.16666666666666666
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9529914529914529,
+      "AUPRC": 0.8238095238095238,
+      "Brier": 0.08102690915566935,
+      "ECE": 0.07563862947634391,
+      "CA": 0.9333333333333333,
+      "VME": 0.16666666666666666,
+      "ME": 0.05128205128205128,
+      "n_R": 6,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.909090909090909,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.25
+      ],
+      "ME": [
+       0.0,
+       0.2857142857142857
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9333333333333333,
+      "coverage_R": 0.8333333333333334,
+      "coverage_S": 0.9487179487179487,
+      "mean_set_size": 1.1111111111111112,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.2
+     },
+     "threshold": 0.09593483632363152,
+     "sets_marginal": {
+      "coverage_overall": 0.8222222222222222,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9487179487179487,
+      "mean_set_size": 0.8666666666666667,
+      "abstention": 0.13333333333333333,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.8034188034188035,
+      "AUPRC": 0.4587817782939734,
+      "Brier": 0.11037917205154664,
+      "ECE": 0.07411358386743436,
+      "CA": 0.8222222222222222,
+      "VME": 0.6666666666666666,
+      "ME": 0.10256410256410256,
+      "n_R": 6,
+      "n_S": 39
+     },
+     "ci95": {
+      "AUROC": [
+       0.7272727272727273,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.03125,
+       0.30434782608695654
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9111111111111111,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8974358974358975,
+      "mean_set_size": 1.7555555555555555,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.10985670416878682,
+     "sets_marginal": {
+      "coverage_overall": 0.8666666666666667,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.9777777777777777,
+      "abstention": 0.022222222222222223,
+      "VME_nonabstained": 1.0
+     }
+    }
+   }
+  ],
+  "S1": {
+   "8": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9401709401709402,
+      "AUPRC": 0.7980599647266313,
+      "Brier": 0.015873015873015872,
+      "ECE": 0.01587301587301588,
+      "CA": 0.9841269841269841,
+      "VME": 0.1111111111111111,
+      "ME": 0.008547008547008548,
+      "n_R": 9,
+      "n_S": 117
+     },
+     "ci95": {
+      "AUROC": [
+       0.9401709401709402,
+       0.9401709401709402
+      ],
+      "VME": [
+       0.1111111111111111,
+       0.1111111111111111
+      ],
+      "ME": [
+       0.008547008547008548,
+       0.008547008547008548
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9841269841269841,
+      "coverage_R": 0.8888888888888888,
+      "coverage_S": 0.9914529914529915,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.1111111111111111
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.7711301044634378,
+      "AUPRC": 0.3700936675660417,
+      "Brier": 0.05661054280326459,
+      "ECE": 0.04659712344912196,
+      "CA": 0.8492063492063492,
+      "VME": 0.4444444444444444,
+      "ME": 0.1282051282051282,
+      "n_R": 9,
+      "n_S": 117
+     },
+     "ci95": {
+      "AUROC": [
+       0.7711301044634378,
+       0.7711301044634378
+      ],
+      "VME": [
+       0.4444444444444444,
+       0.4444444444444444
+      ],
+      "ME": [
+       0.1282051282051282,
+       0.1282051282051282
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9841269841269841,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9829059829059829,
+      "mean_set_size": 1.8174603174603174,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.13932577564542017,
+     "sets_marginal": {
+      "coverage_overall": 0.9365079365079365,
+      "coverage_R": 0.2222222222222222,
+      "coverage_S": 0.9914529914529915,
+      "mean_set_size": 0.9920634920634921,
+      "abstention": 0.007936507936507936,
+      "VME_nonabstained": 0.75
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.07142857142857142,
+      "Brier": 0.06995701004601046,
+      "ECE": 0.06025345993190381,
+      "CA": 0.9285714285714286,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 9,
+      "n_S": 117
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   "OTHER": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9705882352941176,
+      "AUPRC": 0.9655667144906743,
+      "Brier": 0.024390243902439025,
+      "ECE": 0.024390243902439025,
+      "CA": 0.975609756097561,
+      "VME": 0.058823529411764705,
+      "ME": 0.0,
+      "n_R": 17,
+      "n_S": 24
+     },
+     "ci95": {
+      "AUROC": [
+       0.875,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.25
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.975609756097561,
+      "coverage_R": 0.9411764705882353,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.058823529411764705
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.8725490196078431,
+      "AUPRC": 0.9165471066475371,
+      "Brier": 0.12921980493846133,
+      "ECE": 0.18913210095285107,
+      "CA": 0.7073170731707317,
+      "VME": 0.7058823529411765,
+      "ME": 0.0,
+      "n_R": 17,
+      "n_S": 24
+     },
+     "ci95": {
+      "AUROC": [
+       0.681655172413793,
+       1.0
+      ],
+      "VME": [
+       0.4613636363636364,
+       0.9
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.7073170731707317,
+      "coverage_R": 0.29411764705882354,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.8048780487804879,
+      "abstention": 0.1951219512195122,
+      "VME_nonabstained": 0.4444444444444444
+     },
+     "threshold": 0.770811715358169,
+     "sets_marginal": {
+      "coverage_overall": 0.5853658536585366,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.6829268292682927,
+      "abstention": 0.3170731707317073,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.8406862745098039,
+      "AUPRC": 0.8692700955286767,
+      "Brier": 0.18076878130657656,
+      "ECE": 0.24349673647469158,
+      "CA": 0.8048780487804879,
+      "VME": 0.35294117647058826,
+      "ME": 0.08333333333333333,
+      "n_R": 17,
+      "n_S": 24
+     },
+     "ci95": {
+      "AUROC": [
+       0.6972114764667957,
+       0.9928621031746032
+      ],
+      "VME": [
+       0.09090909090909091,
+       0.6153846153846154
+      ],
+      "ME": [
+       0.0,
+       0.1724137931034483
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8048780487804879,
+      "coverage_R": 0.6470588235294118,
+      "coverage_S": 0.9166666666666666,
+      "mean_set_size": 0.975609756097561,
+      "abstention": 0.024390243902439025,
+      "VME_nonabstained": 0.3125
+     },
+     "threshold": 0.19825819952131793,
+     "sets_marginal": {
+      "coverage_overall": 0.6829268292682927,
+      "coverage_R": 0.23529411764705882,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.8292682926829268,
+      "abstention": 0.17073170731707318,
+      "VME_nonabstained": 0.6
+     }
+    }
+   },
+   "3": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9375,
+      "AUPRC": 0.8911290322580645,
+      "Brier": 0.016129032258064516,
+      "ECE": 0.016129032258064516,
+      "CA": 0.9838709677419355,
+      "VME": 0.125,
+      "ME": 0.0,
+      "n_R": 8,
+      "n_S": 54
+     },
+     "ci95": {
+      "AUROC": [
+       0.9375,
+       0.9375
+      ],
+      "VME": [
+       0.125,
+       0.125
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9838709677419355,
+      "coverage_R": 0.875,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.125
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.8541666666666667,
+      "AUPRC": 0.679979035639413,
+      "Brier": 0.07152824013247437,
+      "ECE": 0.028099118450766732,
+      "CA": 0.8870967741935484,
+      "VME": 0.25,
+      "ME": 0.09259259259259259,
+      "n_R": 8,
+      "n_S": 54
+     },
+     "ci95": {
+      "AUROC": [
+       0.8541666666666667,
+       0.8541666666666667
+      ],
+      "VME": [
+       0.25,
+       0.25
+      ],
+      "ME": [
+       0.09259259259259259,
+       0.09259259259259259
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9193548387096774,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9074074074074074,
+      "mean_set_size": 1.6774193548387097,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.10173081924993371,
+     "sets_marginal": {
+      "coverage_overall": 0.7903225806451613,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9074074074074074,
+      "mean_set_size": 0.8225806451612904,
+      "abstention": 0.1774193548387097,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.12903225806451613,
+      "Brier": 0.1155519562285153,
+      "ECE": 0.05629406527536478,
+      "CA": 0.8709677419354839,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 8,
+      "n_S": 54
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 0.8709677419354839,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   }
+  },
+  "S2": null,
+  "S3": {
+   "PRJNA318589|Vet-LIRN-CVM-FDA": {
+    "M0": {
+     "metrics": {
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": null,
+      "ME": 0.0,
+      "n_R": 0,
+      "n_S": 14
+     },
+     "ci95": {},
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "Brier": 0.0012182388703601793,
+      "ECE": 0.03430911481662249,
+      "CA": 1.0,
+      "VME": null,
+      "ME": 0.0,
+      "n_R": 0,
+      "n_S": 14
+     },
+     "ci95": {},
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.1428571428571428,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.09498029000032768,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    },
+    "M2": {
+     "metrics": {
+      "Brier": 0.002720354761663991,
+      "ECE": 0.051094838497563515,
+      "CA": 1.0,
+      "VME": null,
+      "ME": 0.0,
+      "n_R": 0,
+      "n_S": 14
+     },
+     "ci95": {},
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.10201727493754616,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   "PRJNA318591|Vet-LIRN-CVM-FDA": {
+    "M0": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 1,
+      "n_S": 14
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9285714285714286,
+      "AUPRC": 0.5,
+      "Brier": 0.06126670546207201,
+      "ECE": 0.13827230475381105,
+      "CA": 0.8,
+      "VME": 0.0,
+      "ME": 0.21428571428571427,
+      "n_R": 1,
+      "n_S": 14
+     },
+     "ci95": {
+      "AUROC": [
+       0.9285714285714286,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.1,
+       0.21428571428571427
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8,
+      "coverage_R": 1.0,
+      "coverage_S": 0.7857142857142857,
+      "mean_set_size": 1.0666666666666667,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.05945615178677858,
+     "sets_marginal": {
+      "coverage_overall": 0.8,
+      "coverage_R": 0.0,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 0.8666666666666667,
+      "abstention": 0.13333333333333333,
+      "VME_nonabstained": null
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.8571428571428571,
+      "AUPRC": 0.3333333333333333,
+      "Brier": 0.05211965595011631,
+      "ECE": 0.06654307445844115,
+      "CA": 0.7333333333333333,
+      "VME": 0.0,
+      "ME": 0.2857142857142857,
+      "n_R": 1,
+      "n_S": 14
+     },
+     "ci95": {
+      "AUROC": [
+       0.8571428571428571,
+       0.9
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.1,
+       0.2857142857142857
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8666666666666667,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 1.8,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.08861824514291362,
+     "sets_marginal": {
+      "coverage_overall": 0.8666666666666667,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9285714285714286,
+      "mean_set_size": 0.9333333333333333,
+      "abstention": 0.06666666666666667,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   "PRJNA324573|Vet-LIRN-CVM-FDA": {
+    "M0": {
+     "metrics": {
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": null,
+      "ME": 0.0,
+      "n_R": 0,
+      "n_S": 13
+     },
+     "ci95": {},
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "Brier": 0.002024265101052644,
+      "ECE": 0.041742404034322396,
+      "CA": 1.0,
+      "VME": null,
+      "ME": 0.0,
+      "n_R": 0,
+      "n_S": 13
+     },
+     "ci95": {},
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.3076923076923077,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.09307369025612197,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    },
+    "M2": {
+     "metrics": {
+      "Brier": 0.0027997753484171935,
+      "ECE": 0.05180782430919267,
+      "CA": 1.0,
+      "VME": null,
+      "ME": 0.0,
+      "n_R": 0,
+      "n_S": 13
+     },
+     "ci95": {},
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.10264915487832693,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   "PRJNA292663|FDA": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9435897435897436,
+      "AUPRC": 0.8213636363636364,
+      "Brier": 0.022727272727272728,
+      "ECE": 0.022727272727272724,
+      "CA": 0.9772727272727273,
+      "VME": 0.1,
+      "ME": 0.01282051282051282,
+      "n_R": 10,
+      "n_S": 78
+     },
+     "ci95": {
+      "AUROC": [
+       0.8985180412371135,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.1875
+      ],
+      "ME": [
+       0.0,
+       0.015384615384615385
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9772727272727273,
+      "coverage_R": 0.9,
+      "coverage_S": 0.9871794871794872,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.1
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.758974358974359,
+      "AUPRC": 0.5795940170940171,
+      "Brier": 0.0800931568076914,
+      "ECE": 0.07767620890838539,
+      "CA": 0.9204545454545454,
+      "VME": 0.6,
+      "ME": 0.01282051282051282,
+      "n_R": 10,
+      "n_S": 78
+     },
+     "ci95": {
+      "AUROC": [
+       0.7166091954022987,
+       1.0
+      ],
+      "VME": [
+       0.2,
+       0.8571428571428571
+      ],
+      "ME": [
+       0.0,
+       0.015384615384615385
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9090909090909091,
+      "coverage_R": 0.4,
+      "coverage_S": 0.9743589743589743,
+      "mean_set_size": 1.0227272727272727,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.6
+     },
+     "threshold": 0.1982762759948961,
+     "sets_marginal": {
+      "coverage_overall": 0.8977272727272727,
+      "coverage_R": 0.1,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.9772727272727273,
+      "abstention": 0.022727272727272728,
+      "VME_nonabstained": 0.875
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.6621794871794872,
+      "AUPRC": 0.4273434343434343,
+      "Brier": 0.09371934081315442,
+      "ECE": 0.06419786933290726,
+      "CA": 0.7727272727272727,
+      "VME": 0.7,
+      "ME": 0.16666666666666666,
+      "n_R": 10,
+      "n_S": 78
+     },
+     "ci95": {
+      "AUROC": [
+       0.607095864661654,
+       0.8666666666666666
+      ],
+      "VME": [
+       0.3333333333333333,
+       0.8571428571428571
+      ],
+      "ME": [
+       0.1111111111111111,
+       0.375
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9090909090909091,
+      "coverage_R": 0.8,
+      "coverage_S": 0.9230769230769231,
+      "mean_set_size": 1.8295454545454546,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.4
+     },
+     "threshold": 0.09642102245503217,
+     "sets_marginal": {
+      "coverage_overall": 0.8863636363636364,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 0.9886363636363636,
+      "abstention": 0.011363636363636364,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   "PRJNA224116|Wageningen Bioveterinary Research": {
+    "M0": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 2,
+      "n_S": 16
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.625,
+      "AUPRC": 0.19642857142857142,
+      "Brier": 0.10834170560159473,
+      "ECE": 0.1020774369765346,
+      "CA": 0.7777777777777778,
+      "VME": 1.0,
+      "ME": 0.125,
+      "n_R": 2,
+      "n_S": 16
+     },
+     "ci95": {
+      "AUROC": [
+       0.625,
+       0.625
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.125,
+       0.125
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8888888888888888,
+      "coverage_R": 1.0,
+      "coverage_S": 0.875,
+      "mean_set_size": 1.5555555555555556,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.1434363088658747,
+     "sets_marginal": {
+      "coverage_overall": 0.8888888888888888,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.8125,
+      "AUPRC": 0.30952380952380953,
+      "Brier": 0.09928501444742215,
+      "ECE": 0.0612914638614246,
+      "CA": 0.8888888888888888,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 2,
+      "n_S": 16
+     },
+     "ci95": {
+      "AUROC": [
+       0.75,
+       0.875
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8888888888888888,
+      "coverage_R": 1.0,
+      "coverage_S": 0.875,
+      "mean_set_size": 1.8888888888888888,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.1647155764460593,
+     "sets_marginal": {
+      "coverage_overall": 0.8888888888888888,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   "PRJNA514245|National Center for Biotechnology Information": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.96875,
+      "AUPRC": 0.9587765957446809,
+      "Brier": 0.02127659574468085,
+      "ECE": 0.02127659574468085,
+      "CA": 0.9787234042553191,
+      "VME": 0.0625,
+      "ME": 0.0,
+      "n_R": 16,
+      "n_S": 31
+     },
+     "ci95": {
+      "AUROC": [
+       0.875,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.25
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9787234042553191,
+      "coverage_R": 0.9375,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0625
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.9183467741935484,
+      "AUPRC": 0.7842952115286674,
+      "Brier": 0.216609701068004,
+      "ECE": 0.22592347904377574,
+      "CA": 0.851063829787234,
+      "VME": 0.0625,
+      "ME": 0.1935483870967742,
+      "n_R": 16,
+      "n_S": 31
+     },
+     "ci95": {
+      "AUROC": [
+       0.8636266511266512,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.1875
+      ],
+      "ME": [
+       0.1,
+       0.2759099616858235
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9148936170212766,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8709677419354839,
+      "mean_set_size": 1.1702127659574468,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.05730236280518621,
+     "sets_marginal": {
+      "coverage_overall": 0.5957446808510638,
+      "coverage_R": 0.0,
+      "coverage_S": 0.9032258064516129,
+      "mean_set_size": 0.6170212765957447,
+      "abstention": 0.3829787234042553,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.40826612903225806,
+      "AUPRC": 0.3053961366181411,
+      "Brier": 0.3146610699767786,
+      "ECE": 0.2930678024096542,
+      "CA": 0.6595744680851063,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 16,
+      "n_S": 31
+     },
+     "ci95": {
+      "AUROC": [
+       0.2071309523809524,
+       0.5754236694677869
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8936170212765957,
+      "coverage_R": 0.6875,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.8085106382978724,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 0.6595744680851063,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   "PRJNA745210|SENASICA": {
+    "M0": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 1,
+      "n_S": 10
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.05399677788535035,
+      "ECE": 0.13505079542749207,
+      "CA": 0.5454545454545454,
+      "VME": 0.0,
+      "ME": 0.5,
+      "n_R": 1,
+      "n_S": 10
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.5,
+       0.5
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9090909090909091,
+      "coverage_R": 1.0,
+      "coverage_S": 0.9,
+      "mean_set_size": 1.5454545454545454,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.06585881745757141,
+     "sets_marginal": {
+      "coverage_overall": 0.9090909090909091,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.0,
+      "AUPRC": 0.09090909090909091,
+      "Brier": 0.08907006487863711,
+      "ECE": 0.0168584793701666,
+      "CA": 0.45454545454545453,
+      "VME": 1.0,
+      "ME": 0.5,
+      "n_R": 1,
+      "n_S": 10
+     },
+     "ci95": {
+      "AUROC": [
+       0.0,
+       0.0
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.5,
+       0.5
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9090909090909091,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.9090909090909092,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     },
+     "threshold": 0.08685026317568463,
+     "sets_marginal": {
+      "coverage_overall": 0.9090909090909091,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   },
+   "OTHER_S3": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.875,
+      "AUPRC": 0.7934782608695652,
+      "Brier": 0.043478260869565216,
+      "ECE": 0.043478260869565216,
+      "CA": 0.9565217391304348,
+      "VME": 0.25,
+      "ME": 0.0,
+      "n_R": 4,
+      "n_S": 19
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9565217391304348,
+      "coverage_R": 0.75,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.25
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.868421052631579,
+      "AUPRC": 0.625,
+      "Brier": 0.11741395922168128,
+      "ECE": 0.10313688967432227,
+      "CA": 0.782608695652174,
+      "VME": 0.25,
+      "ME": 0.21052631578947367,
+      "n_R": 4,
+      "n_S": 19
+     },
+     "ci95": {
+      "AUROC": [
+       0.8333333333333334,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.3333333333333333
+      ],
+      "ME": [
+       0.0,
+       0.26666666666666666
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8260869565217391,
+      "coverage_R": 1.0,
+      "coverage_S": 0.7894736842105263,
+      "mean_set_size": 1.2173913043478262,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.09493473188666397,
+     "sets_marginal": {
+      "coverage_overall": 0.7391304347826086,
+      "coverage_R": 0.0,
+      "coverage_S": 0.8947368421052632,
+      "mean_set_size": 0.8260869565217391,
+      "abstention": 0.17391304347826086,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.6842105263157895,
+      "AUPRC": 0.39545454545454545,
+      "Brier": 0.1324238110891573,
+      "ECE": 0.07623025380682014,
+      "CA": 0.782608695652174,
+      "VME": 0.5,
+      "ME": 0.15789473684210525,
+      "n_R": 4,
+      "n_S": 19
+     },
+     "ci95": {
+      "AUROC": [
+       0.5897435897435898,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.6666666666666666
+      ],
+      "ME": [
+       0.0,
+       0.1935483870967742
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8260869565217391,
+      "coverage_R": 0.75,
+      "coverage_S": 0.8421052631578947,
+      "mean_set_size": 1.6521739130434783,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.25
+     },
+     "threshold": 0.1754808468053786,
+     "sets_marginal": {
+      "coverage_overall": 0.8260869565217391,
+      "coverage_R": 0.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    }
+   }
+  },
+  "S0_mean_coverage": {
+   "M1": 0.9279710144927537,
+   "M2": 0.9105314009661836
+  }
+ },
+ "ceftazidime": {
+  "S0": [
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 6,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.7380952380952381,
+      "AUPRC": 0.798611111111111,
+      "Brier": 0.20038938888071328,
+      "ECE": 0.20610347478046445,
+      "CA": 0.6923076923076923,
+      "VME": 0.6666666666666666,
+      "ME": 0.0,
+      "n_R": 6,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8461538461538461,
+      "coverage_R": 0.6666666666666666,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.2307692307692308,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.4
+     },
+     "threshold": 0.6106979581510851,
+     "sets_marginal": {
+      "coverage_overall": 0.8461538461538461,
+      "coverage_R": 0.6666666666666666,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.3076923076923077,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.5
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.46153846153846156,
+      "Brier": 0.24852118179619284,
+      "ECE": 0.0006868311446480702,
+      "CA": 0.5384615384615384,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 6,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.8571428571428572,
+      "AUPRC": 0.7142857142857143,
+      "Brier": 0.16666666666666666,
+      "ECE": 0.16666666666666666,
+      "CA": 0.8333333333333334,
+      "VME": 0.0,
+      "ME": 0.2857142857142857,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.8,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.4
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8333333333333334,
+      "coverage_R": 1.0,
+      "coverage_S": 0.7142857142857143,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.5428571428571429,
+      "AUPRC": 0.4553968253968254,
+      "Brier": 0.2845762915827854,
+      "ECE": 0.2701053450673798,
+      "CA": 0.5833333333333334,
+      "VME": 0.2,
+      "ME": 0.5714285714285714,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.55
+      ],
+      "VME": [
+       0.0,
+       0.25
+      ],
+      "ME": [
+       0.5,
+       0.6
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8333333333333334,
+      "coverage_R": 1.0,
+      "coverage_S": 0.7142857142857143,
+      "mean_set_size": 1.75,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.44192061962094376,
+     "sets_marginal": {
+      "coverage_overall": 0.9166666666666666,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 1.8333333333333333,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.4166666666666667,
+      "Brier": 0.25,
+      "ECE": 0.08333333333333331,
+      "CA": 0.5833333333333334,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.8571428571428572,
+      "AUPRC": 0.7142857142857143,
+      "Brier": 0.16666666666666666,
+      "ECE": 0.16666666666666666,
+      "CA": 0.8333333333333334,
+      "VME": 0.0,
+      "ME": 0.2857142857142857,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.8333333333333334,
+       0.875
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.25,
+       0.3333333333333333
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8333333333333334,
+      "coverage_R": 1.0,
+      "coverage_S": 0.7142857142857143,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.8571428571428571,
+      "AUPRC": 0.8909090909090909,
+      "Brier": 0.17724394168277505,
+      "ECE": 0.22648164547534474,
+      "CA": 0.8333333333333334,
+      "VME": 0.4,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.8181818181818182,
+       1.0
+      ],
+      "VME": [
+       0.2,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.8333333333333333,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.49695803172821523,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.8333333333333333,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.4166666666666667,
+      "Brier": 0.25,
+      "ECE": 0.08333333333333331,
+      "CA": 0.5833333333333334,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.75,
+      "AUPRC": 0.625,
+      "Brier": 0.2727272727272727,
+      "ECE": 0.2727272727272727,
+      "CA": 0.7272727272727273,
+      "VME": 0.0,
+      "ME": 0.5,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       0.75,
+       0.75
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.5,
+       0.5
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.7272727272727273,
+      "coverage_R": 1.0,
+      "coverage_S": 0.5,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.6333333333333333,
+      "AUPRC": 0.5592857142857143,
+      "Brier": 0.25701628341453486,
+      "ECE": 0.18033120297967858,
+      "CA": 0.6363636363636364,
+      "VME": 0.0,
+      "ME": 0.6666666666666666,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.7857142857142857
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.5,
+       1.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8181818181818182,
+      "coverage_R": 1.0,
+      "coverage_S": 0.6666666666666666,
+      "mean_set_size": 1.4545454545454546,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.43890741812478173,
+     "sets_marginal": {
+      "coverage_overall": 0.8181818181818182,
+      "coverage_R": 1.0,
+      "coverage_S": 0.6666666666666666,
+      "mean_set_size": 1.4545454545454546,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.45454545454545453,
+      "Brier": 0.24874423829547695,
+      "ECE": 0.028466717372333306,
+      "CA": 0.5454545454545454,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.7833333333333333,
+      "AUPRC": 0.8253968253968254,
+      "Brier": 0.21948646210392242,
+      "ECE": 0.26679867468022467,
+      "CA": 0.7272727272727273,
+      "VME": 0.6,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       0.5666666666666667,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.6363636363636365,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5341799280411829,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.8181818181818181,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.45454545454545453,
+      "Brier": 0.2486761563947492,
+      "ECE": 0.027244670987709774,
+      "CA": 0.5454545454545454,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9285714285714286,
+      "AUPRC": 0.8571428571428571,
+      "Brier": 0.07692307692307693,
+      "ECE": 0.07692307692307694,
+      "CA": 0.9230769230769231,
+      "VME": 0.0,
+      "ME": 0.14285714285714285,
+      "n_R": 6,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.875,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.25
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9230769230769231,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.8095238095238095,
+      "AUPRC": 0.7662698412698412,
+      "Brier": 0.2095756803739584,
+      "ECE": 0.24888162559441437,
+      "CA": 0.7692307692307693,
+      "VME": 0.3333333333333333,
+      "ME": 0.14285714285714285,
+      "n_R": 6,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.5625,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.75
+      ],
+      "ME": [
+       0.0,
+       0.25
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9230769230769231,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 1.4615384615384615,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.4620147372437903,
+     "sets_marginal": {
+      "coverage_overall": 0.9230769230769231,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 1.4615384615384615,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.46153846153846156,
+      "Brier": 0.24893083995372592,
+      "ECE": 0.020251663994702795,
+      "CA": 0.5384615384615384,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 6,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9285714285714286,
+      "AUPRC": 0.8333333333333334,
+      "Brier": 0.08333333333333333,
+      "ECE": 0.08333333333333331,
+      "CA": 0.9166666666666666,
+      "VME": 0.0,
+      "ME": 0.14285714285714285,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       1.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9166666666666666,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.5142857142857142,
+      "AUPRC": 0.4746031746031746,
+      "Brier": 0.29573148841105174,
+      "ECE": 0.3055077854923334,
+      "CA": 0.5833333333333334,
+      "VME": 0.6,
+      "ME": 0.2857142857142857,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.0,
+       0.676923076923077
+      ],
+      "VME": [
+       0.5,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       1.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8333333333333334,
+      "coverage_R": 0.8,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 1.5833333333333333,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.5
+     },
+     "threshold": 0.5380983815530906,
+     "sets_marginal": {
+      "coverage_overall": 0.75,
+      "coverage_R": 0.8,
+      "coverage_S": 0.7142857142857143,
+      "mean_set_size": 1.5,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.5
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.4166666666666667,
+      "Brier": 0.25,
+      "ECE": 0.08333333333333331,
+      "CA": 0.5833333333333334,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.8571428571428572,
+      "AUPRC": 0.7142857142857143,
+      "Brier": 0.16666666666666666,
+      "ECE": 0.16666666666666666,
+      "CA": 0.8333333333333334,
+      "VME": 0.0,
+      "ME": 0.2857142857142857,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.625,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.75
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8333333333333334,
+      "coverage_R": 1.0,
+      "coverage_S": 0.7142857142857143,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.5142857142857143,
+      "AUPRC": 0.4666666666666667,
+      "Brier": 0.2756075368867354,
+      "ECE": 0.22182633725814266,
+      "CA": 0.5833333333333334,
+      "VME": 0.4,
+      "ME": 0.42857142857142855,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.16666666666666669,
+       0.7857142857142857
+      ],
+      "VME": [
+       0.0,
+       1.0
+      ],
+      "ME": [
+       0.14285714285714285,
+       1.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.75,
+      "coverage_R": 0.6,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 1.4166666666666667,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.6666666666666666
+     },
+     "threshold": 0.3348912760790782,
+     "sets_marginal": {
+      "coverage_overall": 0.75,
+      "coverage_R": 0.6,
+      "coverage_S": 0.8571428571428571,
+      "mean_set_size": 1.3333333333333333,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.6666666666666666
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.4166666666666667,
+      "Brier": 0.24745728162258207,
+      "ECE": 0.06634550525112115,
+      "CA": 0.5833333333333334,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 7
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.75,
+      "AUPRC": 0.625,
+      "Brier": 0.2727272727272727,
+      "ECE": 0.2727272727272727,
+      "CA": 0.7272727272727273,
+      "VME": 0.0,
+      "ME": 0.5,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       0.7,
+       0.75
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.5,
+       0.6
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.7272727272727273,
+      "coverage_R": 1.0,
+      "coverage_S": 0.5,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.6,
+      "AUPRC": 0.545952380952381,
+      "Brier": 0.2440043826883839,
+      "ECE": 0.222050233883957,
+      "CA": 0.36363636363636365,
+      "VME": 1.0,
+      "ME": 0.3333333333333333,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       0.52,
+       0.6
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.3333333333333333,
+       0.4
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.5176874605654611,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.8181818181818181,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.45454545454545453,
+      "Brier": 0.24851919532806008,
+      "ECE": 0.02419320215555265,
+      "CA": 0.5454545454545454,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   {
+    "M0": {
+     "metrics": {
+      "AUROC": 1.0,
+      "AUPRC": 1.0,
+      "Brier": 0.0,
+      "ECE": 0.0,
+      "CA": 1.0,
+      "VME": 0.0,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       1.0,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.5333333333333333,
+      "AUPRC": 0.6857142857142857,
+      "Brier": 0.2479923574346105,
+      "ECE": 0.02626200514231586,
+      "CA": 0.5454545454545454,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       0.14285714285714285,
+       1.0
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.49961729946053457,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.9090909090909092,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.45454545454545453,
+      "Brier": 0.24874423829547695,
+      "ECE": 0.028466717372333306,
+      "CA": 0.5454545454545454,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 5,
+      "n_S": 6
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   }
+  ],
+  "S1": {
+   "OTHER": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.90625,
+      "AUPRC": 0.7692307692307693,
+      "Brier": 0.11538461538461539,
+      "ECE": 0.11538461538461536,
+      "CA": 0.8846153846153846,
+      "VME": 0.0,
+      "ME": 0.1875,
+      "n_R": 10,
+      "n_S": 16
+     },
+     "ci95": {
+      "AUROC": [
+       0.8333333333333334,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.3333333333333333
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8846153846153846,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8125,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.690625,
+      "AUPRC": 0.6416666666666666,
+      "Brier": 0.2700917739370113,
+      "ECE": 0.2881414273312508,
+      "CA": 0.6923076923076923,
+      "VME": 0.5,
+      "ME": 0.1875,
+      "n_R": 10,
+      "n_S": 16
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.8043478260869565
+      ],
+      "VME": [
+       0.2857142857142857,
+       0.7777777777777778
+      ],
+      "ME": [
+       0.0,
+       0.3333333333333333
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.6923076923076923,
+      "coverage_R": 0.5,
+      "coverage_S": 0.8125,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.5
+     },
+     "threshold": 0.5551833884146489,
+     "sets_marginal": {
+      "coverage_overall": 0.6538461538461539,
+      "coverage_R": 0.5,
+      "coverage_S": 0.75,
+      "mean_set_size": 0.9230769230769231,
+      "abstention": 0.07692307692307693,
+      "VME_nonabstained": 0.4444444444444444
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.38461538461538464,
+      "Brier": 0.2467686212515684,
+      "ECE": 0.10041031181618765,
+      "CA": 0.6153846153846154,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 10,
+      "n_S": 16
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   "8": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.8823529411764706,
+      "AUPRC": 0.8,
+      "Brier": 0.12121212121212122,
+      "ECE": 0.12121212121212119,
+      "CA": 0.8787878787878788,
+      "VME": 0.0,
+      "ME": 0.23529411764705882,
+      "n_R": 16,
+      "n_S": 17
+     },
+     "ci95": {
+      "AUROC": [
+       0.8823529411764706,
+       0.8823529411764706
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.23529411764705882,
+       0.23529411764705882
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8787878787878788,
+      "coverage_R": 1.0,
+      "coverage_S": 0.7647058823529411,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.6102941176470589,
+      "AUPRC": 0.7277746284853139,
+      "Brier": 0.27824934860589623,
+      "ECE": 0.3043087185192194,
+      "CA": 0.5454545454545454,
+      "VME": 0.5,
+      "ME": 0.4117647058823529,
+      "n_R": 16,
+      "n_S": 17
+     },
+     "ci95": {
+      "AUROC": [
+       0.6102941176470589,
+       0.6102941176470589
+      ],
+      "VME": [
+       0.5,
+       0.5
+      ],
+      "ME": [
+       0.4117647058823529,
+       0.4117647058823529
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.7272727272727273,
+      "coverage_R": 0.4375,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.2727272727272727,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.8181818181818182
+     },
+     "threshold": 0.1894265527751278,
+     "sets_marginal": {
+      "coverage_overall": 0.7272727272727273,
+      "coverage_R": 0.4375,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.303030303030303,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.9
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.48484848484848486,
+      "Brier": 0.299474335184677,
+      "ECE": 0.22294372293487774,
+      "CA": 0.5151515151515151,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 16,
+      "n_S": 17
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   }
+  },
+  "S2": {
+   "forward_time": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9,
+      "AUPRC": 0.8333333333333334,
+      "Brier": 0.1,
+      "ECE": 0.09999999999999998,
+      "CA": 0.9,
+      "VME": 0.0,
+      "ME": 0.2,
+      "n_R": 15,
+      "n_S": 15
+     },
+     "ci95": {
+      "AUROC": [
+       0.8846153846153846,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.23076923076923078
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.7422222222222221,
+      "AUPRC": 0.7254535400187574,
+      "Brier": 0.3045145975072055,
+      "ECE": 0.2911067467419145,
+      "CA": 0.6666666666666666,
+      "VME": 0.4,
+      "ME": 0.26666666666666666,
+      "n_R": 15,
+      "n_S": 15
+     },
+     "ci95": {
+      "AUROC": [
+       0.69625,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.46153846153846156
+      ],
+      "ME": [
+       0.0,
+       0.3076923076923077
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8333333333333334,
+      "coverage_R": 0.6666666666666666,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.4333333333333333,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.8333333333333334
+     },
+     "threshold": 0.22488306294815533,
+     "sets_marginal": {
+      "coverage_overall": 0.8333333333333334,
+      "coverage_R": 0.6666666666666666,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.4666666666666666,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.5,
+      "Brier": 0.2990035795136636,
+      "ECE": 0.22136752136134086,
+      "CA": 0.5,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 15,
+      "n_S": 15
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   }
+  },
+  "S3": {
+   "PRJNA224116|Wageningen Bioveterinary Research": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.9333333333333333,
+      "Brier": 0.06666666666666667,
+      "ECE": 0.06666666666666665,
+      "CA": 0.9333333333333333,
+      "VME": 0.0,
+      "ME": 1.0,
+      "n_R": 14,
+      "n_S": 1
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       1.0,
+       1.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9333333333333333,
+      "coverage_R": 1.0,
+      "coverage_S": 0.0,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.8571428571428572,
+      "AUPRC": 0.9850340136054422,
+      "Brier": 0.6615869505246121,
+      "ECE": 0.7769443706314422,
+      "CA": 0.2,
+      "VME": 0.8571428571428571,
+      "ME": 0.0,
+      "n_R": 14,
+      "n_S": 1
+     },
+     "ci95": {
+      "AUROC": [
+       0.7857142857142857,
+       0.9285714285714286
+      ],
+      "VME": [
+       0.8333333333333334,
+       0.8571428571428571
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9333333333333333,
+      "coverage_R": 0.9285714285714286,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.8666666666666667,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.5
+     },
+     "threshold": 0.19049960143159658,
+     "sets_marginal": {
+      "coverage_overall": 0.13333333333333333,
+      "coverage_R": 0.07142857142857142,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.0666666666666667,
+      "abstention": 0.0,
+      "VME_nonabstained": 1.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.9333333333333333,
+      "Brier": 0.5838271592310282,
+      "ECE": 0.722222221347977,
+      "CA": 0.06666666666666667,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 14,
+      "n_S": 1
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   "PRJNA745210|SENASICA": {
+    "M0": {
+     "metrics": {
+      "Brier": 0.09090909090909091,
+      "ECE": 0.09090909090909091,
+      "CA": 0.9090909090909091,
+      "VME": null,
+      "ME": 0.09090909090909091,
+      "n_R": 0,
+      "n_S": 11
+     },
+     "ci95": {},
+     "conformal_mondrian": {
+      "coverage_overall": 0.9090909090909091,
+      "coverage_R": null,
+      "coverage_S": 0.9090909090909091,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "Brier": 0.4944455187229396,
+      "ECE": 0.6975839059574562,
+      "CA": 0.7272727272727273,
+      "VME": null,
+      "ME": 0.2727272727272727,
+      "n_R": 0,
+      "n_S": 11
+     },
+     "ci95": {},
+     "conformal_mondrian": {
+      "coverage_overall": 0.8181818181818182,
+      "coverage_R": null,
+      "coverage_S": 0.8181818181818182,
+      "mean_set_size": 1.7272727272727273,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": 0.7570857589227986,
+     "sets_marginal": {
+      "coverage_overall": 0.7272727272727273,
+      "coverage_R": null,
+      "coverage_S": 0.7272727272727273,
+      "mean_set_size": 1.7272727272727273,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    },
+    "M2": {
+     "metrics": {
+      "Brier": 0.5197827390026589,
+      "ECE": 0.7209595959571234,
+      "CA": 1.0,
+      "VME": null,
+      "ME": 0.0,
+      "n_R": 0,
+      "n_S": 11
+     },
+     "ci95": {},
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": null,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   "PRJNA514245|National Center for Biotechnology Information": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.875,
+      "AUPRC": 0.42857142857142855,
+      "Brier": 0.21052631578947367,
+      "ECE": 0.21052631578947367,
+      "CA": 0.7894736842105263,
+      "VME": 0.0,
+      "ME": 0.25,
+      "n_R": 3,
+      "n_S": 16
+     },
+     "ci95": {
+      "AUROC": [
+       0.6666666666666667,
+       0.9166666666666667
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.16666666666666666,
+       0.6666666666666666
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.7894736842105263,
+      "coverage_R": 1.0,
+      "coverage_S": 0.75,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.90625,
+      "AUPRC": 0.6666666666666667,
+      "Brier": 0.2241231928809958,
+      "ECE": 0.3607054484294741,
+      "CA": 0.5263157894736842,
+      "VME": 0.0,
+      "ME": 0.5625,
+      "n_R": 3,
+      "n_S": 16
+     },
+     "ci95": {
+      "AUROC": [
+       0.875,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.3333333333333333,
+       0.75
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.8421052631578947,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8125,
+      "mean_set_size": 1.631578947368421,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.4238951392000285,
+     "sets_marginal": {
+      "coverage_overall": 0.8421052631578947,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8125,
+      "mean_set_size": 1.631578947368421,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.15789473684210525,
+      "Brier": 0.23936199295029073,
+      "ECE": 0.32618706907328965,
+      "CA": 0.8421052631578947,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 3,
+      "n_S": 16
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   },
+   "OTHER_S3": {
+    "M0": {
+     "metrics": {
+      "AUROC": 0.9,
+      "AUPRC": 0.9,
+      "Brier": 0.07142857142857142,
+      "ECE": 0.07142857142857141,
+      "CA": 0.9285714285714286,
+      "VME": 0.0,
+      "ME": 0.2,
+      "n_R": 9,
+      "n_S": 5
+     },
+     "ci95": {
+      "AUROC": [
+       0.875,
+       1.0
+      ],
+      "VME": [
+       0.0,
+       0.0
+      ],
+      "ME": [
+       0.0,
+       0.25
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 0.9285714285714286,
+      "coverage_R": 1.0,
+      "coverage_S": 0.8,
+      "mean_set_size": 1.0,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.5,
+     "sets_marginal": null
+    },
+    "M1": {
+     "metrics": {
+      "AUROC": 0.6888888888888889,
+      "AUPRC": 0.8330397997064665,
+      "Brier": 0.2176872670715794,
+      "ECE": 0.2583986442842513,
+      "CA": 0.42857142857142855,
+      "VME": 0.8888888888888888,
+      "ME": 0.0,
+      "n_R": 9,
+      "n_S": 5
+     },
+     "ci95": {
+      "AUROC": [
+       0.65625,
+       0.875
+      ],
+      "VME": [
+       0.7272727272727273,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.7142857142857142,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     },
+     "threshold": 0.6864135418917595,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 1.7142857142857142,
+      "abstention": 0.0,
+      "VME_nonabstained": 0.0
+     }
+    },
+    "M2": {
+     "metrics": {
+      "AUROC": 0.5,
+      "AUPRC": 0.6428571428571429,
+      "Brier": 0.25,
+      "ECE": 0.1428571428571429,
+      "CA": 0.35714285714285715,
+      "VME": 1.0,
+      "ME": 0.0,
+      "n_R": 9,
+      "n_S": 5
+     },
+     "ci95": {
+      "AUROC": [
+       0.5,
+       0.5
+      ],
+      "VME": [
+       1.0,
+       1.0
+      ],
+      "ME": [
+       0.0,
+       0.0
+      ]
+     },
+     "conformal_mondrian": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     },
+     "threshold": Infinity,
+     "sets_marginal": {
+      "coverage_overall": 1.0,
+      "coverage_R": 1.0,
+      "coverage_S": 1.0,
+      "mean_set_size": 2.0,
+      "abstention": 0.0,
+      "VME_nonabstained": null
+     }
+    }
+   }
+  },
+  "S0_mean_coverage": {
+   "M1": 0.9004079254079255,
+   "M2": 1.0
+  }
+ }
+}

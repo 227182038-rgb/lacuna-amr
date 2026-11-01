@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>36241754</Id>
+	<Item Name="PubDate" Type="Date">2022 Oct 14</Item>
+	<Item Name="EPubDate" Type="Date">2022 Oct 14</Item>
+	<Item Name="Source" Type="String">Sci Data</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Barker M</Item>
+		<Item Name="Author" Type="String">Chue Hong NP</Item>
+		<Item Name="Author" Type="String">Katz DS</Item>
+		<Item Name="Author" Type="String">Lamprecht AL</Item>
+		<Item Name="Author" Type="String">Martinez-Ortiz C</Item>
+		<Item Name="Author" Type="String">Psomopoulos F</Item>
+		<Item Name="Author" Type="String">Harrow J</Item>
+		<Item Name="Author" Type="String">Castro LJ</Item>
+		<Item Name="Author" Type="String">Gruenpeter M</Item>
+		<Item Name="Author" Type="String">Martinez PA</Item>
+		<Item Name="Author" Type="String">Honeyman T</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Honeyman T</Item>
+	<Item Name="Title" Type="String">Introducing the FAIR Principles for research software.</Item>
+	<Item Name="Volume" Type="String">9</Item>
+	<Item Name="Issue" Type="String">1</Item>
+	<Item Name="Pages" Type="String">622</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101640192</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2052-4463</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">36241754</Item>
+		<Item Name="pmc" Type="String">PMC9562067</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC9562067;</Item>
+		<Item Name="doi" Type="String">10.1038/s41597-022-01710-x</Item>
+		<Item Name="pii" Type="String">10.1038/s41597-022-01710-x</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1038/s41597-022-01710-x</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2022/03/21 00:00</Item>
+		<Item Name="accepted" Type="Date">2022/09/21 00:00</Item>
+		<Item Name="entrez" Type="Date">2022/10/14 23:27</Item>
+		<Item Name="pubmed" Type="Date">2022/10/15 06:00</Item>
+		<Item Name="medline" Type="Date">2022/10/19 06:00</Item>
+		<Item Name="pmc-release" Type="Date">2022/10/14 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">19</Item>
+	<Item Name="FullJournalName" Type="String">Scientific data</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1038/s41597-022-01710-x</Item>
+	<Item Name="SO" Type="String">2022 Oct 14;9(1):622</Item>
+</DocSum>
+
+<DocSum>
+	<Id>39037960</Id>
+	<Item Name="PubDate" Type="Date">2024 Aug 2</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Bioinformatics</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Martín Del Pico E</Item>
+		<Item Name="Author" Type="String">Gelpí JL</Item>
+		<Item Name="Author" Type="String">Capella-Gutierrez S</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Capella-Gutierrez S</Item>
+	<Item Name="Title" Type="String">FAIRsoft-a practical implementation of FAIR principles for research software.</Item>
+	<Item Name="Volume" Type="String">40</Item>
+	<Item Name="Issue" Type="String">8</Item>
+	<Item Name="Pages" Type="String"></Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">9808944</Item>
+	<Item Name="ISSN" Type="String">1367-4803</Item>
+	<Item Name="ESSN" Type="String">1367-4811</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">39037960</Item>
+		<Item Name="pmc" Type="String">PMC11330317</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC11330317;</Item>
+		<Item Name="doi" Type="String">10.1093/bioinformatics/btae464</Item>
+		<Item Name="pii" Type="String">7717992</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1093/bioinformatics/btae464</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2023/11/24 00:00</Item>
+		<Item Name="revised" Type="Date">2024/05/26 00:00</Item>
+		<Item Name="accepted" Type="Date">2024/07/20 00:00</Item>
+		<Item Name="medline" Type="Date">2024/08/18 04:21</Item>
+		<Item Name="pubmed" Type="Date">2024/07/22 18:42</Item>
+		<Item Name="entrez" Type="Date">2024/07/22 13:23</Item>
+		<Item Name="pmc-release" Type="Date">2024/07/22 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">32</Item>
+	<Item Name="FullJournalName" Type="String">Bioinformatics (Oxford, England)</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1093/bioinformatics/btae464</Item>
+	<Item Name="SO" Type="String">2024 Aug 2;40(8)</Item>
+</DocSum>
+
+<DocSum>
+	<Id>36745241</Id>
+	<Item Name="PubDate" Type="Date">2023 Feb 6</Item>
+	<Item Name="EPubDate" Type="Date">2023 Feb 6</Item>
+	<Item Name="Source" Type="String">Metabolomics</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Du X</Item>
+		<Item Name="Author" Type="String">Dastmalchi F</Item>
+		<Item Name="Author" Type="String">Ye H</Item>
+		<Item Name="Author" Type="String">Garrett TJ</Item>
+		<Item Name="Author" Type="String">Diller MA</Item>
+		<Item Name="Author" Type="String">Liu M</Item>
+		<Item Name="Author" Type="String">Hogan WR</Item>
+		<Item Name="Author" Type="String">Brochhausen M</Item>
+		<Item Name="Author" Type="String">Lemas DJ</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Lemas DJ</Item>
+	<Item Name="Title" Type="String">Evaluating LC-HRMS metabolomics data processing software using FAIR principles for research software.</Item>
+	<Item Name="Volume" Type="String">19</Item>
+	<Item Name="Issue" Type="String">2</Item>
+	<Item Name="Pages" Type="String">11</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101274889</Item>
+	<Item Name="ISSN" Type="String">1573-3882</Item>
+	<Item Name="ESSN" Type="String">1573-3890</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Systematic Review</Item>
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+		<Item Name="PubType" Type="String">Research Support, N.I.H., Extramural</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">36745241</Item>
+		<Item Name="mid" Type="String">NIHMS2069783</Item>
+		<Item Name="pmc" Type="String">PMC12087353</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC12087353;manuscript-id: NIHMS2069783;</Item>
+		<Item Name="doi" Type="String">10.1007/s11306-023-01974-3</Item>
+		<Item Name="pii" Type="String">10.1007/s11306-023-01974-3</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1007/s11306-023-01974-3</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2022/12/08 00:00</Item>
+		<Item Name="accepted" Type="Date">2023/01/20 00:00</Item>
+		<Item Name="entrez" Type="Date">2023/02/06 11:17</Item>
+		<Item Name="pubmed" Type="Date">2023/02/07 06:00</Item>
+		<Item Name="medline" Type="Date">2023/02/09 06:00</Item>
+		<Item Name="pmc-release" Type="Date">2025/05/19 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">133</Item>
+	<Item Name="FullJournalName" Type="String">Metabolomics : Official journal of the Metabolomic Society</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1007/s11306-023-01974-3</Item>
+	<Item Name="SO" Type="String">2023 Feb 6;19(2):11</Item>
+</DocSum>
+
+</eSummaryResult>

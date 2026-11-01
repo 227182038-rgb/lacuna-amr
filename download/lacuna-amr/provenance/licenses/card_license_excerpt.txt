@@ -1,0 +1,6 @@
+Nothing on this website should be interpreted to grant any license to use any trade mark or official mark without the express written permission of McMaster University.
+Copyright and Disclaimer All of the materials on this website, including but not limited to the CARD, the RGI, and the underlying HTML, text, illustration, designs, icons, audio clips, video clips, documents, products, software and all other content (the &quot;Materials&quot;) are protected by copyright and are either owned by McMaster University, provided by the creator for free use by the scientific community, or McMaster University has obtained a license to use the Materials for their website.
+Any other organization must seek to obtain a license described in section 5 below.
+Commercial uses of the Materials on the site are offered only pursuant to a written license and user fee.
+To obtain permission and begin the licensing process, please contact McMaster University using the address in section 3.
+Exception : Ontologies at the Comprehensive Antibiotic Resistance Database are freely available under the Creative Commons CC-BY license version 4.0 6.

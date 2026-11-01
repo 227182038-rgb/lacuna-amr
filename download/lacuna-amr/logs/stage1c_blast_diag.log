@@ -1,0 +1,47 @@
+amr_report
+amrdb
+amrfinder
+amrfinder_binaries_v4.2.7.tar.gz
+amrfinder_index
+amrfinder_update
+disruption2genesymbol
+dna_mutation
+fasta2parts
+fasta_check
+fasta_extract
+gff_check
+hmmer-3.4.tar.gz
+mutate
+ncbi-blast-2.17.0+
+ncbi-blast-2.17.0+-x64-linux.tar.gz
+stx
+stxtyper
+test_amrfinder.sh
+test_both.expected
+test_disrupt.expected
+test_disrupt.fa
+test_dna.expected
+test_dna.fa
+test_dna_mut_all.expected
+test_prot.expected
+test_prot.fa
+test_prot.gff
+test_prot.gz.fa
+version.txt
+--- dirs:
+.tools/amrdb/
+.tools/ncbi-blast-2.17.0+/
+.tools/stx/
+--- hmmer tarball content check:
+Not Found
+--- disk:
+c-6ae6eb02-14127d0f-0558897c7348-rootfs  9.9G  1.3G  8.1G  13% /
+--- blast bin check:
+blast_formatter
+blast_formatter_vdb
+blast_vdb_cmd
+blastdb_aliastool
+blastdbcheck
+blastdbcmd
+blastn
+blastn_vdb

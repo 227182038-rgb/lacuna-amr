@@ -1,0 +1,14 @@
+=== label summary (downloaded cohort, n=450) ===
+   ciprofloxacin_I              12
+   ciprofloxacin_INDETERMINATE_CENSORED 5
+   ciprofloxacin_R              44
+   ciprofloxacin_S              311
+   gentamicin_INDETERMINATE_CENSORED 5
+   gentamicin_R                 79
+   gentamicin_S                 351
+   meropenem_I                  1
+   meropenem_INDETERMINATE_CENSORED 1
+   meropenem_R                  5
+   meropenem_S                  285
+assembly stats QC: {'pass': 450}
+stage 3c done

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>9</Count><RetMax>5</RetMax><RetStart>0</RetStart><IdList>
+<Id>42235509</Id>
+<Id>41510267</Id>
+<Id>42487707</Id>
+<Id>42201082</Id>
+<Id>42375790</Id>
+</IdList><TranslationSet/><QueryTranslation>("grouped cross-validation"[Title/Abstract] OR "clustered cross-validation"[Title/Abstract] OR "blocked cross-validation"[Title/Abstract]) AND ("genomic"[Title/Abstract] OR "genome"[Title/Abstract])</QueryTranslation></eSearchResult>

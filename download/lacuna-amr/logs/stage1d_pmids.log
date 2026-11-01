@@ -1,0 +1,21 @@
+-- genotype_phenotype_concordance_ncbi:
+   PMID ?: Antibiotic-Specific Genotype-Phenotype Concordance and Cross-Database Interoperability in Public Esc [Int J Mol Sci 2026 Aug 10]
+   PMID ?: Azithromycin resistance in Escherichia coli and Salmonella from food-producing animals and meat in E [J Antimicrob Chemother 2024 Jul 1]
+   PMID ?: Complete genome sequence, phenotypic correlation and pangenome analysis of uropathogenic Klebsiella  [AMB Express 2024 Jul 4]
+   PMID ?: WGS accurately predicts antimicrobial resistance in Escherichia coli. [J Antimicrob Chemother 2015 Oct]
+   PMID ?: Pangenome Analysis of Proteus mirabilis Reveals Lineage-Specific Antimicrobial Resistance Profiles a [bioRxiv 2025 Nov 24]
+-- conformal_cp_amr:
+   PMID ?: Conformal Prediction with Knowledge Graphs for Reliable Antimicrobial Resistance Detection with MALD [J Comput Biol 2026 Jan]
+   PMID ?: Confidence-based prediction of antibiotic resistance at the patient level. [mBio 2026 Feb 11]
+   PMID ?: A Computational Workflow Integrating Explainable AI and Database Mining for the Prioritization of An [Molecules 2026 Oct 14]
+-- unexplained_resistance_kp:
+   PMID ?: Molecular Epidemiology of Third-Generation-Cephalosporin-Resistant Enterobacteriaceae in Southeast Q [Antimicrob Agents Chemother 2021 May 18]
+   PMID ?: Multi-approach methods to predict cryptic carbapenem resistance mechanisms in Klebsiella pneumoniae  [Front Microbiol 2023]
+   PMID ?: Molecular characterization of colistin resistance in carbapenem-resistant Klebsiella pneumoniae from [Microbiol Spectr 2025 Oct 7]
+-- amr_wgs_prediction_evaluation:
+   PMID ?: Systematic Evaluation of Whole Genome Sequence-Based Predictions of Salmonella Serotype and Antimicr [Front Microbiol 2020]
+   PMID ?: Systematic Evaluation of Whole-Genome Sequencing Based Prediction of Antimicrobial Resistance in Cam [Front Microbiol 2021]
+   PMID ?: Evaluation of Whole Genome Sequencing-Based Predictions of Antimicrobial Resistance to TB First Line [Int J Mol Sci 2024 Jun 6]
+
+-- NeurIPS page segment:
+Poster in Workshop: I Can’t Believe It’s Not Better (ICBINB): Failure Modes of AI in Biology Fri, Dec 11, 2026 • 11:00 AM – 12:15 PM AEDT Phylogeny-weighted conformal prediction for genomic antibiotic susceptibility testing: four failures of a natural idea Joshua Anojulu ⋅ Varun Puttagunta Project Page [ OpenReview ] Abstract Split conformal prediction gives distribution-free coverage under exchangeability. Bacterial isolates are not exchangeable - they are related by a phylogeny - so when a novel lineage reaches the clinic, the coverage guarantee on a genomic antibiotic- susceptibility model should be expected to fail. It does: over 491 (drug, clade) holdouts on 10,227 Mycobacterium tuberculosis genomes, realised coverage falls below 0.70 for 6.9% of pairs against a 0.90 target, and a model's AUROC on a held-out clade carries essentially no information about whether its guarantee surviv

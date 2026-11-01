@@ -1,0 +1,19 @@
+-- genotype_phenotype_concordance_ncbi:
+   PMID 42653162: Antibiotic-Specific Genotype-Phenotype Concordance and Cross-Database Interoperability in Publi [Int J Mol Sci 2026 Aug 10]
+   PMID 38775752: Azithromycin resistance in Escherichia coli and Salmonella from food-producing animals and meat [J Antimicrob Chemother 2024 Jul 1]
+   PMID 38965152: Complete genome sequence, phenotypic correlation and pangenome analysis of uropathogenic Klebsi [AMB Express 2024 Jul 4]
+   PMID 26142410: WGS accurately predicts antimicrobial resistance in Escherichia coli. [J Antimicrob Chemother 2015 Oct]
+   PMID 41394595: Pangenome Analysis of Proteus mirabilis Reveals Lineage-Specific Antimicrobial Resistance Profi [bioRxiv 2025 Nov 24]
+-- conformal_cp_amr:
+   PMID 41346025: Conformal Prediction with Knowledge Graphs for Reliable Antimicrobial Resistance Detection with [J Comput Biol 2026 Jan]
+   PMID 41575464: Confidence-based prediction of antibiotic resistance at the patient level. [mBio 2026 Feb 11]
+   PMID 42943754: A Computational Workflow Integrating Explainable AI and Database Mining for the Prioritization  [Molecules 2026 Oct 14]
+-- unexplained_resistance_kp:
+   PMID 33781999: Molecular Epidemiology of Third-Generation-Cephalosporin-Resistant Enterobacteriaceae in Southe [Antimicrob Agents Chemother 2021 May 18]
+   PMID 37700864: Multi-approach methods to predict cryptic carbapenem resistance mechanisms in Klebsiella pneumo [Front Microbiol 2023]
+   PMID 40879378: Molecular characterization of colistin resistance in carbapenem-resistant Klebsiella pneumoniae [Microbiol Spectr 2025 Oct 7]
+-- amr_wgs_prediction_evaluation:
+   PMID 32318038: Systematic Evaluation of Whole Genome Sequence-Based Predictions of Salmonella Serotype and Ant [Front Microbiol 2020]
+   PMID 34867917: Systematic Evaluation of Whole-Genome Sequencing Based Prediction of Antimicrobial Resistance i [Front Microbiol 2021]
+   PMID 38892433: Evaluation of Whole Genome Sequencing-Based Predictions of Antimicrobial Resistance to TB First [Int J Mol Sci 2024 Jun 6]
+-- fair4rs_pubmed: files missing

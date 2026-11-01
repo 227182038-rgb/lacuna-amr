@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>3</Count><RetMax>3</RetMax><RetStart>0</RetStart><IdList>
+<Id>36241754</Id>
+<Id>39037960</Id>
+<Id>36745241</Id>
+</IdList><TranslationSet/><QueryTranslation>"FAIR principles"[Title] AND "software"[Title]</QueryTranslation></eSearchResult>

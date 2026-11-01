@@ -1,0 +1,103 @@
+{
+  "tool": "lacuna",
+  "version": "0.1.0",
+  "notice": "RESEARCH USE ONLY. Not for clinical decision-making.",
+  "drugs": {
+    "gentamicin": {
+      "n_rows": 75,
+      "n_isolates": 75,
+      "testing_standards": {
+        "CLSI": 58,
+        "EUCAST": 17
+      },
+      "methods": {
+        "MIC": 75
+      },
+      "platforms": {
+        "Sensititre": 67,
+        "missing": 8
+      },
+      "submitter_phenotypes": {
+        "susceptible": 36,
+        "not defined": 26,
+        "resistant": 11,
+        "intermediate": 2
+      },
+      "derived_labels_primary_rule": {
+        "S": 59,
+        "R": 16
+      }
+    },
+    "ciprofloxacin": {
+      "n_rows": 60,
+      "n_isolates": 60,
+      "testing_standards": {
+        "CLSI": 42,
+        "EUCAST": 18
+      },
+      "methods": {
+        "MIC": 60
+      },
+      "platforms": {
+        "Sensititre": 49,
+        "missing": 11
+      },
+      "submitter_phenotypes": {
+        "susceptible": 39,
+        "not defined": 12,
+        "resistant": 7,
+        "intermediate": 2
+      },
+      "derived_labels_primary_rule": {
+        "S": 55,
+        "R": 5
+      }
+    },
+    "meropenem": {
+      "n_rows": 42,
+      "n_isolates": 42,
+      "testing_standards": {
+        "CLSI": 22,
+        "EUCAST": 20
+      },
+      "methods": {
+        "MIC": 42
+      },
+      "platforms": {
+        "Sensititre": 31,
+        "missing": 11
+      },
+      "submitter_phenotypes": {
+        "susceptible": 32,
+        "not defined": 10
+      },
+      "derived_labels_primary_rule": {
+        "S": 42
+      }
+    },
+    "ceftazidime": {
+      "n_rows": 23,
+      "n_isolates": 23,
+      "testing_standards": {
+        "EUCAST": 19,
+        "CLSI": 4
+      },
+      "methods": {
+        "MIC": 23
+      },
+      "platforms": {
+        "Sensititre": 14,
+        "missing": 9
+      },
+      "submitter_phenotypes": {
+        "not defined": 13,
+        "resistant": 8,
+        "susceptible": 2
+      },
+      "derived_labels_primary_rule": {
+        "R": 10,
+        "S": 13
+      }
+    }
+  }
+}

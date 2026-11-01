@@ -1,0 +1,10 @@
+-- amrfinder full db-version output:
+Running: ./.tools/amrfinder --database .tools/amrdb/latest/ --database_version --threads 2
+Software directory: '/home/z/my-project/download/lacuna-amr/.tools/'
+Software version: 4.2.7
+Database directory: '/home/z/my-project/download/lacuna-amr/.tools/amrdb/2026-08-07.1'
+Database version: 2026-08-07.1
+amrfinder took 0 seconds to complete
+-- EUCAST colistin footnote search (all sheets, all cells):
+[Enterobacterales] I140: 1/A. Efficacy for Enterobacterales is uncertain. Screening cut-off values can be used to distinguish wild-type isolates from isolates with acquired resistance (presence of resistance indicated by MIC >16 mg/L; zone diameter <17 mm for the chloramphenicol 30 µg disk). For chloramphenicol treatment in meningitis, see table of dosages. 2. Colistin MIC
+[Enterobacterales] A141: Colistin2

@@ -1,0 +1,14 @@
+claim_id	sentence_summary	result_key_or_reference
+R1	cite Yu 2025	ref:R02
+R2	cite Lüftinger 2021	ref:R03
+R3	cite Anojulu & Puttagunta 2026 poster	ref:R05
+R4	cite Inda-Díaz 2026	ref:R06
+R5	cite Pei 2022; Cornacchia 2023	ref:R07;ref:R08
+A1	attrition numbers	results/lineages.json;data/stage3_selection.json
+G24	G2/G3/G4 outcomes	gates/G2.md;gates/G3.md;gates/G4.md
+S0p	S0 metrics	results/evaluation/main_results.json
+H1	H1 outcomes	results/evaluation/hypotheses.json
+H2	H2 outcomes	results/evaluation/hypotheses.json
+R3	H3 outcomes	results/evaluation/hypotheses.json
+H4	H4 outcomes	results/evaluation/hypotheses.json
+G5x	G5/G7 outcomes	gates/G5.md;gates/G7.md

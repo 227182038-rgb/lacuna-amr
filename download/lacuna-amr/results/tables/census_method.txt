@@ -1,0 +1,8 @@
+Census method: NCBI EUtils esearch, db=biosample.
+Base term: antibiogram[filter] AND "<organism>"[Organism]
+Drug term: base AND <drug name> (full-text match within record).
+Counts are candidate UPPER BOUNDS: they count records mentioning the drug name,
+not records with a quantitative dilution MIC for that drug.
+MIC-availability fractions are estimated separately from downloaded records.
+No MIC values were read or stored before protocol freeze (R6 integrity).
+Retrieved 2026-11-01T08:20:09Z.

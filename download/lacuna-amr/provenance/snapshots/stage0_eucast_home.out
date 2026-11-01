@@ -1,0 +1,3634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+<title>EUCAST: EUCAST - Home </title>
+<meta name="generator" content="TYPO3 CMS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="EUCAST - Home">
+<meta property="og:image" content="https://www.eucast.org/_assets/0fab1baf1fc0d7ca8f6deb058f1a3368/Icons/Socials/ESCMID_logo_og.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="EUCAST - Home">
+<meta name="twitter:image" content="https://www.eucast.org/_assets/0fab1baf1fc0d7ca8f6deb058f1a3368/Icons/Socials/ESCMID_logo_og.png">
+<meta name="title" content="EUCAST - Home">
+
+
+<link rel="stylesheet" href="/typo3temp/assets/compressed/merged-d3f0ad27907b92364778938bc752530f.css?1793197747" media="all">
+
+
+<script src="/_assets/0fab1baf1fc0d7ca8f6deb058f1a3368/JavaScript/libs/jquery.min.js?1793180456"></script>
+<script src="/typo3temp/assets/compressed/merged-0bc2537ba32ad1bee7a2908756790934.js?1793197747"></script>
+<script src="https://cookies.codered.net/public/app.js?apiKey=cdf4d11e91ce5d69c16158efb65a850317bb43835047de65&amp;domain=7eb6689&amp;lang=en_US" referrerpolicy="origin"></script>
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml" />
+    
+<link rel="icon" href="/favicon.ico?1708609226" type="image/vnd.microsoft.icon"><script src="/matomo.js"></script>
+<link rel="canonical" href="https://www.eucast.org/">
+
+<!-- This site is optimized with the Yoast SEO for TYPO3 plugin - https://yoast.com/typo3-extensions-seo/ -->
+<script type="application/ld+json">[{"@context":"https:\/\/www.schema.org","@type":"WebSite","url":"https:\/\/www.eucast.org\/","name":"EUCAST - Home"},{"@context":"https:\/\/www.schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.eucast.org\/","name":"EUCAST - Home"}}]}]</script>
+</head>
+<body class="Page--id-635 d-flex flex-column min-vh-100">
+
+
+    
+
+    <div class="header-links bg-gray-07" >
+        <div class="px-5 px-md-10">
+            <div class="container-fluid-base">
+                <div class="nav-wrap d-flex gap-4 align-items-center">
+                    <ul class="nav d-flex gap-5 justify-content-end container-fluid-base">
+                        
+                            <li class="nav-item ps-5 main-link ">
+                                <a
+                                    href="https://www.escmid.org/"
+                                    target="_self"
+                                    class="nav-link small link-dark p-0">
+                                    ESCMID
+                                </a>
+                            </li>
+                        
+                            <li class="nav-item ps-5 main-link ">
+                                <a
+                                    href="https://www.clinicalmicrobiologyandinfection.com/"
+                                    target="_self"
+                                    class="nav-link small link-dark p-0">
+                                    CMI
+                                </a>
+                            </li>
+                        
+                            <li class="nav-item ps-5 main-link ">
+                                <a
+                                    href="/newsletter/"
+                                    target=""
+                                    class="nav-link small link-dark p-0">
+                                    EUCAST Newsletter
+                                </a>
+                            </li>
+                        
+                            <li class="nav-item ps-5 main-link ">
+                                <a
+                                    href="/about-eucast/news/"
+                                    target=""
+                                    class="nav-link small link-dark p-0">
+                                    EUCAST News
+                                </a>
+                            </li>
+                        
+                    </ul>
+                    
+                        <div class="d-flex align-items-center gap-2">
+                            
+
+
+
+    <a class="nav-btn search d-none d-md-flex" href="/search/">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="20px/search">
+                <path id="Vector" d="M13.1291 11.8792H12.4707L12.2374 11.6542C13.0541 10.7042 13.5457 9.47086 13.5457 8.12919C13.5457 5.13752 11.1207 2.71252 8.12907 2.71252C5.1374 2.71252 2.7124 5.13752 2.7124 8.12919C2.7124 11.1209 5.1374 13.5459 8.12907 13.5459C9.47074 13.5459 10.7041 13.0542 11.6541 12.2375L11.8791 12.4709V13.1292L16.0457 17.2875L17.2874 16.0459L13.1291 11.8792ZM8.12907 11.8792C6.05407 11.8792 4.37907 10.2042 4.37907 8.12919C4.37907 6.05419 6.05407 4.37919 8.12907 4.37919C10.2041 4.37919 11.8791 6.05419 11.8791 8.12919C11.8791 10.2042 10.2041 11.8792 8.12907 11.8792Z"/>
+            </g>
+        </svg>
+    </a>
+    <a class="nav-btn search d-flex d-md-none" href="/search/">
+        Search
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="20px/search">
+                <path id="Vector" d="M13.1291 11.8792H12.4707L12.2374 11.6542C13.0541 10.7042 13.5457 9.47086 13.5457 8.12919C13.5457 5.13752 11.1207 2.71252 8.12907 2.71252C5.1374 2.71252 2.7124 5.13752 2.7124 8.12919C2.7124 11.1209 5.1374 13.5459 8.12907 13.5459C9.47074 13.5459 10.7041 13.0542 11.6541 12.2375L11.8791 12.4709V13.1292L16.0457 17.2875L17.2874 16.0459L13.1291 11.8792ZM8.12907 11.8792C6.05407 11.8792 4.37907 10.2042 4.37907 8.12919C4.37907 6.05419 6.05407 4.37919 8.12907 4.37919C10.2041 4.37919 11.8791 6.05419 11.8791 8.12919C11.8791 10.2042 10.2041 11.8792 8.12907 11.8792Z"/>
+            </g>
+        </svg>
+    </a>
+
+
+
+                            
+
+
+    
+
+                            
+
+
+
+        
+    
+
+
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<header id="header" class="">
+    <div class="px-5 px-md-10">
+        <div class="container-fluid-base">
+            <div id="navg" class="bg-white bg-full-w" tabindex="-1">
+    <div>
+        <div class="container-fluid-base py-5 py-md-6 d-flex">
+
+            <div class="logo-wrapper d-flex align-items-center me-auto">
+                
+                
+                
+                <a class="logo text-dark text-decoration-none" href="/">
+                    
+                    <img src="/fileadmin/escmid/media/logos/eucast/EUCAST_Logo.svg" alt="EUCAST">
+                </a>
+
+                
+                
+            </div>
+            <div class="h-menu align-items-baseline mt-2">
+                <img src="/build/escmid/images/icons/icon-menu.fc862b23.svg" alt="menu">
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="nav-holder bg-white bg-full-w pb-5 pt-3">
+	<div>
+        <nav id="mega-dropdown-container" class="s-menu mega-dropdown-container ">
+            <div class="controls">
+                <span role="button" class="back">
+                    Back
+                </span>
+                <span role="button" class="close ms-auto">
+                    Close
+                </span>
+            </div>
+            <div class="menu-content container-fluid-base d-flex flex-grow-1">
+                <ul class="nav nav-list flex-grow-1">
+                    
+                        
+    <li class="nav-item">
+        <a href="/about-eucast/" class="nav-link fw-medium">About EUCAST</a>
+        <div class="nav-item-panel bg-full-w">
+            <div class="panel-row-main">
+                <div class="panel-title">
+                    <a href="/about-eucast/" target="" class="main-link">About EUCAST</a>
+                    <ul class="overview">
+                        <li>
+                            <a href="/about-eucast/" target="">
+                                Overview
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <span role="button" class="close">
+                    Close
+                </span>
+            </div>
+            
+                <div class="panel-row">
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/organisation/" target="" class="main-link ">
+                Organisation
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/organisation/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/organisation/steering-committee/" target="">
+                                    Steering Committee
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/organisation/general-committee/" target="">
+                                    General Committee
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/organisation/eucast-statutes/" target="">
+                                    EUCAST Statutes
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/organisation/national-ast-committees-nac/" target="" class="main-link ">
+                National AST Committees (NAC)
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/organisation/national-ast-committees-nac/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/organisation/national-ast-committees-nac/join-nacs-network/" target="">
+                                    Join NACs Network
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/organisation/network-laboratories/" target="">
+                                    Network Laboratories
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/organisation/development-laboratories-edl/" target="">
+                                    Development Laboratories (EDL)
+                                </a>
+                            
+                    </li>
+                
+                
+                    <li class="view-all">
+                        <a href="#">
+                            View all
+                        </a>
+                    </li>
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/subcommittees/" target="" class="main-link ">
+                Subcommittees
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/subcommittees/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/subcommittees/subcommittee-amst/" target="">
+                                    Antimycobacterial Susceptibility Testing (AMST)
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/subcommittees/subcommittee-afst/" target="">
+                                    Antifungal Susceptibility Testing (AFST)
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/subcommittees/subcommittee-vetcast/" target="">
+                                    Veterinary Subcommittee on Antimicrobial Susceptibility Testing (VetCAST)
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/subcommittees/subcommittee-pst/" target="">
+                                    Phage Susceptibility Testing Subcommittee (PST)
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/subcommittees/subcommittee-wgs/" target="">
+                                    Subcommittee on WGS and Phenotypic AST
+                                </a>
+                            
+                    </li>
+                
+                
+                    <li class="view-all">
+                        <a href="#">
+                            View all
+                        </a>
+                    </li>
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/meetings/" target="" class="main-link ">
+                Meetings
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/meetings/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/meetings/steering-committee-meetings/" target="">
+                                    Steering Committee Meetings
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/meetings/general-committee-meetings/" target="">
+                                    General Committee Meetings
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/public-consultations/" target="" class="main-link no-arrow">
+                Public Consultations
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/public-consultations/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                            <div class="divider border-bottom border-gray-06"></div>
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/sops/" target="" class="main-link no-arrow">
+                SOPs
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/sops/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/ivdr-and-eucast/" target="" class="main-link no-arrow">
+                IVDR and EUCAST
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/ivdr-and-eucast/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/news/" target="" class="main-link no-arrow">
+                News
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/news/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/publications-and-presentations/" target="" class="main-link no-arrow">
+                Publications and Presentations
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/publications-and-presentations/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                            <div class="divider border-bottom border-gray-06"></div>
+                        
+                    
+                </div>
+            
+        </div>
+    </li>
+
+                    
+                        
+    <li class="nav-item">
+        <a href="/bacteria/" class="nav-link fw-medium">Bacteria</a>
+        <div class="nav-item-panel bg-full-w">
+            <div class="panel-row-main">
+                <div class="panel-title">
+                    <a href="/bacteria/" target="" class="main-link">Bacteria</a>
+                    <ul class="overview">
+                        <li>
+                            <a href="/bacteria/" target="">
+                                Overview
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <span role="button" class="close">
+                    Close
+                </span>
+            </div>
+            
+                <div class="panel-row">
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/bacteria/clinical-breakpoints-and-interpretation/clinical-breakpoint-tables/" target="" class="main-link ">
+                Clinical Breakpoints and Interpretation
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/bacteria/clinical-breakpoints-and-interpretation/clinical-breakpoint-tables/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/clinical-breakpoints-and-interpretation/clinical-breakpoint-tables/" target="">
+                                    Clinical Breakpoint Tables
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/clinical-breakpoints-and-interpretation/definition-of-s-i-and-r/" target="">
+                                    Definition of S, I and R
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/clinical-breakpoints-and-interpretation/when-there-are-no-breakpoints/" target="">
+                                    When there are no breakpoints?
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/clinical-breakpoints-and-interpretation/breakpoints-in-brackets/" target="">
+                                    Breakpoints in Brackets
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/bacteria/guidance-documents/" target="" class="main-link no-arrow">
+                Guidance Documents
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/bacteria/guidance-documents/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/bacteria/important-additional-information/" target="" class="main-link ">
+                Important Additional Information
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/bacteria/important-additional-information/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/important-additional-information/expert-rules/" target="">
+                                    Expert Rules
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/important-additional-information/expected-phenotypes/" target="">
+                                    Expected Phenotypes
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/important-additional-information/resistance-detection/" target="">
+                                    Resistance Detection
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="https://mic.eucast.org/" target="_self" class="main-link no-arrow">
+                MIC and Zone Distributions, ECOFFs
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="https://mic.eucast.org/" target="_self">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                            <div class="divider border-bottom border-gray-06"></div>
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/bacteria/methodology-and-instructions/" target="" class="main-link ">
+                Methodology and Instructions
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/bacteria/methodology-and-instructions/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/methodology-and-instructions/disk-diffusion-and-quality-control/" target="">
+                                    Disk Diffusion and Quality Control
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/methodology-and-instructions/mic-determination/" target="">
+                                    MIC Determination
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/methodology-and-instructions/warnings/" target="">
+                                    Warnings
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/methodology-and-instructions/media-preparation/" target="">
+                                    Media Preparation
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/methodology-and-instructions/disk-diffusion-implementation/" target="">
+                                    Disk Diffusion Implementation
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/bacteria/methodology-and-instructions/eucast-panels-of-phenotypically-defined-strains/" target="" class="main-link ">
+                EUCAST Panels of Phenotypically Defined Strains
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/bacteria/methodology-and-instructions/eucast-panels-of-phenotypically-defined-strains/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/methodology-and-instructions/eucast-panels-of-phenotypically-defined-strains/eucast-panel-of-s-pneumoniae-and-betalactam-agents/" target="">
+                                    EUCAST Panel of S. pneumoniae and betalactam agents
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/methodology-and-instructions/eucast-panels-of-phenotypically-defined-strains/eucast-panel-of-nine-well-characterized-p-aeruginosa-strains/" target="">
+                                    EUCAST Panel of nine well characterized P. aeruginosa strains
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/ivdr-and-eucast/" target="">
+                                    IVDR and EUCAST
+                                </a>
+                            
+                    </li>
+                
+                
+                    <li class="view-all">
+                        <a href="#">
+                            View all
+                        </a>
+                    </li>
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/bacteria/rapid-ast-in-blood-culture/" target="" class="main-link ">
+                Rapid AST in blood culture
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/bacteria/rapid-ast-in-blood-culture/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/rapid-ast-in-blood-culture/rapid-ast-directly-from-blood-culture-bottles/" target="">
+                                    Rapid AST directly from blood culture bottles
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/rapid-ast-in-blood-culture/methods-and-quality-control/" target="">
+                                    Methods and Quality Control
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/rapid-ast-in-blood-culture/breakpoints-for-rapid-ast/" target="">
+                                    Breakpoints for Rapid AST
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/rapid-ast-in-blood-culture/resistance-detection-in-rast/" target="">
+                                    Resistance Detection in RAST
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/rapid-ast-in-blood-culture/rast-faq/" target="">
+                                    RAST FAQ
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/rapid-ast-in-blood-culture/rast-miczone-diameter-correlations/" target="">
+                                    RAST MIC:zone diameter correlations
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/rapid-ast-in-blood-culture/rast-publications/" target="">
+                                    RAST Publications
+                                </a>
+                            
+                    </li>
+                
+                
+                    <li class="view-all">
+                        <a href="#">
+                            View all
+                        </a>
+                    </li>
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/bacteria/development-of-clinical-breakpoints-and-ecoffs/" target="" class="main-link ">
+                Development of Clinical Breakpoints and ECOFFs
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/bacteria/development-of-clinical-breakpoints-and-ecoffs/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/development-of-clinical-breakpoints-and-ecoffs/about-clinical-breakpoints/" target="">
+                                    About Clinical Breakpoints
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/development-of-clinical-breakpoints-and-ecoffs/setting-breakpoints/" target="">
+                                    Setting Breakpoints
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/public-consultations/" target="">
+                                    Public Consultations
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/development-of-clinical-breakpoints-and-ecoffs/rationale-documents/" target="">
+                                    Rationale Documents
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/development-of-clinical-breakpoints-and-ecoffs/mic-zone-diameter-correlations/" target="">
+                                    MIC:Zone Diameter correlations
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/development-of-clinical-breakpoints-and-ecoffs/technical-notes-on-antibacterial-agents/" target="">
+                                    Technical Notes on Antibacterial Agents
+                                </a>
+                            
+                    </li>
+                
+                
+                    <li class="view-all">
+                        <a href="#">
+                            View all
+                        </a>
+                    </li>
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/bacteria/faq-and-edl-services/" target="" class="main-link ">
+                FAQ and EDL Services
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/bacteria/faq-and-edl-services/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/faq-and-edl-services/faq/" target="">
+                                    FAQ
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/bacteria/faq-and-edl-services/edl-mic-testing-services/" target="">
+                                    EDL MIC Testing Services
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                            <div class="divider border-bottom border-gray-06"></div>
+                        
+                    
+                </div>
+            
+        </div>
+    </li>
+
+                    
+                        
+    <li class="nav-item">
+        <a href="/mycobacteria/" class="nav-link fw-medium">Mycobacteria (AMST)</a>
+        <div class="nav-item-panel bg-full-w">
+            <div class="panel-row-main">
+                <div class="panel-title">
+                    <a href="/mycobacteria/" target="" class="main-link">Mycobacteria (AMST)</a>
+                    <ul class="overview">
+                        <li>
+                            <a href="/mycobacteria/" target="">
+                                Overview
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <span role="button" class="close">
+                    Close
+                </span>
+            </div>
+            
+                <div class="panel-row">
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/subcommittees/subcommittee-amst/" target="" class="main-link no-arrow">
+                Subcommittee
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/subcommittees/subcommittee-amst/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/bacteria/clinical-breakpoints-and-interpretation/clinical-breakpoint-tables/" target="" class="main-link no-arrow">
+                Clinical Breakpoints and Interpretation
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/bacteria/clinical-breakpoints-and-interpretation/clinical-breakpoint-tables/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/mycobacteria/mic-distributions-and-ecoffs/" target="" class="main-link no-arrow">
+                MIC distributions and ECOFFs
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/mycobacteria/mic-distributions-and-ecoffs/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/mycobacteria/development-of-clinical-breakpoints-and-ecoffs/" target="" class="main-link ">
+                Development of Clinical Breakpoints and ECOFFs
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/mycobacteria/development-of-clinical-breakpoints-and-ecoffs/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/mycobacteria/development-of-clinical-breakpoints-and-ecoffs/public-consultations/" target="">
+                                    Public Consultations
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/mycobacteria/development-of-clinical-breakpoints-and-ecoffs/rationale-documents/" target="">
+                                    Rationale Documents
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                            <div class="divider border-bottom border-gray-06"></div>
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/mycobacteria/methodology-and-instructions/" target="" class="main-link ">
+                Methodology and Instructions
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/mycobacteria/methodology-and-instructions/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/mycobacteria/methodology-and-instructions/reference-method/" target="">
+                                    Reference Method
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/mycobacteria/methodology-and-instructions/mycobacteria-faq/" target="">
+                                    Mycobacteria FAQ
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/mycobacteria/warnings/" target="">
+                                    Warnings
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/ivdr-and-eucast/" target="">
+                                    IVDR and EUCAST
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/mycobacteria/publications-and-presentations/" target="" class="main-link no-arrow">
+                Publications and Presentations
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/mycobacteria/publications-and-presentations/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                </div>
+            
+        </div>
+    </li>
+
+                    
+                        
+    <li class="nav-item">
+        <a href="/fungi-afst/" class="nav-link fw-medium">Fungi (AFST)</a>
+        <div class="nav-item-panel bg-full-w">
+            <div class="panel-row-main">
+                <div class="panel-title">
+                    <a href="/fungi-afst/" target="" class="main-link">Fungi (AFST)</a>
+                    <ul class="overview">
+                        <li>
+                            <a href="/fungi-afst/" target="">
+                                Overview
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <span role="button" class="close">
+                    Close
+                </span>
+            </div>
+            
+                <div class="panel-row">
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/subcommittees/subcommittee-afst/" target="" class="main-link no-arrow">
+                Subcommittee
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/subcommittees/subcommittee-afst/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/fungi-afst/clinical-breakpoints-and-interpretation/clinical-breakpoint-table/" target="" class="main-link ">
+                Clinical Breakpoints and Interpretation
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/fungi-afst/clinical-breakpoints-and-interpretation/clinical-breakpoint-table/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/fungi-afst/clinical-breakpoints-and-interpretation/clinical-breakpoint-table/" target="">
+                                    Clinical breakpoint table
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/fungi-afst/clinical-breakpoints-and-interpretation/when-there-are-no-antifungal-breakpoints/" target="">
+                                    When there are no antifungal breakpoints
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/fungi-afst/guidance-documents/" target="" class="main-link no-arrow">
+                Guidance Documents
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/fungi-afst/guidance-documents/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/fungi-afst/development-of-clinical-breakpoints-and-ecoffs/" target="" class="main-link ">
+                Development of clinical breakpoints and ECOFFs
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/fungi-afst/development-of-clinical-breakpoints-and-ecoffs/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/fungi-afst/development-of-clinical-breakpoints-and-ecoffs/rationale-documents/" target="">
+                                    Rationale documents
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/fungi-afst/development-of-clinical-breakpoints-and-ecoffs/public-consultations/" target="">
+                                    Public consultations
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                            <div class="divider border-bottom border-gray-06"></div>
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/fungi-afst/methodology-and-instructions/" target="" class="main-link ">
+                Methodology and Instructions
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/fungi-afst/methodology-and-instructions/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/fungi-afst/methodology-and-instructions/ast-of-yeasts/" target="">
+                                    AST of Yeasts
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/fungi-afst/methodology-and-instructions/ast-of-moulds/" target="">
+                                    AST of Moulds
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/fungi-afst/methodology-and-instructions/ast-of-dermatophytes/" target="">
+                                    AST of Dermatophytes
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/fungi-afst/methodology-and-instructions/warnings/" target="">
+                                    Warnings
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/fungi-afst/methodology-and-instructions/quality-control/" target="">
+                                    Quality Control
+                                </a>
+                            
+                    </li>
+                
+                    <li class="menu-item">
+                        
+                                <a href="/about-eucast/ivdr-and-eucast/" target="">
+                                    IVDR and EUCAST
+                                </a>
+                            
+                    </li>
+                
+                
+                    <li class="view-all">
+                        <a href="#">
+                            View all
+                        </a>
+                    </li>
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/fungi-afst/publications-and-presentations/" target="" class="main-link ">
+                Publications and Presentations
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/fungi-afst/publications-and-presentations/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/fungi-afst/publications-and-presentations/technical-notes-on-antifungal-agents/" target="">
+                                    Technical Notes on Antifungal Agents
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                </div>
+            
+        </div>
+    </li>
+
+                    
+                        
+    <li class="nav-item">
+        <a href="/vetcast/" class="nav-link fw-medium">VetCAST</a>
+        <div class="nav-item-panel bg-full-w">
+            <div class="panel-row-main">
+                <div class="panel-title">
+                    <a href="/vetcast/" target="" class="main-link">VetCAST</a>
+                    <ul class="overview">
+                        <li>
+                            <a href="/vetcast/" target="">
+                                Overview
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <span role="button" class="close">
+                    Close
+                </span>
+            </div>
+            
+                <div class="panel-row">
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/about-eucast/subcommittees/subcommittee-vetcast/" target="" class="main-link no-arrow">
+                Subcommittee
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/about-eucast/subcommittees/subcommittee-vetcast/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/vetcast/mic-distributions-and-ecoffs/" target="" class="main-link no-arrow">
+                MIC distributions and ECOFFs
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/vetcast/mic-distributions-and-ecoffs/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/vetcast/development-of-clinical-breakpoints-and-ecoffs/" target="" class="main-link ">
+                Development of clinical breakpoints and ECOFFs
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/vetcast/development-of-clinical-breakpoints-and-ecoffs/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+            <ul class="expandable-menu">
+                
+                    <li class="menu-item">
+                        
+                                <a href="/vetcast/development-of-clinical-breakpoints-and-ecoffs/rationale-documents/" target="">
+                                    Rationale Documents
+                                </a>
+                            
+                    </li>
+                
+                
+            </ul>
+        
+    </div>
+
+                        
+                        
+                        
+                    
+                        
+    <div class="panel-holder">
+        <div class="panel-title">
+            <a href="/vetcast/publications-and-presentations/" target="" class="main-link no-arrow">
+                Publications and presentations
+            </a>
+            <ul class="overview">
+                <li>
+                    <a href="/vetcast/publications-and-presentations/" target="">
+                        Overview
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+                        
+                        
+                        
+                            <div class="divider border-bottom border-gray-06"></div>
+                        
+                    
+                </div>
+            
+        </div>
+    </li>
+
+                    
+                        
+    <li class="nav-item">
+        <a href="/information-for-industry/" class="nav-link fw-medium">Industry</a>
+        <div class="nav-item-panel bg-full-w">
+            <div class="panel-row-main">
+                <div class="panel-title">
+                    <a href="/information-for-industry/" target="" class="main-link">Industry</a>
+                    <ul class="overview">
+                        <li>
+                            <a href="/information-for-industry/" target="">
+                                Overview
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <span role="button" class="close">
+                    Close
+                </span>
+            </div>
+            
+        </div>
+    </li>
+
+                    
+                        
+    <li class="nav-item">
+        <a href="/education/" class="nav-link fw-medium">Education</a>
+        <div class="nav-item-panel bg-full-w">
+            <div class="panel-row-main">
+                <div class="panel-title">
+                    <a href="/education/" target="" class="main-link">Education</a>
+                    <ul class="overview">
+                        <li>
+                            <a href="/education/" target="">
+                                Overview
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <span role="button" class="close">
+                    Close
+                </span>
+            </div>
+            
+        </div>
+    </li>
+
+                    
+                </ul>
+            </div>
+            <div class="login-section">
+                <div class="login-top"></div>
+                <div class="inner">
+                    <div class="d-flex gap-2 py-5 border-bottom border-gray-06">
+                        
+
+
+
+    <a class="nav-btn search d-none d-md-flex" href="/search/">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="20px/search">
+                <path id="Vector" d="M13.1291 11.8792H12.4707L12.2374 11.6542C13.0541 10.7042 13.5457 9.47086 13.5457 8.12919C13.5457 5.13752 11.1207 2.71252 8.12907 2.71252C5.1374 2.71252 2.7124 5.13752 2.7124 8.12919C2.7124 11.1209 5.1374 13.5459 8.12907 13.5459C9.47074 13.5459 10.7041 13.0542 11.6541 12.2375L11.8791 12.4709V13.1292L16.0457 17.2875L17.2874 16.0459L13.1291 11.8792ZM8.12907 11.8792C6.05407 11.8792 4.37907 10.2042 4.37907 8.12919C4.37907 6.05419 6.05407 4.37919 8.12907 4.37919C10.2041 4.37919 11.8791 6.05419 11.8791 8.12919C11.8791 10.2042 10.2041 11.8792 8.12907 11.8792Z"/>
+            </g>
+        </svg>
+    </a>
+    <a class="nav-btn search d-flex d-md-none" href="/search/">
+        Search
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="20px/search">
+                <path id="Vector" d="M13.1291 11.8792H12.4707L12.2374 11.6542C13.0541 10.7042 13.5457 9.47086 13.5457 8.12919C13.5457 5.13752 11.1207 2.71252 8.12907 2.71252C5.1374 2.71252 2.7124 5.13752 2.7124 8.12919C2.7124 11.1209 5.1374 13.5459 8.12907 13.5459C9.47074 13.5459 10.7041 13.0542 11.6541 12.2375L11.8791 12.4709V13.1292L16.0457 17.2875L17.2874 16.0459L13.1291 11.8792ZM8.12907 11.8792C6.05407 11.8792 4.37907 10.2042 4.37907 8.12919C4.37907 6.05419 6.05407 4.37919 8.12907 4.37919C10.2041 4.37919 11.8791 6.05419 11.8791 8.12919C11.8791 10.2042 10.2041 11.8792 8.12907 11.8792Z"/>
+            </g>
+        </svg>
+    </a>
+
+
+
+                        
+
+
+    
+
+                        
+
+
+
+        
+    
+
+
+                    </div>
+                    <ul class="nav d-flex flex-row flex-md-column">
+                        
+                            <li class="">
+                                <a
+                                    target="_self"
+                                    href="https://www.escmid.org/"
+                                    class="m-nav-link link-dark pe-0">
+                                    ESCMID
+                                </a>
+                            </li>
+                        
+                            <li class="">
+                                <a
+                                    target="_self"
+                                    href="https://www.clinicalmicrobiologyandinfection.com/"
+                                    class="m-nav-link link-dark pe-0">
+                                    CMI
+                                </a>
+                            </li>
+                        
+                            <li class="">
+                                <a
+                                    target=""
+                                    href="/newsletter/"
+                                    class="m-nav-link link-dark pe-0">
+                                    EUCAST Newsletter
+                                </a>
+                            </li>
+                        
+                            <li class="">
+                                <a
+                                    target=""
+                                    href="/about-eucast/news/"
+                                    class="m-nav-link link-dark pe-0">
+                                    EUCAST News
+                                </a>
+                            </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+		</nav>
+	</div>
+</div>
+
+
+
+
+
+        </div>
+    </div>
+</header>
+
+<div class="search-modal bg-white overflow-y-auto w-100">
+    
+
+
+
+<div class="px-5 px-md-10">
+    <div class="container-fluid-base d-flex flex-column">
+        <div class="d-flex ms-auto pb-md-5">
+            <button id="close-modal" class="close  float-end mt-7 mt-md-9"><small>Close</small></button>
+        </div>
+        <div class="search-field pt-6 pt-md-10">
+            <div class="input-wrapper fw-medium pb-6 pb-md-7">
+                
+<div class="tx_solr ce-search">
+    
+	
+
+    <div class="search-field">
+        <form method="get" class="tx-solr-search-form-pi-results" action="/search/" data-suggest="/?type=7384" data-suggest-header="Top Results" accept-charset="utf-8">
+            
+            
+
+            <div class="input-wrapper fw-medium">
+                <input type="text" class="search tx-solr-q js-solr-q input"
+                       name="tx_solr[q]" value="" required="1" placeholder="Search"/>
+                <label class="label" for="search">
+                    Search
+                </label>
+                <div class="icons">
+                    <button class="d-none" type="submit">
+                    </button>
+                    <button class="clear me-2">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                            <path
+                                d="M22.1654 7.47801L20.5204 5.83301L13.9987 12.3547L7.47703 5.83301L5.83203 7.47801L12.3537 13.9997L5.83203 20.5213L7.47703 22.1663L13.9987 15.6447L20.5204 22.1663L22.1654 20.5213L15.6437 13.9997L22.1654 7.47801Z"
+                                fill="black"/>
+                        </svg>
+                    </button>
+                    <button class="search tx-solr-submit" type="submit">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                            <path
+                                d="M18.3802 16.6312H17.4585L17.1319 16.3162C18.2752 14.9862 18.9635 13.2595 18.9635 11.3812C18.9635 7.19285 15.5685 3.79785 11.3802 3.79785C7.19188 3.79785 3.79688 7.19285 3.79688 11.3812C3.79688 15.5695 7.19188 18.9645 11.3802 18.9645C13.2585 18.9645 14.9852 18.2762 16.3152 17.1329L16.6302 17.4595V18.3812L22.4635 24.2029L24.2019 22.4645L18.3802 16.6312ZM11.3802 16.6312C8.47521 16.6312 6.13021 14.2862 6.13021 11.3812C6.13021 8.47619 8.47521 6.13119 11.3802 6.13119C14.2852 6.13119 16.6302 8.47619 16.6302 11.3812C16.6302 14.2862 14.2852 16.6312 11.3802 16.6312Z"
+                                fill="black"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+</div>
+
+            </div>
+
+            
+                <div class="freq-searched pt-1 pt-md-0">
+                    <small>
+                        Frequent searches
+                    </small>
+                    <div class="freq-searched-list fw-medium pt-3">
+                        <ul class="d-flex flex-column">
+                            
+                                <li class="main-link">
+                                    <a href="/search/?tx_solr%5Bq%5D=breakpoints">breakpoints</a>
+                                </li>
+                            
+                                <li class="main-link">
+                                    <a href="/search/?tx_solr%5Bq%5D=rationale%20documents">rationale documents</a>
+                                </li>
+                            
+                                <li class="main-link">
+                                    <a href="/search/?tx_solr%5Bq%5D=expected%20phenotypes">expected phenotypes</a>
+                                </li>
+                            
+                                <li class="main-link">
+                                    <a href="/search/?tx_solr%5Bq%5D=public%20consultation">public consultation</a>
+                                </li>
+                            
+                                <li class="main-link">
+                                    <a href="/search/?tx_solr%5Bq%5D=endocarditis%20pathogens">endocarditis pathogens</a>
+                                </li>
+                            
+                                <li class="main-link">
+                                    <a href="/search/?tx_solr%5Bq%5D=guidance%20documents">guidance documents</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            
+
+            <div class="suggestions-searched pt-1 pt-md-0">
+                <small>Suggestions</small>
+                <div class="freq-searched-list fw-medium pt-3">
+                    <ul class="d-flex flex-column">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+<div id="chatbot-modal" class="chatbot-modal bg-white overflow-y-auto w-100">
+    
+
+
+
+
+<div class="px-5 px-md-10">
+    <div class="container-fluid-base d-flex flex-column">
+        <div class="d-flex ms-auto pb-md-5">
+            <button id="close-chatbot-modal" class="close float-end mt-7 mt-md-9"><small>Close</small></button>
+        </div>
+        <div class="chatbot-field pt-6 pt-md-10">
+            <script src="https://chatbot.escmid.org/static/app.js" type="module"></script>
+            <semantic-search website-id="" max-results="3" ui-locale="en"
+                             initial-static-greeting-message="Hi, I am a chatbot and I am happy to help."
+                             feedback-email="magda lena[dot] krzy zaniak[at] esc mid[dot] org"
+                             mtm-campaign="chatbot"
+            >
+            </semantic-search>
+        </div>
+    </div>
+</div>
+</div>
+
+    
+            
+
+
+
+
+
+
+
+
+        
+
+    <section>
+        
+
+
+
+
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+    </section>
+    <section class="flex-grow-1">
+        <div class="px-5 px-md-10 overflow-clip">
+            <div class="container-fluid-base">
+                <!--TYPO3SEARCH_begin-->
+                
+    
+    <div id="c8409" class=" frame frame-default frame-type-container_columns-8 frame-layout-0">
+        
+        
+            
+
+
+
+        
+        
+            
+
+    
+
+
+
+        
+        
+    
+        <div class="grid ">
+            <div class=" g-col-12 g-col-md-8 ">
+                
+                    
+    
+
+            <div id="c8410" class="frame frame-default frame-type-text frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+        
+
+    
+            <h1 class="">
+                The European Committee on Antimicrobial Susceptibility Testing - EUCAST
+            </h1>
+        
+
+
+
+        
+
+
+
+        
+
+
+
+    
+
+
+
+                
+                
+
+    <p class="lead fw-medium">EUCAST is a scientific committee formed in 1997 and is jointly organized by <a href="https://www.escmid.org/" target="_self" title="ESCMID">ESCMID</a>, <a href="https://www.ecdc.europa.eu/en" target="_self" title="ECDC">ECDC</a> and European national breakpoint committees. EUCAST develops antimicrobial susceptibility testing methodology, interpretative criteria and guidance documents to aid clinical decision making when treating infectious diseases.&nbsp;</p>
+<p>Further details about EUCAST and its subcommittees can be found in the sections at the top of the webpage.</p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+                
+            </div>
+        </div>
+    
+
+        
+            
+
+
+
+        
+        
+            
+
+
+
+        
+    </div>
+
+
+    
+    <div id="c8566" class=" frame frame-default frame-type-container_columns-4-4-4 frame-layout-0">
+        
+        
+            
+
+
+
+        
+        
+            
+
+    
+        
+
+    
+            <h2 class="">
+                 Most accessed links
+            </h2>
+        
+
+
+
+        
+
+
+
+        
+
+
+
+    
+
+
+
+        
+        
+    
+        <div class="grid no-md-gap">
+            
+                <div class="g-col-12 g-col-md-4  ">
+                    
+                        
+
+
+<div id="c13292" class="full-height frame frame-default frame-type-escmid-activity-teaser frame-layout-0">
+    
+    <div class="activity-teaser activity-teaser__fully-linked mb-5">
+        
+                
+                        <a href="/bacteria/clinical-breakpoints-and-interpretation/clinical-breakpoint-tables/">
+                            <div class="single-card g-col-12 g-col-md-4 d-flex flex-column mb-4">
+                                <div class="mini-card">
+                                    
+    <div class="text-holder bg-escmid-dark-green-01 fully-linked">
+        
+            <p class="fw-bold mb-4">Bacteria:</p>
+        
+        
+            <h3 class="mb-3">Breakpoint tables</h3>
+        
+        
+    </div>
+
+    
+        
+                <div class="button-bar d-flex">
+                    <div class="text-btn bg-escmid-dark-green-01">
+                        
+                                <small>Discover More</small>
+                            
+                    </div>
+                    <div class="btn-holder">
+                        <span class="btn-corner bg-escmid-dark-green-01"></span>
+                        <button type="button" class="btn-activity arrow-only bg-escmid-dark-green-01" aria-label="Open Activity Section" tabindex="-1"></button>
+                    </div>
+                </div>
+            
+    
+
+                                </div>
+                            </div>
+                        </a>
+                    
+            
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+                    
+                </div>
+            
+            
+                <div class="g-col-12 g-col-md-4  ">
+                    
+                        
+
+
+<div id="c13293" class="full-height frame frame-default frame-type-escmid-activity-teaser frame-layout-0">
+    
+    <div class="activity-teaser activity-teaser__fully-linked mb-5">
+        
+                
+                        <a href="/fungi-afst/clinical-breakpoints-and-interpretation/clinical-breakpoint-table/">
+                            <div class="single-card g-col-12 g-col-md-4 d-flex flex-column mb-4">
+                                <div class="mini-card">
+                                    
+    <div class="text-holder bg-escmid-dark-purple-02 fully-linked">
+        
+            <p class="fw-bold mb-4">Fungi:</p>
+        
+        
+            <h3 class="mb-3">Breakpoint tables</h3>
+        
+        
+    </div>
+
+    
+        
+                <div class="button-bar d-flex">
+                    <div class="text-btn bg-escmid-dark-purple-02">
+                        
+                                <small>Discover More</small>
+                            
+                    </div>
+                    <div class="btn-holder">
+                        <span class="btn-corner bg-escmid-dark-purple-02"></span>
+                        <button type="button" class="btn-activity arrow-only bg-escmid-dark-purple-02" aria-label="Open Activity Section" tabindex="-1"></button>
+                    </div>
+                </div>
+            
+    
+
+                                </div>
+                            </div>
+                        </a>
+                    
+            
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+                    
+                </div>
+            
+            
+                <div class="g-col-12 g-col-md-4  ">
+                    
+                        
+
+
+<div id="c13294" class="full-height frame frame-default frame-type-escmid-activity-teaser frame-layout-0">
+    
+    <div class="activity-teaser activity-teaser__fully-linked mb-5">
+        
+                
+                        <a href="/bacteria/clinical-breakpoints-and-interpretation/clinical-breakpoint-tables/">
+                            <div class="single-card g-col-12 g-col-md-4 d-flex flex-column mb-4">
+                                <div class="mini-card">
+                                    
+    <div class="text-holder bg-escmid-dark-pink-02 fully-linked">
+        
+            <p class="fw-bold mb-4">Mycobacteria:</p>
+        
+        
+            <h3 class="mb-3">Breakpoint tables</h3>
+        
+        
+    </div>
+
+    
+        
+                <div class="button-bar d-flex">
+                    <div class="text-btn bg-escmid-dark-pink-02">
+                        
+                                <small>Discover More</small>
+                            
+                    </div>
+                    <div class="btn-holder">
+                        <span class="btn-corner bg-escmid-dark-pink-02"></span>
+                        <button type="button" class="btn-activity arrow-only bg-escmid-dark-pink-02" aria-label="Open Activity Section" tabindex="-1"></button>
+                    </div>
+                </div>
+            
+    
+
+                                </div>
+                            </div>
+                        </a>
+                    
+            
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+                    
+                </div>
+            
+        </div>
+    
+
+        
+            
+
+
+
+        
+        
+            
+
+
+
+        
+    </div>
+
+
+    
+    <div id="c9045" class=" frame frame-default frame-type-container_columns-4-4-4 frame-layout-0">
+        
+        
+            
+
+
+
+        
+        
+            
+
+    
+
+
+
+        
+        
+    
+        <div class="grid no-md-gap">
+            
+                <div class="g-col-12 g-col-md-4  ">
+                    
+                        
+
+
+<div id="c13878" class="full-height frame frame-default frame-type-escmid-activity-teaser frame-layout-0">
+    
+    <div class="activity-teaser activity-teaser__fully-linked mb-5">
+        
+                
+                        <a href="/bacteria/important-additional-information/expected-phenotypes/">
+                            <div class="single-card g-col-12 g-col-md-4 d-flex flex-column mb-4">
+                                <div class="mini-card">
+                                    
+    <div class="text-holder bg-escmid-dark-green-01 fully-linked">
+        
+            <p class="fw-bold mb-4">Bacteria:</p>
+        
+        
+            <h3 class="mb-3"> Expected phenotypes </h3>
+        
+        
+            
+                    <p class="fw-normal">
+                        Agents expected to be S or R for specific species
+                    </p>
+                
+        
+    </div>
+
+    
+        
+                <div class="button-bar d-flex">
+                    <div class="text-btn bg-escmid-dark-green-01">
+                        
+                                <small>Discover More</small>
+                            
+                    </div>
+                    <div class="btn-holder">
+                        <span class="btn-corner bg-escmid-dark-green-01"></span>
+                        <button type="button" class="btn-activity arrow-only bg-escmid-dark-green-01" aria-label="Open Activity Section" tabindex="-1"></button>
+                    </div>
+                </div>
+            
+    
+
+                                </div>
+                            </div>
+                        </a>
+                    
+            
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+                    
+                </div>
+            
+            
+                <div class="g-col-12 g-col-md-4  ">
+                    
+                        
+
+
+<div id="c13296" class="full-height frame frame-default frame-type-escmid-activity-teaser frame-layout-0">
+    
+    <div class="activity-teaser activity-teaser__fully-linked mb-5">
+        
+                
+                        <a href="/bacteria/guidance-documents/">
+                            <div class="single-card g-col-12 g-col-md-4 d-flex flex-column mb-4">
+                                <div class="mini-card">
+                                    
+    <div class="text-holder bg-escmid-dark-green-01 fully-linked">
+        
+            <p class="fw-bold mb-4">Bacteria:</p>
+        
+        
+            <h3 class="mb-3">Guidance Documents</h3>
+        
+        
+            
+                    <p class="fw-normal">
+                        Further information to aid testing and reporting
+                    </p>
+                
+        
+    </div>
+
+    
+        
+                <div class="button-bar d-flex">
+                    <div class="text-btn bg-escmid-dark-green-01">
+                        
+                                <small>Discover More</small>
+                            
+                    </div>
+                    <div class="btn-holder">
+                        <span class="btn-corner bg-escmid-dark-green-01"></span>
+                        <button type="button" class="btn-activity arrow-only bg-escmid-dark-green-01" aria-label="Open Activity Section" tabindex="-1"></button>
+                    </div>
+                </div>
+            
+    
+
+                                </div>
+                            </div>
+                        </a>
+                    
+            
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+                    
+                </div>
+            
+            
+                <div class="g-col-12 g-col-md-4  ">
+                    
+                        
+
+
+<div id="c13297" class="full-height frame frame-default frame-type-escmid-activity-teaser frame-layout-0">
+    
+    <div class="activity-teaser activity-teaser__fully-linked mb-5">
+        
+                
+                        <a href="/bacteria/important-additional-information/expert-rules/">
+                            <div class="single-card g-col-12 g-col-md-4 d-flex flex-column mb-4">
+                                <div class="mini-card">
+                                    
+    <div class="text-holder bg-escmid-dark-green-01 fully-linked">
+        
+            <p class="fw-bold mb-4">Bacteria:</p>
+        
+        
+            <h3 class="mb-3">Expert rules</h3>
+        
+        
+            
+                    <p class="fw-normal">
+                        Interpretative rules to improve AST reporting
+                    </p>
+                
+        
+    </div>
+
+    
+        
+                <div class="button-bar d-flex">
+                    <div class="text-btn bg-escmid-dark-green-01">
+                        
+                                <small>Discover More</small>
+                            
+                    </div>
+                    <div class="btn-holder">
+                        <span class="btn-corner bg-escmid-dark-green-01"></span>
+                        <button type="button" class="btn-activity arrow-only bg-escmid-dark-green-01" aria-label="Open Activity Section" tabindex="-1"></button>
+                    </div>
+                </div>
+            
+    
+
+                                </div>
+                            </div>
+                        </a>
+                    
+            
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+                    
+                </div>
+            
+        </div>
+    
+
+        
+            
+
+
+
+        
+        
+            
+
+
+
+        
+    </div>
+
+
+    
+    <div id="c13298" class=" frame frame-default frame-type-container_columns-4-4-4 frame-layout-0">
+        
+        
+            
+
+
+
+        
+        
+            
+
+    
+
+
+
+        
+        
+    
+        <div class="grid mb-6">
+            
+                <div class="g-col-12 g-col-md-4  ">
+                    
+                        
+
+
+<div id="c13295" class="full-height frame frame-default frame-type-escmid-activity-teaser frame-layout-0">
+    
+    <div class="activity-teaser activity-teaser__fully-linked mb-5">
+        
+                
+                        <a href="https://mic.eucast.org/" target="_self">
+                            <div class="single-card g-col-12 g-col-md-4 d-flex flex-column mb-4">
+                                <div class="mini-card">
+                                    
+    <div class="text-holder bg-escmid-dark-blue-02 fully-linked">
+        
+        
+            <h3 class="mb-3">MIC and zone distributions, ECOFFs</h3>
+        
+        
+    </div>
+
+    
+        
+                <div class="button-bar d-flex">
+                    <div class="text-btn bg-escmid-dark-blue-02">
+                        
+                                <small>Discover More</small>
+                            
+                    </div>
+                    <div class="btn-holder">
+                        <span class="btn-corner bg-escmid-dark-blue-02"></span>
+                        <button type="button" class="btn-activity arrow-only bg-escmid-dark-blue-02" aria-label="Open Activity Section" tabindex="-1"></button>
+                    </div>
+                </div>
+            
+    
+
+                                </div>
+                            </div>
+                        </a>
+                    
+            
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+                    
+                </div>
+            
+            
+                <div class="g-col-12 g-col-md-4  ">
+                    
+                        
+
+
+<div id="c13300" class="full-height frame frame-default frame-type-escmid-activity-teaser frame-layout-0">
+    
+    <div class="activity-teaser activity-teaser__fully-linked mb-5">
+        
+                
+                        <a href="/about-eucast/public-consultations/">
+                            <div class="single-card g-col-12 g-col-md-4 d-flex flex-column mb-4">
+                                <div class="mini-card">
+                                    
+    <div class="text-holder bg-escmid-dark-blue-02 fully-linked">
+        
+        
+            <h3 class="mb-3">Public Consultations</h3>
+        
+        
+            
+                    <p class="fw-normal">
+                        A chance to review proposed EUCAST changes
+                    </p>
+                
+        
+    </div>
+
+    
+        
+                <div class="button-bar d-flex">
+                    <div class="text-btn bg-escmid-dark-blue-02">
+                        
+                                <small>Discover More</small>
+                            
+                    </div>
+                    <div class="btn-holder">
+                        <span class="btn-corner bg-escmid-dark-blue-02"></span>
+                        <button type="button" class="btn-activity arrow-only bg-escmid-dark-blue-02" aria-label="Open Activity Section" tabindex="-1"></button>
+                    </div>
+                </div>
+            
+    
+
+                                </div>
+                            </div>
+                        </a>
+                    
+            
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+                    
+                </div>
+            
+            
+                <div class="g-col-12 g-col-md-4  ">
+                    
+                        
+
+
+<div id="c13299" class="full-height frame frame-default frame-type-escmid-activity-teaser frame-layout-0">
+    
+    <div class="activity-teaser activity-teaser__fully-linked mb-5">
+        
+                
+                        <a href="/about-eucast/warnings/">
+                            <div class="single-card g-col-12 g-col-md-4 d-flex flex-column mb-4">
+                                <div class="mini-card">
+                                    
+    <div class="text-holder bg-escmid-dark-red-01 fully-linked">
+        
+        
+            <h3 class="mb-3">Warnings</h3>
+        
+        
+            
+                    <p class="fw-normal">
+                        Concerning antimicrobial susceptibility testing product
+                    </p>
+                
+        
+    </div>
+
+    
+        
+                <div class="button-bar d-flex">
+                    <div class="text-btn bg-escmid-dark-red-01">
+                        
+                                <small>Discover More</small>
+                            
+                    </div>
+                    <div class="btn-holder">
+                        <span class="btn-corner bg-escmid-dark-red-01"></span>
+                        <button type="button" class="btn-activity arrow-only bg-escmid-dark-red-01" aria-label="Open Activity Section" tabindex="-1"></button>
+                    </div>
+                </div>
+            
+    
+
+                                </div>
+                            </div>
+                        </a>
+                    
+            
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+                    
+                </div>
+            
+        </div>
+    
+
+        
+            
+
+
+
+        
+        
+            
+
+
+
+        
+    </div>
+
+
+    
+
+            <div id="c12189" class="frame frame-default frame-type-news_pi1 frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+        
+
+    
+            <h2 class="">
+                EUCAST News
+            </h2>
+        
+
+
+
+        
+
+
+
+        
+
+
+
+    
+
+
+
+                
+                
+
+    
+    
+
+
+
+
+
+<div class="news">
+	
+    
+	<!--TYPO3SEARCH_end-->
+	
+			
+
+
+
+
+        
+                
+                <div class="news-list-view" id="news-container-12189">
+                    
+                        
+
+
+
+<div class="article articletype-1" itemscope="itemscope" itemtype="https://schema.org/Article">
+    
+    <div class="header">
+        <p>
+            <span class="news-list-date">
+                <time itemprop="datePublished" datetime="2026-10-29">
+                    <small>29 October 2026</small>
+                </time>
+            </span>
+            
+                <small><span class="news-list-category"> | Fungi</span></small>
+            
+        </p>
+        <h4 class="title">
+            <a itemprop="url" title="Update of rationale document for voriconazole published" href="/fungi-afst/development-of-clinical-breakpoints-and-ecoffs/rationale-documents/">
+                
+                        <span itemprop="headline">Update of rationale document for voriconazole published</span>
+                    
+            </a>
+        </h4>
+    </div>
+    <div class="teaser-text">
+        <div class="description" itemprop="description">
+            <p>
+                
+                    
+                            <p>The rationale document for voriconazole has been updated and published. The updated version (4.1) includes amendments in section 8 (clinical breakpoints) for clarity and removal of the breakpoints…</p>
+                        
+                
+            </p>
+        </div>
+        <a title="Update of rationale document for voriconazole published" class="more btn btn-tertiary arrow-circle" href="/fungi-afst/development-of-clinical-breakpoints-and-ecoffs/rationale-documents/">
+            <span>Read more</span>
+        </a>
+    </div>
+</div>
+
+
+                    
+                        
+
+
+
+<div class="article articletype-1" itemscope="itemscope" itemtype="https://schema.org/Article">
+    
+    <div class="header">
+        <p>
+            <span class="news-list-date">
+                <time itemprop="datePublished" datetime="2026-10-28">
+                    <small>28 October 2026</small>
+                </time>
+            </span>
+            
+                <small><span class="news-list-category"> | VetCast</span></small>
+            
+        </p>
+        <h4 class="title">
+            <a itemprop="url" title="Public Consultation of the first VetCAST breakpoint tables" href="/about-eucast/public-consultations/">
+                
+                        <span itemprop="headline">Public Consultation of the first VetCAST breakpoint tables</span>
+                    
+            </a>
+        </h4>
+    </div>
+    <div class="teaser-text">
+        <div class="description" itemprop="description">
+            <p>
+                
+                    
+                            <p>The first VetCAST breakpoint tables for veterinary bacteria are now available for public consultation. The tables cover the main bacterial species and main host species. Closing date for comments is…</p>
+                        
+                
+            </p>
+        </div>
+        <a title="Public Consultation of the first VetCAST breakpoint tables" class="more btn btn-tertiary arrow-circle" href="/about-eucast/public-consultations/">
+            <span>Read more</span>
+        </a>
+    </div>
+</div>
+
+
+                    
+                        
+
+
+
+<div class="article articletype-1" itemscope="itemscope" itemtype="https://schema.org/Article">
+    
+    <div class="header">
+        <p>
+            <span class="news-list-date">
+                <time itemprop="datePublished" datetime="2026-10-13">
+                    <small>13 October 2026</small>
+                </time>
+            </span>
+            
+                <small><span class="news-list-category"> | VetCast</span></small>
+            
+        </p>
+        <h4 class="title">
+            <a itemprop="url" title="Oxytetracycline in Cattle Rationale Document published for VetCAST" href="/vetcast/development-of-clinical-breakpoints-and-ecoffs/rationale-documents/">
+                
+                        <span itemprop="headline">Oxytetracycline in Cattle Rationale Document published for VetCAST</span>
+                    
+            </a>
+        </h4>
+    </div>
+    <div class="teaser-text">
+        <div class="description" itemprop="description">
+            <p>
+                
+                    
+                            <p>The rationale document for oxytetracycline in cattle is now published. This document supports the first version of the VetCAST clinical breakpoint tables which will be published soon.&nbsp;</p>
+                        
+                
+            </p>
+        </div>
+        <a title="Oxytetracycline in Cattle Rationale Document published for VetCAST" class="more btn btn-tertiary arrow-circle" href="/vetcast/development-of-clinical-breakpoints-and-ecoffs/rationale-documents/">
+            <span>Read more</span>
+        </a>
+    </div>
+</div>
+
+
+                    
+                        
+
+
+
+<div class="article articletype-0" itemscope="itemscope" itemtype="https://schema.org/Article">
+    
+    <div class="header">
+        <p>
+            <span class="news-list-date">
+                <time itemprop="datePublished" datetime="2026-10-07">
+                    <small>07 October 2026</small>
+                </time>
+            </span>
+            
+                <small><span class="news-list-category"> | Bacteria</span></small>
+            
+        </p>
+        <h4 class="title">
+            <a itemprop="url" title="Proposal for paediatric dosages table." href="/news-detail/proposal-for-paediatric-dosages-table/">
+                
+                        <span itemprop="headline">Proposal for paediatric dosages table.</span>
+                    
+            </a>
+        </h4>
+    </div>
+    <div class="teaser-text">
+        <div class="description" itemprop="description">
+            <p>
+                
+                    
+                            <p>The table proposes dosages which are commonly used in paediatric patients. These dosages are presented in relation to the use of EUCAST breakpoints. Deadline for comments is 27 November 2026.</p>
+                        
+                
+            </p>
+        </div>
+        <a title="Proposal for paediatric dosages table." class="more btn btn-tertiary arrow-circle" href="/news-detail/proposal-for-paediatric-dosages-table/">
+            <span>Read more</span>
+        </a>
+    </div>
+</div>
+
+
+                    
+                        
+
+
+
+<div class="article articletype-0" itemscope="itemscope" itemtype="https://schema.org/Article">
+    
+    <div class="header">
+        <p>
+            <span class="news-list-date">
+                <time itemprop="datePublished" datetime="2026-09-29">
+                    <small>29 September 2026</small>
+                </time>
+            </span>
+            
+                <small><span class="news-list-category"> | Bacteria</span></small>
+            
+        </p>
+        <h4 class="title">
+            <a itemprop="url" title="New EUCAST recommendation for MIC determination" href="/news-detail/new-eucast-recommendation-for-mic-determination/">
+                
+                        <span itemprop="headline">New EUCAST recommendation for MIC determination</span>
+                    
+            </a>
+        </h4>
+    </div>
+    <div class="teaser-text">
+        <div class="description" itemprop="description">
+            <p>
+                
+                    
+                            <p>A new document clarifying the EUCAST recommendations for MIC determination of aerobic and facultative anaerobic bacterial species with broth microdilution has been published. &nbsp;This document describes…</p>
+                        
+                
+            </p>
+        </div>
+        <a title="New EUCAST recommendation for MIC determination" class="more btn btn-tertiary arrow-circle" href="/news-detail/new-eucast-recommendation-for-mic-determination/">
+            <span>Read more</span>
+        </a>
+    </div>
+</div>
+
+
+                    
+                        
+
+
+
+<div class="article articletype-1" itemscope="itemscope" itemtype="https://schema.org/Article">
+    
+    <div class="header">
+        <p>
+            <span class="news-list-date">
+                <time itemprop="datePublished" datetime="2026-09-28">
+                    <small>28 September 2026</small>
+                </time>
+            </span>
+            
+                <small><span class="news-list-category"> | Bacteria</span></small>
+            
+        </p>
+        <h4 class="title">
+            <a itemprop="url" title="A further consultation on meropenem breakpoints in Pseudomonas and Acinetobacter species" href="/about-eucast/public-consultations/">
+                
+                        <span itemprop="headline">A further consultation on meropenem breakpoints in Pseudomonas and Acinetobacter species</span>
+                    
+            </a>
+        </h4>
+    </div>
+    <div class="teaser-text">
+        <div class="description" itemprop="description">
+            <p>
+                
+                    
+                            <p>This 2nd public consultation addresses comments made during the first consultation on the same topic.</p>
+                        
+                
+            </p>
+        </div>
+        <a title="A further consultation on meropenem breakpoints in Pseudomonas and Acinetobacter species" class="more btn btn-tertiary arrow-circle" href="/about-eucast/public-consultations/">
+            <span>Read more</span>
+        </a>
+    </div>
+</div>
+
+
+                    
+                </div>
+                
+                    
+
+                
+            
+	
+
+
+		
+	<!--TYPO3SEARCH_begin-->
+
+</div>
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c12190" class="frame frame-default frame-type-text frame-layout-0 frame-space-after-medium">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <p><a href="/about-eucast/news/" class="btn btn-secondary arrow">See all EUCAST news</a></p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c11005" class="frame frame-default frame-type-shortcut frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    
+    
+            
+        
+    <div id="c10940" class="bg-full-w bg-gray-07 frame frame-default frame-type-container_columns-8 frame-layout-0">
+        
+        
+            
+
+
+
+        
+        
+            
+
+    
+
+
+
+        
+        
+    
+        <div class="grid ">
+            <div class="bg-gray-07 g-col-12 g-col-md-8 ">
+                
+                    
+    
+
+            <div id="c16884" class="frame frame-default frame-type-text frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+        
+
+    
+            <h2 class="">
+                Copyright statement
+            </h2>
+        
+
+
+
+        
+
+
+
+        
+
+
+
+    
+
+
+
+                
+                
+
+    
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+                
+                    
+    
+
+            <div id="c16879" class="frame frame-default frame-type-container_tabs frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+                
+
+    
+        
+        
+            <div class="ce-tabs">
+                
+                
+                <nav class="pb-6 pb-md-7">
+                    <div class="nav nav-tabs" id="nav-tab-16879" role="tablist">
+                        
+                            <button
+                                class="nav-link active"
+                                id="tab-16879-16880"
+                                data-bs-toggle="tab"
+                                data-bs-target="#tabcontent-16879-16880"
+                                type="button"
+                                role="tab"
+                                aria-controls="tabcontent-16879-16880"
+                            >
+                                
+                                <span>English</span>
+                            </button>
+                        
+                            <button
+                                class="nav-link"
+                                id="tab-16879-16881"
+                                data-bs-toggle="tab"
+                                data-bs-target="#tabcontent-16879-16881"
+                                type="button"
+                                role="tab"
+                                aria-controls="tabcontent-16879-16881"
+                            >
+                                
+                                <span>Français</span>
+                            </button>
+                        
+                    </div>
+                </nav>
+                <div class="tab-content" id="tabcontent-16879">
+                    
+                        <div
+                            class="tab-pane show active"
+                            id="tabcontent-16879-16880"
+                            role="tabpanel"
+                            aria-labelledby="tab-16879-16880"
+                        >
+                            <div id="c16880" class="tab-pane-content tab-pane-content-">
+                                
+
+	
+		
+    
+
+            <div id="c10941" class="frame frame-default frame-type-text frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+                
+
+    <p><i><strong>Copyright (English): </strong>The copyright of all documents, data, presentations and videos published on the EUCAST website remains with EUCAST. All are freely available for re-use if reference to the EUCAST website is given and they are not resold. Any secondary publication of documents, data, presentations and videos must be referenced with the declaration that "These data have (or this document, presentation or video has) been produced in part under ECDC service contracts and made available by EUCAST at no cost to the user and can be accessed on the EUCAST website www.eucast.org. The views and opinions expressed are those of EUCAST at a given point in time. EUCAST recommendations are frequently updated and the latest versions are available at www.eucast.org.</i></p>
+<p>&nbsp;</p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+	
+
+
+
+                            </div>
+                        </div>
+                    
+                        <div
+                            class="tab-pane"
+                            id="tabcontent-16879-16881"
+                            role="tabpanel"
+                            aria-labelledby="tab-16879-16881"
+                        >
+                            <div id="c16881" class="tab-pane-content tab-pane-content-">
+                                
+
+	
+		
+    
+
+            <div id="c16883" class="frame frame-default frame-type-text frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+                
+
+    <p><i><strong>Droits d'auteur (Français):</strong> Les droits d’auteurs de tous les documents (présentations, vidéo) établis par l’EUCAST et publiés en ligne sur le site de l’EUCAST restent la propriété de l’EUCAST. Ces documents (présentation, vidéo) sont libres d’accès et gratuits.</i><br><i>Ils peuvent être utilisés à condition d’indiquer la référence du site EUCAST ; par contre, il n’est en aucun cas permis de les revendre. Toute publication se référant à ces données doit comporter la mention suivante “ces données ont été produites par l’EUCAST, notamment lors de collaborations avec l’ECDC. Les vues et opinions exprimées sont celles d'EUCAST à un moment donné. Elles sont accessibles librement et gratuitement grâce au site de l’EUCAST www.eucast.org. Les recommandations de l’EUCAST sont fréquemment mises à jour et les dernières versions sont accessibles sur www.eucast.org."</i></p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+	
+
+
+
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        
+    
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+                
+            </div>
+        </div>
+    
+
+        
+            
+
+
+
+        
+        
+            
+
+
+
+        
+    </div>
+
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+            
+        
+    <div id="c8495" class="bg-full-w bg-escmid-green-50 frame frame-default frame-type-container_columns-8 frame-layout-0">
+        
+        
+            
+
+
+
+        
+        
+            
+
+
+
+        
+        
+    
+        <div class="grid ">
+            <div class="bg-escmid-green-50 g-col-12 g-col-md-8 ">
+                
+                    
+    
+
+            <div id="c8496" class="frame frame-default frame-type-text frame-layout-0 frame-space-after-medium">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+        
+
+    
+            <h2 class="">
+                Contact
+            </h2>
+        
+
+
+
+        
+
+
+
+        
+
+
+
+    
+
+
+
+                
+                
+
+    <p>Looking for more information? Get in touch with an EUCAST representative today!</p>
+<p><a href="https://www.eucast.org/contact/?subject=4" target="_self" class="btn btn-secondary arrow">Contact form</a></p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+                
+            </div>
+        </div>
+    
+
+        
+            
+
+
+
+        
+        
+            
+
+
+
+        
+    </div>
+
+
+                <!--TYPO3SEARCH_end-->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    
+    <div class="footer-rights row mx-0 align-items-center py-5 py-sm-4 text-white position-relative bg-eucast">
+        <div class="px-5 px-md-10">
+            <div class="container-fluid-base d-flex row">
+                <div class="col-12 px-0 col-sm-4 order-2 order-sm-1 z-2">
+                    
+                    <small>
+                        © EUCAST 2026. All rights reserved EUCAST.
+                    </small>
+                </div>
+                <div class="links-bar col-sm-8 px-0 order-1 order-sm-2 mb-7 mb-sm-0 px-sm-0 z-2">
+                    <div class="links-holder ps-md-2"><small class="main-link"><a href="/contact/">Contact</a></small><small class="main-link"><a href="/sitemap/">Sitemap</a></small><small class="main-link"><a href="https://www.escmid.org/privacy-notice/" target="_self">Privacy Notice</a></small><small class="main-link"><a href="https://www.escmid.org/legal-mentions/" target="_self">Legal Mentions</a></small><small class="main-link"><a href="#" class="CCM_openWidget">Cookies</a></small></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+    
+
+
+
+<script id="powermail_conditions_container" data-condition-uri="https://www.eucast.org/powermail_condition/"></script>
+
+<script src="/_assets/0fab1baf1fc0d7ca8f6deb058f1a3368/JavaScript/Powermail/Form.min.js?1793180456" defer="defer"></script>
+<script src="/_assets/0fab1baf1fc0d7ca8f6deb058f1a3368/JavaScript/Powermail/PowermailCondition.js?1793180456" defer="defer"></script>
+<script src="/_assets/0fab1baf1fc0d7ca8f6deb058f1a3368/JavaScript/Powermail/WordCountValidation.js?1793180456" defer="defer"></script>
+
+
+</body>
+</html>

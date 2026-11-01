@@ -1,0 +1,3 @@
+Name	Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
+SAMN50215696	NA	DBKERZ010000004.1	61442	63418	-	cirA_W243Ter	Escherichia cefiderocol resistant CirA	core	AMR	POINT_DISRUPT	BETA-LACTAM	CEFIDEROCOL	POINTX	659	663	100.00	98.49	663	WP_000489247.1	catecholate siderophore receptor CirA	NA	NA
+SAMN50215696	NA	DBKERZ010000032.1	6874	9417	+	cyaA_S352T	Escherichia fosmidomycin resistant CyaA	core	AMR	POINT	FOSMIDOMYCIN	FOSMIDOMYCIN	POINTX	848	848	100.00	99.29	848	WP_000281668.1	adenylate cyclase CyaA	NA	NA

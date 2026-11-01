@@ -1,0 +1,1100 @@
+biosample	drug	label_eucast	n_primary_rows	primary_rows	other_rows	submitter_phenotypes	standards	year	country	source	host	strain
+SAMN20200276	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA: WA	urine	Canis lupus familiaris	ECOL-20-VL-OH-WA-0016
+SAMN31087230	ciprofloxacin	S	1	==0.25mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	veal calf	35.34
+SAMN31087230	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	35.34
+SAMN31087230	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	35.34
+SAMN47623346	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS81
+SAMN47623346	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS81
+SAMN47623346	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS81
+SAMN12359696	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:OR	Pork Chop		CVM N18EC0490
+SAMN12359696	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:OR	Pork Chop		CVM N18EC0490
+SAMN12359696	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:OR	Pork Chop		CVM N18EC0490
+SAMN27738902	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA: OH	urine	Canis lupus familiaris	ECOL-21-VL-OH-GA-0008
+SAMN16484144	ciprofloxacin	R	1	>4mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2019	USA:TN	ground turkey		CVM N19EC1263
+SAMN16484144	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	ground turkey		CVM N19EC1263
+SAMN16484144	gentamicin	R	1	==4mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	ground turkey		CVM N19EC1263
+SAMN27960782	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA: OH	uterus	Canis lupus familiaris	ECOL-21-VL-OH-GA-0023
+SAMN12359670	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SD	ground turkey		CVM N18EC0408
+SAMN12359670	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SD	ground turkey		CVM N18EC0408
+SAMN12359670	gentamicin	R	1	==8mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2018	USA:SD	ground turkey		CVM N18EC0408
+SAMN07410534	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2017	USA: GA	ear	Canis lupus familiaris	ECOL-17-VL-OH-GA-0008
+SAMN31087278	ciprofloxacin	S	1	==0.25mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	dairy cow	36.01
+SAMN31087278	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	dairy cow	36.01
+SAMN31087278	gentamicin	S	1	==1mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	dairy cow	36.01
+SAMN18106117	ciprofloxacin	R	1	>=4mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:PA	urine	Canis lupus familiaris	ECOL-20-VL-LA-PA-Ryan-0035
+SAMN18106117	gentamicin	S	1	<=1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:PA	urine	Canis lupus familiaris	ECOL-20-VL-LA-PA-Ryan-0035
+SAMN50215572	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215572	meropenem	S	1	==0.015mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215572	gentamicin	R	1	>64mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN20174364	ciprofloxacin	S	1	<=0.06mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:OH	Bladder	Canis lupus familiaris	ECOL-21-VL-LA-PA-Ryan-0006
+SAMN20174364	gentamicin	S	1	<=1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:OH	Bladder	Canis lupus familiaris	ECOL-21-VL-LA-PA-Ryan-0006
+SAMN31087313	ciprofloxacin	I	1	==0.5mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	retail veal		ESBL4320
+SAMN31087313	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail veal		ESBL4320
+SAMN31087313	gentamicin	S	1	==1mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail veal		ESBL4320
+SAMN10221066	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0220
+SAMN10221066	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0220
+SAMN10221066	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0220
+SAMN43563143	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS1798A
+SAMN43563143	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Ontario	Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS1798A
+SAMN31087128	ciprofloxacin	S	1	==0.12mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	pig	34.12
+SAMN31087128	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	pig	34.12
+SAMN31087128	gentamicin	S	1	==2mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	pig	34.12
+SAMN43562877	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2012	Canada:British Columbia	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS0864A
+SAMN43562877	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2012	Canada:British Columbia	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS0864A
+SAMN12359546	ciprofloxacin	S	1	==0.03mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:KS	Ground Beef		CVM N18EC1258
+SAMN12359546	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:KS	Ground Beef		CVM N18EC1258
+SAMN12359546	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:KS	Ground Beef		CVM N18EC1258
+SAMN13540766	ciprofloxacin	S	1	==0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:KS	ground turkey		19KS08GT10-EC
+SAMN13540766	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:KS	ground turkey		19KS08GT10-EC
+SAMN13540766	gentamicin	S	1	==2mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:KS	ground turkey		19KS08GT10-EC
+SAMN43564898	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS6808A
+SAMN43564898	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS6808A
+SAMN50215122	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215122	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215122	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN43563347	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS2425A
+SAMN43563347	gentamicin	R	1	==16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Quebec	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS2425A
+SAMN31087308	ciprofloxacin	S	1	==0.25mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	broiler	36.31
+SAMN31087308	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	broiler	36.31
+SAMN31087308	gentamicin	R	1	==16mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	broiler	36.31
+SAMN23010875	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:GA	urine	Canis lupus familiaris	ECOL-21-VL-NY-GA-0005
+SAMN16245163	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	ground turkey		CVM N19EC0809
+SAMN16245163	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	ground turkey		CVM N19EC0809
+SAMN16245163	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2019	USA:TX	ground turkey		CVM N19EC0809
+SAMN10620130	ciprofloxacin	R	1	>=4mg/L[mic|missing|CLSI|resistant]		resistant	CLSI	2018	USA: Rochester, NY	urine	Homo sapiens	URMC_58
+SAMN10620130	meropenem	S	1	<=0.25mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2018	USA: Rochester, NY	urine	Homo sapiens	URMC_58
+SAMN10620130	gentamicin	S	1	<=1mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2018	USA: Rochester, NY	urine	Homo sapiens	URMC_58
+SAMN43565144	ciprofloxacin	S	1	==0.12mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2013	Canada	Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS7494A
+SAMN43565144	gentamicin	S	1	<=0.25mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS7494A
+SAMN43563724	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS3501A
+SAMN43563724	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:British Columbia	Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS3501A
+SAMN12359782	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:MD	Pork Chop (bone-in)		CVM N18EC0685
+SAMN12359782	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:MD	Pork Chop (bone-in)		CVM N18EC0685
+SAMN12359782	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:MD	Pork Chop (bone-in)		CVM N18EC0685
+SAMN31087198	ciprofloxacin	I	1	==0.5mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	veal calf	35.02
+SAMN31087198	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	35.02
+SAMN31087198	gentamicin	S	1	==2mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	35.02
+SAMN43563257	ciprofloxacin	S	1	==0.12mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2013	Canada:British Columbia	Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS2131A
+SAMN43563257	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS2131A
+SAMN43563954	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS4190A
+SAMN43563954	gentamicin	R	1	==16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Quebec	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS4190A
+SAMN27960789	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA: OH	urine	Canis lupus familiaris	ECOL-21-VL-OH-GA-0029
+SAMN11372911	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CA	ground turkey		CVM N18EC174
+SAMN11372911	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CA	ground turkey		CVM N18EC174
+SAMN11372911	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CA	ground turkey		CVM N18EC174
+SAMN09953972	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:OK	canine urine		ECOL-18-VL-SD-OK-0002
+SAMN12943569	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	Chicken Breasts		CVM N19EC0169
+SAMN12943569	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	Chicken Breasts		CVM N19EC0169
+SAMN12943569	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	Chicken Breasts		CVM N19EC0169
+SAMN10393233	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:OK	canine thoracic fluid		ECOL-18-VL-SD-OK-0023
+SAMN10220976	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	Chicken Breasts		CVM N17EC0038
+SAMN10220976	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	Chicken Breasts		CVM N17EC0038
+SAMN10220976	gentamicin	R	1	==16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2017	USA:GA	Chicken Breasts		CVM N17EC0038
+SAMN09951494	gentamicin	S	1	<=1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:MI	urine (Canis lupus familaris)		ECOL-18-VL-SD-MI-0003
+SAMN10948831	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	missing	missing	PNUSAE022253
+SAMN10948831	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	missing	missing	PNUSAE022253
+SAMN10948831	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	missing	missing	PNUSAE022253
+SAMN47623371	ciprofloxacin	S	1	<=0.02mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT41
+SAMN47623371	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT41
+SAMN47623371	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT41
+SAMN19680765	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:MN	urine	Canis lupus familiaris	ECOL-20-VL-SD-MN-0004
+SAMN50215840	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215840	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN43564928	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS6883A
+SAMN43564928	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS6883A
+SAMN17368264	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:NC	"urine,Urine "	Canis lupus familiaris	ECOL-20-VL-SD-NC-0003
+SAMN50215138	ciprofloxacin	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215138	meropenem	S	1	==0.03mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215138	gentamicin	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN19680773	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:OK	intestine	Canis lupus familiaris	ECOL-20-VL-SD-OK-0019
+SAMN50215241	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215241	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215241	gentamicin	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN12990692	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	Chicken Legs		CVM N19EC0630
+SAMN12990692	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	Chicken Legs		CVM N19EC0630
+SAMN12990692	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	Chicken Legs		CVM N19EC0630
+SAMN13050471	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:MO	skin	Canis lupus familiaris	ECOL-19-VL-WA-MO-0022
+SAMN10221106	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	Chicken Breasts		CVM N17EC0303
+SAMN10221106	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	Chicken Breasts		CVM N17EC0303
+SAMN10221106	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	Chicken Breasts		CVM N17EC0303
+SAMN10221459	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SD	ground turkey		CVM N17EC1036
+SAMN10221459	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SD	ground turkey		CVM N17EC1036
+SAMN10221459	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SD	ground turkey		CVM N17EC1036
+SAMN43564884	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS6774A
+SAMN43564884	gentamicin	R	1	==16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Quebec	Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS6774A
+SAMN12722856	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:KY	feces	Canis lupus familiaris	ECOL-19-VL-LA-KY-0012
+SAMN50215783	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215783	meropenem	S	1	==0.03mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN43563889	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS4012A
+SAMN43563889	gentamicin	R	1	==16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Quebec	Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS4012A
+SAMN43563255	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS2128A
+SAMN43563255	gentamicin	R	1	==8mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2013	Canada:Quebec	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS2128A
+SAMN43562916	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2012	Canada:Quebec	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS1001A
+SAMN43562916	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2012	Canada:Quebec	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS1001A
+SAMN10221210	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Chicken Breasts		CVM N17EC0510
+SAMN10221210	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Chicken Breasts		CVM N17EC0510
+SAMN10221210	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Chicken Breasts		CVM N17EC0510
+SAMN12943493	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Pork Chop		CVM N19EC0078
+SAMN12943493	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Pork Chop		CVM N19EC0078
+SAMN12943493	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Pork Chop		CVM N19EC0078
+SAMN31087125	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	34.09
+SAMN31087125	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	34.09
+SAMN31087125	gentamicin	S	1	==2mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	34.09
+SAMN43564249	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS5102A
+SAMN43564249	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS5102A
+SAMN43564851	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS6658A
+SAMN43564851	gentamicin	R	1	==4mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS6658A
+SAMN50215255	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215255	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215255	gentamicin	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN13315602	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Chicken Wings		19OR10CB18-EC
+SAMN13315602	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Chicken Wings		19OR10CB18-EC
+SAMN13315602	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Chicken Wings		19OR10CB18-EC
+SAMN13178685	gentamicin	S	1	<=1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:PA	urine	Canis lupus familiaris	ECOL-19-VL-LA-PA-Ryan-0006
+SAMN31087153	ciprofloxacin	S	1	==0.12mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	pig	34.37
+SAMN31087153	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	pig	34.37
+SAMN31087153	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	pig	34.37
+SAMN43562823	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2012	Canada:Ontario	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	CFIARB20230212
+SAMN43562823	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2012	Canada:Ontario	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	CFIARB20230212
+SAMN50215696	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN50215696	meropenem	S	1	==0.015mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN50215696	gentamicin	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN33435767	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:NC	wound swab	Canis lupus familiaris	ECOL-21-VL-NY-NCR-0044
+SAMN50215750	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215750	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN43564937	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS6903A
+SAMN43564937	gentamicin	R	1	==16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Alberta	Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS6903A
+SAMN12255969	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	ground turkey		19MD06GT11-EC
+SAMN12255969	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	ground turkey		19MD06GT11-EC
+SAMN12255969	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	ground turkey		19MD06GT11-EC
+SAMN08397422	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2017	USA: IN	tissue	Canis lupus familiaris	ECOL-17-VL-OH-IN-PU-0027
+SAMN11372921	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:MD	ground turkey		CVM N18EC194
+SAMN11372921	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:MD	ground turkey		CVM N18EC194
+SAMN11372921	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:MD	ground turkey		CVM N18EC194
+SAMN50215316	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215316	meropenem	S	1	<=0.004mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215316	gentamicin	S	1	<=0.125mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN22785503	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	Chicken Breasts		CVM N19EC0708
+SAMN22785503	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	Chicken Breasts		CVM N19EC0708
+SAMN22785503	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	Chicken Breasts		CVM N19EC0708
+SAMN12359638	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	Ground Beef		CVM N18EC0340
+SAMN12359638	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	Ground Beef		CVM N18EC0340
+SAMN12359638	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	Ground Beef		CVM N18EC0340
+SAMN31087358	ciprofloxacin	R	1	==8mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	retail chicken		ESBL4423
+SAMN31087358	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail chicken		ESBL4423
+SAMN31087358	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail chicken		ESBL4423
+SAMN38285457	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA: IN	urine	Canis lupus familiaris	ECOL-21-VL-OH-IN-0028
+SAMN10620172	ciprofloxacin	R	1	>=4mg/L[mic|missing|CLSI|resistant]		resistant	CLSI	2018	USA: Rochester, NY	bone	Homo sapiens	URMC_108
+SAMN10620172	meropenem	S	1	<=0.25mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2018	USA: Rochester, NY	bone	Homo sapiens	URMC_108
+SAMN10620172	gentamicin	R	1	>=16mg/L[mic|missing|CLSI|resistant]		resistant	CLSI	2018	USA: Rochester, NY	bone	Homo sapiens	URMC_108
+SAMN12359835	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:GA	Pork Chop		CVM N18EC0798
+SAMN12359835	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:GA	Pork Chop		CVM N18EC0798
+SAMN12359835	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:GA	Pork Chop		CVM N18EC0798
+SAMN10221359	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:PA	Ground Beef		CVM N17EC0832
+SAMN10221359	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:PA	Ground Beef		CVM N17EC0832
+SAMN10221359	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:PA	Ground Beef		CVM N17EC0832
+SAMN12822695	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground beef		19SD07GB08-EC
+SAMN12822695	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground beef		19SD07GB08-EC
+SAMN12822695	gentamicin	S	1	==2mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground beef		19SD07GB08-EC
+SAMN10221107	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	ground turkey		CVM N17EC0304
+SAMN10221107	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	ground turkey		CVM N17EC0304
+SAMN10221107	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	ground turkey		CVM N17EC0304
+SAMN43564998	ciprofloxacin	S	1	==0.03mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS7099A
+SAMN43564998	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS7099A
+SAMN12912152	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Ground Beef		19GA06GB06
+SAMN12912152	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Ground Beef		19GA06GB06
+SAMN12912152	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Ground Beef		19GA06GB06
+SAMN50215390	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215390	meropenem	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215390	gentamicin	R	1	>64mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN43563927	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS4127A
+SAMN43563927	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS4127A
+SAMN10221323	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:KS	Pork Chops		CVM N17EC0756
+SAMN10221323	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:KS	Pork Chops		CVM N17EC0756
+SAMN10221323	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:KS	Pork Chops		CVM N17EC0756
+SAMN11288805	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:ND	urine	Canis lupus familiaris	ECOL-18-VL-LA-ND-0031
+SAMN43562907	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2012	Canada:Alberta	Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS0969A
+SAMN43562907	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2012	Canada:Alberta	Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS0969A
+SAMN14125622	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	ground pork		19NC12PC06_EC
+SAMN14125622	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	ground pork		19NC12PC06_EC
+SAMN14125622	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	ground pork		19NC12PC06_EC
+SAMN13981363	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:ND	urine	Canis lupus familiaris	ECOL-19-VL-LA-ND-0027
+SAMN22184039	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:OK	Wound Swab	Canis lupus familiaris	ECOL-20-VL-SD-OK-0045
+SAMN31087297	ciprofloxacin	I	1	==0.5mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	veal calf	36.20
+SAMN31087297	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	36.20
+SAMN31087297	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	36.20
+SAMN11417756	gentamicin	R	1	>8mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:MS	ear	Canis lupus familiaris	ECOL-18-VL-NY-MS-0031
+SAMN17368266	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:NC	"skin,Skin "	Canis lupus familiaris	ECOL-20-VL-SD-NC-0011
+SAMN04568569	ciprofloxacin	S	1	<=0.015mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2016	USA:FL	comminuted beef		FSIS1606067
+SAMN04568569	meropenem	S	1	<=0.06mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2016	USA:FL	comminuted beef		FSIS1606067
+SAMN04568569	gentamicin	S	1	==0.5mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2016	USA:FL	comminuted beef		FSIS1606067
+SAMN11960653	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	ground turkey		19MD04GT16-EC
+SAMN11960653	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	ground turkey		19MD04GT16-EC
+SAMN11960653	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	ground turkey		19MD04GT16-EC
+SAMN31087328	ciprofloxacin	I	1	==0.5mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	retail chicken		ESBL4355
+SAMN31087328	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail chicken		ESBL4355
+SAMN31087328	gentamicin	S	1	==1mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail chicken		ESBL4355
+SAMN10221469	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	ground turkey		CVM N17EC1056
+SAMN10221469	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	ground turkey		CVM N17EC1056
+SAMN10221469	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2017	USA:TN	ground turkey		CVM N17EC1056
+SAMN43565074	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS7310A
+SAMN43565074	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Quebec	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS7310A
+SAMN47623345	ciprofloxacin	R	1	>8mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS80
+SAMN47623345	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS80
+SAMN47623345	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS80
+SAMN31087340	ciprofloxacin	I	1	==0.5mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	retail lamb		ESBL4383
+SAMN31087340	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail lamb		ESBL4383
+SAMN31087340	gentamicin	R	1	>16mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	retail lamb		ESBL4383
+SAMN13178717	gentamicin	S	1	<=1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:PA	urine	Canis lupus familiaris	ECOL-19-VL-LA-PA-Ryan-0010
+SAMN16304295	ciprofloxacin	S	1	==0.12mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF21-pWea-05
+SAMN16304295	meropenem	S	1	<0.06mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF21-pWea-05
+SAMN16304295	gentamicin	S	1	==2mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF21-pWea-05
+SAMN43563551	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS3017A
+SAMN43563551	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:British Columbia	Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS3017A
+SAMN50215461	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215461	meropenem	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215461	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN12943465	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	Ground Beef		CVM N19EC0035
+SAMN12943465	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	Ground Beef		CVM N19EC0035
+SAMN12943465	gentamicin	S	1	==2mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	Ground Beef		CVM N19EC0035
+SAMN12359994	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TN	Ground Turkey (patties)		CVM N18EC1156
+SAMN12359994	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TN	Ground Turkey (patties)		CVM N18EC1156
+SAMN12359994	gentamicin	R	1	==8mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2018	USA:TN	Ground Turkey (patties)		CVM N18EC1156
+SAMN28606096	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA: OH	urine	Canis lupus familiaris	ECOL-21-VL-OH-GA-0041
+SAMN11372937	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TN	Chicken Thighs		CVM N18EC0232
+SAMN11372937	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TN	Chicken Thighs		CVM N18EC0232
+SAMN11372937	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TN	Chicken Thighs		CVM N18EC0232
+SAMN12360034	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CA	Chicken Legs		CVM N18EC1238
+SAMN12360034	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CA	Chicken Legs		CVM N18EC1238
+SAMN12360034	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2018	USA:CA	Chicken Legs		CVM N18EC1238
+SAMN22785517	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	Chicken Breasts		CVM N19EC0866
+SAMN22785517	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	Chicken Breasts		CVM N19EC0866
+SAMN22785517	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	Chicken Breasts		CVM N19EC0866
+SAMN10221519	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	ground turkey		CVM N17EC1157
+SAMN10221519	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	ground turkey		CVM N17EC1157
+SAMN10221519	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	ground turkey		CVM N17EC1157
+SAMN16245309	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Ground Beef		CVM N19EC1384
+SAMN16245309	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Ground Beef		CVM N19EC1384
+SAMN16245309	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Ground Beef		CVM N19EC1384
+SAMN10221638	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	ground turkey		CVM N17EC1388
+SAMN10221638	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	ground turkey		CVM N17EC1388
+SAMN10221638	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	ground turkey		CVM N17EC1388
+SAMN43563377	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS2503A
+SAMN43563377	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS2503A
+SAMN19469001	gentamicin	S	1	<=0.25mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:ND	urine	Canis lupus familiaris	ECOL-21-VL-LA-ND-0001
+SAMN28209065	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:IA	urine	Canis lupus familiaris	ECOL-21-VL-SD-IA-0038
+SAMN13173358	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	ground turkey		19CO05GT11-EC
+SAMN13173358	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	ground turkey		19CO05GT11-EC
+SAMN13173358	gentamicin	R	1	==8mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2019	USA:CO	ground turkey		19CO05GT11-EC
+SAMN27923129	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:MO	urine	Canis lupus familiaris	ECOL-21-VL-WA-MO-0017
+SAMN22785487	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:KS	ground turkey		CVM N19EC0190
+SAMN22785487	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:KS	ground turkey		CVM N19EC0190
+SAMN22785487	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:KS	ground turkey		CVM N19EC0190
+SAMN13153777	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	Ground Beef		19MD09GB07-EC
+SAMN13153777	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	Ground Beef		19MD09GB07-EC
+SAMN13153777	gentamicin	S	1	==2mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	Ground Beef		19MD09GB07-EC
+SAMN24745765	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:MN	wound	Canis lupus familiaris	ECOL-21-VL-SD-MN-0025
+SAMN43563475	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS2782A
+SAMN43563475	gentamicin	S	1	<=0.25mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS2782A
+SAMN15776719	gentamicin	S	1	==2mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA: OH	urine	Canis lupus familiaris	ECOL-19-VL-OH-OSU-0033
+SAMN09953967	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:MN	canine kidney		ECOL-18-VL-SD-MN-0001
+SAMN31087282	ciprofloxacin	I	1	==0.5mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	veal calf	36.05
+SAMN31087282	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	36.05
+SAMN31087282	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	36.05
+SAMN43562835	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2012	Canada:Ontario	Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	CFIARB20230118
+SAMN43562835	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2012	Canada:Ontario	Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	CFIARB20230118
+SAMN12359736	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:GA	Pork Chop		CVM N18EC0578
+SAMN12359736	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:GA	Pork Chop		CVM N18EC0578
+SAMN12359736	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:GA	Pork Chop		CVM N18EC0578
+SAMN43562920	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2012	Canada:Ontario	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS1013A
+SAMN43562920	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2012	Canada:Ontario	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS1013A
+SAMN43563275	ciprofloxacin	R	1	==1mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Alberta	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS2180A
+SAMN43563275	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Alberta	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS2180A
+SAMN11022122	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:KS	urine	Canis lupus familiaris	ECOL-18-VL-LA-KS-0024
+SAMN43564467	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS5733A
+SAMN43564467	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Quebec	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS5733A
+SAMN11854359	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	chicken		19OR02CB18-EC
+SAMN11854359	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	chicken		19OR02CB18-EC
+SAMN11854359	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	chicken		19OR02CB18-EC
+SAMN43564373	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS5464A
+SAMN43564373	gentamicin	S	1	<=0.25mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS5464A
+SAMN50215284	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215284	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215284	gentamicin	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN31087179	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	pig	34.63
+SAMN31087179	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	pig	34.63
+SAMN31087179	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	pig	34.63
+SAMN13019794	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground Beef		19OR02GB02-EC
+SAMN13019794	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground Beef		19OR02GB02-EC
+SAMN13019794	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground Beef		19OR02GB02-EC
+SAMN10620128	ciprofloxacin	R	1	>=4mg/L[mic|missing|CLSI|resistant]		resistant	CLSI	2017	USA: Rochester, NY	urine	Homo sapiens	URMC_56
+SAMN10620128	meropenem	S	1	<=0.25mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2017	USA: Rochester, NY	urine	Homo sapiens	URMC_56
+SAMN10620128	gentamicin	S	1	<=1mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2017	USA: Rochester, NY	urine	Homo sapiens	URMC_56
+SAMN10221088	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	ground turkey		CVM N17EC0266
+SAMN10221088	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	ground turkey		CVM N17EC0266
+SAMN10221088	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	ground turkey		CVM N17EC0266
+SAMN50215510	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215510	meropenem	R	1	>16mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN47638992	ciprofloxacin	R	1	==16mg/L[mic|missing|CLSI|resistant]		resistant	CLSI	2019	Brazil: Bambui	urine	Homo sapiens	TGU13
+SAMN47638992	gentamicin	S	1	<0.12mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2019	Brazil: Bambui	urine	Homo sapiens	TGU13
+SAMN10221197	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Chicken Breasts		CVM N17EC0484
+SAMN10221197	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Chicken Breasts		CVM N17EC0484
+SAMN10221197	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Chicken Breasts		CVM N17EC0484
+SAMN10221343	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	Chicken Breasts		CVM N17EC0795
+SAMN10221343	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	Chicken Breasts		CVM N17EC0795
+SAMN10221343	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	Chicken Breasts		CVM N17EC0795
+SAMN47623349	ciprofloxacin	S	1	==0.12mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS84
+SAMN47623349	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS84
+SAMN47623349	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS84
+SAMN50215209	ciprofloxacin	S	1	==0.015mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215209	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215209	gentamicin	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN10221055	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Chicken Breasts		CVM N17EC0198
+SAMN10221055	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Chicken Breasts		CVM N17EC0198
+SAMN10221055	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2017	USA:IA	Chicken Breasts		CVM N17EC0198
+SAMN11372874	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:KS	Chicken Thighs		CVM N18EC104
+SAMN11372874	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:KS	Chicken Thighs		CVM N18EC104
+SAMN11372874	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:KS	Chicken Thighs		CVM N18EC104
+SAMN12943497	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	ground turkey		CVM N19EC0082
+SAMN12943497	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	ground turkey		CVM N19EC0082
+SAMN12943497	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2019	USA:GA	ground turkey		CVM N19EC0082
+SAMN43564547	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS5991A
+SAMN43564547	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS5991A
+SAMN43564499	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS5836A
+SAMN43564499	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS5836A
+SAMN16551972	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:KY	intestine	Canis lupus familiaris	ECOL-20-VL-LA-KY-0021
+SAMN16245276	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	Chicken Breasts		CVM N19EC1252
+SAMN16245276	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	Chicken Breasts		CVM N19EC1252
+SAMN16245276	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	Chicken Breasts		CVM N19EC1252
+SAMN10221308	ciprofloxacin	S	1	==0.03mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0726
+SAMN10221308	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0726
+SAMN10221308	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0726
+SAMN12359824	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SD	Pork Chop		CVM N18EC0776
+SAMN12359824	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SD	Pork Chop		CVM N18EC0776
+SAMN12359824	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SD	Pork Chop		CVM N18EC0776
+SAMN50215824	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215824	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215824	gentamicin	R	1	>64mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN09703864	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:KS	urine	Canis lupus familiaris	ECOL-18-VL-LA-KS-0001
+SAMN13293927	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	ground turkey		19CO10GT01-EC
+SAMN13293927	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	ground turkey		19CO10GT01-EC
+SAMN13293927	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	ground turkey		19CO10GT01-EC
+SAMN16245133	ciprofloxacin	S	1	==0.03mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CA	Chicken Whole - cut in lab		CVM N19EC0660
+SAMN16245133	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CA	Chicken Whole - cut in lab		CVM N19EC0660
+SAMN16245133	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CA	Chicken Whole - cut in lab		CVM N19EC0660
+SAMN16551975	ciprofloxacin	R	1	>=4mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:PA	urine	Canis lupus familiaris	ECOL-20-VL-LA-PA-Ryan-0017
+SAMN16551975	gentamicin	S	1	<=1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:PA	urine	Canis lupus familiaris	ECOL-20-VL-LA-PA-Ryan-0017
+SAMN43563914	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS4093A
+SAMN43563914	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS4093A
+SAMN43564001	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS4352A
+SAMN43564001	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS4352A
+SAMN02581291	ciprofloxacin	R	1	>2mg/L[mic|missing|missing|not defined]		not defined	missing	2013	USA: Boston	urine	Homo sapiens	BIDMC 70
+SAMN02581291	meropenem	S	1	<=.25mg/L[mic|missing|missing|not defined]		not defined	missing	2013	USA: Boston	urine	Homo sapiens	BIDMC 70
+SAMN02581291	gentamicin	S	1	<=1mg/L[mic|missing|missing|not defined]		not defined	missing	2013	USA: Boston	urine	Homo sapiens	BIDMC 70
+SAMN10221411	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Whole - cut in lab		CVM N17EC0940
+SAMN10221411	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Whole - cut in lab		CVM N17EC0940
+SAMN10221411	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Whole - cut in lab		CVM N17EC0940
+SAMN12359664	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:NC	Chicken Legs		CVM N18EC0396
+SAMN12359664	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:NC	Chicken Legs		CVM N18EC0396
+SAMN12359664	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:NC	Chicken Legs		CVM N18EC0396
+SAMN43562947	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS1120A
+SAMN43562947	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Quebec	Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS1120A
+SAMN13019871	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	ground turkey		19OR01GT06-EC
+SAMN13019871	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	ground turkey		19OR01GT06-EC
+SAMN13019871	gentamicin	S	1	==2mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	ground turkey		19OR01GT06-EC
+SAMN47623389	ciprofloxacin	I	1	==0.5mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT59
+SAMN47623389	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT59
+SAMN47623389	gentamicin	S	1	==1mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT59
+SAMN16245262	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CA	ground turkey		CVM N19EC1169
+SAMN16245262	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CA	ground turkey		CVM N19EC1169
+SAMN16245262	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CA	ground turkey		CVM N19EC1169
+SAMN10221563	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	ground turkey		CVM N17EC1244
+SAMN10221563	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	ground turkey		CVM N17EC1244
+SAMN10221563	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	ground turkey		CVM N17EC1244
+SAMN18634037	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA: IN	urine	Canis lupus familiaris	ECOL-20-VL-OH-IN-0007
+SAMN12943478	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground turkey		CVM N19EC0063
+SAMN12943478	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground turkey		CVM N19EC0063
+SAMN12943478	gentamicin	R	1	==8mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2019	USA:SD	ground turkey		CVM N19EC0063
+SAMN50215179	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215179	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215179	gentamicin	R	1	>64mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN12912141	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	missing		19GA08GB04
+SAMN12912141	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	missing		19GA08GB04
+SAMN12912141	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	missing		19GA08GB04
+SAMN10221282	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	ground turkey		CVM N17EC0674
+SAMN10221282	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	ground turkey		CVM N17EC0674
+SAMN10221282	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	ground turkey		CVM N17EC0674
+SAMN08615704	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2017	USA:OK	urine (Canis lupus familaris)		ECOL-17-VL-SD-OK-0035
+SAMN12359774	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CA	ground turkey		CVM N18EC0667
+SAMN12359774	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CA	ground turkey		CVM N18EC0667
+SAMN12359774	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CA	ground turkey		CVM N18EC0667
+SAMN43564376	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS5471A
+SAMN43564376	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS5471A
+SAMN43562970	ciprofloxacin	S	1	==0.12mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2013	Canada:Alberta	Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS1190A
+SAMN43562970	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS1190A
+SAMN10078342	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA: GA	urine	Canis lupus familiaris	ECOL-18-VL-OH-GA-0003
+SAMN47623330	ciprofloxacin	S	1	==0.12mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS65
+SAMN47623330	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS65
+SAMN47623330	gentamicin	R	1	==8mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS65
+SAMN50215775	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215775	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN43563241	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS2084A
+SAMN43563241	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Quebec	Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS2084A
+SAMN18106123	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:ND	ear	Canis lupus familiaris	ECOL-20-VL-LA-ND-0029
+SAMN16304072	ciprofloxacin	INDETERMINATE_CENSORED	1	<=1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Croi-PEC02-03
+SAMN16304072	meropenem	S	1	<=1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Croi-PEC02-03
+SAMN16304072	gentamicin	INDETERMINATE_CENSORED	1	<=4mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Croi-PEC02-03
+SAMN20200279	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	Canada	eye	Canis lupus familiaris	ECOL-20-VL-OH-WA-0019
+SAMN48590762	ciprofloxacin	S	1	==0.25mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT91
+SAMN48590762	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT91
+SAMN48590762	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT91
+SAMN50215483	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215483	meropenem	S	1	==0.5mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN12359837	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SD	ground turkey		CVM N18EC0803
+SAMN12359837	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SD	ground turkey		CVM N18EC0803
+SAMN12359837	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SD	ground turkey		CVM N18EC0803
+SAMN10221501	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:PA	ground turkey		CVM N17EC1122
+SAMN10221501	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:PA	ground turkey		CVM N17EC1122
+SAMN10221501	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:PA	ground turkey		CVM N17EC1122
+SAMN50215859	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215859	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN10221245	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Ground Beef		CVM N17EC0596
+SAMN10221245	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Ground Beef		CVM N17EC0596
+SAMN10221245	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Ground Beef		CVM N17EC0596
+SAMN10221336	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	Ground Beef		CVM N17EC0782
+SAMN10221336	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	Ground Beef		CVM N17EC0782
+SAMN10221336	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	Ground Beef		CVM N17EC0782
+SAMN10221242	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Mixed Parts		CVM N17EC0590
+SAMN10221242	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Mixed Parts		CVM N17EC0590
+SAMN10221242	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Mixed Parts		CVM N17EC0590
+SAMN17813944	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:TX	Canine Urine (Canis lupus familiaris)		ECOL-18-VL-LA-TX-0042
+SAMN47623322	ciprofloxacin	R	1	==1mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS55
+SAMN47623322	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS55
+SAMN47623322	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS55
+SAMN10221039	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0166
+SAMN10221039	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0166
+SAMN10221039	gentamicin	S	1	==2mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0166
+SAMN13429611	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:FL	gall bladder	Canis lupus familiaris	ECOL-19-VL-NY-FL-0011
+SAMN11352643	gentamicin	R	1	>8mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:GA	urine	Canis lupus familiaris	ECOL-18-VL-NY-GA-0015
+SAMN16304325	ciprofloxacin	S	1	<0.015mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-CV2-pWea-05
+SAMN16304325	meropenem	S	1	<0.06mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-CV2-pWea-05
+SAMN16304325	gentamicin	S	1	==2mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-CV2-pWea-05
+SAMN43562951	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS1130A
+SAMN43562951	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS1130A
+SAMN16304099	ciprofloxacin	INDETERMINATE_CENSORED	1	<=1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Fini-PEC01-29
+SAMN16304099	meropenem	S	1	<=1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Fini-PEC01-29
+SAMN16304099	gentamicin	INDETERMINATE_CENSORED	1	<=4mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Fini-PEC01-29
+SAMN14305398	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	turkey		19SC07GT10-EC
+SAMN14305398	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	turkey		19SC07GT10-EC
+SAMN14305398	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	turkey		19SC07GT10-EC
+SAMN12990642	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	Ground Turkey (patties)		CVM N19EC0508
+SAMN12990642	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	Ground Turkey (patties)		CVM N19EC0508
+SAMN12990642	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	Ground Turkey (patties)		CVM N19EC0508
+SAMN12188553	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground Beef		19OR06GB04-EC
+SAMN12188553	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground Beef		19OR06GB04-EC
+SAMN12188553	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground Beef		19OR06GB04-EC
+SAMN16245112	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	Ground Turkey (patties)		CVM N19EC0496
+SAMN16245112	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	Ground Turkey (patties)		CVM N19EC0496
+SAMN16245112	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	Ground Turkey (patties)		CVM N19EC0496
+SAMN31087309	ciprofloxacin	S	1	==0.25mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	dairy cow	36.32
+SAMN31087309	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	dairy cow	36.32
+SAMN31087309	gentamicin	S	1	==1mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	dairy cow	36.32
+SAMN20200267	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA: OH	uterus	Canis lupus familiaris	ECOL-20-VL-OH-OSU-0028
+SAMN43563231	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS2031A
+SAMN43563231	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS2031A
+SAMN12587154	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TX	Chicken breasts		CVM N18EC0058
+SAMN12587154	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TX	Chicken breasts		CVM N18EC0058
+SAMN12587154	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TX	Chicken breasts		CVM N18EC0058
+SAMN47623363	ciprofloxacin	S	1	<=0.02mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT32
+SAMN47623363	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT32
+SAMN47623363	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT32
+SAMN16484153	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	Pork Chops		CVM N19EC0058
+SAMN16484153	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	Pork Chops		CVM N19EC0058
+SAMN16484153	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	Pork Chops		CVM N19EC0058
+SAMN14544542	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:VA	urine	Canis lupus familiaris	ECOL-19-VL-WA-VA-0002
+SAMN22137296	gentamicin	R	1	>8mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:OK	Urine (Cysto)	Canis lupus familiaris	ECOL-20-VL-SD-OK-0032
+SAMN12359564	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SC	Chicken Thighs		CVM N18EC1294
+SAMN12359564	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SC	Chicken Thighs		CVM N18EC1294
+SAMN12359564	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SC	Chicken Thighs		CVM N18EC1294
+SAMN16245218	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC1085
+SAMN16245218	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC1085
+SAMN16245218	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC1085
+SAMN10221599	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SC	Chicken Legs		CVM N17EC1318
+SAMN10221599	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SC	Chicken Legs		CVM N17EC1318
+SAMN10221599	gentamicin	R	1	==8mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2017	USA:SC	Chicken Legs		CVM N17EC1318
+SAMN43563796	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS3744A
+SAMN43563796	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS3744A
+SAMN50215604	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN50215604	meropenem	S	1	==0.25mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN50215604	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN12995268	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Ground Beef		19GA08GB03
+SAMN12995268	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Ground Beef		19GA08GB03
+SAMN12995268	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Ground Beef		19GA08GB03
+SAMN31087314	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail pork		ESBL4321
+SAMN31087314	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail pork		ESBL4321
+SAMN31087314	gentamicin	S	1	==1mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail pork		ESBL4321
+SAMN12526318	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	Ground beef		19TN07GB01K-EC
+SAMN12526318	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	Ground beef		19TN07GB01K-EC
+SAMN12526318	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	Ground beef		19TN07GB01K-EC
+SAMN11854356	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	GROUND BEEF		19OR01GB05-EC
+SAMN11854356	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	GROUND BEEF		19OR01GB05-EC
+SAMN11854356	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	GROUND BEEF		19OR01GB05-EC
+SAMN16245279	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	Chicken Thighs		CVM N19EC1261
+SAMN16245279	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	Chicken Thighs		CVM N19EC1261
+SAMN16245279	gentamicin	R	1	==8mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2019	USA:TN	Chicken Thighs		CVM N19EC1261
+SAMN12359621	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:PA	Chicken Legs		CVM N18EC0236
+SAMN12359621	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:PA	Chicken Legs		CVM N18EC0236
+SAMN12359621	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:PA	Chicken Legs		CVM N18EC0236
+SAMN50215592	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215592	meropenem	S	1	==0.015mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215592	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN43563320	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS2340A
+SAMN43563320	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS2340A
+SAMN16304299	ciprofloxacin	S	1	<0.015mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF22-pFin-04
+SAMN16304299	meropenem	S	1	<0.06mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF22-pFin-04
+SAMN16304299	gentamicin	S	1	==1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF22-pFin-04
+SAMN50215451	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215451	meropenem	R	1	>16mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215451	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN13293924	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	Pork Chop		19CO10PC05-EC
+SAMN13293924	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	Pork Chop		19CO10PC05-EC
+SAMN13293924	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	Pork Chop		19CO10PC05-EC
+SAMN12943450	ciprofloxacin	S	1	==0.03mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0014
+SAMN12943450	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0014
+SAMN12943450	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0014
+SAMN47623366	ciprofloxacin	I	1	==0.5mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT35
+SAMN47623366	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT35
+SAMN47623366	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT35
+SAMN43563459	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS2748A
+SAMN43563459	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS2748A
+SAMN43563025	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS1369A
+SAMN43563025	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS1369A
+SAMN14125516	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:OK	nasal swab (Canis lupus familiaris)		ECOL-19-VL-SD-OK-0024
+SAMN50215304	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215304	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215304	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215246	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215246	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215246	gentamicin	R	1	==4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN10393212	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:OK	canine urine		ECOL-18-VL-SD-OK-0020
+SAMN16245145	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	ground turkey		CVM N19EC0693
+SAMN16245145	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	ground turkey		CVM N19EC0693
+SAMN16245145	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	ground turkey		CVM N19EC0693
+SAMN12359611	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CO	Pork Chop (bone-in)		CVM N18EC1392
+SAMN12359611	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CO	Pork Chop (bone-in)		CVM N18EC1392
+SAMN12359611	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CO	Pork Chop (bone-in)		CVM N18EC1392
+SAMN12943448	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0012
+SAMN12943448	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0012
+SAMN12943448	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0012
+SAMN12912165	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Chicken Thighs		19GA07CB08
+SAMN12912165	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Chicken Thighs		19GA07CB08
+SAMN12912165	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	Chicken Thighs		19GA07CB08
+SAMN10221000	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	Pork Chops		CVM N17EC0086
+SAMN10221000	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	Pork Chops		CVM N17EC0086
+SAMN10221000	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	Pork Chops		CVM N17EC0086
+SAMN12822670	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground beef		19SD07GB06-EC
+SAMN12822670	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground beef		19SD07GB06-EC
+SAMN12822670	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground beef		19SD07GB06-EC
+SAMN15299147	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	chicken breast		19TX09CB16-EC
+SAMN15299147	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	chicken breast		19TX09CB16-EC
+SAMN15299147	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	chicken breast		19TX09CB16-EC
+SAMN12943688	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	Ground Beef		CVM N19EC0375
+SAMN12943688	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	Ground Beef		CVM N19EC0375
+SAMN12943688	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	Ground Beef		CVM N19EC0375
+SAMN13718753	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground turkey		19SD11GT20-EC
+SAMN13718753	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground turkey		19SD11GT20-EC
+SAMN13718753	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground turkey		19SD11GT20-EC
+SAMN10620096	ciprofloxacin	R	1	>=4mg/L[mic|missing|CLSI|resistant]		resistant	CLSI	2017	USA: Rochester, NY	urine	Homo sapiens	URMC_18
+SAMN10620096	meropenem	S	1	<=0.25mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2017	USA: Rochester, NY	urine	Homo sapiens	URMC_18
+SAMN10620096	gentamicin	S	1	<=1mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2017	USA: Rochester, NY	urine	Homo sapiens	URMC_18
+SAMN31087413	ciprofloxacin	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail pork		ESBL4598
+SAMN31087413	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail pork		ESBL4598
+SAMN31087413	gentamicin	S	1	==1mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	retail pork		ESBL4598
+SAMN43564216	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS5020A
+SAMN43564216	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS5020A
+SAMN10221571	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Pork Chops bone-in		CVM N17EC1260
+SAMN10221571	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Pork Chops bone-in		CVM N17EC1260
+SAMN10221571	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Pork Chops bone-in		CVM N17EC1260
+SAMN10221575	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Pork Chops bone-in		CVM N17EC1268
+SAMN10221575	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Pork Chops bone-in		CVM N17EC1268
+SAMN10221575	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Pork Chops bone-in		CVM N17EC1268
+SAMN12360023	ciprofloxacin	S	1	==0.25mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2018	USA:TX	ground turkey		CVM N18EC1216
+SAMN12360023	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TX	ground turkey		CVM N18EC1216
+SAMN12360023	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TX	ground turkey		CVM N18EC1216
+SAMN12329384	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Chicken thighs		19OR06CB18-EC
+SAMN12329384	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Chicken thighs		19OR06CB18-EC
+SAMN12329384	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Chicken thighs		19OR06CB18-EC
+SAMN10620176	ciprofloxacin	R	1	==1mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2018	USA: Rochester, NY	infection secondary to perforated appendicitis	Homo sapiens	URMC_112
+SAMN10620176	meropenem	S	1	<=0.25mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2018	USA: Rochester, NY	infection secondary to perforated appendicitis	Homo sapiens	URMC_112
+SAMN10620176	gentamicin	S	1	<=1mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2018	USA: Rochester, NY	infection secondary to perforated appendicitis	Homo sapiens	URMC_112
+SAMN10221230	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Chicken Wings		CVM N17EC0558
+SAMN10221230	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Chicken Wings		CVM N17EC0558
+SAMN10221230	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2017	USA:TX	Chicken Wings		CVM N17EC0558
+SAMN43564842	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS6625A
+SAMN43564842	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS6625A
+SAMN43564934	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS6897A
+SAMN43564934	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS6897A
+SAMN43563782	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS3704A
+SAMN43563782	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS3704A
+SAMN31087299	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	dairy cow	36.22
+SAMN31087299	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	dairy cow	36.22
+SAMN31087299	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	dairy cow	36.22
+SAMN10221152	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SC	Pork Chops		CVM N17EC0394
+SAMN10221152	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SC	Pork Chops		CVM N17EC0394
+SAMN10221152	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SC	Pork Chops		CVM N17EC0394
+SAMN23827525	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:VA	urine	Canis lupus familiaris	ECOL-21-VL-WA-VA-0004
+SAMN43565078	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS7331A
+SAMN43565078	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS7331A
+SAMN43563014	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS1340A
+SAMN43563014	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS1340A
+SAMN12359764	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	ground turkey		CVM N18EC0648
+SAMN12359764	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	ground turkey		CVM N18EC0648
+SAMN12359764	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	ground turkey		CVM N18EC0648
+SAMN03177687	ciprofloxacin	S	1	<=0.015mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2012	USA	farm		CVM N38834PS
+SAMN03177687	gentamicin	S	1	==1mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2012	USA	farm		CVM N38834PS
+SAMN12609940	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	turkey		19SC08GT05
+SAMN12609940	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	turkey		19SC08GT05
+SAMN12609940	gentamicin	S	1	==2mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	turkey		19SC08GT05
+SAMN13340359	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:GA	urine	Canis lupus familiaris	ECOL-19-VL-NY-GA-0008
+SAMN15053761	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	turkey		19SC09GT10-EC
+SAMN15053761	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	turkey		19SC09GT10-EC
+SAMN15053761	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	turkey		19SC09GT10-EC
+SAMN12913177	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Pork Chop		19OR09GT03-EC
+SAMN12913177	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Pork Chop		19OR09GT03-EC
+SAMN12913177	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2019	USA:OR	Pork Chop		19OR09GT03-EC
+SAMN43564518	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS5900A
+SAMN43564518	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:British Columbia	Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS5900A
+SAMN03177659	ciprofloxacin	S	1	<=0.015mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2012	USA	farm		CVM N36225PS
+SAMN03177659	gentamicin	S	1	==1mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2012	USA	farm		CVM N36225PS
+SAMN10620118	ciprofloxacin	I	1	==0.5mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2017	USA: Rochester, NY	urine	Homo sapiens	URMC_43
+SAMN10620118	meropenem	S	1	<=0.25mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2017	USA: Rochester, NY	urine	Homo sapiens	URMC_43
+SAMN10620118	gentamicin	R	1	>=16mg/L[mic|missing|CLSI|resistant]		resistant	CLSI	2017	USA: Rochester, NY	urine	Homo sapiens	URMC_43
+SAMN10221243	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Chicken Breasts		CVM N17EC0592
+SAMN10221243	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Chicken Breasts		CVM N17EC0592
+SAMN10221243	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Chicken Breasts		CVM N17EC0592
+SAMN27960772	gentamicin	S	1	<=0.25mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA: OH	peritoneal effusion	Canis lupus familiaris	ECOL-21-VL-OH-WA-0019
+SAMN10221239	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	ground turkey		CVM N17EC0582
+SAMN10221239	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	ground turkey		CVM N17EC0582
+SAMN10221239	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	ground turkey		CVM N17EC0582
+SAMN12359738	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:OR	Ground Beef		CVM N18EC0588
+SAMN12359738	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:OR	Ground Beef		CVM N18EC0588
+SAMN12359738	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:OR	Ground Beef		CVM N18EC0588
+SAMN48590766	ciprofloxacin	S	1	<=0.02mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT95
+SAMN48590766	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT95
+SAMN48590766	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT95
+SAMN13049208	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:ND	chicken breast		19SD08CB24-EC
+SAMN13049208	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:ND	chicken breast		19SD08CB24-EC
+SAMN13049208	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2019	USA:ND	chicken breast		19SD08CB24-EC
+SAMN12359955	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	Pork Chop		CVM N18EC1062
+SAMN12359955	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	Pork Chop		CVM N18EC1062
+SAMN12359955	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	Pork Chop		CVM N18EC1062
+SAMN10221018	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0122
+SAMN10221018	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0122
+SAMN10221018	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0122
+SAMN12359795	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:OR	ground turkey		CVM N18EC0712
+SAMN12359795	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:OR	ground turkey		CVM N18EC0712
+SAMN12359795	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:OR	ground turkey		CVM N18EC0712
+SAMN43564978	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS7037A
+SAMN43564978	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS7037A
+SAMN12943640	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Ground Beef		CVM N19EC0301
+SAMN12943640	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Ground Beef		CVM N19EC0301
+SAMN12943640	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Ground Beef		CVM N19EC0301
+SAMN46558894	meropenem	R	1	>32mg/L[mic|missing|EUCAST|resistant]		resistant	EUCAST	2019	Ireland	urine	Homo sapiens	EC1907247
+SAMN46558894	gentamicin	R	1	>256mg/L[mic|missing|EUCAST|resistant]		resistant	EUCAST	2019	Ireland	urine	Homo sapiens	EC1907247
+SAMN10221444	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:KS	Pork Chops		CVM N17EC1006
+SAMN10221444	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:KS	Pork Chops		CVM N17EC1006
+SAMN10221444	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:KS	Pork Chops		CVM N17EC1006
+SAMN50215503	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215503	meropenem	S	1	==0.125mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN12359794	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TN	Ground Beef		CVM N18EC0710
+SAMN12359794	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TN	Ground Beef		CVM N18EC0710
+SAMN12359794	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TN	Ground Beef		CVM N18EC0710
+SAMN16304180	ciprofloxacin	INDETERMINATE_CENSORED	1	<=1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Lact-PEA13-26
+SAMN16304180	meropenem	S	1	<=1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Lact-PEA13-26
+SAMN16304180	gentamicin	INDETERMINATE_CENSORED	1	<=4mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Lact-PEA13-26
+SAMN50215777	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215777	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN11372833	ciprofloxacin	S	1	==0.25mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2018	USA:IA	ground turkey		CVM N18EC012
+SAMN11372833	meropenem	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	ground turkey		CVM N18EC012
+SAMN11372833	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	ground turkey		CVM N18EC012
+SAMN50215656	ciprofloxacin	S	1	==0.03mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215656	meropenem	S	1	==0.03mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215656	gentamicin	R	1	==4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN43565192	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS7658A
+SAMN43565192	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS7658A
+SAMN10220958	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	Chicken Breasts		CVM N17EC0002
+SAMN10220958	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	Chicken Breasts		CVM N17EC0002
+SAMN10220958	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	Chicken Breasts		CVM N17EC0002
+SAMN50215593	meropenem	S	1	<=0.004mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215593	gentamicin	R	1	==4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN12648977	ciprofloxacin	S	1	==0.25mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI		missing	missing	missing	AR-0427
+SAMN12648977	gentamicin	S	1	==1mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI		missing	missing	missing	AR-0427
+SAMN10221010	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Chicken Breasts		CVM N17EC0106
+SAMN10221010	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Chicken Breasts		CVM N17EC0106
+SAMN10221010	gentamicin	R	1	==16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2017	USA:IA	Chicken Breasts		CVM N17EC0106
+SAMN12587176	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TX	Chicken thighs		CVM N18EC1044
+SAMN12587176	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TX	Chicken thighs		CVM N18EC1044
+SAMN12587176	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2018	USA:TX	Chicken thighs		CVM N18EC1044
+SAMN12359709	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:NC	ground turkey		CVM N18EC0516
+SAMN12359709	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:NC	ground turkey		CVM N18EC0516
+SAMN12359709	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:NC	ground turkey		CVM N18EC0516
+SAMN20085877	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	Canada:Prince Edward Island	urine	Canis lupus familiaris	ECOL-20-VL-ON-PE-0030
+SAMN11372842	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:NC	ground turkey		CVM N18EC034
+SAMN11372842	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:NC	ground turkey		CVM N18EC034
+SAMN11372842	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:NC	ground turkey		CVM N18EC034
+SAMN15349898	gentamicin	S	1	==2mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:KY	Abscess	Canis lupus familiaris	ECOL-20-VL-LA-KY-0004
+SAMN12359585	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:PA	ground turkey		CVM N18EC1340
+SAMN12359585	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:PA	ground turkey		CVM N18EC1340
+SAMN12359585	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:PA	ground turkey		CVM N18EC1340
+SAMN50215289	ciprofloxacin	S	1	==0.25mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215289	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215289	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215797	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215797	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN10221184	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SD	Ground Beef		CVM N17EC0458
+SAMN10221184	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SD	Ground Beef		CVM N17EC0458
+SAMN10221184	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SD	Ground Beef		CVM N17EC0458
+SAMN50215810	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215810	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN43564611	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS6177A
+SAMN43564611	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS6177A
+SAMN10221041	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0170
+SAMN10221041	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0170
+SAMN10221041	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0170
+SAMN16245179	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Ground Beef		CVM N19EC0899
+SAMN16245179	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Ground Beef		CVM N19EC0899
+SAMN16245179	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Ground Beef		CVM N19EC0899
+SAMN29770923	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:VA	urine	Canis lupus familiaris	ECOL-21-VL-WA-VA-0012
+SAMN10221216	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	ground turkey		CVM N17EC0520
+SAMN10221216	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	ground turkey		CVM N17EC0520
+SAMN10221216	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	ground turkey		CVM N17EC0520
+SAMN10221541	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:CO	Ground Beef		CVM N17EC1199
+SAMN10221541	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:CO	Ground Beef		CVM N17EC1199
+SAMN10221541	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:CO	Ground Beef		CVM N17EC1199
+SAMN13153770	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	ground turkey		19MD09GT06-EC
+SAMN13153770	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	ground turkey		19MD09GT06-EC
+SAMN13153770	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:MD	ground turkey		19MD09GT06-EC
+SAMN43564556	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS6013A
+SAMN43564556	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS6013A
+SAMN10221168	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SD	ground turkey		CVM N17EC0426
+SAMN10221168	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SD	ground turkey		CVM N17EC0426
+SAMN10221168	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:SD	ground turkey		CVM N17EC0426
+SAMN18634048	gentamicin	R	1	>8mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA: ID	urine	Canis lupus familiaris	ECOL-20-VL-OH-WA-0007
+SAMN10221352	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:PA	Chicken Legs		CVM N17EC0816
+SAMN10221352	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:PA	Chicken Legs		CVM N17EC0816
+SAMN10221352	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2017	USA:PA	Chicken Legs		CVM N17EC0816
+SAMN23827508	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:IL	urine	Canis lupus familiaris	ECOL-21-VL-WA-IL-0007
+SAMN50215163	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215163	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215163	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215533	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215533	meropenem	S	1	==0.03mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN12359665	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:NC	ground turkey		CVM N18EC0398
+SAMN12359665	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:NC	ground turkey		CVM N18EC0398
+SAMN12359665	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2018	USA:NC	ground turkey		CVM N18EC0398
+SAMN10221470	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Ground Beef		CVM N17EC1058
+SAMN10221470	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Ground Beef		CVM N17EC1058
+SAMN10221470	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Ground Beef		CVM N17EC1058
+SAMN50215812	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215812	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN16304273	ciprofloxacin	S	1	==0.12mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF12-pSow-03
+SAMN16304273	meropenem	S	1	<0.06mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF12-pSow-03
+SAMN16304273	gentamicin	S	1	==1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF12-pSow-03
+SAMN12990698	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	Ground Beef		CVM N19EC0636
+SAMN12990698	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	Ground Beef		CVM N19EC0636
+SAMN12990698	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	Ground Beef		CVM N19EC0636
+SAMN10221661	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Ground Beef		CVM N17EC1434
+SAMN10221661	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Ground Beef		CVM N17EC1434
+SAMN10221661	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Ground Beef		CVM N17EC1434
+SAMN43563812	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS3805A
+SAMN43563812	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS3805A
+SAMN12359993	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	Pork Chop		CVM N18EC1152
+SAMN12359993	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	Pork Chop		CVM N18EC1152
+SAMN12359993	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:IA	Pork Chop		CVM N18EC1152
+SAMN10221013	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Chicken Breasts		CVM N17EC0112
+SAMN10221013	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Chicken Breasts		CVM N17EC0112
+SAMN10221013	gentamicin	R	1	==16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2017	USA:IA	Chicken Breasts		CVM N17EC0112
+SAMN13703506	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	ground turkey		19GA11GT05-EC
+SAMN13703506	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	ground turkey		19GA11GT05-EC
+SAMN13703506	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	ground turkey		19GA11GT05-EC
+SAMN12943686	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	ground turkey		CVM N19EC0373
+SAMN12943686	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	ground turkey		CVM N19EC0373
+SAMN12943686	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	ground turkey		CVM N19EC0373
+SAMN12289080	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	Ground Beef		19TN06GB05K-EC
+SAMN12289080	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	Ground Beef		19TN06GB05K-EC
+SAMN12289080	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	Ground Beef		19TN06GB05K-EC
+SAMN43564622	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS6210A
+SAMN43564622	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS6210A
+SAMN50215800	ciprofloxacin	S	1	==0.125mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215800	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN10221229	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Beef Patties		CVM N17EC0552
+SAMN10221229	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Beef Patties		CVM N17EC0552
+SAMN10221229	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	Beef Patties		CVM N17EC0552
+SAMN43564597	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS6146A
+SAMN43564597	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Quebec	Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]	Chicken [NCBITaxon:9031]	E-MBS6146A
+SAMN10221062	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0212
+SAMN10221062	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0212
+SAMN10221062	gentamicin	S	1	<=0.25mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0212
+SAMN14008725	gentamicin	R	1	>8mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA: GA	ear	Canis lupus familiaris	ECOL-19-VL-OH-GA-0024
+SAMN14486745	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:MO	urine	Canis lupus familiaris	ECOL-19-VL-WA-MO-0036
+SAMN20085883	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	Canada:Prince Edward Island	urine	Canis lupus familiaris	ECOL-20-VL-ON-PE-0045
+SAMN16304166	ciprofloxacin	INDETERMINATE_CENSORED	1	<=1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	manure	Sus scrofa domesticus	Res13-Lact-LER1-03
+SAMN16304166	meropenem	S	1	<=1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	manure	Sus scrofa domesticus	Res13-Lact-LER1-03
+SAMN16304166	gentamicin	INDETERMINATE_CENSORED	1	<=4mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	manure	Sus scrofa domesticus	Res13-Lact-LER1-03
+SAMN12990637	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0490
+SAMN12990637	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0490
+SAMN12990637	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0490
+SAMN14448741	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	beef		19GA09GB01-EC
+SAMN14448741	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	beef		19GA09GB01-EC
+SAMN14448741	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	beef		19GA09GB01-EC
+SAMN10221587	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	ground turkey		CVM N17EC1294
+SAMN10221587	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	ground turkey		CVM N17EC1294
+SAMN10221587	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	ground turkey		CVM N17EC1294
+SAMN43563739	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS3573A
+SAMN43563739	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS3573A
+SAMN50215705	ciprofloxacin	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN50215705	meropenem	S	1	==0.03mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN50215705	gentamicin	R	1	>64mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN03177666	ciprofloxacin	I	1	==0.5mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2012	USA	farm		CVM N36601PS
+SAMN03177666	gentamicin	R	1	>16mg/L[mic|missing|CLSI|resistant]		resistant	CLSI	2012	USA	farm		CVM N36601PS
+SAMN50215297	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215297	meropenem	S	1	==0.03mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215297	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN10221640	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	Chicken Legs		CVM N17EC1392
+SAMN10221640	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	Chicken Legs		CVM N17EC1392
+SAMN10221640	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:MD	Chicken Legs		CVM N17EC1392
+SAMN20200250	gentamicin	S	1	<=0.25mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA: IN	urine	Canis lupus familiaris	ECOL-20-VL-OH-IN-0023
+SAMN14008855	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA: GA	incision	Canis lupus familiaris	ECOL-19-VL-OH-GA-0015
+SAMN12924385	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground Beef		19OR09GB05-EC
+SAMN12924385	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground Beef		19OR09GB05-EC
+SAMN12924385	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground Beef		19OR09GB05-EC
+SAMN04022944	ciprofloxacin	R	1	>=4mg/L[mic|missing|CLSI|resistant]		resistant	CLSI	2015	USA:Boston	urine	Homo sapiens	
+SAMN04022944	meropenem	S	1	<=0.25mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2015	USA:Boston	urine	Homo sapiens	
+SAMN04022944	gentamicin	S	1	<=1mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2015	USA:Boston	urine	Homo sapiens	
+SAMN50215384	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215384	meropenem	S	1	==0.5mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215384	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN48590765	ciprofloxacin	S	1	<=0.02mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT94
+SAMN48590765	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT94
+SAMN48590765	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT94
+SAMN22208273	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:IA	Vagina	Canis lupus familiaris	ECOL-21-VL-SD-IA-0011
+SAMN50215652	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215652	meropenem	S	1	==0.03mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215652	gentamicin	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN12359536	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TN	Ground Beef		CVM N18EC0472
+SAMN12359536	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TN	Ground Beef		CVM N18EC0472
+SAMN12359536	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TN	Ground Beef		CVM N18EC0472
+SAMN30466958	ciprofloxacin	R	1	>=4mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	USA:Kansas	feedlot	Bos taurus	USDA-ARS-USMARC-50748
+SAMN30466958	gentamicin	R	1	>=16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	USA:Kansas	feedlot	Bos taurus	USDA-ARS-USMARC-50748
+SAMN10221040	ciprofloxacin	R	1	>4mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2017	USA:IA	ground turkey		CVM N17EC0168
+SAMN10221040	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	ground turkey		CVM N17EC0168
+SAMN10221040	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2017	USA:IA	ground turkey		CVM N17EC0168
+SAMN10478608	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:ND	urine	Canis lupus familiaris	ECOL-18-VL-LA-ND-0024
+SAMN16484128	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Chicken - Mixed Parts		CVM N19EC1006
+SAMN16484128	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Chicken - Mixed Parts		CVM N19EC1006
+SAMN16484128	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Chicken - Mixed Parts		CVM N19EC1006
+SAMN48992306	ciprofloxacin	S	1	==0.12mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BU22
+SAMN48992306	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BU22
+SAMN48992306	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BU22
+SAMN30603962	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:FL	semen	Canis lupus familiaris	ECOL-21-VL-NY-FL-0027
+SAMN12359652	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:KS	Chicken Thighs		CVM N18EC0372
+SAMN12359652	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:KS	Chicken Thighs		CVM N18EC0372
+SAMN12359652	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2018	USA:KS	Chicken Thighs		CVM N18EC0372
+SAMN43563627	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS3247A
+SAMN43563627	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS3247A
+SAMN43563680	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS3403A
+SAMN43563680	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS3403A
+SAMN03177617	ciprofloxacin	S	1	<=0.015mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2011	USA	farm		CVM N33552PS
+SAMN03177617	gentamicin	S	1	==0.5mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2011	USA	farm		CVM N33552PS
+SAMN10221224	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	ground turkey		CVM N17EC0542
+SAMN10221224	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	ground turkey		CVM N17EC0542
+SAMN10221224	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TX	ground turkey		CVM N17EC0542
+SAMN43564705	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS6410A
+SAMN43564705	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS6410A
+SAMN21038376	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:NC	vaginal discharge swab	Canis lupus familiaris	ECOL-20-VL-NY-NCR-0029
+SAMN12723019	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:KS	urine	Canis lupus familiaris	ECOL-19-VL-LA-KS-0011
+SAMN13064117	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Pork Chop		19OR10PC01-EC
+SAMN13064117	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Pork Chop		19OR10PC01-EC
+SAMN13064117	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Pork Chop		19OR10PC01-EC
+SAMN10221306	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Whole - cut in lab		CVM N17EC0722
+SAMN10221306	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Whole - cut in lab		CVM N17EC0722
+SAMN10221306	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Whole - cut in lab		CVM N17EC0722
+SAMN43564361	ciprofloxacin	S	1	==0.12mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2013	Canada:Alberta	Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS5420A
+SAMN43564361	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS5420A
+SAMN50215210	ciprofloxacin	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215210	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215210	gentamicin	R	1	>64mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215602	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215602	meropenem	S	1	==0.25mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215602	gentamicin	R	1	>64mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN21038382	gentamicin	S	1	<=1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:MS	urine	Canis lupus familiaris	ECOL-20-VL-NY-MS-0034
+SAMN18988769	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:KS	urine	Canis lupus familiaris	ECOL-20-VL-LA-KS-0038
+SAMN50215659	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215659	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215659	gentamicin	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN16304085	ciprofloxacin	INDETERMINATE_CENSORED	1	<=1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2018	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Fini-PEA17-13
+SAMN16304085	meropenem	S	1	<=1mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2018	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Fini-PEA17-13
+SAMN16304085	gentamicin	INDETERMINATE_CENSORED	1	<=4mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2018	Canada: Quebec	feces	Sus scrofa domesticus	Res13-Fini-PEA17-13
+SAMN10221593	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	ground turkey		CVM N17EC1306
+SAMN10221593	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	ground turkey		CVM N17EC1306
+SAMN10221593	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:OR	ground turkey		CVM N17EC1306
+SAMN13105179	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	PORK CHOP		PNUSAE038079
+SAMN13105179	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	PORK CHOP		PNUSAE038079
+SAMN13105179	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SC	PORK CHOP		PNUSAE038079
+SAMN43563934	ciprofloxacin	S	1	==0.03mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS4150A
+SAMN43563934	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Alberta	Carcass [UBERON:0008979]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS4150A
+SAMN04621605	ciprofloxacin	S	1	<=0.015mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2016	USA:CA	comminuted beef		FSIS1606139
+SAMN04621605	meropenem	S	1	<=0.06mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2016	USA:CA	comminuted beef		FSIS1606139
+SAMN04621605	gentamicin	S	1	<=0.25mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2016	USA:CA	comminuted beef		FSIS1606139
+SAMN10221300	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0710
+SAMN10221300	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0710
+SAMN10221300	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0710
+SAMN43564673	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS6328A
+SAMN43564673	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Meat (whole or parts) [FOODON:03317170]; Carcass [UBERON:0008979]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS6328A
+SAMN16484115	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC0293
+SAMN16484115	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC0293
+SAMN16484115	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC0293
+SAMN04014889	ciprofloxacin	R	1	>8mg/L[mic|missing|CLSI|resistant]		resistant	CLSI		missing	missing	missing	AR_0048
+SAMN04014889	meropenem	R	1	>16mg/L[mic|missing|CLSI|resistant]		resistant	CLSI		missing	missing	missing	AR_0048
+SAMN04014889	gentamicin	R	1	>16mg/L[mic|missing|CLSI|resistant]		resistant	CLSI		missing	missing	missing	AR_0048
+SAMN04014978	ciprofloxacin	R	1	>8mg/L[mic|missing|CLSI|resistant]		resistant	CLSI		missing	missing	missing	AR_0137
+SAMN04014978	meropenem	R	1	>8mg/L[mic|missing|CLSI|resistant]		resistant	CLSI		missing	missing	missing	AR_0137
+SAMN04014978	gentamicin	R	1	>16mg/L[mic|missing|CLSI|resistant]		resistant	CLSI		missing	missing	missing	AR_0137
+SAMN11640643	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2018	USA:FL	lung	Canis lupus familiaris	ECOL-18-VL-NY-FL-0020
+SAMN12995272	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	ground turkey		19GA08GT20
+SAMN12995272	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	ground turkey		19GA08GT20
+SAMN12995272	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:GA	ground turkey		19GA08GT20
+SAMN50215269	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215269	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN50215269	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2017	United Kingdom	clinical	Homo sapiens	
+SAMN24745768	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:OK	Uterus	Canis lupus familiaris	ECOL-21-VL-SD-OK-0029
+SAMN11372895	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TX	Ground Beef		CVM N18EC145
+SAMN11372895	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TX	Ground Beef		CVM N18EC145
+SAMN11372895	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:TX	Ground Beef		CVM N18EC145
+SAMN12359698	ciprofloxacin	R	1	>4mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2018	USA:SD	ground turkey		CVM N18EC0494
+SAMN12359698	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SD	ground turkey		CVM N18EC0494
+SAMN12359698	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:SD	ground turkey		CVM N18EC0494
+SAMN12990671	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	ground turkey		CVM N19EC0600
+SAMN12990671	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TN	ground turkey		CVM N19EC0600
+SAMN12990671	gentamicin	R	1	==8mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2019	USA:TN	ground turkey		CVM N19EC0600
+SAMN16304310	ciprofloxacin	S	1	<0.015mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF33-pWea-05
+SAMN16304310	meropenem	S	1	<0.06mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF33-pWea-05
+SAMN16304310	gentamicin	S	1	==0.5mg/L[mic|sensititer|CLSI|susceptible]		susceptible	CLSI	2017	Canada: Quebec	feces	Sus scrofa domesticus	R13-AF33-pWea-05
+SAMN18988758	ciprofloxacin	R	1	>=4mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:PA	Abscess	Canis lupus familiaris	ECOL-20-VL-LA-PA-Ryan-0037
+SAMN18988758	gentamicin	S	1	<=1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:PA	Abscess	Canis lupus familiaris	ECOL-20-VL-LA-PA-Ryan-0037
+SAMN12359680	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CA	Chicken Wings		CVM N18EC0432
+SAMN12359680	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2018	USA:CA	Chicken Wings		CVM N18EC0432
+SAMN12359680	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2018	USA:CA	Chicken Wings		CVM N18EC0432
+SAMN13842449	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	ground turkey (Meleagris gallopavo)		19NC11GT15_EC
+SAMN13842449	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	ground turkey (Meleagris gallopavo)		19NC11GT15_EC
+SAMN13842449	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:NC	ground turkey (Meleagris gallopavo)		19NC11GT15_EC
+SAMN13176243	ciprofloxacin	I	1	==0.5mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2017	USA:Cincinnati	urine	Homo sapiens	unkown
+SAMN13176243	meropenem	S	1	<=0.25mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2017	USA:Cincinnati	urine	Homo sapiens	unkown
+SAMN13176243	gentamicin	S	1	==2mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2017	USA:Cincinnati	urine	Homo sapiens	unkown
+SAMN10221067	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0222
+SAMN10221067	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0222
+SAMN10221067	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:IA	Ground Beef		CVM N17EC0222
+SAMN20085880	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	Canada:Prince Edward Island	urine	Canis lupus familiaris	ECOL-20-VL-ON-PE-0038
+SAMN31087303	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	36.26
+SAMN31087303	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	36.26
+SAMN31087303	gentamicin	S	1	==1mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	36.26
+SAMN12943562	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	Ground Beef		CVM N19EC0161
+SAMN12943562	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	Ground Beef		CVM N19EC0161
+SAMN12943562	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	Ground Beef		CVM N19EC0161
+SAMN13340371	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground turkey		19SD09GT15-EC
+SAMN13340371	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground turkey		19SD09GT15-EC
+SAMN13340371	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:SD	ground turkey		19SD09GT15-EC
+SAMN43563405	ciprofloxacin	S	1	==0.12mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2013	Canada:Ontario	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS2578A
+SAMN43563405	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Ontario	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Meat (whole or parts) [FOODON:03317170]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS2578A
+SAMN50215364	ciprofloxacin	S	1	==0.008mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215364	meropenem	S	1	==0.03mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215364	gentamicin	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN16245287	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC1326
+SAMN16245287	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC1326
+SAMN16245287	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC1326
+SAMN21038401	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:FL	abscess	Canis lupus familiaris	ECOL-20-VL-NY-FL-0030
+SAMN50215145	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215145	meropenem	S	1	==0.0625mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215145	gentamicin	S	1	==1mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN16245229	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC1099
+SAMN16245229	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC1099
+SAMN16245229	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC1099
+SAMN13474500	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CA	ground turkey		19CA09GT11-UCD-EC
+SAMN13474500	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CA	ground turkey		19CA09GT11-UCD-EC
+SAMN13474500	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CA	ground turkey		19CA09GT11-UCD-EC
+SAMN43563454	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS2726A
+SAMN43563454	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada	Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS2726A
+SAMN43563842	ciprofloxacin	S	1	==0.12mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2013	Canada:British Columbia	Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS3882A
+SAMN43563842	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Abattoir [ENVO:01000925]; Carcass [UBERON:0008979]	Chicken [NCBITaxon:9031]	E-MBS3882A
+SAMN07291545	ciprofloxacin	R	1	>8mg/L[mic|missing|CLSI|resistant]		resistant	CLSI		missing	missing	missing	AR_452
+SAMN07291545	meropenem	I	1	==8mg/L[mic|missing|CLSI|resistant]		resistant	CLSI		missing	missing	missing	AR_452
+SAMN07291545	gentamicin	S	1	==0.5mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI		missing	missing	missing	AR_452
+SAMN12990628	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0480
+SAMN12990628	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0480
+SAMN12990628	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:IA	Pork Chop		CVM N19EC0480
+SAMN13176242	ciprofloxacin	R	1	>=4mg/L[mic|missing|CLSI|resistant]		resistant	CLSI	2017	USA:Cincinnati	urine	Homo sapiens	unkown
+SAMN13176242	meropenem	S	1	<=0.25mg/L[mic|missing|CLSI|susceptible]		susceptible	CLSI	2017	USA:Cincinnati	urine	Homo sapiens	unkown
+SAMN13176242	gentamicin	R	1	>=16mg/L[mic|missing|CLSI|resistant]		resistant	CLSI	2017	USA:Cincinnati	urine	Homo sapiens	unkown
+SAMN10221427	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	Chicken Breasts		CVM N17EC0972
+SAMN10221427	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	Chicken Breasts		CVM N17EC0972
+SAMN10221427	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:GA	Chicken Breasts		CVM N17EC0972
+SAMN47623305	ciprofloxacin	I	1	==0.5mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS38
+SAMN47623305	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS38
+SAMN47623305	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BS38
+SAMN50215620	ciprofloxacin	S	1	==0.125mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN50215620	meropenem	S	1	==0.125mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN50215620	gentamicin	R	1	>64mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2021	United Kingdom	clinical	Homo sapiens	
+SAMN43563414	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Ontario	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS2604A
+SAMN43563414	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	Canada:Ontario	Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]	Chicken [NCBITaxon:9031]	E-MBS2604A
+SAMN23827520	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:MO	urine	Canis lupus familiaris	ECOL-21-VL-WA-MO-0007
+SAMN10221659	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	ground turkey		CVM N17EC1430
+SAMN10221659	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	ground turkey		CVM N17EC1430
+SAMN10221659	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	ground turkey		CVM N17EC1430
+SAMN31087272	ciprofloxacin	S	1	==0.25mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	veal calf	35.76
+SAMN31087272	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	35.76
+SAMN31087272	gentamicin	S	1	==1mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	35.76
+SAMN16245180	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Pork Chops		CVM N19EC0900
+SAMN16245180	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Pork Chops		CVM N19EC0900
+SAMN16245180	gentamicin	S	1	==1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:TX	Pork Chops		CVM N19EC0900
+SAMN24811822	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2021	USA:NC	urine	Canis lupus familiaris	ECOL-21-VL-SD-NC-0034
+SAMN43564350	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS5398A
+SAMN43564350	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:Quebec	Carcass [UBERON:0008979]; Abattoir [ENVO:01000925]; Gallus gallus [NCBITaxon:9031]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]	Chicken [NCBITaxon:9031]	E-MBS5398A
+SAMN16245220	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC1087
+SAMN16245220	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:PA	ground turkey		CVM N19EC1087
+SAMN16245220	gentamicin	R	1	==8mg/L[mic|sensititre|CLSI|intermediate]		intermediate	CLSI	2019	USA:PA	ground turkey		CVM N19EC1087
+SAMN31087181	ciprofloxacin	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	34.65
+SAMN31087181	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	34.65
+SAMN31087181	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	34.65
+SAMN50215793	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN50215793	meropenem	S	1	==0.125mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2020	United Kingdom	clinical	Homo sapiens	
+SAMN10221477	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Ground Beef		CVM N17EC1072
+SAMN10221477	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Ground Beef		CVM N17EC1072
+SAMN10221477	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2017	USA:TN	Ground Beef		CVM N17EC1072
+SAMN13920444	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:KY	urine	Canis lupus familiaris	ECOL-19-VL-LA-KY-0019
+SAMN13898692	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:MN	urine	Canis lupus familiaris	ECOL-19-VL-LA-ND-0018
+SAMN13172700	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	chicken breast		19CO04CB01-EC
+SAMN13172700	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:CO	chicken breast		19CO04CB01-EC
+SAMN13172700	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2019	USA:CO	chicken breast		19CO04CB01-EC
+SAMN13392145	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2019	USA:AL	urine	Canis lupus familiaris	ECOL-19-VL-WA-KY-0014
+SAMN43563417	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS2619A
+SAMN43563417	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	Canada:British Columbia	Carcass [UBERON:0008979]; Meat (whole or parts) [FOODON:03317170]; Food (raw) [FOODON:03311126]; Meat (with bone) [FOODON:02010116]; Meat (with skin) [FOODON:02010111]; Gallus gallus [NCBITaxon:9031]; Abattoir [ENVO:01000925]	Chicken [NCBITaxon:9031]	E-MBS2619A
+SAMN50215455	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215455	meropenem	R	1	>16mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN50215455	gentamicin	R	1	>64mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2018	United Kingdom	clinical	Homo sapiens	
+SAMN55283941	ciprofloxacin	R	1	>2mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	not collected	animal infection	Canis lupus familiaris	
+SAMN55283941	meropenem	S	1	<=1mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2013	not collected	animal infection	Canis lupus familiaris	
+SAMN55283941	gentamicin	R	1	>16mg/L[mic|sensititre|CLSI|resistant]		resistant	CLSI	2013	not collected	animal infection	Canis lupus familiaris	
+SAMN31087161	ciprofloxacin	S	1	==0.25mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2021	Netherlands	cecal content	veal calf	34.45
+SAMN31087161	meropenem	S	1	==0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	34.45
+SAMN31087161	gentamicin	S	1	<=0.5mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2021	Netherlands	cecal content	veal calf	34.45
+SAMN16551976	ciprofloxacin	S	1	<=0.06mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:PA	Skin wound	Canis lupus familiaris	ECOL-20-VL-LA-PA-Ryan-0018
+SAMN16551976	gentamicin	S	1	<=1mg/L[mic|sensititre|CLSI|not defined]		not defined	CLSI	2020	USA:PA	Skin wound	Canis lupus familiaris	ECOL-20-VL-LA-PA-Ryan-0018
+SAMN12091252	ciprofloxacin	S	1	<=0.015mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground beef		19OR05GB05-EC
+SAMN12091252	meropenem	S	1	<=0.06mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground beef		19OR05GB05-EC
+SAMN12091252	gentamicin	S	1	==0.5mg/L[mic|sensititre|CLSI|susceptible]		susceptible	CLSI	2019	USA:OR	Ground beef		19OR05GB05-EC
+SAMN47623373	ciprofloxacin	S	1	==0.25mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT43
+SAMN47623373	meropenem	S	1	<=0.03mg/L[mic|sensititre|EUCAST|susceptible]		susceptible	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT43
+SAMN47623373	gentamicin	R	1	>16mg/L[mic|sensititre|EUCAST|resistant]		resistant	EUCAST	2023	Mexico	cecal content	Sus scrofa domestica	SENASICA_Ec_BT43
+SAMN50215313	ciprofloxacin	R	1	>4mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215313	meropenem	S	1	==0.03mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	
+SAMN50215313	gentamicin	S	1	==2mg/L[mic|missing|EUCAST|not defined]		not defined	EUCAST	2019	United Kingdom	clinical	Homo sapiens	

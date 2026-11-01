@@ -1,0 +1,27 @@
+{
+  "n_qualifying": 651,
+  "n_linkable": 633,
+  "n_unlinkable": 18,
+  "n_downloaded": 450,
+  "n_download_failed": 0,
+  "unlinkable_examples": [
+    "SAMN12846553",
+    "SAMN17813932",
+    "SAMN19670076",
+    "SAMN05170299",
+    "SAMN05170349",
+    "SAMN28235859",
+    "SAMN19670103",
+    "SAMN28235861",
+    "SAMN19670087",
+    "SAMN16304177",
+    "SAMN05170327",
+    "SAMN19670084",
+    "SAMN11953915",
+    "SAMN05170260",
+    "SAMN19670070",
+    "SAMN28235862",
+    "SAMN19670090",
+    "SAMN05290453"
+  ]
+}

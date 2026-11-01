@@ -1,0 +1,52 @@
+
+=== Escherichia coli: pool=11126, systematic every 44th -> n=250 ===
+records parsed: 250
+   ciprofloxacin   rows=208 quant=203 primary=130 -> est_pool_primary= 5786 (any-quant 9034)
+        plat_automated               73
+        plat_other:sensititer        4
+        plat_platform_missing        27
+        plat_tray_bmd                99
+   meropenem       rows=168 quant=167 primary= 99 -> est_pool_primary= 4406 (any-quant 7432)
+        plat_automated               68
+        plat_other:sensititer        4
+        plat_platform_missing        25
+        plat_tray_bmd                70
+   colistin        rows= 17 quant= 17 primary= 16 -> est_pool_primary=  712 (any-quant 757)
+        plat_automated               1
+        plat_platform_missing        6
+        plat_tray_bmd                10
+   gentamicin      rows=228 quant=224 primary=159 -> est_pool_primary= 7076 (any-quant 9969)
+        plat_automated               65
+        plat_other:sensititer        4
+        plat_platform_missing        24
+        plat_tray_bmd                131
+   ceftazidime     rows=136 quant=133 primary= 71 -> est_pool_primary= 3160 (any-quant 5919)
+        plat_automated               62
+        plat_other:sensititer        4
+        plat_platform_missing        25
+        plat_tray_bmd                42
+
+=== Acinetobacter baumannii: pool=1275, systematic every 5th -> n=250 ===
+records parsed: 250
+   ciprofloxacin   rows=326 quant=326 primary= 76 -> est_pool_primary=  388 (any-quant 1663)
+        plat_automated               250
+        plat_platform_missing        70
+        plat_tray_bmd                6
+   meropenem       rows=165 quant=165 primary= 72 -> est_pool_primary=  367 (any-quant 842)
+        plat_automated               93
+        plat_platform_missing        66
+        plat_tray_bmd                6
+   colistin        rows= 82 quant= 82 primary= 78 -> est_pool_primary=  398 (any-quant 418)
+        plat_automated               4
+        plat_other:broth microdilution 2
+        plat_platform_missing        69
+        plat_tray_bmd                7
+   gentamicin      rows=327 quant=327 primary= 71 -> est_pool_primary=  362 (any-quant 1668)
+        plat_automated               256
+        plat_platform_missing        65
+        plat_tray_bmd                6
+   ceftazidime     rows=295 quant=295 primary= 65 -> est_pool_primary=  332 (any-quant 1504)
+        plat_automated               230
+        plat_platform_missing        65
+
+wrote results/tables/census_eligibility_all_organisms.json

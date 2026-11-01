@@ -1,0 +1,7 @@
+site_name: lacuna-amr
+site_description: License-clean local auditing of genome-based AMR predictions (research use only)
+nav:
+  - Home: index.md
+  - CLI: cli.md
+  - Data schemas: schemas.md
+  - Protocol: protocol.md

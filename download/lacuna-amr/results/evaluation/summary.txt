@@ -1,0 +1,36 @@
+=== H4 unexplained-resistant fraction (all R isolates) ===
+  ciprofloxacin  R= 17 unexplained= 0 frac=0.000 CI[0.000,0.195]
+  gentamicin     R= 34 unexplained= 3 frac=0.088 CI[0.019,0.237]
+  ceftazidime    R= 26 unexplained= 0 frac=0.000 CI[0.000,0.132]
+
+=== H1 optimism: AUROC S0 vs shifted splits (M1) ===
+  ciprofloxacin  M1_S1    S0=0.978 split=0.980 delta=+0.002 CI[-0.014,+0.009]
+  ciprofloxacin  M1_S2    S0=0.959 split=0.974 delta=+0.015 CI[-0.019,+0.032]
+  ciprofloxacin  M1_S3    S0=0.978 split=0.965 delta=-0.013 CI[-0.024,+0.000]
+  gentamicin     M1_S1    S0=0.908 split=0.811 delta=-0.097 CI[-0.171,-0.016]
+  gentamicin     M1_S2    {'n_common': 0, 'note': 'insufficient overlap'}
+  gentamicin     M1_S3    S0=0.908 split=0.833 delta=-0.075 CI[-0.132,+0.091]
+  ceftazidime    M1_S1    S0=0.583 split=0.623 delta=+0.040 CI[-0.040,+0.550]
+  ceftazidime    M1_S2    S0=0.622 split=0.742 delta=+0.120 CI[+0.000,+1.000]
+  ceftazidime    M1_S3    S0=0.583 split=0.279 delta=-0.304 CI[-0.438,+0.245]
+
+=== H3 coverage under shift (M1; R-class coverage per held-out unit) ===
+  ciprofloxacin  M1_S1  unit=8            n=109 R=  7 covR=0.43 S0same=0.86
+  ciprofloxacin  M1_S1  unit=3            n= 31 R=  8 covR=1.00 S0same=1.0
+  ciprofloxacin  M1_S3  unit=PRJNA514245|National Center for Biotechnology Information n= 55 R=  6 covR=1.00 S0same=1.0
+  gentamicin     M1_S1  unit=8            n=126 R=  9 covR=1.00 S0same=0.94
+  gentamicin     M1_S1  unit=OTHER        n= 41 R= 17 covR=0.29 S0same=1.0
+  gentamicin     M1_S1  unit=3            n= 62 R=  8 covR=1.00 S0same=1.0
+  gentamicin     M1_S3  unit=PRJNA292663|FDA n= 88 R= 10 covR=0.40 S0same=0.95
+  gentamicin     M1_S3  unit=PRJNA514245|National Center for Biotechnology Information n= 47 R= 16 covR=1.00 S0same=1.0
+  ceftazidime    M1_S1  unit=8            n= 33 R= 16 covR=0.44 S0same=0.88
+
+=== S0 performance (M1, mean over 10 folds) ===
+  ciprofloxacin  AUROC=0.980 Brier=0.024
+  gentamicin     AUROC=0.915 Brier=0.084
+  ceftazidime    AUROC=0.653 Brier=0.241
+
+=== nearest-train distance S1 units ===
+  ciprofloxacin: {'8': 0.5998290146507647, 'OTHER': 0.6531879071135914, '3': 0.6511230719380944}
+  gentamicin: {'8': 0.5959375861520289, 'OTHER': 0.6505305746904969, '3': 0.6516633917117854}
+  ceftazidime: {'OTHER': 0.7046090762149344, '8': 0.6058805591724425}

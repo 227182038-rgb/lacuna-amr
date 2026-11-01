@@ -1,0 +1,18 @@
+{
+  "label_counts": {
+    "gentamicin_S": 351,
+    "ciprofloxacin_S": 311,
+    "meropenem_S": 285,
+    "ciprofloxacin_R": 44,
+    "gentamicin_R": 79,
+    "ciprofloxacin_I": 12,
+    "meropenem_R": 6,
+    "ciprofloxacin_INDETERMINATE_CENSORED": 5,
+    "gentamicin_INDETERMINATE_CENSORED": 5,
+    "meropenem_I": 1
+  },
+  "qc": {
+    "pass": 450
+  },
+  "n_downloaded": 450
+}

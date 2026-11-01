@@ -1,0 +1,16 @@
+organism	drug	n_org_antibiogram	n_org_drug
+Klebsiella pneumoniae	ciprofloxacin	2518	1414
+Klebsiella pneumoniae	meropenem	2518	1408
+Klebsiella pneumoniae	colistin	2518	602
+Klebsiella pneumoniae	gentamicin	2518	1414
+Klebsiella pneumoniae	ceftazidime	2518	2085
+Escherichia coli	ciprofloxacin	11126	9136
+Escherichia coli	meropenem	11126	7385
+Escherichia coli	colistin	11126	840
+Escherichia coli	gentamicin	11126	10042
+Escherichia coli	ceftazidime	11126	5995
+Acinetobacter baumannii	ciprofloxacin	1275	1243
+Acinetobacter baumannii	meropenem	1275	837
+Acinetobacter baumannii	colistin	1275	418
+Acinetobacter baumannii	gentamicin	1275	1212
+Acinetobacter baumannii	ceftazidime	1275	1092

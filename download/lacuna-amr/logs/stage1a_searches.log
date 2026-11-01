@@ -1,0 +1,31 @@
+=== stage1a part2 2026-11-01T08:06:55Z ===
+R06 recheck: accent-folded author match = True; venue = mBio; type = journal-article; year = 2026
+R04 type = posted-content; venue = ; first author = Aselstyne
+NeurIPS page HTTP 200, <title> = NeurIPS  Phylogeny-weighted conformal prediction for genomic antibiotic susceptibility testing: four
+  mentions: conformal prediction for genomic antibiotic susceptibility testing: four failures of a na
+  mentions: conformal prediction for genomic antibiotic susceptibility testing: four failures of a na
+  mentions: conformal prediction gives distribution-free coverage under exchangeability. Bacterial is
+-- Crossref FAIR-for-research-software candidates:
+   ?            2022 | FAIR Principles for Research Software Released | 10.59350/y7x69-dmh71 | 
+   ?            2022 | FAIR Principles for Research Software Released | 10.59350/3v27r-86423 | 
+   ?            2022 | FAIR Principles for Research Software Released | 10.59350/ye8k2-7w738 | 
+   ?            2022 | FAIR Principles for Research Software Released | 10.59350/1aq5b-h0k76 | 
+   ?            2022 | FAIR Principles for Research Software Released | 10.59350/s4p6j-3wk38 | 
+   ?            2022 | FAIR Principles for Research Software Released | 10.59350/9qn73-phk11 | 
+-- PubMed[conformal_cp_amr] count=3
+     : Conformal Prediction with Knowledge Graphs for Reliable Antimicrobial Resistance Dete
+     : Confidence-based prediction of antibiotic resistance at the patient level.
+     : A Computational Workflow Integrating Explainable AI and Database Mining for the Prior
+-- PubMed[conformal_cp_shift_clade] count=1
+     : SCOPE: Localizing fate-decision states and their regulatory drivers in single-cell di
+-- PubMed[conformal_cp_enterobacterales] count=2
+     : Conformal Prediction with Knowledge Graphs for Reliable Antimicrobial Resistance Dete
+     : A Computational Workflow Integrating Explainable AI and Database Mining for the Prior
+-- PubMed[lineage_holdout_amr] count=0
+-- PubMed[amr_wgs_prediction_evaluation] count=3
+     : Systematic Evaluation of Whole Genome Sequence-Based Predictions of Salmonella Seroty
+     : Systematic Evaluation of Whole-Genome Sequencing Based Prediction of Antimicrobial Re
+     : Evaluation of Whole Genome Sequencing-Based Predictions of Antimicrobial Resistance t
+-- PubMed[relabel_ast_breakpoints] count=1
+     : Breakpoints for predicting Pseudomonas aeruginosa susceptibility to inhaled tobramyci
+=== stage1a part2 done ===

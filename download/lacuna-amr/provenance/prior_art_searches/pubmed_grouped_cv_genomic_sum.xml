@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>42235509</Id>
+	<Item Name="PubDate" Type="Date">2026 Jul 8</Item>
+	<Item Name="EPubDate" Type="Date">2026 Jun 3</Item>
+	<Item Name="Source" Type="String">Cell Genom</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Baker M</Item>
+		<Item Name="Author" Type="String">Maciel-Guerra A</Item>
+		<Item Name="Author" Type="String">Wang R</Item>
+		<Item Name="Author" Type="String">Luo C</Item>
+		<Item Name="Author" Type="String">Xu Y</Item>
+		<Item Name="Author" Type="String">Guerrero-Araya E</Item>
+		<Item Name="Author" Type="String">Meng W</Item>
+		<Item Name="Author" Type="String">Wu G</Item>
+		<Item Name="Author" Type="String">Pinpimai K</Item>
+		<Item Name="Author" Type="String">Oyom PA</Item>
+		<Item Name="Author" Type="String">Senin N</Item>
+		<Item Name="Author" Type="String">Dottorini T</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Dottorini T</Item>
+	<Item Name="Title" Type="String">Genomic and socioeconomic drivers of antimicrobial resistance forecast to 2050.</Item>
+	<Item Name="Volume" Type="String">6</Item>
+	<Item Name="Issue" Type="String">7</Item>
+	<Item Name="Pages" Type="String">101273</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">9918284260106676</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2666-979X</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">42235509</Item>
+		<Item Name="pmc" Type="String">PMC13347946</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC13347946;</Item>
+		<Item Name="doi" Type="String">10.1016/j.xgen.2026.101273</Item>
+		<Item Name="pii" Type="String">S2666-979X(26)00135-7</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.xgen.2026.101273</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2025/09/01 00:00</Item>
+		<Item Name="revised" Type="Date">2026/03/09 00:00</Item>
+		<Item Name="accepted" Type="Date">2026/05/11 00:00</Item>
+		<Item Name="medline" Type="Date">2026/07/09 00:40</Item>
+		<Item Name="pubmed" Type="Date">2026/06/04 00:39</Item>
+		<Item Name="entrez" Type="Date">2026/06/03 18:41</Item>
+		<Item Name="pmc-release" Type="Date">2026/06/03 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">81</Item>
+	<Item Name="FullJournalName" Type="String">Cell genomics</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.xgen.2026.101273</Item>
+	<Item Name="SO" Type="String">2026 Jul 8;6(7):101273</Item>
+</DocSum>
+
+<DocSum>
+	<Id>41510267</Id>
+	<Item Name="PubDate" Type="Date">2025 Dec 9</Item>
+	<Item Name="EPubDate" Type="Date">2025 Dec 9</Item>
+	<Item Name="Source" Type="String">Res Sq</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Kiyaga S</Item>
+		<Item Name="Author" Type="String">Mbabazi M</Item>
+		<Item Name="Author" Type="String">Katairo T</Item>
+		<Item Name="Author" Type="String">Kabbale KD</Item>
+		<Item Name="Author" Type="String">Asua V</Item>
+		<Item Name="Author" Type="String">Nsengimaana B</Item>
+		<Item Name="Author" Type="String">Wiringilimaana I</Item>
+		<Item Name="Author" Type="String">Semakuba FD</Item>
+		<Item Name="Author" Type="String">Mwubaha C</Item>
+		<Item Name="Author" Type="String">Nakasaanya J</Item>
+		<Item Name="Author" Type="String">Watyekele E</Item>
+		<Item Name="Author" Type="String">Ayitewala A</Item>
+		<Item Name="Author" Type="String">Tukwasibwe S</Item>
+		<Item Name="Author" Type="String">Mulondo J</Item>
+		<Item Name="Author" Type="String">Nsobya SL</Item>
+		<Item Name="Author" Type="String">Agaba B</Item>
+		<Item Name="Author" Type="String">Maiteki-Sebuguzi C</Item>
+		<Item Name="Author" Type="String">Kamya MR</Item>
+		<Item Name="Author" Type="String">Kateete DP</Item>
+		<Item Name="Author" Type="String">Nabende JN</Item>
+		<Item Name="Author" Type="String">Jjingo D</Item>
+		<Item Name="Author" Type="String">Mboowa G</Item>
+		<Item Name="Author" Type="String">Batte C</Item>
+		<Item Name="Author" Type="String">Ssewanyana I</Item>
+		<Item Name="Author" Type="String">Aranda-Díaz A</Item>
+		<Item Name="Author" Type="String">Dorsey G</Item>
+		<Item Name="Author" Type="String">Rosenthal PJ</Item>
+		<Item Name="Author" Type="String">Conrad M</Item>
+		<Item Name="Author" Type="String">Greenhouse B</Item>
+		<Item Name="Author" Type="String">Briggs J</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Briggs J</Item>
+	<Item Name="Title" Type="String">Accuracy of Plasmodium falciparum genetic data for estimating parasite prevalence and malaria incidence in Uganda.</Item>
+	<Item Name="Volume" Type="String"></Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String"></Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101768035</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2693-5015</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Preprint</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">41510267</Item>
+		<Item Name="pmc" Type="String">PMC12776452</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC12776452;</Item>
+		<Item Name="doi" Type="String">10.21203/rs.3.rs-8251834/v1</Item>
+		<Item Name="pii" Type="String">rs.3.rs-8251834</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.21203/rs.3.rs-8251834/v1</Item>
+	<Item Name="History" Type="List">
+		<Item Name="pubmed" Type="Date">2026/01/09 07:07</Item>
+		<Item Name="medline" Type="Date">2026/01/09 07:08</Item>
+		<Item Name="entrez" Type="Date">2026/01/09 05:09</Item>
+		<Item Name="pmc-release" Type="Date">2026/01/07 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Update in" Type="String">Malar J. 2026 Feb 21;25(1):147. doi: 10.1186/s12936-026-05836-w. PMID: 41723456</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">40</Item>
+	<Item Name="FullJournalName" Type="String">Research square</Item>
+	<Item Name="ELocationID" Type="String">pii: rs.3.rs-8251834. doi: 10.21203/rs.3.rs-8251834/v1</Item>
+	<Item Name="SO" Type="String">2025 Dec 9;</Item>
+</DocSum>
+
+<DocSum>
+	<Id>42487707</Id>
+	<Item Name="PubDate" Type="Date">2026</Item>
+	<Item Name="EPubDate" Type="Date">2026 Jul 8</Item>
+	<Item Name="Source" Type="String">Front Microbiol</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Lagad RR</Item>
+		<Item Name="Author" Type="String">Rafi S</Item>
+		<Item Name="Author" Type="String">Goswami A</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Goswami A</Item>
+	<Item Name="Title" Type="String">Genomic-island cassette architecture provides interpretable signal for exploratory classification of poultry-associated Enterococcus cecorum lineages.</Item>
+	<Item Name="Volume" Type="String">17</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">1882753</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101548977</Item>
+	<Item Name="ISSN" Type="String">1664-302X</Item>
+	<Item Name="ESSN" Type="String">1664-302X</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed</Item>
+	<Item Name="PubStatus" Type="String"></Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">42487707</Item>
+		<Item Name="pmc" Type="String">PMC13388253</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC13388253;</Item>
+		<Item Name="doi" Type="String">10.3389/fmicb.2026.1882753</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3389/fmicb.2026.1882753</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2026/05/15 00:00</Item>
+		<Item Name="revised" Type="Date">2026/06/10 00:00</Item>
+		<Item Name="accepted" Type="Date">2026/06/12 00:00</Item>
+		<Item Name="medline" Type="Date">2026/07/23 06:40</Item>
+		<Item Name="pubmed" Type="Date">2026/07/23 06:39</Item>
+		<Item Name="entrez" Type="Date">2026/07/23 04:44</Item>
+		<Item Name="pmc-release" Type="Date">2026/07/08 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">31</Item>
+	<Item Name="FullJournalName" Type="String">Frontiers in microbiology</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3389/fmicb.2026.1882753</Item>
+	<Item Name="SO" Type="String">2026;17:1882753</Item>
+</DocSum>
+
+<DocSum>
+	<Id>42201082</Id>
+	<Item Name="PubDate" Type="Date">2026 May 18</Item>
+	<Item Name="EPubDate" Type="Date">2026 May 18</Item>
+	<Item Name="Source" Type="String">J Xenobiot</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Jawahar J</Item>
+		<Item Name="Author" Type="String">James S</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">James S</Item>
+	<Item Name="Title" Type="String">Global Geo-Pharmacogenomics: Environmental Mutational Signatures Drive Population-Level Heterogeneity in Anticancer Drug Response.</Item>
+	<Item Name="Volume" Type="String">16</Item>
+	<Item Name="Issue" Type="String">3</Item>
+	<Item Name="Pages" Type="String"></Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101701430</Item>
+	<Item Name="ISSN" Type="String">2039-4705</Item>
+	<Item Name="ESSN" Type="String">2039-4713</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">42201082</Item>
+		<Item Name="pmc" Type="String">PMC13214943</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC13214943;</Item>
+		<Item Name="doi" Type="String">10.3390/jox16030087</Item>
+		<Item Name="pii" Type="String">jox16030087</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3390/jox16030087</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2026/03/28 00:00</Item>
+		<Item Name="revised" Type="Date">2026/05/07 00:00</Item>
+		<Item Name="accepted" Type="Date">2026/05/09 00:00</Item>
+		<Item Name="medline" Type="Date">2026/05/27 12:37</Item>
+		<Item Name="pubmed" Type="Date">2026/05/27 12:36</Item>
+		<Item Name="entrez" Type="Date">2026/05/27 10:14</Item>
+		<Item Name="pmc-release" Type="Date">2026/05/18 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">85</Item>
+	<Item Name="FullJournalName" Type="String">Journal of xenobiotics</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3390/jox16030087</Item>
+	<Item Name="SO" Type="String">2026 May 18;16(3)</Item>
+</DocSum>
+
+<DocSum>
+	<Id>42375790</Id>
+	<Item Name="PubDate" Type="Date">2026</Item>
+	<Item Name="EPubDate" Type="Date">2026 Jun 15</Item>
+	<Item Name="Source" Type="String">Front Plant Sci</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Baek I</Item>
+		<Item Name="Author" Type="String">Upadhyay RK</Item>
+		<Item Name="Author" Type="String">Kim MS</Item>
+		<Item Name="Author" Type="String">Meinhardt LW</Item>
+		<Item Name="Author" Type="String">Ahn E</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Ahn E</Item>
+	<Item Name="Title" Type="String">Longitudinal genomic prediction of cacao disease resilience identifies robust witches' broom disease targets.</Item>
+	<Item Name="Volume" Type="String">17</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">1837102</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101568200</Item>
+	<Item Name="ISSN" Type="String">1664-462X</Item>
+	<Item Name="ESSN" Type="String">1664-462X</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed</Item>
+	<Item Name="PubStatus" Type="String"></Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">42375790</Item>
+		<Item Name="pmc" Type="String">PMC13311075</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC13311075;</Item>
+		<Item Name="doi" Type="String">10.3389/fpls.2026.1837102</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3389/fpls.2026.1837102</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2026/03/23 00:00</Item>
+		<Item Name="revised" Type="Date">2026/05/26 00:00</Item>
+		<Item Name="accepted" Type="Date">2026/05/27 00:00</Item>
+		<Item Name="medline" Type="Date">2026/06/30 06:32</Item>
+		<Item Name="pubmed" Type="Date">2026/06/30 06:31</Item>
+		<Item Name="entrez" Type="Date">2026/06/30 05:20</Item>
+		<Item Name="pmc-release" Type="Date">2026/06/15 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">38</Item>
+	<Item Name="FullJournalName" Type="String">Frontiers in plant science</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3389/fpls.2026.1837102</Item>
+	<Item Name="SO" Type="String">2026;17:1837102</Item>
+</DocSum>
+
+</eSummaryResult>

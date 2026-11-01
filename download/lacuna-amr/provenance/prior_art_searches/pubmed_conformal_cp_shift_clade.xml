@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>1</Count><RetMax>1</RetMax><RetStart>0</RetStart><IdList>
+<Id>41993275</Id>
+</IdList><TranslationSet/><QueryTranslation>("conformal prediction"[Title/Abstract] OR "conformal predictor"[Title/Abstract]) AND ("clade"[Title/Abstract] OR "lineage"[Title/Abstract] OR "phylogen*"[Title/Abstract])</QueryTranslation></eSearchResult>

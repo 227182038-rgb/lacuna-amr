@@ -1,0 +1,48 @@
+=== stage1a part3 2026-11-01T08:08:45Z ===
+NeurIPS paper title: ?
+Authors: ?
+Links: ['https://openreview.net/forum?id=RBZSoNdztV']
+-- fair4rs_crossref_biblio:
+   ?            2022 | FAIR Principles for Research Software Released | 10.59350/s4p6j-3wk38 |  | posted-content
+   ?            2022 | FAIR Principles for Research Software Released | 10.59350/9qn73-phk11 |  | posted-content
+   ?            2022 | FAIR for Research Software (FAIR4RS): A summary | 10.59350/sbdjs-wq111 |  | posted-content
+   ?            2022 | FAIR for Research Software (FAIR4RS): A summary | 10.59350/3jjyd-ktb62 |  | posted-content
+   Katz         2024 | FAIR principle for Research Software (FAIR4RS) 2-year review | 10.54900/vmk6w-k0j14 |  | posted-content
+   Katz         2024 | FAIR principle for Research Software (FAIR4RS) 2-year review | 10.54900/b7zsd-d9g04 |  | posted-content
+   Jensen       2025 | Awareness of FAIR and FAIR4RS among international research software fu | 10.1038/s41597-025-04820-4 | Scientific Data | journal-articl
+   ?            2022 | FAIR Principles for Research Software Released | 10.59350/y7x69-dmh71 |  | posted-content
+-- fair4rs_crossref_title:
+   Lamprecht    2019 | Towards FAIR principles for research software | 10.3233/ds-190026 | Data Science | journal-articl
+   Barker       2022 | Introducing the FAIR Principles for research software | 10.1038/s41597-022-01710-x | Scientific Data | journal-articl
+   Martín del Pico 2024 | FAIRsoft—a practical implementation of FAIR principles for research so | 10.1093/bioinformatics/btae464 | Bioinformatics | journal-articl
+   Du           2023 | Evaluating LC-HRMS metabolomics data processing software using FAIR pr | 10.1007/s11306-023-01974-3 | Metabolomics | journal-articl
+   Hasselbring  2020 | From FAIR research data toward FAIR and open research software | 10.1515/itit-2019-0040 | it - Information Technology | journal-articl
+   Ferenz       2026 | Enabling FAIR Energy Research Software | 10.52825/ocp.v9i.3279 | Open Conference Proceedings | journal-articl
+   Veiga        2025 | Princípios FAIR | 10.5380/atoz.v13i0.97888 | AtoZ: novas práticas em informação e con | journal-articl
+   Perez-Riverol 2025 | Open-Source and FAIR Research Software for Proteomics | 10.1021/acs.jproteome.4c01079 | Journal of Proteome Research | journal-articl
+-- PubMed FAIR-software count=3 ids=['36241754', '39037960', '36745241']
+     Introducing the FAIR Principles for research software. [Sci Data]
+     FAIRsoft-a practical implementation of FAIR principles for research software. [Bioinformatics]
+     Evaluating LC-HRMS metabolomics data processing software using FAIR principles for research sof [Metabolomics]
+-- PubMed[popstruct_cv_amr] count=2
+     Estimating the association of antimicrobial resistance genes with minimum inhibitory concentrat
+     Predictive modeling of antibiotic eradication therapy success for new-onset Pseudomonas aerugin
+-- PubMed[grouped_cv_genomic] count=9
+     Genomic and socioeconomic drivers of antimicrobial resistance forecast to 2050.
+     Accuracy of Plasmodium falciparum genetic data for estimating parasite prevalence and malaria i
+     Genomic-island cassette architecture provides interpretable signal for exploratory classificati
+     Global Geo-Pharmacogenomics: Environmental Mutational Signatures Drive Population-Level Heterog
+     Longitudinal genomic prediction of cacao disease resilience identifies robust witches' broom di
+-- PubMed[genotype_phenotype_concordance_ncbi] count=31
+     Antibiotic-Specific Genotype-Phenotype Concordance and Cross-Database Interoperability in Publi
+     Azithromycin resistance in Escherichia coli and Salmonella from food-producing animals and meat
+     Complete genome sequence, phenotypic correlation and pangenome analysis of uropathogenic Klebsi
+     WGS accurately predicts antimicrobial resistance in Escherichia coli.
+     Pangenome Analysis of Proteus mirabilis Reveals Lineage-Specific Antimicrobial Resistance Profi
+-- PubMed[unexplained_resistance_kp] count=3
+     Molecular Epidemiology of Third-Generation-Cephalosporin-Resistant Enterobacteriaceae in Southe
+     Multi-approach methods to predict cryptic carbapenem resistance mechanisms in Klebsiella pneumo
+     Molecular characterization of colistin resistance in carbapenem-resistant Klebsiella pneumoniae
+-- PubMed[amr_ml_benchmark_wgs] count=1
+     Uncovering species- and drug-class-specific antimicrobial resistance mechanisms from large-scal
+=== stage1a part3 done ===

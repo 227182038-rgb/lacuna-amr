@@ -1,0 +1,12 @@
+1/A. Efficacy for Enterobacterales is uncertain. Screening cut-off values can be used to distinguish wild-type isolates from isolates with acquired resistance (presence of resistance indicated by MIC >16 mg/L; zone diameter <17 mm for the chloramphenicol 30 µg disk). For chloramphenicol treatment in meningitis, see table of dosages.
+2. Colistin MIC determination should be performed with broth microdilution. Quality control must be performed with both a susceptible QC strain (E. coli ATCC 25922 or P. aeruginosa ATCC 27853) and the colistin resistant E. coli NCTC 13846 (mcr-1 positive).
+3. For information on how to use breakpoints in brackets, see https://www.eucast.org/eucastguidancedocuments/.
+4. Agar dilution is the reference method for fosfomycin. MICs must be determined in the presence of glucose-6-phosphate (25 mg/L in the medium). Follow the manufacturers' instructions for commercial systems.
+5/E. There is currently a lack of clinical evidence to support clinical breakpoints.
+6/F. Antimicrobial susceptibility testing is discouraged. For information on the use of fosfomycin iv in combination therapy in other Enterobacterales, see https://www.eucast.org/eucastguidancedocuments/.
+7/G. For Proteus spp., there is insufficient clinical evidence of efficacy. The ECOFF can be used to exclude acquired resistance mechanisms (presence of resistance indicated by MICs >8 mg/L or trimethoprim 5 µg disk zone diameter <14 mm).
+8. Trimethoprim:sulfamethoxazole in the ratio 1:19. Breakpoints are expressed as the trimethoprim concentration.
+
+B. Use an MIC method (broth microdilution only).
+C. Fosfomycin 200 µg disks must contain 50 µg glucose-6-phosphate.
+D. Ignore isolated colonies within the inhibition zone (see pictures below). 

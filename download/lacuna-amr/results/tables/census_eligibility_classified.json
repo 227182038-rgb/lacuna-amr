@@ -1,0 +1,81 @@
+{
+  "ciprofloxacin": {
+    "exact_rows": 139,
+    "unit_mg/L": 129,
+    "plat_automated": 77,
+    "quant_mg_L": 129,
+    "quant_automated_or_gradient": 77,
+    "quant_explicit_dilution_method": 128,
+    "has_valid_phenotype": 139,
+    "plat_platform_missing_method_given": 53,
+    "quant_other": 43,
+    "plat_tray_bmd": 8,
+    "quant_tray_or_inhouse": 9,
+    "unit_mm": 10,
+    "plat_in-house": 1
+  },
+  "meropenem": {
+    "exact_rows": 138,
+    "unit_mg/L": 138,
+    "plat_automated": 70,
+    "quant_mg_L": 138,
+    "quant_automated_or_gradient": 70,
+    "quant_explicit_dilution_method": 137,
+    "has_valid_phenotype": 138,
+    "plat_platform_missing_method_given": 59,
+    "quant_other": 59,
+    "plat_tray_bmd": 8,
+    "quant_tray_or_inhouse": 9,
+    "plat_in-house": 1
+  },
+  "colistin": {
+    "exact_rows": 63,
+    "unit_mg/L": 61,
+    "plat_platform_missing_method_given": 49,
+    "quant_mg_L": 61,
+    "quant_other": 47,
+    "quant_explicit_dilution_method": 61,
+    "has_valid_phenotype": 63,
+    "plat_automated": 6,
+    "quant_automated_or_gradient": 6,
+    "unit_mm": 2,
+    "plat_tray_bmd": 7,
+    "quant_tray_or_inhouse": 8,
+    "plat_in-house": 1
+  },
+  "gentamicin": {
+    "exact_rows": 140,
+    "unit_mg/L": 140,
+    "plat_automated": 67,
+    "quant_mg_L": 140,
+    "quant_automated_or_gradient": 67,
+    "quant_explicit_dilution_method": 139,
+    "has_valid_phenotype": 140,
+    "plat_tray_bmd": 17,
+    "quant_tray_or_inhouse": 18,
+    "plat_platform_missing_method_given": 55,
+    "quant_other": 55,
+    "plat_in-house": 1
+  },
+  "ceftazidime": {
+    "exact_rows": 210,
+    "unit_mg/L": 173,
+    "plat_automated": 113,
+    "quant_mg_L": 173,
+    "quant_automated_or_gradient": 113,
+    "quant_explicit_dilution_method": 173,
+    "has_valid_phenotype": 210,
+    "plat_tray_bmd": 19,
+    "quant_tray_or_inhouse": 20,
+    "unit_mm": 37,
+    "plat_platform_missing_method_given": 77,
+    "quant_other": 40,
+    "plat_in-house": 1
+  },
+  "_meta": {
+    "records": 250,
+    "sample_n": 250,
+    "pool_n": 2518,
+    "note": "presence/categorical classification only; no MIC values read"
+  }
+}

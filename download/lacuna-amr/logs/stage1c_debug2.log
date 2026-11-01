@@ -1,0 +1,31 @@
+biosamples: 50
+bs tag: BioSample accession: SAMN64272505
+tables via .//Table: 1
+  class: 'Antibiogram.1.0'
+tables via walk: 1
+header element found: True tag: Header
+header cells: ['Antibiotic', 'Resistance phenotype', 'Measurement sign', 'Measurement', 'Measurement units', 'Laboratory typing method', 'Laboratory typing platform', 'Vendor', 'Laboratory typing method version or reagent', 'Testing standard']
+[Ent] A138: Miscellaneous agents
+[Ent] B138: MIC breakpoints (mg/L)
+[Ent] I138: Notes Numbered notes relate to general comments and/or MIC breakpoints. Lettered notes relate to the disk diffusion method.
+[Ent] B139: S ≤
+[Ent] C139: R >
+[Ent] A140: Chloramphenicol
+[Ent] B140: Note1
+[Ent] C140: Note1
+[Ent] I140: 1/A. Efficacy for Enterobacterales is uncertain. Screening cut-off values can be used to distinguish wild-type isolates from isolates with acquired resistance (presence of resistance indicated by MIC >16 mg/L; zone diameter <17 mm for the chloramphenicol 30 µg disk). For chloramphenicol treatment in meningitis, see table of dosages. 2. Colistin MIC determination should be performed with broth microdilution. Quality control must be performed with both a susceptible QC strain (E. coli ATCC 25922 or P. aeruginosa ATCC 27853) and the colistin resistant E. coli NCTC 13846 (mcr-1 positive). 3. For i
+[Ent] A141: Colistin2
+[Ent] B141: (2)3
+[Ent] C141: (2)3
+[Ent] A142: Daptomycin
+[Ent] B142: -
+[Ent] C142: -
+[Ent] A143: Fosfomycin iv (infections originating from the urinary tract), E. coli
+[Ent] B143: 84
+[Ent] C143: 84
+[Ent] A144: Fosfomycin iv (other indications), E. coli
+[Ent] B144: Note5
+[Ent] C144: Note5
+[Ent] A145: Fosfomycin iv, other Enterobacterales
+[Ent] B145: Note6
+[Ent] C145: Note6

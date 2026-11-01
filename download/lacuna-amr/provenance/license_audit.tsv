@@ -1,0 +1,16 @@
+py:numpy	2.1.3	Copyright (c) 2005-2024, NumPy Developers. All rights reserved. Redistribution and use in source and binary forms, with 	site-packages METADATA numpy	7c07741da49dc3af378a7d22b554a7c3815a0784e6e4adccf6b715a2ece644de	PERMITTED	
+py:scipy	1.14.1	Copyright (c) 2001-2002 Enthought, Inc. 2003-2024, SciPy Developers. All rights reserved. Redistribution and use in sour	site-packages METADATA scipy	031edf0fce95ede724b72a1edcf8c26f4b8bf6030516581d13dc11baa54b7a92	PERMITTED	
+py:scikit-learn	1.5.2	BSD 3-Clause License Copyright (c) 2007-2024 The scikit-learn developers. All rights reserved. Redistribution and use in	site-packages METADATA scikit-learn	486833d77aa752cb0e5dfa4fccb0ccfd92e3647f35a80307b1ed923efe650c86	PERMITTED	
+py:pandas	2.2.3	BSD 3-Clause License Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development T	site-packages METADATA pandas	f05423139806d0d75d527aba42689260084dc7a2dad1f4f32b16770f97d1f70f	PERMITTED	
+py:matplotlib	3.9.2	License agreement for matplotlib versions 1.3.0 and later ========================================================= 1. T	site-packages METADATA matplotlib	249eeb451c3fe8b1487bf4a44e76ec2b356c686e6b46107e220a71761fed5a5f	PERMITTED	
+py:openpyxl	3.1.5	MIT License :: OSI Approved :: MIT License	site-packages METADATA openpyxl	23f80ca9830dd89435da1710f26deda8f81e5409287e74540210c72627a4ad96	PERMITTED	
+py:biopython	1.86	License :: Freely Distributable	site-packages METADATA biopython	f132a1c5ae373ab383bcf27bc7e9142a5e737ac2196a89e7badd9169b23f9951	REVIEW-AMBIGUOUS	
+py:joblib	1.5.3		site-packages METADATA joblib	cee9c60896ae4e7a965a840fbde50d111d2f8018f61201d1ed2e9fc3dd4883e6	REVIEW-AMBIGUOUS	
+py:statsmodels	0.14.5	BSD License License :: OSI Approved :: BSD License	site-packages METADATA statsmodels	5c6abccce59bd06bdf776849502a973a2d44cb435b669af4ca2155f2b862da99	PERMITTED	
+py:pytest	9.0.2		site-packages METADATA pytest	14131718cc1f40cfecb5eac338037029a519b6392876100afec1e949f023d1ed	REVIEW-AMBIGUOUS	
+py:python-dateutil	2.9.0.post0	Dual License License :: OSI Approved :: BSD License License :: OSI Approved :: Apache Software License	site-packages METADATA python-dateutil	a9d436da322be808332f98d88325998e87cb693a678a9969feb4cfad729a6e93	PERMITTED	
+py:pytz	2026.1.post1	MIT License :: OSI Approved :: MIT License	site-packages METADATA pytz	f62dbd3711dac51c809a17bf2b9021aa4bd52999db2132df2e38b6d09883fcfc	PERMITTED	
+py:six	1.17.0	MIT License :: OSI Approved :: MIT License	site-packages METADATA six	562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468	PERMITTED	
+py:threadpoolctl	3.6.0	BSD-3-Clause License :: OSI Approved :: BSD License	site-packages METADATA threadpoolctl	a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341	PERMITTED	
+card-data-rgi		custom (see excerpt)	https://card.mcmaster.ca/about	55f6a5703d5f50046379d1a5ae92b29f937d08cc57f37a431e528b9da95ec540	EXCLUDED	commercial license/fee required for data+RGI; ARO only is CC BY 4.0 (to verify on ARO page)
+pypi:sourmash	4.9.4	 | 	https://pypi.org/pypi/sourmash/json	7715d9dba16085b903bb9c0677d3f87309636d7ab012d1b52416225adc9b1f30	PENDING-REVIEW	home=https://github.com/sourmash-bio/sourmash

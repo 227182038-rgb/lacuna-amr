@@ -1,0 +1,88 @@
+{
+  "retrieved_utc": "2026-11-01T08:47:34Z",
+  "note": "field-presence classification only; no MIC values read before protocol freeze",
+  "organisms": {
+    "Escherichia coli": {
+      "pool_size": 11126,
+      "sample_n": 250,
+      "estimates": {
+        "ciprofloxacin": {
+          "sample_exact_rows": 208,
+          "sample_quant": 203,
+          "sample_primary_rule": 130,
+          "est_pool_primary": 5786,
+          "est_pool_quant_any": 9034
+        },
+        "meropenem": {
+          "sample_exact_rows": 168,
+          "sample_quant": 167,
+          "sample_primary_rule": 99,
+          "est_pool_primary": 4406,
+          "est_pool_quant_any": 7432
+        },
+        "colistin": {
+          "sample_exact_rows": 17,
+          "sample_quant": 17,
+          "sample_primary_rule": 16,
+          "est_pool_primary": 712,
+          "est_pool_quant_any": 757
+        },
+        "gentamicin": {
+          "sample_exact_rows": 228,
+          "sample_quant": 224,
+          "sample_primary_rule": 159,
+          "est_pool_primary": 7076,
+          "est_pool_quant_any": 9969
+        },
+        "ceftazidime": {
+          "sample_exact_rows": 136,
+          "sample_quant": 133,
+          "sample_primary_rule": 71,
+          "est_pool_primary": 3160,
+          "est_pool_quant_any": 5919
+        }
+      }
+    },
+    "Acinetobacter baumannii": {
+      "pool_size": 1275,
+      "sample_n": 250,
+      "estimates": {
+        "ciprofloxacin": {
+          "sample_exact_rows": 326,
+          "sample_quant": 326,
+          "sample_primary_rule": 76,
+          "est_pool_primary": 388,
+          "est_pool_quant_any": 1663
+        },
+        "meropenem": {
+          "sample_exact_rows": 165,
+          "sample_quant": 165,
+          "sample_primary_rule": 72,
+          "est_pool_primary": 367,
+          "est_pool_quant_any": 842
+        },
+        "colistin": {
+          "sample_exact_rows": 82,
+          "sample_quant": 82,
+          "sample_primary_rule": 78,
+          "est_pool_primary": 398,
+          "est_pool_quant_any": 418
+        },
+        "gentamicin": {
+          "sample_exact_rows": 327,
+          "sample_quant": 327,
+          "sample_primary_rule": 71,
+          "est_pool_primary": 362,
+          "est_pool_quant_any": 1668
+        },
+        "ceftazidime": {
+          "sample_exact_rows": 295,
+          "sample_quant": 295,
+          "sample_primary_rule": 65,
+          "est_pool_primary": 332,
+          "est_pool_quant_any": 1504
+        }
+      }
+    }
+  }
+}

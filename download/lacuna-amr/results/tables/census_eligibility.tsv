@@ -1,0 +1,6 @@
+drug	sample_rows	has_measurement	mg_per_L	dilution	disk	no_method	other	has_phenotype	est_pool_eligible
+ciprofloxacin	139	139	129	0	0	103	36	139	0
+meropenem	142	142	142	0	0	98	44	142	0
+colistin	63	63	61	0	0	54	9	63	0
+gentamicin	140	140	140	0	0	92	48	140	0
+ceftazidime	264	264	226	0	0	213	51	264	0

@@ -1,0 +1,54 @@
+=== distinct column-A values (species groups) in 'Enterobacterales' sheet ===
+['Enterobacterales*', 'Expert Rules and Expected Phenotypes', 'MIC determination (broth microdilution according to ISO standard 20776-1 except for mecillinam and fosfomycin where agar dilution is used)\nMedium: Cation-adjusted Mueller-Hinton broth (for cefiderocol, see https://www.eucast.org/eucastguidancedocuments/)\nInoculum: 5x105 CFU/mL\nIncubation: Sealed panels, air, 35±1ºC, 18±2h\nReading: Unless otherwise stated, read MICs at the lowest concentration of the agent that completely inhibits visible growth. See ”EUCAST Reading Guide for broth microdilution” for further information.\nQuality control: Escherichia coli ATCC 25922. For agents not covered by this strain and for control of the inhibitor component of beta-lactam inhibitor combinations, see EUCAST QC Tables.', '* Recent taxonomic studies have narrowed the definition of the family Enterobacteriaceae. Some previous members of this family are now included in other families within the order Enterobacterales. Breakpoints in this table apply to all members of the Enterobacterales.', 'Penicillins', 'S ≤', 'Benzylpenicillin', 'Ampicillin iv1', 'Ampicillin oral (uncomplicated UTI only)1', 'Ampicillin-sulbactam iv1', 'Ampicillin-sulbactam oral (uncomplicated UTI only)1', 'Amoxicillin iv1', 'Amoxicillin oral (infections originating from the urinary tract)1', 'Amoxicillin oral (uncomplicated UTI only)1', 'Amoxicillin oral (other indications)1', 'Amoxicillin-clavulanic acid iv1', 'Amoxicillin-clavulanic acid oral (infections originating from the urinary tract)1', 'Amoxicillin-clavulanic acid oral (uncomplicated UTI only)1', 'Amoxicillin-clavulanic acid oral (other indications)1', 'Piperacillin', 'Piperacillin-tazobactam', 'Ticarcillin-clavulanic acid', 'Temocillin (infections originating from the urinary tract), E. coli, Klebsiella spp. (except K. aerogenes) and P. mirabilis', 'Phenoxymethylpenicillin', 'Oxacillin', 'Cloxacillin', 'Dicloxacillin', 'Flucloxacillin', 'Mecillinam oral (pivmecillinam) (uncomplicated UTI only), E. coli, Citrobacter spp., Klebsiella\xa0spp.,\xa0Raoultella spp., Enterobacter\xa0spp. and P. mirabilis ', 'Cephalosporins1', 'Cefaclor (uncomplicated UTI only)', 'Cefadroxil (uncomplicated UTI only)', 'Cefalexin (uncomplicated UTI only)', 'Cefazolin (infections originating from the urinary tract), E. coli and Klebsiella spp. (except K. aerogenes)', 'Cefepime', 'Cefepime-enmetazobactam', 'Cefiderocol', 'Cefixime (uncomplicated UTI only)', 'Cefotaxime (indications other than meningitis)', 'Cefotaxime (meningitis)', 'Cefoxitin (screen only)5', 'Cefpodoxime \n(uncomplicated UTI only)', 'Ceftaroline', 'Ceftazidime', 'Ceftazidime-avibactam', 'Ceftibuten (infections originating from the urinary tract)', 'Ceftobiprole', 'Ceftolozane-tazobactam7', 'Ceftriaxone (indications other than meningitis)', 'Ceftriaxone (meningitis)', 'Cefuroxime iv, E. coli, Klebsiella spp. (except K. aerogenes), Raoultella spp. and P. mirabilis', 'Cefuroxime oral (uncomplicated UTI only), E. coli, Klebsiella spp. (except K. aerogenes), Raoultella spp. and P. mirabilis', 'Carbapenems1', 'Doripenem', 'Ertapenem', 'Imipenem, Enterobacterales except Morganellaceae', 'Imipenem2, Morganellaceae', 'Imipenem-relebactam, Enterobacterales except Morganellaceae', 'Meropenem (indications other than meningitis)', 'Meropenem (meningitis)', 'Meropenem-vaborbactam', 'Monobactams', 'Aztreonam1', 'Aztreonam-avibactam', 'Fluoroquinolones', 'Ciprofloxacin, Salmonella spp.1', 'Ciprofloxacin (indications other than meningitis)', 'Ciprofloxacin (meningitis)2', 'Pefloxacin (screen only)', 'Delafloxacin, E. coli', 'Levofloxacin', 'Moxifloxacin, Enterobacterales except Morganella morganii, Proteus spp. and Serratia spp.3', 'Nalidixic acid (screen only)', 'Norfloxacin (uncomplicated UTI only)', 'Ofloxacin', 'Aminoglycosides1', 'Amikacin (systemic infections)', 'Amikacin (infections originating from the urinary tract)', 'Gentamicin (systemic infections)', 'Gentamicin (infections originating from the urinary tract)', 'Netilmicin', 'Tobramycin (systemic infections)', 'Tobramycin (infections originating from the urinary tract)', 'Glycopeptides and lipoglycopeptides', 'Dalbavancin', 'Oritavancin', 'Teicoplanin', 'Telavancin', 'Vancomycin', 'Macrolides, lincosamides and streptogramins', 'Azithromycin1', 'Clarithromycin', 'Erythromycin', 'Roxithromycin', 'Clindamycin', 'Quinupristin-dalfopristin', 'Tetracyclines', 'Doxycycline', 'Eravacycline, E. coli', 'Minocycline', 'Tetracycline1', 'Tigecycline, E. coli and C. koseri', 'Oxazolidinones', 'Linezolid', 'Tedizolid', 'Miscellaneous agents', 'Chloramphenicol', 'Colistin2', 'Daptomycin', 'Fosfomycin iv (infections originating from the urinary tract), E. coli', 'Fosfomycin iv (other indications), E. coli', 'Fosfomycin iv, other Enterobacterales', 'Fosfomycin oral \n(uncomplicated UTI only), E. coli', 'Fusidic acid', 'Gepotidacin (uncomplicated UTI only), \nE. coli', 'Lefamulin', 'Metronidazole', 'Nitrofurantoin (uncomplicated UTI only), E. coli', 'Nitroxoline (uncomplicated UTI only), \nE. coli', 'Rifampicin', 'Spectinomycin', 'Trimethoprim (uncomplicated UTI only), E. coli and Klebsiella spp. (except K. aerogenes)', 'Trimethoprim (uncomplicated UTI only), Proteus spp.', 'Trimethoprim-sulfamethoxazole8, \nEnterobacterales except Serratia spp.', 'Trimethoprim-sulfamethoxazole8, \nSerratia spp.', 'Examples of inhibition zones for Escherichia coli with fosfomycin.', 'a-c) Ignore all colonies and read the outer zone edge.', 'd) Record as no inhibition zone.']
+
+=== rows whose column A mentions Klebsiella (any spelling) ===
+6 rows
+   A26=Temocillin (infections originating fro || B26=0.001 || C26=16 || E26=30 || F26=50F || G26=17F
+   A32=Mecillinam oral (pivmecillinam) (uncom || B32=86 || C32=86 || E32=10 || F32=15F || G32=15F
+   A40=Cefazolin (infections originating from || B40=0.0012 || C40=42 || E40=30 || F40=50A || G40=20A
+   A57=Cefuroxime iv, E. coli, Klebsiella spp || B57=0.001 || C57=8 || E57=30 || F57=50 || G57=19
+   A58=Cefuroxime oral (uncomplicated UTI onl || B58=8 || C58=8 || E58=30 || F58=19 || G58=19
+   A155=Trimethoprim (uncomplicated UTI only), || B155=2 || C155=2 || E155=5 || F155=15 || G155=15
+
+=== rows for study drugs, generic species (col A == Enterobacterales or similar) ===
+
+=== header rows (first 14 rows of sheet) ===
+  R1: A1=Enterobacterales* | I1=EUCAST Clinical Breakpoint
+  R2: A2=Expert Rules and Expected  | D2=Guidance documents | I2=For abbreviations and expl
+  R4: A4=MIC determination (broth m | I4=Disk diffusion (EUCAST sta
+  R6: A6=* Recent taxonomic studies
+  R8: A8=Penicillins | B8=MIC breakpoints 
+(mg/L) | E8=Disk content (µg) | F8=Zone diameter breakpoints  | I8=Notes 
+Numbered notes rela
+  R9: B9=S ≤ | C9=R > | D9=ATU | F9=S ≥ | G9=R < | H9=ATU
+  R10: A10=Benzylpenicillin | B10=- | C10=- | F10=- | G10=- | I10=1. For information on how 
+  R11: A11=Ampicillin iv1 | B11=8 | C11=8 | E11=10 | F11=14A | G11=14A
+  R12: A12=Ampicillin oral (uncomplic | B12=8 | C12=8 | E12=10 | F12=14A | G12=14A
+  R13: A13=Ampicillin-sulbactam iv1 | B13=82 | C13=82 | E13=10-10 | F13=14A | G13=14A
+  R14: A14=Ampicillin-sulbactam oral  | B14=82 | C14=82 | E14=10-10 | F14=14A | G14=14A
+
+=== Content sheet (first 30 rows) ===
+  R7: A7=European Committee on Antimicrobial Susceptibility Testing 
+  R8: A8=Breakpoint tables for interpretation of MICs and zone diamet
+  R9: A9=Version 16.1, valid from 2026-06-24
+  R11: A11=This document should be cited as "The European Committee on 
+  R13: A13=Content | B13=Page | C13=Additional information
+  R14: A14=Changes | B14=1
+  R15: A15=Notes | B15=4
+  R16: A16=Guidance on reading EUCAST Breakpoint Tables | B16=6
+  R17: A17=Dosages used to define breakpoints | B17=7
+  R18: A18=Information on technical uncertainty | B18=12
+  R19: A19=Enterobacterales | B19=14
+  R20: A20=Pseudomonas spp. | B20=21
+  R21: A21=Stenotrophomonas maltophilia | B21=26 | C21=Link to Guidance Document on Stenotrophomonas maltophilia
+  R22: A22=Acinetobacter spp. | B22=28
+  R23: A23=Staphylococcus spp. | B23=32
+  R24: A24=Enterococcus spp. | B24=39
+  R25: A25=Streptococcus groups A, B, C and G | B25=44
+  R26: A26=Streptococcus pneumoniae | B26=49
+  R27: A27=Viridans group streptococci | B27=55
+  R28: A28=Haemophilus influenzae | B28=61
+  R29: A29=Moraxella catarrhalis | B29=67
+  R30: A30=Neisseria gonorrhoeae | B30=71
+
+=== copyright scan across sheets ===

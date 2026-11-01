@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>41072458</Id>
+	<Item Name="PubDate" Type="Date">2025 Nov</Item>
+	<Item Name="EPubDate" Type="Date">2025 Oct 7</Item>
+	<Item Name="Source" Type="String">Lancet Microbe</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Lipworth S</Item>
+		<Item Name="Author" Type="String">Chau K</Item>
+		<Item Name="Author" Type="String">Oakley S</Item>
+		<Item Name="Author" Type="String">Barrett L</Item>
+		<Item Name="Author" Type="String">Crook D</Item>
+		<Item Name="Author" Type="String">Peto T</Item>
+		<Item Name="Author" Type="String">Walker AS</Item>
+		<Item Name="Author" Type="String">Stoesser N</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Stoesser N</Item>
+	<Item Name="Title" Type="String">Estimating the association of antimicrobial resistance genes with minimum inhibitory concentration in Escherichia coli: an observational study.</Item>
+	<Item Name="Volume" Type="String">6</Item>
+	<Item Name="Issue" Type="String">11</Item>
+	<Item Name="Pages" Type="String">101183</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101769019</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2666-5247</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Observational Study</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">41072458</Item>
+		<Item Name="doi" Type="String">10.1016/j.lanmic.2025.101183</Item>
+		<Item Name="pii" Type="String">S2666-5247(25)00111-9</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.lanmic.2025.101183</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/05/31 00:00</Item>
+		<Item Name="revised" Type="Date">2025/04/28 00:00</Item>
+		<Item Name="accepted" Type="Date">2025/06/02 00:00</Item>
+		<Item Name="medline" Type="Date">2025/11/13 06:30</Item>
+		<Item Name="pubmed" Type="Date">2025/10/11 00:31</Item>
+		<Item Name="entrez" Type="Date">2025/10/10 18:54</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The Lancet. Microbe</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.lanmic.2025.101183</Item>
+	<Item Name="SO" Type="String">2025 Nov;6(11):101183</Item>
+</DocSum>
+
+<DocSum>
+	<Id>37672526</Id>
+	<Item Name="PubDate" Type="Date">2023 Sep</Item>
+	<Item Name="EPubDate" Type="Date">2023 Sep 6</Item>
+	<Item Name="Source" Type="String">PLoS Comput Biol</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Graña-Miraglia L</Item>
+		<Item Name="Author" Type="String">Morales-Lizcano N</Item>
+		<Item Name="Author" Type="String">Wang PW</Item>
+		<Item Name="Author" Type="String">Hwang DM</Item>
+		<Item Name="Author" Type="String">Yau YCW</Item>
+		<Item Name="Author" Type="String">Waters VJ</Item>
+		<Item Name="Author" Type="String">Guttman DS</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Guttman DS</Item>
+	<Item Name="Title" Type="String">Predictive modeling of antibiotic eradication therapy success for new-onset Pseudomonas aeruginosa pulmonary infections in children with cystic fibrosis.</Item>
+	<Item Name="Volume" Type="String">19</Item>
+	<Item Name="Issue" Type="String">9</Item>
+	<Item Name="Pages" Type="String">e1011424</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101238922</Item>
+	<Item Name="ISSN" Type="String">1553-734X</Item>
+	<Item Name="ESSN" Type="String">1553-7358</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String"></Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">37672526</Item>
+		<Item Name="pmc" Type="String">PMC10506723</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC10506723;</Item>
+		<Item Name="doi" Type="String">10.1371/journal.pcbi.1011424</Item>
+		<Item Name="pii" Type="String">PCOMPBIOL-D-22-01666</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1371/journal.pcbi.1011424</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2022/11/15 00:00</Item>
+		<Item Name="accepted" Type="Date">2023/08/09 00:00</Item>
+		<Item Name="revised" Type="Date">2023/09/18 00:00</Item>
+		<Item Name="medline" Type="Date">2023/09/19 06:43</Item>
+		<Item Name="pubmed" Type="Date">2023/09/06 18:41</Item>
+		<Item Name="entrez" Type="Date">2023/09/06 13:33</Item>
+		<Item Name="pmc-release" Type="Date">2023/09/06 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">100</Item>
+	<Item Name="FullJournalName" Type="String">PLoS computational biology</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1371/journal.pcbi.1011424</Item>
+	<Item Name="SO" Type="String">2023 Sep;19(9):e1011424</Item>
+</DocSum>
+
+</eSummaryResult>

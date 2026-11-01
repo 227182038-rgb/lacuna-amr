@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it as below, and cite AMRFinderPlus
+  (Feldgarden et al. 2021, doi:10.1038/s41598-021-91456-0) for the underlying
+  determinant detection.
+title: LACUNA-AMR
+type: software
+authors:
+  - name: LACUNA-AMR project
+identifiers:
+  - description: "This is the project repository version 0.1.0 (pilot release)"
+    type: other
+    value: lacuna-amr-0.1.0
+version: 0.1.0
+date-released: "2026-11-01"
+license: Apache-2.0
+repository-code: "https://example.invalid/lacuna-amr"
+abstract: >-
+  License-clean, locally run toolkit that audits genome-based antimicrobial
+  resistance predictions: label-quality auditing, clonal de-duplication,
+  lineage/time/site-aware evaluation, calibrated probabilities and Mondorian
+  split-conformal prediction sets. Research use only.
+keywords:
+  - antimicrobial resistance
+  - conformal prediction
+  - evaluation
+  - bioinformatics

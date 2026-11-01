@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>31</Count><RetMax>5</RetMax><RetStart>0</RetStart><IdList>
+<Id>42653162</Id>
+<Id>38775752</Id>
+<Id>38965152</Id>
+<Id>26142410</Id>
+<Id>41394595</Id>
+</IdList><TranslationSet/><QueryTranslation>("genotype-phenotype"[Title/Abstract] OR "genotype-phenotype"[Title/Abstract]) AND ("concordance"[Title/Abstract] OR "discordant"[Title/Abstract]) AND ("public database"[Title/Abstract] OR "NCBI"[Title/Abstract] OR "surveillance"[Title/Abstract]) AND "resistance"[Title/Abstract]</QueryTranslation></eSearchResult>

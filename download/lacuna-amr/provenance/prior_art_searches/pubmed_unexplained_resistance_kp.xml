@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>3</Count><RetMax>3</RetMax><RetStart>0</RetStart><IdList>
+<Id>33781999</Id>
+<Id>37700864</Id>
+<Id>40879378</Id>
+</IdList><TranslationSet/><QueryTranslation>("unexplained resistance"[Title/Abstract] OR "cryptic resistance"[Title/Abstract] OR "genotype-phenotype mismatch"[Title/Abstract]) AND "Klebsiella"[Title/Abstract]</QueryTranslation></eSearchResult>

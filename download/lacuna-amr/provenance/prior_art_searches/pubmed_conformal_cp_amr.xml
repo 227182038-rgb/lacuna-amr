@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>3</Count><RetMax>3</RetMax><RetStart>0</RetStart><IdList>
+<Id>41346025</Id>
+<Id>41575464</Id>
+<Id>42943754</Id>
+</IdList><TranslationSet/><QueryTranslation>("conformal prediction"[Title/Abstract] OR "conformal predictor"[Title/Abstract]) AND ("antimicrobial resistance"[Title/Abstract] OR "antibiotic resistance"[Title/Abstract])</QueryTranslation></eSearchResult>

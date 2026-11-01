@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>42658718</Id>
+	<Item Name="PubDate" Type="Date">2026 Jul 3</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Brief Bioinform</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Cheon NJ</Item>
+		<Item Name="Author" Type="String">Cuong Nguyen X</Item>
+		<Item Name="Author" Type="String">Unno T</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Unno T</Item>
+	<Item Name="Title" Type="String">Uncovering species- and drug-class-specific antimicrobial resistance mechanisms from large-scale whole-genome sequencing data using discordance analysis and machine learning.</Item>
+	<Item Name="Volume" Type="String">27</Item>
+	<Item Name="Issue" Type="String">4</Item>
+	<Item Name="Pages" Type="String"></Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">100912837</Item>
+	<Item Name="ISSN" Type="String">1467-5463</Item>
+	<Item Name="ESSN" Type="String">1477-4054</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">42658718</Item>
+		<Item Name="pmc" Type="String">PMC13520796</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC13520796;</Item>
+		<Item Name="doi" Type="String">10.1093/bib/bbag451</Item>
+		<Item Name="pii" Type="String">8771891</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1093/bib/bbag451</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2026/05/14 00:00</Item>
+		<Item Name="revised" Type="Date">2026/07/08 00:00</Item>
+		<Item Name="accepted" Type="Date">2026/07/29 00:00</Item>
+		<Item Name="medline" Type="Date">2026/08/27 17:36</Item>
+		<Item Name="pubmed" Type="Date">2026/08/27 17:35</Item>
+		<Item Name="entrez" Type="Date">2026/08/27 12:53</Item>
+		<Item Name="pmc-release" Type="Date">2026/08/27 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">31</Item>
+	<Item Name="FullJournalName" Type="String">Briefings in bioinformatics</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1093/bib/bbag451</Item>
+	<Item Name="SO" Type="String">2026 Jul 3;27(4)</Item>
+</DocSum>
+
+</eSummaryResult>

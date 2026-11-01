@@ -1,0 +1,10 @@
+Retrieved 2026-11-01 via assistant web gateway (direct curl HTTP 403, Cloudflare).
+Source: https://www.iso.org/standard/79377.html
+Title: ISO 20776-2:2021 Clinical laboratory testing and in vitro diagnostic test systems -
+ Susceptibility testing of infectious agents and evaluation of performance of antimicrobial
+ susceptibility test devices - Part 2: Evaluation of performance of antimicrobial susceptibility
+ test devices against reference broth micro-dilution
+Edition 2. Publication date 2021-12. Status: Published. Previous edition ISO 20776-2:2007: Withdrawn.
+Scope (abstract): establishes acceptable performance criteria for AST devices used to determine
+ MICs of bacteria to antimicrobial agents in medical laboratories; specifies requirements for AST
+ devices and procedures for assessing performance; defines how a performance evaluation is conducted.

@@ -1,0 +1,5 @@
+It is the responsibility of the user to examine the copyright and licensing restrictions of linked pages and to secure all necessary permissions.
+Therefore, NCBI itself places no restrictions on the use or distribution of the data contained therein.
+Nor do we accept data when the submitter has requested restrictions on reuse or redistribution.
+Therefore, NCBI cannot provide comment or unrestricted permission concerning the use, copying, or distribution of the information contained in the molecular databases.
+Human Genomic Data Submitted to Unrestricted-Access Repositories If you plan to submit large-scale human genomic data, as defined by the NIH Genomic Data Sharing (GDS) Policy , to be maintained in an unrestricted-access NCBI database, NIH expects you to 1) submit an Institutional Certification to assure that the data submission and expectations defined in the NIH GDS Policy have been met, 2) register the study in NCBI BioProject regardless of where the data will ultimately reside (e.g., GenBank, SRA, GEO).

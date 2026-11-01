@@ -1,0 +1,3 @@
+Name	Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
+SAMN12359664	NA	AATOMH010000007.1	171957	173681	-	ptsI_V25I	Escherichia fosfomycin resistant PtsI	core	AMR	POINT	FOSFOMYCIN	FOSFOMYCIN	POINTX	575	575	100.00	99.65	575	WP_000623140.1	phosphoenolpyruvate--protein phosphotransferase PtsI	NA	NA
+SAMN12359664	NA	AATOMH010000010.1	108685	110073	-	uhpT_E350Q	Escherichia fosfomycin resistant UhpT	core	AMR	POINT	FOSFOMYCIN	FOSFOMYCIN	POINTX	463	463	100.00	99.78	463	WP_000879194.1	hexose phosphate transporter UhpT	NA	NA

@@ -1,0 +1,71 @@
+=== LACUNA-AMR stage 0 environment probe 2026-11-01T08:00:38Z ===
+-- cpu
+2
+model name	: Intel(R) Xeon(R) Processor
+-- memory
+               total        used        free      shared  buff/cache   available
+Mem:           4.1Gi       459Mi       3.6Gi        48Ki       176Mi       3.6Gi
+Swap:             0B          0B          0B
+-- disk (/home/z)
+Filesystem                               Size  Used Avail Use% Mounted on
+c-6ae6eb02-14127d0f-0558897c7348-rootfs  9.9G   28M  9.3G   1% /
+-- os
+Linux c-6ae6eb02-14127d0f-0558897c7348 5.10.134-013.15.kangaroo.al8.x86_64 #1 SMP Thu Jul 30 12:54:59 UTC 2026 x86_64 GNU/Linux
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="13"
+-- python
+Python 3.12.16
+pip 26.2.2 from /home/z/.venv/lib/python3.12/site-packages/pip (python 3.12)
+-- external tools
+HAVE  curl  /usr/bin/curl
+HAVE  git  /usr/bin/git
+HAVE  make  /usr/bin/make
+MISS  cmake
+HAVE  gcc  /usr/bin/gcc
+HAVE  g++  /usr/bin/g++
+MISS  conda
+MISS  mamba
+HAVE  pandoc  /usr/bin/pandoc
+HAVE  java  /usr/bin/java
+MISS  Rscript
+MISS  mash
+MISS  sourmash
+MISS  amrfinder
+MISS  snakemake
+HAVE  pytest  /home/z/.venv/bin/pytest
+-- python libraries
+PY-HAVE numpy 2.1.3
+PY-HAVE scipy 1.14.1
+PY-HAVE sklearn 1.5.2
+PY-HAVE pandas 2.2.3
+PY-HAVE matplotlib 3.9.2
+PY-HAVE openpyxl 3.1.5
+PY-HAVE Bio 1.86
+PY-HAVE pytest 9.0.2
+PY-HAVE statsmodels 0.14.5
+PY-MISS pyseer
+PY-MISS snakemake
+PY-HAVE joblib 1.5.3
+=== stage 0 probe done 2026-11-01T08:00:38Z ===
+=== stage0 followup 2026-11-01T08:01:37Z ===
+-- existing pypi 'lacuna' package info:
+name: lacuna
+version: 2026.1.51
+summary: Privacy-aware query classification and routing for RAG systems - the protected space where your knowledge stays yours
+home: https://pypi.org/project/lacuna/
+-- pypi lacuna-amr availability:
+HTTP_404
+-- raw.githubusercontent reachability (ncbi/amr LICENSE):
+HTTP_200 bytes=1440
+-- api.github.com with UA (repos endpoint):
+HTTP_403
+{"message":"API rate limit exceeded for 47.57.242.119. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+-- NCBI FTP AMRFinderPlus dir listing (top):
+href="/pathogen/Antimicrobial_resistance/"
+href="data/"
+href="database/"
+href="WARNING.txt"
+href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html"
+=== done ===

@@ -1,0 +1,5 @@
+Name	Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
+SAMN13540766	NA	AASWEX010000010.1	38873	41497	+	gyrA_S83A	Escherichia quinolone resistant GyrA	core	AMR	POINT	QUINOLONE	QUINOLONE	POINTX	875	878	99.66	99.09	875	WP_001281243.1	DNA gyrase subunit A GyrA	NA	NA
+SAMN13540766	NA	AASWEX010000059.1	3318	4514	+	tet(A)	tetracycline efflux MFS transporter Tet(A)	core	AMR	AMR	TETRACYCLINE	TETRACYCLINE	EXACTX	399	399	100.00	100.00	399	WP_000804064.1	tetracycline efflux MFS transporter Tet(A)	NA	NA
+SAMN13540766	NA	AASWEX010000164.1	207	1403	+	tet(A)	tetracycline efflux MFS transporter Tet(A)	core	AMR	AMR	TETRACYCLINE	TETRACYCLINE	EXACTX	399	399	100.00	100.00	399	WP_000804064.1	tetracycline efflux MFS transporter Tet(A)	NA	NA
+SAMN13540766	NA	AASWEX010000165.1	79	948	+	blaHER-3	class A beta-lactamase HER-3	core	AMR	AMR	BETA-LACTAM	BETA-LACTAM	ALLELEX	290	290	100.00	100.00	290	WP_023281079.1	class A beta-lactamase HER-3	NA	NA

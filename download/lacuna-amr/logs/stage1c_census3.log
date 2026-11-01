@@ -1,0 +1,88 @@
+records parsed: 250
+
+drug	stat	count (sample n=250, pool=2518)
+
+ciprofloxacin:
+   exact_rows                             139   est_pool= 1400
+   has_valid_phenotype                    139   est_pool= 1400
+   plat_automated                          77   est_pool=  776
+   plat_in-house                            1   est_pool=   10
+   plat_platform_missing_method_given      53   est_pool=  534
+   plat_tray_bmd                            8   est_pool=   81
+   quant_automated_or_gradient             77   est_pool=  776
+   quant_explicit_dilution_method         128   est_pool= 1289
+   quant_mg_L                             129   est_pool= 1299
+   quant_other                             43   est_pool=  433
+   quant_tray_or_inhouse                    9   est_pool=   91
+   unit_mg/L                              129   est_pool= 1299
+   unit_mm                                 10   est_pool=  101
+   >>> RULE-A (explicit dilution/tray evidence) sample=137 est_pool=1380
+   >>> RULE-B (any non-automated non-gradient quant MIC) sample=52 est_pool=524
+
+meropenem:
+   exact_rows                             138   est_pool= 1390
+   has_valid_phenotype                    138   est_pool= 1390
+   plat_automated                          70   est_pool=  705
+   plat_in-house                            1   est_pool=   10
+   plat_platform_missing_method_given      59   est_pool=  594
+   plat_tray_bmd                            8   est_pool=   81
+   quant_automated_or_gradient             70   est_pool=  705
+   quant_explicit_dilution_method         137   est_pool= 1380
+   quant_mg_L                             138   est_pool= 1390
+   quant_other                             59   est_pool=  594
+   quant_tray_or_inhouse                    9   est_pool=   91
+   unit_mg/L                              138   est_pool= 1390
+   >>> RULE-A (explicit dilution/tray evidence) sample=146 est_pool=1471
+   >>> RULE-B (any non-automated non-gradient quant MIC) sample=68 est_pool=685
+
+colistin:
+   exact_rows                              63   est_pool=  635
+   has_valid_phenotype                     63   est_pool=  635
+   plat_automated                           6   est_pool=   60
+   plat_in-house                            1   est_pool=   10
+   plat_platform_missing_method_given      49   est_pool=  494
+   plat_tray_bmd                            7   est_pool=   71
+   quant_automated_or_gradient              6   est_pool=   60
+   quant_explicit_dilution_method          61   est_pool=  614
+   quant_mg_L                              61   est_pool=  614
+   quant_other                             47   est_pool=  473
+   quant_tray_or_inhouse                    8   est_pool=   81
+   unit_mg/L                               61   est_pool=  614
+   unit_mm                                  2   est_pool=   20
+   >>> RULE-A (explicit dilution/tray evidence) sample=69 est_pool=695
+   >>> RULE-B (any non-automated non-gradient quant MIC) sample=55 est_pool=554
+
+gentamicin:
+   exact_rows                             140   est_pool= 1410
+   has_valid_phenotype                    140   est_pool= 1410
+   plat_automated                          67   est_pool=  675
+   plat_in-house                            1   est_pool=   10
+   plat_platform_missing_method_given      55   est_pool=  554
+   plat_tray_bmd                           17   est_pool=  171
+   quant_automated_or_gradient             67   est_pool=  675
+   quant_explicit_dilution_method         139   est_pool= 1400
+   quant_mg_L                             140   est_pool= 1410
+   quant_other                             55   est_pool=  554
+   quant_tray_or_inhouse                   18   est_pool=  181
+   unit_mg/L                              140   est_pool= 1410
+   >>> RULE-A (explicit dilution/tray evidence) sample=157 est_pool=1581
+   >>> RULE-B (any non-automated non-gradient quant MIC) sample=73 est_pool=735
+
+ceftazidime:
+   exact_rows                             210   est_pool= 2115
+   has_valid_phenotype                    210   est_pool= 2115
+   plat_automated                         113   est_pool= 1138
+   plat_in-house                            1   est_pool=   10
+   plat_platform_missing_method_given      77   est_pool=  776
+   plat_tray_bmd                           19   est_pool=  191
+   quant_automated_or_gradient            113   est_pool= 1138
+   quant_explicit_dilution_method         173   est_pool= 1742
+   quant_mg_L                             173   est_pool= 1742
+   quant_other                             40   est_pool=  403
+   quant_tray_or_inhouse                   20   est_pool=  201
+   unit_mg/L                              173   est_pool= 1742
+   unit_mm                                 37   est_pool=  373
+   >>> RULE-A (explicit dilution/tray evidence) sample=193 est_pool=1944
+   >>> RULE-B (any non-automated non-gradient quant MIC) sample=60 est_pool=604
+
+wrote results/tables/census_eligibility_classified.json

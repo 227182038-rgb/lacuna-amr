@@ -1,0 +1,53 @@
+# LACUNA-AMR research pipeline (Snakemake). Stage scripts are the unit of work;
+# the in-session pilot was executed with the same scripts directly (see logs/).
+# Run: snakemake -j 2 --use-conda (or plain: snakemake -j 2)
+
+N_CAP = 240
+DRUGS = ["ciprofloxacin", "gentamicin", "ceftazidime"]
+
+rule all:
+    input:
+        "results/features.tsv",
+        "results/predictions.tsv",
+        "results/evaluation/hypotheses.json",
+        "paper/figures/fig1_attrition.pdf"
+
+rule acquire:
+    input: "data/ecoli_antibiogram_pool_uids.tsv"
+    output: "data/stage3_state.json"
+    shell: "python3 workflow/scripts/stage3_acquire.py && python3 workflow/scripts/stage3b_select_download.py"
+
+rule labels:
+    input: "data/stage3_state.json"
+    output: "results/tables/ast_labels_all.tsv"
+    shell: "python3 workflow/scripts/stage3c3_labels_all.py"
+
+rule sketch_cluster:
+    input: "data/stage3_state.json"
+    output: "data/cohort.tsv"
+    shell: "python3 workflow/scripts/stage3d_sketch_cluster.py"
+
+rule amrfinder:
+    input: "data/cohort.tsv"
+    output: touch("results/amrfinder/.done")
+    shell: "bash workflow/scripts/stage4_amrfinder.sh && touch results/amrfinder/.done"
+
+rule features_splits:
+    input: "data/cohort.tsv", "results/tables/ast_labels_all.tsv"
+    output: "results/features.tsv", "results/splits/manifest.json"
+    shell: "python3 workflow/scripts/stage5_features_splits.py"
+
+rule models:
+    input: "results/features.tsv", "results/splits/manifest.json"
+    output: "results/predictions.tsv"
+    shell: "python3 workflow/scripts/stage6_models.py"
+
+rule hypotheses:
+    input: "results/predictions.tsv"
+    output: "results/evaluation/hypotheses.json"
+    shell: "python3 workflow/scripts/stage7_hypotheses.py"
+
+rule figures:
+    input: "results/evaluation/hypotheses.json"
+    output: "paper/figures/fig1_attrition.pdf"
+    shell: "python3 workflow/scripts/make_figures.py"

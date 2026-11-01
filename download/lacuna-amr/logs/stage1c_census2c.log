@@ -1,0 +1,33 @@
+pool size: 2518
+systematic sample: every 10th uid -> n=250
+
+=== sample of 250 K. pneumoniae antibiogram BioSamples ===
+records with an antibiogram table: 250
+with collection_date: 244 | with geo_loc: 244 | with BioProject link: 0
+
+drug	presence-of-field counts (sample): rows / has_meas / mg/L / dilution / disk / no_method / other / phen
+ciprofloxacin	139	139	129	0	0	103	36	139
+meropenem	142	142	142	0	0	98	44	142
+colistin	63	63	61	0	0	54	9	63
+gentamicin	140	140	140	0	0	92	48	140
+ceftazidime	264	264	226	0	0	213	51	264
+
+extrapolated to full pool (n=2518):
+two estimates per drug: any-dilution (incl. automated platforms) and non-automated dilution
+   ciprofloxacin: any=0 nonauto=0 (sample 0/0 of 250)
+   meropenem: any=0 nonauto=0 (sample 0/0 of 250)
+   colistin: any=0 nonauto=0 (sample 0/0 of 250)
+   gentamicin: any=0 nonauto=0 (sample 0/0 of 250)
+   ceftazidime: any=0 nonauto=0 (sample 0/0 of 250)
+
+platform distribution (all drug rows): {'vitek': 1596, 'missing': 1251, 'sensititre': 355, 'phoenix': 63, 'microscan': 55, 'in-house': 29, 'disk diffusion': 1}
+standard distribution (all drug rows): {'CLSI': 2177, 'EUCAST': 777, 'missing': 396}
+method distribution (all drug rows): {'missing': 2577, '96-well plate': 708, 'e-test': 26, 'vitek 2 gn': 15, 'vitek 2 ast-gn90': 12, 'vitek 2 ast-gn60': 11, 'agar dilution': 1}
+wrote results/tables/census_eligibility.{json,tsv}
+I140 full note saved, length: 1747
+1/A. Efficacy for Enterobacterales is uncertain. Screening cut-off values can be used to distinguish wild-type isolates from isolates with acquired resistance (presence of resistance indicated by MIC >16 mg/L; zone diameter <17 mm for the chloramphenicol 30 µg disk). For chloramphenicol treatment in meningitis, see table of dosages.
+2. Colistin MIC determination should be performed with broth microdilution. Quality control must be performed with both a susceptible QC strain (E. coli ATCC 25922 or P. aeruginosa ATCC 27853) and the colistin resistant E. coli NCTC 13846 (mcr-1 positive).
+3. For information on how to use breakpoints in brackets, see https://www.eucast.org/eucastguidancedocuments/.
+4. Agar dilution is the reference method for fosfomycin. MICs must be determined in the presence of glucose-6-phosphate (25 mg/L in the medium). Follow the manufacturers' instructions for commercial systems.
+5/E. There is currently a lack of clinical evidence to support clinical breakpoints.
+6/F. Antimicrobial susceptibility testing is discouraged. For information on the use of fosfomycin iv in combination therapy in other Enterobacterales, see https://www.eucast.org/eucastguidancedocuments/.

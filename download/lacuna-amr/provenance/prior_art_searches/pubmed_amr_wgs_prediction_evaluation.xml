@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>3</Count><RetMax>3</RetMax><RetStart>0</RetStart><IdList>
+<Id>32318038</Id>
+<Id>34867917</Id>
+<Id>38892433</Id>
+</IdList><TranslationSet/><QueryTranslation>"antimicrobial resistance"[Title] AND ("whole genome"[Title] OR "genomic"[Title]) AND ("prediction"[Title] OR "prediction*"[Title]) AND ("evaluation"[Title] OR "benchmark"[Title] OR "validation"[Title])</QueryTranslation></eSearchResult>
