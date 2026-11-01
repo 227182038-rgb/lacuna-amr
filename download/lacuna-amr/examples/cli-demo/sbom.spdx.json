@@ -1,0 +1,112 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "lacuna-amr",
+  "documentNamespace": "https://lacuna.invalid/spdx/lacuna-amr-0.2.0",
+  "creationInfo": {
+    "created": "2026-11-01T13:11:32+00:00",
+    "creators": [
+      "Tool: lacuna 0.2.0"
+    ],
+    "licenseListVersion": "not-used"
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-lacuna",
+      "name": "lacuna-amr",
+      "versionInfo": "0.2.0",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "copyrightText": "NOASSERTION",
+      "summary": "License-clean local auditing of genome-based antimicrobial-resistance predictions (RUO)"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-0",
+      "name": "joblib",
+      "versionInfo": "1.5.3",
+      "downloadLocation": "https://pypi.org/project/joblib/",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-Package-1",
+      "name": "numpy",
+      "versionInfo": "2.1.3",
+      "licenseConcluded": "Copyright (c) 2005-2024, NumPy Developers.",
+      "downloadLocation": "https://pypi.org/project/numpy/",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2",
+      "name": "pandas",
+      "versionInfo": "2.2.3",
+      "licenseConcluded": "BSD 3-Clause License",
+      "downloadLocation": "https://pypi.org/project/pandas/",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3",
+      "name": "scikit-learn",
+      "versionInfo": "1.5.2",
+      "licenseConcluded": "BSD 3-Clause License",
+      "downloadLocation": "https://pypi.org/project/scikit-learn/",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4",
+      "name": "scipy",
+      "versionInfo": "1.14.1",
+      "licenseConcluded": "Copyright (c) 2001-2002 Enthought, Inc. 2003-2024, SciPy Developers.",
+      "downloadLocation": "https://pypi.org/project/scipy/",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-lacuna",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-lacuna",
+      "relatedSpdxElement": "SPDXRef-Package-0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-lacuna",
+      "relatedSpdxElement": "SPDXRef-Package-1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-lacuna",
+      "relatedSpdxElement": "SPDXRef-Package-2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-lacuna",
+      "relatedSpdxElement": "SPDXRef-Package-3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-lacuna",
+      "relatedSpdxElement": "SPDXRef-Package-4",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ],
+  "annotations": [
+    {
+      "annotationDate": "2026-11-01T13:11:32+00:00",
+      "annotationType": "REVIEW",
+      "annotator": "Tool: lacuna 0.2.0",
+      "comment": "External binaries deliberately not distributed: AMRFinderPlus (public domain), pyseer (Apache-2.0). EUCAST/CLSI breakpoint values are never bundled."
+    },
+    {
+      "annotationDate": "2026-11-01T13:11:32+00:00",
+      "annotationType": "OTHER",
+      "annotator": "Tool: lacuna 0.2.0",
+      "comment": "Manifested files: LICENSE, NOTICE, examples/cli-demo/model.json, examples/cli-demo/predictions.tsv, examples/cli-demo/validation_sealed.json, pyproject.toml"
+    }
+  ]
+}

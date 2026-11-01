@@ -9,8 +9,10 @@ beside them. Plain language; no promotional claims.
    `protocol/PROTOCOL.sha256`, frozen 2026-11-01T08:52:27Z before any cohort label extraction;
    17 time-stamped deviations in `protocol/DEVIATIONS.md`).
 2. **Audit toolkit `lacuna`** (Apache-2.0; PyPI-safe name `lacuna-amr`; CLI: audit-dataset,
-   predict, validate, report, manifest; tests on verbatim real-record fixtures; SBOM, model card,
-   docs, CI file, lockfile; gate G10 PASS).
+   train, predict, validate, report, manifest, license-check; v0.2.0 modular package with
+   model-artefact integrity guards, offline socket guard, SBOM generation, self-contained HTML
+   reports; 57 tests including an end-to-end run on the real pilot cohort; SBOM, model card,
+   docs, CI file, lockfile; gate G10 PASS, re-run for v0.2.0).
 3. **Session-scale pilot study** on real public NCBI data (E. coli, 240-isolate phenotype-blind
    cohort; EUCAST v16.1 labels; AMRFinderPlus 4.2.7 / DB 2026-08-07.1 features), with hypotheses
    H1-H4 evaluated (H5 gated off), all results exploratory at pilot scale.
@@ -18,7 +20,28 @@ beside them. Plain language; no promotional claims.
    review; competitor table, customer-discovery plan, pricing formula with blank margins,
    regulatory memo with explicit UNVERIFIED items, risk register, data-protection checklist).
 5. **Manuscript package** (paper/manuscript.md + PDF, 4 figures regenerated from results,
-   DOME + TRIPOD+AI checklists, FAIR4RS statement, OSF-ready pre-registration, claims ledger).
+   DOME + TRIPOD+AI checklists, FAIR4RS statement, OSF-ready pre-registration, claims ledger —
+   G3 claims corrected and the PDF regenerated after the split-audit finding, D-019).
+
+## Product v0.2.0 — "fully functional application" hardening (same session, evidence in gates/G10.md)
+
+- Modular package (13 modules) with the 0.1 API preserved; new `train` command and artefact
+  system (`lacuna-model/1`: checksummed, version-guarded, fail-closed); `predict` now emits
+  calibrated probabilities + Mondrian conformal sets from stored models; `validate` runs the
+  full S0-S3 engine with cluster-bootstrap CIs and audits supplied splits; offline socket guard
+  and licence guards enforced by default; SPDX 2.3 SBOM generated programmatically;
+  self-contained HTML reports; 60 tests incl. an end-to-end CLI run on the real cohort.
+- **Exact reproduction verified**: `lacuna validate` on the sealed splits reproduces
+  results/evaluation/main_results.json fold-for-fold (S0 M1 AUROC identical for all three
+  drugs). Two engine defects were found and fixed by that comparison before release (row
+  alignment; grouped-CV group-key dtype — D-020).
+- **Integrity finding corrected (D-019)**: the summary documents had mis-reported gate G3 as
+  PASS; the gate file records clonal-cluster overlap in the isolate-stratified S0 and in S2/S3
+  (15/18/15 problems; zero isolate overlap; S1 clean). FINAL_REPORT, STATE, CHECKLISTS and the
+  manuscript (+PDF, claims ledger) were corrected; v0.2.0 auto-splits are clone-aware.
+- **Release hygiene (D-021)**: the 0.2.0 archive no longer redistributes the EUCAST xlsx or
+  the raw-XML snapshots (the 0.1.0 archive did redistribute the xlsx, contradicting the
+  project's own licence inventory).
 
 ## Gate table
 
@@ -27,7 +50,7 @@ beside them. Plain language; no promotional claims.
 | G0 environment + license audit | PASS | gates/G0.md; provenance/license_audit.tsv |
 | G1 prior art + census + DG + protocol freeze | PASS | gates/G1.md; provenance/prior_art.md; results/tables/census* |
 | G2 label integrity (25 isolates, independent recompute) | PASS (74/74) | gates/G2.md (checker-side XML-entity bug found and fixed by the gate) |
-| G3 split integrity | PASS (zero isolate/cluster leakage) | gates/G3.md; results/splits/manifest.json |
+| G3 split integrity | **FAIL** (zero isolate overlap; clonal-cluster overlap across train/test in the isolate-stratified S0 folds and in S2/S3 — 15/18/15 problems for ciprofloxacin/gentamicin/ceftazidime; S1 lineage folds clone-disjoint). Initially mis-reported as PASS in this summary; corrected 2026-11-01 (D-019) | gates/G3.md; results/splits/manifest.json |
 | G4 catalogue sanity | PASS (carrier R-rates 0.36/0.97/0.79 vs 0.00/0.02/0.00) | gates/G4.md |
 | G5 model integrity (seed reproduction) | **FAIL** (frozen 0.01 tolerance exceeded: gentamicin 0.0139, ceftazidime 0.0838; ciprofloxacin 0.0) | gates/G5.md |
 | G6 conformal validity on S0 | PASS (means 0.900-1.000 vs 0.90 target; small-n quantile noise) | gates/G6.md |
@@ -37,8 +60,11 @@ beside them. Plain language; no promotional claims.
 | G10 product | PASS (fresh venv install, 8/8 tests, real-data example, license inventory) | gates/G10.md |
 | G11 red-team | PASS (10 numbers re-derived from raw files; initial checker artifact corrected and documented) | gates/G11.md |
 
-**Documented FAIL consequences (stated in the manuscript):** G5 FAIL means pilot-scale M1/M2
-results are seed-sensitive for gentamicin and ceftazidime and are reported as such; phase B
+**Documented FAIL consequences (stated in the manuscript):** G3 FAIL means the pilot's S0/S2/S3 splits share clonal clusters
+across the train/test boundary, so their metrics retain clonal relatedness; S1 lineage folds are clone-disjoint, and the
+H1 S1/S3-minus-S0 deltas combine lineage novelty with clonal-leakage removal (not separable at pilot scale). The v0.2.0
+toolkit's auto-generated splits assign whole dedup clusters to folds, preventing this in future runs. G5 FAIL means pilot-scale
+M1/M2 results are seed-sensitive for gentamicin and ceftazidime and are reported as such; phase B
 (H5) claims are absent from the manuscript; no confirmatory conclusions are drawn anywhere.
 
 ## Data attrition (real numbers)
@@ -126,7 +152,9 @@ HMMER 3.4, sourmash 4.9.4; Python stack in requirements.lock). Seeds: 20261101 (
    checked in-run; trademark registers not searchable from this environment).
 5. Security review of the service data-handling checklist (encryption-at-rest and access-control
    gaps are explicitly marked open).
-6. Upload the pre-registration (paper/PREREGISTRATION.md) to OSF and archive the release bundle.
+6. Upload the pre-registration (paper/PREREGISTRATION.md) to OSF and archive the release bundle
+   (release/lacuna-amr-0.2.0-archive.tar.gz; note D-021: EUCAST xlsx and raw-XML snapshots are
+   no longer redistributed in archives — keep the working repository for full provenance).
 7. Retrieve current venue author guidelines and reformat the manuscript; complete the full
    27-item TRIPOD+AI checklist table at submission.
 8. Execute the full-scale run (the protocol is written for it: uncapped cohort at DG scale on

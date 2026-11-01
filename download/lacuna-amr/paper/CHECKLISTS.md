@@ -5,7 +5,7 @@
 | DOME item | Status | Pointer |
 |---|---|---|
 | D: Data sources described; access + splits | Yes | Methods; protocol/PROTOCOL.md §2-4; data/manifest.tsv; results/splits/manifest.json |
-| D: Data leakage prevention | Yes | gates/G3.md (assertion tests, sealed hashed test lists) |
+| D: Data leakage prevention | Yes (audited, not assumed) | gates/G3.md: zero isolate overlap; clonal overlap found across train/test in isolate-stratified S0 and S2/S3 at pilot scale (gate FAIL, corrected in summary docs, D-019); v0.2.0 auto-splits are clone-aware; `lacuna validate` audits any supplied splits |
 | O: Optimisation: objective, tuning, calibration | Yes | Methods; protocol §9 (nested grouped tuning, Platt/isotonic rule) |
 | M: Model specifications | Yes | protocol §9 (M0/M1/M2, grids, seeds, class weights); models/MODEL_CARD.md |
 | M: Model availability | Yes | src/lacuna, models/pilot_model.json, SBOM |

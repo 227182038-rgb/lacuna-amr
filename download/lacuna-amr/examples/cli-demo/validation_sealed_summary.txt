@@ -1,0 +1,70 @@
+== ceftazidime: n=59 R=26 (44.1%)
+   M0 sanity: carrier R-rate 0.788 vs non-carrier 0.000 (n=33/26)
+   SPLIT PROBLEMS: ['S0[rep0 fold0]: dedup-cluster overlap 6', 'S0[rep0 fold1]: dedup-cluster overlap 8', 'S0[rep0 fold2]: dedup-cluster overlap 6', 'S0[rep0 fold3]: dedup-cluster overlap 6']
+   S0 M0: mean AUROC 0.893 over 10 folds
+   S0 M1: mean AUROC 0.653 over 10 folds
+   S0 M1: mean Mondrian coverage 0.900 (target 0.90)
+   S1 8 M0: n=33 AUROC=0.882 [0.882, 0.882] CA=0.879 VME=0.0 ME=0.235 cov=0.879
+   S1 8 M1: n=33 AUROC=0.61 [0.610, 0.610] CA=0.545 VME=0.5 ME=0.412 cov=0.727
+   S1 OTHER M0: n=26 AUROC=0.906 [0.833, 1.000] CA=0.885 VME=0.0 ME=0.188 cov=0.885
+   S1 OTHER M1: n=26 AUROC=0.691 [0.535, 0.800] CA=0.692 VME=0.5 ME=0.188 cov=0.692
+   S3 OTHER_S3 M0: n=14 AUROC=0.9 [0.875, 1.000] CA=0.929 VME=0.0 ME=0.2 cov=0.929
+   S3 OTHER_S3 M1: n=14 AUROC=0.689 [0.656, 0.875] CA=0.429 VME=0.889 ME=0.0 cov=1.000
+   S3 PRJNA224116|Wageningen Bioveterinary Research M0: n=15 AUROC=0.5 [0.500, 0.500] CA=0.933 VME=0.0 ME=1.0 cov=0.933
+   S3 PRJNA224116|Wageningen Bioveterinary Research M1: n=15 AUROC=0.857 [0.786, 0.929] CA=0.200 VME=0.857 ME=0.0 cov=0.933
+   S3 PRJNA514245|National Center for Biotechnology Information M0: n=19 AUROC=0.875 [0.625, 0.917] CA=0.789 VME=0.0 ME=0.25 cov=0.789
+   S3 PRJNA745210|SENASICA M0: n=11 AUROC=None CA=0.909 VME=None ME=0.091 cov=0.909
+   S3 PRJNA745210|SENASICA M1: n=11 AUROC=None CA=0.727 VME=None ME=0.273 cov=0.818
+   S2 forward-time M0: n=30 AUROC=0.9 cov=0.9
+   S2 forward-time M1: n=30 AUROC=0.742 cov=0.8333333333333334
+== ciprofloxacin: n=178 R=17 (9.6%)
+   M0 sanity: carrier R-rate 0.362 vs non-carrier 0.000 (n=47/131)
+   SPLIT PROBLEMS: ['S0[rep0 fold0]: dedup-cluster overlap 19', 'S0[rep0 fold1]: dedup-cluster overlap 15', 'S0[rep0 fold2]: dedup-cluster overlap 16', 'S0[rep0 fold3]: dedup-cluster overlap 18']
+   S0 M0: mean AUROC 0.907 over 10 folds
+   S0 M1: mean AUROC 0.980 over 10 folds
+   S0 M1: mean Mondrian coverage 0.913 (target 0.90)
+   S1 3 M0: n=31 AUROC=0.783 [0.783, 0.783] CA=0.677 VME=0.0 ME=0.435 cov=0.677
+   S1 3 M1: n=31 AUROC=0.978 [0.978, 0.978] CA=0.742 VME=1.0 ME=0.0 cov=0.968
+   S1 8 M0: n=109 AUROC=0.926 [0.926, 0.926] CA=0.862 VME=0.0 ME=0.147 cov=0.862
+   S1 8 M1: n=109 AUROC=0.937 [0.937, 0.937] CA=0.936 VME=1.0 ME=0.0 cov=0.862
+   S1 OTHER M0: n=38 AUROC=0.931 [0.893, 0.976] CA=0.868 VME=0.0 ME=0.139 cov=0.868
+   S1 OTHER M1: n=38 AUROC=1.0 [1.000, 1.000] CA=1.000 VME=0.0 ME=0.0 cov=0.947
+   S3 OTHER_S3 M0: n=23 AUROC=0.857 [0.500, 0.893] CA=0.826 VME=0.0 ME=0.286 cov=0.826
+   S3 OTHER_S3 M1: n=23 AUROC=0.968 [0.920, 1.000] CA=0.739 VME=0.667 ME=0.0 cov=0.870
+   S3 PRJNA224116|Wageningen Bioveterinary Research M0: n=12 AUROC=0.727 [0.727, 0.750] CA=0.500 VME=0.0 ME=0.545 cov=0.500
+   S3 PRJNA224116|Wageningen Bioveterinary Research M1: n=12 AUROC=0.909 [0.900, 0.909] CA=0.917 VME=1.0 ME=0.0 cov=0.583
+   S3 PRJNA292663|FDA M0: n=88 AUROC=0.96 [0.953, 0.969] CA=0.920 VME=0.0 ME=0.08 cov=0.920
+   S3 PRJNA292663|FDA M1: n=88 AUROC=1.0 [1.000, 1.000] CA=0.989 VME=1.0 ME=0.0 cov=0.989
+   S3 PRJNA514245|National Center for Biotechnology Information M0: n=55 AUROC=0.867 [0.762, 0.957] CA=0.764 VME=0.0 ME=0.265 cov=0.764
+   S3 PRJNA514245|National Center for Biotechnology Information M1: n=55 AUROC=1.0 [1.000, 1.000] CA=0.927 VME=0.667 ME=0.0 cov=0.891
+   S2 forward-time M0: n=78 AUROC=0.873 cov=0.782051282051282
+   S2 forward-time M1: n=78 AUROC=0.974 cov=0.8076923076923077
+== gentamicin: n=229 R=34 (14.8%)
+   M0 sanity: carrier R-rate 0.969 vs non-carrier 0.015 (n=32/197)
+   SPLIT PROBLEMS: ['S0[rep0 fold0]: dedup-cluster overlap 25', 'S0[rep0 fold1]: dedup-cluster overlap 19', 'S0[rep0 fold2]: dedup-cluster overlap 24', 'S0[rep0 fold3]: dedup-cluster overlap 19']
+   S0 M0: mean AUROC 0.952 over 10 folds
+   S0 M1: mean AUROC 0.915 over 10 folds
+   S0 M1: mean Mondrian coverage 0.928 (target 0.90)
+   S1 3 M0: n=62 AUROC=0.938 [0.938, 0.938] CA=0.984 VME=0.125 ME=0.0 cov=0.984
+   S1 3 M1: n=62 AUROC=0.854 [0.854, 0.854] CA=0.887 VME=0.25 ME=0.093 cov=0.919
+   S1 8 M0: n=126 AUROC=0.94 [0.940, 0.940] CA=0.984 VME=0.111 ME=0.009 cov=0.984
+   S1 8 M1: n=126 AUROC=0.771 [0.771, 0.771] CA=0.849 VME=0.444 ME=0.128 cov=0.984
+   S1 OTHER M0: n=41 AUROC=0.971 [0.875, 1.000] CA=0.976 VME=0.059 ME=0.0 cov=0.976
+   S1 OTHER M1: n=41 AUROC=0.873 [0.653, 1.000] CA=0.707 VME=0.706 ME=0.0 cov=0.707
+   S3 OTHER_S3 M0: n=23 AUROC=0.875 [0.500, 1.000] CA=0.957 VME=0.25 ME=0.0 cov=0.957
+   S3 OTHER_S3 M1: n=23 AUROC=0.868 [0.833, 1.000] CA=0.783 VME=0.25 ME=0.211 cov=0.826
+   S3 PRJNA224116|Wageningen Bioveterinary Research M0: n=18 AUROC=1.0 [1.000, 1.000] CA=1.000 VME=0.0 ME=0.0 cov=1.000
+   S3 PRJNA224116|Wageningen Bioveterinary Research M1: n=18 AUROC=0.625 [0.625, 0.625] CA=0.778 VME=1.0 ME=0.125 cov=0.889
+   S3 PRJNA292663|FDA M0: n=88 AUROC=0.944 [0.902, 1.000] CA=0.977 VME=0.1 ME=0.013 cov=0.977
+   S3 PRJNA292663|FDA M1: n=88 AUROC=0.759 [0.717, 1.000] CA=0.920 VME=0.6 ME=0.013 cov=0.909
+   S3 PRJNA318589|Vet-LIRN-CVM-FDA M0: n=14 AUROC=None CA=1.000 VME=None ME=0.0 cov=1.000
+   S3 PRJNA318589|Vet-LIRN-CVM-FDA M1: n=14 AUROC=None CA=1.000 VME=None ME=0.0 cov=1.000
+   S3 PRJNA318591|Vet-LIRN-CVM-FDA M0: n=15 AUROC=1.0 [1.000, 1.000] CA=1.000 VME=0.0 ME=0.0 cov=1.000
+   S3 PRJNA318591|Vet-LIRN-CVM-FDA M1: n=15 AUROC=0.929 [0.929, 1.000] CA=0.800 VME=0.0 ME=0.214 cov=0.800
+   S3 PRJNA324573|Vet-LIRN-CVM-FDA M0: n=13 AUROC=None CA=1.000 VME=None ME=0.0 cov=1.000
+   S3 PRJNA324573|Vet-LIRN-CVM-FDA M1: n=13 AUROC=None CA=1.000 VME=None ME=0.0 cov=1.000
+   S3 PRJNA514245|National Center for Biotechnology Information M0: n=47 AUROC=0.969 [0.850, 1.000] CA=0.979 VME=0.062 ME=0.0 cov=0.979
+   S3 PRJNA514245|National Center for Biotechnology Information M1: n=47 AUROC=0.918 [0.863, 1.000] CA=0.851 VME=0.062 ME=0.194 cov=0.915
+   S3 PRJNA745210|SENASICA M0: n=11 AUROC=1.0 [1.000, 1.000] CA=1.000 VME=0.0 ME=0.0 cov=1.000
+   S3 PRJNA745210|SENASICA M1: n=11 AUROC=1.0 [1.000, 1.000] CA=0.545 VME=0.0 ME=0.5 cov=0.909
+   S2: infeasible at pilot scale: test n=60, R=4 (<50 R / 50 S required by protocol at full scale)

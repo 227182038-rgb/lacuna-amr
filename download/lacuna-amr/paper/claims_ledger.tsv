@@ -6,6 +6,7 @@ R4	cite Inda-Díaz 2026	ref:R06
 R5	cite Pei 2022; Cornacchia 2023	ref:R07;ref:R08
 A1	attrition numbers	results/lineages.json;data/stage3_selection.json
 G24	G2/G3/G4 outcomes	gates/G2.md;gates/G3.md;gates/G4.md
+G3x	G3 split-audit outcome (clonal overlap in S0/S2/S3; S1 clean)	gates/G3.md;protocol/DEVIATIONS.md
 S0p	S0 metrics	results/evaluation/main_results.json
 H1	H1 outcomes	results/evaluation/hypotheses.json
 H2	H2 outcomes	results/evaluation/hypotheses.json

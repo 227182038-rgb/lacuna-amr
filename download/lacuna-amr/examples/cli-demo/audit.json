@@ -1,0 +1,273 @@
+{
+  "tool": "lacuna",
+  "version": "0.2.0",
+  "notice": "RESEARCH USE ONLY. Not for clinical decision-making.",
+  "input": "data/ast_table.tsv",
+  "breakpoints": "examples/cli-demo/breakpoints.tsv",
+  "dg_thresholds": {
+    "min_isolates": 800,
+    "min_R": 100,
+    "min_S": 100,
+    "min_bioprojects": 5
+  },
+  "drugs": {
+    "ceftazidime": {
+      "n_rows": 177,
+      "n_isolates": 177,
+      "n_bioprojects": 11,
+      "row_classes": {
+        "primary_rule": 177
+      },
+      "testing_standards": {
+        "CLSI": 90,
+        "EUCAST": 87
+      },
+      "methods": {
+        "MIC": 177
+      },
+      "platforms": {
+        "Sensititre": 111,
+        "missing": 56,
+        "Sensititer": 10
+      },
+      "submitter_phenotypes": {
+        "not defined": 124,
+        "resistant": 31,
+        "susceptible": 22
+      },
+      "signs": {
+        "<=": 81,
+        "==": 81,
+        ">": 10,
+        "<": 5
+      },
+      "derived_labels_primary_rule": {
+        "INDETERMINATE_CENSORED": 62,
+        "S": 57,
+        "R": 46,
+        "I": 12
+      },
+      "n_labelled_S_R": 103,
+      "n_R": 46,
+      "n_S": 57,
+      "dg_checks": {
+        "min_isolates": {
+          "pass": false,
+          "value": 103,
+          "threshold": 800
+        },
+        "min_R": {
+          "pass": false,
+          "value": 46,
+          "threshold": 100
+        },
+        "min_S": {
+          "pass": false,
+          "value": 57,
+          "threshold": 100
+        },
+        "min_bioprojects": {
+          "pass": true,
+          "value": 11,
+          "threshold": 5
+        }
+      },
+      "dg_verdict": "FAIL"
+    },
+    "ciprofloxacin": {
+      "n_rows": 372,
+      "n_isolates": 372,
+      "n_bioprojects": 7,
+      "row_classes": {
+        "primary_rule": 372
+      },
+      "testing_standards": {
+        "CLSI": 285,
+        "EUCAST": 86,
+        "missing": 1
+      },
+      "methods": {
+        "MIC": 372
+      },
+      "platforms": {
+        "Sensititre": 292,
+        "missing": 70,
+        "Sensititer": 10
+      },
+      "submitter_phenotypes": {
+        "susceptible": 268,
+        "not defined": 55,
+        "resistant": 43,
+        "intermediate": 6
+      },
+      "signs": {
+        "<=": 251,
+        "==": 79,
+        ">": 29,
+        ">=": 10,
+        "<": 3
+      },
+      "derived_labels_primary_rule": {
+        "S": 311,
+        "R": 44,
+        "I": 12,
+        "INDETERMINATE_CENSORED": 5
+      },
+      "n_labelled_S_R": 355,
+      "n_R": 44,
+      "n_S": 311,
+      "dg_checks": {
+        "min_isolates": {
+          "pass": false,
+          "value": 355,
+          "threshold": 800
+        },
+        "min_R": {
+          "pass": false,
+          "value": 44,
+          "threshold": 100
+        },
+        "min_S": {
+          "pass": true,
+          "value": 311,
+          "threshold": 100
+        },
+        "min_bioprojects": {
+          "pass": true,
+          "value": 7,
+          "threshold": 5
+        }
+      },
+      "dg_verdict": "FAIL"
+    },
+    "gentamicin": {
+      "n_rows": 435,
+      "n_isolates": 435,
+      "n_bioprojects": 13,
+      "row_classes": {
+        "primary_rule": 435
+      },
+      "testing_standards": {
+        "CLSI": 361,
+        "EUCAST": 73,
+        "missing": 1
+      },
+      "methods": {
+        "MIC": 435
+      },
+      "platforms": {
+        "Sensititre": 368,
+        "missing": 57,
+        "Sensititer": 10
+      },
+      "submitter_phenotypes": {
+        "susceptible": 258,
+        "not defined": 117,
+        "resistant": 51,
+        "intermediate": 9
+      },
+      "signs": {
+        "==": 329,
+        ">": 51,
+        "<=": 50,
+        ">=": 4,
+        "<": 1
+      },
+      "derived_labels_primary_rule": {
+        "S": 351,
+        "R": 79,
+        "INDETERMINATE_CENSORED": 5
+      },
+      "n_labelled_S_R": 430,
+      "n_R": 79,
+      "n_S": 351,
+      "dg_checks": {
+        "min_isolates": {
+          "pass": false,
+          "value": 430,
+          "threshold": 800
+        },
+        "min_R": {
+          "pass": false,
+          "value": 79,
+          "threshold": 100
+        },
+        "min_S": {
+          "pass": true,
+          "value": 351,
+          "threshold": 100
+        },
+        "min_bioprojects": {
+          "pass": true,
+          "value": 13,
+          "threshold": 5
+        }
+      },
+      "dg_verdict": "FAIL"
+    },
+    "meropenem": {
+      "n_rows": 292,
+      "n_isolates": 292,
+      "n_bioprojects": 6,
+      "row_classes": {
+        "primary_rule": 292
+      },
+      "testing_standards": {
+        "CLSI": 203,
+        "EUCAST": 88,
+        "missing": 1
+      },
+      "methods": {
+        "MIC": 292
+      },
+      "platforms": {
+        "Sensititre": 216,
+        "missing": 66,
+        "Sensititer": 10
+      },
+      "submitter_phenotypes": {
+        "susceptible": 237,
+        "not defined": 51,
+        "resistant": 4
+      },
+      "signs": {
+        "<=": 212,
+        "==": 69,
+        ">": 6,
+        "<": 5
+      },
+      "derived_labels_primary_rule": {
+        "S": 285,
+        "R": 6,
+        "I": 1
+      },
+      "n_labelled_S_R": 291,
+      "n_R": 6,
+      "n_S": 285,
+      "dg_checks": {
+        "min_isolates": {
+          "pass": false,
+          "value": 291,
+          "threshold": 800
+        },
+        "min_R": {
+          "pass": false,
+          "value": 6,
+          "threshold": 100
+        },
+        "min_S": {
+          "pass": true,
+          "value": 285,
+          "threshold": 100
+        },
+        "min_bioprojects": {
+          "pass": true,
+          "value": 6,
+          "threshold": 5
+        }
+      },
+      "dg_verdict": "FAIL"
+    }
+  },
+  "overall_verdict": "FAIL"
+}

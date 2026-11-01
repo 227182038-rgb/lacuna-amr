@@ -1,0 +1,30 @@
+== ciprofloxacin: n=178 R=17 (9.6%)
+   M0 sanity: carrier R-rate 0.362 vs non-carrier 0.000 (n=47/131)
+   SPLIT PROBLEMS: ['S3[PRJNA292663|FDA]: dedup-cluster overlap 15', 'S3[PRJNA224116|Wageningen Bioveterinary Research]: dedup-cluster overlap 8', 'S3[PRJNA514245|National Center for Biotechnology Information]: dedup-cluster overlap 10', 'S3[OTHER_S3]: dedup-cluster overlap 6']
+   S0 M0: mean AUROC 0.910 over 10 folds
+   S0 M1: mean AUROC 0.977 over 10 folds
+   S0 M2: mean AUROC 0.453 over 10 folds
+   S0 M1: mean Mondrian coverage 0.906 (target 0.90)
+   S0 M2: mean Mondrian coverage 0.916 (target 0.90)
+   S1 3 M0: n=31 AUROC=0.783 [0.783, 0.783] CA=0.677 VME=0.0 ME=0.435 cov=0.677
+   S1 3 M1: n=31 AUROC=0.978 [0.978, 0.978] CA=0.742 VME=1.0 ME=0.0 cov=0.968
+   S1 3 M2: n=31 AUROC=0.5 [0.500, 0.500] CA=0.742 VME=1.0 ME=0.0 cov=1.000
+   S1 8 M0: n=109 AUROC=0.926 [0.926, 0.926] CA=0.862 VME=0.0 ME=0.147 cov=0.862
+   S1 8 M1: n=109 AUROC=0.937 [0.937, 0.937] CA=0.936 VME=1.0 ME=0.0 cov=0.862
+   S1 8 M2: n=109 AUROC=0.5 [0.500, 0.500] CA=0.936 VME=1.0 ME=0.0 cov=1.000
+   S1 OTHER M0: n=38 AUROC=0.931 [0.893, 0.976] CA=0.868 VME=0.0 ME=0.139 cov=0.868
+   S1 OTHER M1: n=38 AUROC=1.0 [1.000, 1.000] CA=1.000 VME=0.0 ME=0.0 cov=0.947
+   S1 OTHER M2: n=38 AUROC=0.972 [0.947, 0.986] CA=0.947 VME=0.0 ME=0.056 cov=0.947
+   S3 OTHER_S3 M0: n=23 AUROC=0.857 [0.500, 0.893] CA=0.826 VME=0.0 ME=0.286 cov=0.826
+   S3 OTHER_S3 M1: n=23 AUROC=0.968 [0.920, 1.000] CA=0.739 VME=0.667 ME=0.0 cov=0.870
+   S3 OTHER_S3 M2: n=23 AUROC=0.718 [0.644, 1.000] CA=0.696 VME=0.667 ME=0.071 cov=0.957
+   S3 PRJNA224116|Wageningen Bioveterinary Research M0: n=12 AUROC=0.727 [0.727, 0.750] CA=0.500 VME=0.0 ME=0.545 cov=0.500
+   S3 PRJNA224116|Wageningen Bioveterinary Research M1: n=12 AUROC=0.909 [0.900, 0.909] CA=0.917 VME=1.0 ME=0.0 cov=0.583
+   S3 PRJNA224116|Wageningen Bioveterinary Research M2: n=12 AUROC=0.227 [0.227, 0.250] CA=0.917 VME=1.0 ME=0.0 cov=0.583
+   S3 PRJNA292663|FDA M0: n=88 AUROC=0.96 [0.953, 0.969] CA=0.920 VME=0.0 ME=0.08 cov=0.920
+   S3 PRJNA292663|FDA M1: n=88 AUROC=1.0 [1.000, 1.000] CA=0.989 VME=1.0 ME=0.0 cov=0.989
+   S3 PRJNA292663|FDA M2: n=88 AUROC=0.362 [0.319, 0.407] CA=0.864 VME=1.0 ME=0.126 cov=0.989
+   S3 PRJNA514245|National Center for Biotechnology Information M0: n=55 AUROC=0.867 [0.762, 0.957] CA=0.764 VME=0.0 ME=0.265 cov=0.764
+   S3 PRJNA514245|National Center for Biotechnology Information M1: n=55 AUROC=1.0 [1.000, 1.000] CA=0.927 VME=0.667 ME=0.0 cov=0.891
+   S3 PRJNA514245|National Center for Biotechnology Information M2: n=55 AUROC=0.5 [0.500, 0.500] CA=0.891 VME=1.0 ME=0.0 cov=1.000
+   S2: infeasible: 178/178 isolates lack a collection year

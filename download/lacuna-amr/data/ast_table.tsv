@@ -1,0 +1,1277 @@
+biosample	drug	sign	measurement	unit	method	platform	standard	submitter_phenotype	year	country	bioproject
+SAMN20200276	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA: WA	PRJNA318589
+SAMN20200276	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA: WA	PRJNA318589
+SAMN31087230	ciprofloxacin	==	0.25	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087230	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087230	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087230	ceftazidime	==	8	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN47623346	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623346	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623346	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623346	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN12359696	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:OR	PRJNA292663
+SAMN12359696	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:OR	PRJNA292663
+SAMN12359696	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:OR	PRJNA292663
+SAMN27738902	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: OH	PRJNA318589
+SAMN27738902	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: OH	PRJNA318589
+SAMN16484144	ciprofloxacin	>	4	mg/L	MIC	Sensititre	CLSI	resistant	2019	USA:TN	PRJNA292663
+SAMN16484144	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN16484144	gentamicin	==	4	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN27960782	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: OH	PRJNA318589
+SAMN27960782	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: OH	PRJNA318589
+SAMN12359670	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SD	PRJNA292663
+SAMN12359670	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SD	PRJNA292663
+SAMN12359670	gentamicin	==	8	mg/L	MIC	Sensititre	CLSI	intermediate	2018	USA:SD	PRJNA292663
+SAMN07410534	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2017	USA: GA	PRJNA318589
+SAMN07410534	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2017	USA: GA	PRJNA318589
+SAMN31087278	ciprofloxacin	==	0.25	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087278	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087278	gentamicin	==	1	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087278	ceftazidime	==	8	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN18106117	ciprofloxacin	>=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:PA	PRJNA324573
+SAMN18106117	gentamicin	<=	1	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:PA	PRJNA324573
+SAMN50215572	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215572	meropenem	==	0.015	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215572	gentamicin	>	64	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215572	ceftazidime	==	0.125	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN20174364	ciprofloxacin	<=	0.06	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:OH	PRJNA324573
+SAMN20174364	gentamicin	<=	1	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:OH	PRJNA324573
+SAMN20174364	ceftazidime	<=	0.12	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:OH	PRJNA324573
+SAMN31087313	ciprofloxacin	==	0.5	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087313	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087313	gentamicin	==	1	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087313	ceftazidime	==	16	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN10221066	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221066	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221066	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN43563143	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43563143	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Ontario	PRJNA514245
+SAMN31087128	ciprofloxacin	==	0.12	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087128	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087128	gentamicin	==	2	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087128	ceftazidime	==	8	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN43562877	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2012	Canada:British Columbia	PRJNA514245
+SAMN43562877	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2012	Canada:British Columbia	PRJNA514245
+SAMN12359546	ciprofloxacin	==	0.03	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:KS	PRJNA292663
+SAMN12359546	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:KS	PRJNA292663
+SAMN12359546	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:KS	PRJNA292663
+SAMN13540766	ciprofloxacin	==	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:KS	PRJNA292663
+SAMN13540766	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:KS	PRJNA292663
+SAMN13540766	gentamicin	==	2	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:KS	PRJNA292663
+SAMN43564898	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43564898	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN50215122	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215122	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215122	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215122	ceftazidime	==	0.125	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN43563347	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43563347	gentamicin	==	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Quebec	PRJNA514245
+SAMN31087308	ciprofloxacin	==	0.25	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087308	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087308	gentamicin	==	16	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087308	ceftazidime	==	16	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN23010875	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:GA	PRJNA324565
+SAMN23010875	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:GA	PRJNA324565
+SAMN16245163	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN16245163	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN16245163	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2019	USA:TX	PRJNA292663
+SAMN10620130	ciprofloxacin	>=	4	mg/L	MIC		CLSI	resistant	2018	USA: Rochester, NY	PRJNA224116
+SAMN10620130	meropenem	<=	0.25	mg/L	MIC		CLSI	susceptible	2018	USA: Rochester, NY	PRJNA224116
+SAMN10620130	gentamicin	<=	1	mg/L	MIC		CLSI	susceptible	2018	USA: Rochester, NY	PRJNA224116
+SAMN43565144	ciprofloxacin	==	0.12	mg/L	MIC	Sensititre	CLSI	intermediate	2013	Canada	PRJNA514245
+SAMN43565144	gentamicin	<=	0.25	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43563724	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43563724	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:British Columbia	PRJNA514245
+SAMN12359782	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:MD	PRJNA292663
+SAMN12359782	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:MD	PRJNA292663
+SAMN12359782	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:MD	PRJNA292663
+SAMN31087198	ciprofloxacin	==	0.5	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087198	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087198	gentamicin	==	2	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087198	ceftazidime	==	8	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN43563257	ciprofloxacin	==	0.12	mg/L	MIC	Sensititre	CLSI	intermediate	2013	Canada:British Columbia	PRJNA514245
+SAMN43563257	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43563954	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43563954	gentamicin	==	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Quebec	PRJNA514245
+SAMN27960789	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: OH	PRJNA318589
+SAMN27960789	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: OH	PRJNA318589
+SAMN11372911	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CA	PRJNA292663
+SAMN11372911	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CA	PRJNA292663
+SAMN11372911	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CA	PRJNA292663
+SAMN09953972	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:OK	PRJNA318591
+SAMN09953972	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:OK	PRJNA318591
+SAMN12943569	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN12943569	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN12943569	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN10393233	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:OK	PRJNA318591
+SAMN10393233	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:OK	PRJNA318591
+SAMN10220976	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10220976	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10220976	gentamicin	==	16	mg/L	MIC	Sensititre	CLSI	resistant	2017	USA:GA	PRJNA292663
+SAMN09951494	gentamicin	<=	1	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:MI	PRJNA318591
+SAMN10948831	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN10948831	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN10948831	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN47623371	ciprofloxacin	<=	0.02	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623371	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623371	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623371	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN19680765	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:MN	PRJNA318591
+SAMN19680765	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:MN	PRJNA318591
+SAMN50215840	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215840	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215840	ceftazidime	==	0.125	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN43564928	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN43564928	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN17368264	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:NC	PRJNA318591
+SAMN17368264	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:NC	PRJNA318591
+SAMN50215138	ciprofloxacin	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215138	meropenem	==	0.03	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215138	gentamicin	==	1	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215138	ceftazidime	==	0.125	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN19680773	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:OK	PRJNA318591
+SAMN19680773	ceftazidime	==	8	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:OK	PRJNA318591
+SAMN50215241	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215241	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215241	gentamicin	==	1	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215241	ceftazidime	==	0.125	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN12990692	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12990692	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12990692	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN13050471	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:MO	PRJNA481346
+SAMN13050471	ceftazidime	==	16	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:MO	PRJNA481346
+SAMN10221106	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN10221106	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN10221106	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN10221459	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SD	PRJNA292663
+SAMN10221459	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SD	PRJNA292663
+SAMN10221459	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SD	PRJNA292663
+SAMN43564884	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43564884	gentamicin	==	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Quebec	PRJNA514245
+SAMN12722856	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:KY	PRJNA324573
+SAMN12722856	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:KY	PRJNA324573
+SAMN50215783	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215783	meropenem	==	0.03	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215783	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN43563889	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43563889	gentamicin	==	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Quebec	PRJNA514245
+SAMN43563255	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43563255	gentamicin	==	8	mg/L	MIC	Sensititre	CLSI	intermediate	2013	Canada:Quebec	PRJNA514245
+SAMN43562916	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2012	Canada:Quebec	PRJNA514245
+SAMN43562916	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2012	Canada:Quebec	PRJNA514245
+SAMN10221210	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221210	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221210	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN12943493	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN12943493	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN12943493	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN31087125	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087125	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087125	gentamicin	==	2	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087125	ceftazidime	==	1	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN43564249	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43564249	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43564851	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43564851	gentamicin	==	4	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN50215255	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215255	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215255	gentamicin	==	1	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215255	ceftazidime	==	0.125	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN13315602	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN13315602	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN13315602	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN13178685	gentamicin	<=	1	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:PA	PRJNA324573
+SAMN31087153	ciprofloxacin	==	0.12	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087153	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087153	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087153	ceftazidime	==	16	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN43562823	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2012	Canada:Ontario	PRJNA514245
+SAMN43562823	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2012	Canada:Ontario	PRJNA514245
+SAMN50215696	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215696	meropenem	==	0.015	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215696	gentamicin	==	1	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215696	ceftazidime	==	1	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN33435767	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:NC	PRJNA324565
+SAMN33435767	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:NC	PRJNA324565
+SAMN50215750	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215750	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215750	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN43564937	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN43564937	gentamicin	==	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Alberta	PRJNA514245
+SAMN12255969	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN12255969	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN12255969	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN08397422	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2017	USA: IN	PRJNA318589
+SAMN08397422	ceftazidime	>	16	mg/L	MIC	Sensititre	CLSI	not defined	2017	USA: IN	PRJNA318589
+SAMN11372921	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:MD	PRJNA292663
+SAMN11372921	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:MD	PRJNA292663
+SAMN11372921	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:MD	PRJNA292663
+SAMN50215316	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215316	meropenem	<=	0.004	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215316	gentamicin	<=	0.125	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215316	ceftazidime	==	2	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN22785503	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN22785503	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN22785503	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN12359638	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN12359638	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN12359638	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN31087358	ciprofloxacin	==	8	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087358	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087358	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087358	ceftazidime	==	8	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN38285457	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: IN	PRJNA318589
+SAMN38285457	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: IN	PRJNA318589
+SAMN10620172	ciprofloxacin	>=	4	mg/L	MIC		CLSI	resistant	2018	USA: Rochester, NY	PRJNA224116
+SAMN10620172	meropenem	<=	0.25	mg/L	MIC		CLSI	susceptible	2018	USA: Rochester, NY	PRJNA224116
+SAMN10620172	gentamicin	>=	16	mg/L	MIC		CLSI	resistant	2018	USA: Rochester, NY	PRJNA224116
+SAMN12359835	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:GA	PRJNA292663
+SAMN12359835	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:GA	PRJNA292663
+SAMN12359835	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:GA	PRJNA292663
+SAMN10221359	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:PA	PRJNA292663
+SAMN10221359	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:PA	PRJNA292663
+SAMN10221359	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:PA	PRJNA292663
+SAMN12822695	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12822695	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12822695	gentamicin	==	2	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN10221107	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN10221107	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN10221107	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN43564998	ciprofloxacin	==	0.03	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43564998	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN12912152	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12912152	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12912152	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN50215390	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215390	meropenem	==	1	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215390	gentamicin	>	64	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215390	ceftazidime	>	64	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN43563927	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43563927	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN10221323	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:KS	PRJNA292663
+SAMN10221323	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:KS	PRJNA292663
+SAMN10221323	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:KS	PRJNA292663
+SAMN11288805	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:ND	PRJNA324573
+SAMN11288805	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:ND	PRJNA324573
+SAMN43562907	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2012	Canada:Alberta	PRJNA514245
+SAMN43562907	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2012	Canada:Alberta	PRJNA514245
+SAMN14125622	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN14125622	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN14125622	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN13981363	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:ND	PRJNA324573
+SAMN13981363	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:ND	PRJNA324573
+SAMN22184039	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:OK	PRJNA318591
+SAMN22184039	ceftazidime	>	16	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:OK	PRJNA318591
+SAMN31087297	ciprofloxacin	==	0.5	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087297	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087297	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087297	ceftazidime	==	8	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN11417756	gentamicin	>	8	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:MS	PRJNA324565
+SAMN17368266	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:NC	PRJNA318591
+SAMN17368266	ceftazidime	==	8	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:NC	PRJNA318591
+SAMN04568569	ciprofloxacin	<=	0.015	mg/L	MIC		CLSI	susceptible	2016	USA:FL	PRJNA268206
+SAMN04568569	meropenem	<=	0.06	mg/L	MIC		CLSI	susceptible	2016	USA:FL	PRJNA268206
+SAMN04568569	gentamicin	==	0.5	mg/L	MIC		CLSI	susceptible	2016	USA:FL	PRJNA268206
+SAMN11960653	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN11960653	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN11960653	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN31087328	ciprofloxacin	==	0.5	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087328	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087328	gentamicin	==	1	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087328	ceftazidime	==	2	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN10221469	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221469	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221469	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2017	USA:TN	PRJNA292663
+SAMN43565074	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43565074	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Quebec	PRJNA514245
+SAMN47623345	ciprofloxacin	>	8	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN47623345	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623345	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623345	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN31087340	ciprofloxacin	==	0.5	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087340	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087340	gentamicin	>	16	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087340	ceftazidime	==	8	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN13178717	gentamicin	<=	1	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:PA	PRJNA324573
+SAMN16304295	ciprofloxacin	==	0.12	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304295	meropenem	<	0.06	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304295	gentamicin	==	2	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304295	ceftazidime	<	0.25	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN43563551	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43563551	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:British Columbia	PRJNA514245
+SAMN50215461	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215461	meropenem	==	1	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215461	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215461	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN12943465	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN12943465	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN12943465	gentamicin	==	2	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN12359994	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TN	PRJNA292663
+SAMN12359994	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TN	PRJNA292663
+SAMN12359994	gentamicin	==	8	mg/L	MIC	Sensititre	CLSI	intermediate	2018	USA:TN	PRJNA292663
+SAMN28606096	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: OH	PRJNA318589
+SAMN28606096	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: OH	PRJNA318589
+SAMN11372937	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TN	PRJNA292663
+SAMN11372937	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TN	PRJNA292663
+SAMN11372937	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TN	PRJNA292663
+SAMN12360034	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CA	PRJNA292663
+SAMN12360034	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CA	PRJNA292663
+SAMN12360034	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2018	USA:CA	PRJNA292663
+SAMN22785517	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN22785517	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN22785517	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN10221519	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221519	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221519	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN16245309	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN16245309	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN16245309	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN10221638	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN10221638	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN10221638	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN43563377	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43563377	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada	PRJNA514245
+SAMN19469001	gentamicin	<=	0.25	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:ND	PRJNA324573
+SAMN19469001	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:ND	PRJNA324573
+SAMN28209065	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:IA	PRJNA318591
+SAMN28209065	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:IA	PRJNA318591
+SAMN13173358	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN13173358	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN13173358	gentamicin	==	8	mg/L	MIC	Sensititre	CLSI	intermediate	2019	USA:CO	PRJNA292663
+SAMN27923129	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:MO	PRJNA481346
+SAMN27923129	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:MO	PRJNA481346
+SAMN22785487	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:KS	PRJNA292663
+SAMN22785487	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:KS	PRJNA292663
+SAMN22785487	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:KS	PRJNA292663
+SAMN13153777	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN13153777	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN13153777	gentamicin	==	2	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN24745765	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:MN	PRJNA318591
+SAMN24745765	ceftazidime	>	16	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:MN	PRJNA318591
+SAMN43563475	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43563475	gentamicin	<=	0.25	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN15776719	gentamicin	==	2	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA: OH	PRJNA318589
+SAMN15776719	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA: OH	PRJNA318589
+SAMN09953967	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:MN	PRJNA318591
+SAMN09953967	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:MN	PRJNA318591
+SAMN31087282	ciprofloxacin	==	0.5	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087282	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087282	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087282	ceftazidime	==	32	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN43562835	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2012	Canada:Ontario	PRJNA514245
+SAMN43562835	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2012	Canada:Ontario	PRJNA514245
+SAMN12359736	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:GA	PRJNA292663
+SAMN12359736	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:GA	PRJNA292663
+SAMN12359736	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:GA	PRJNA292663
+SAMN43562920	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2012	Canada:Ontario	PRJNA514245
+SAMN43562920	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2012	Canada:Ontario	PRJNA514245
+SAMN43563275	ciprofloxacin	==	1	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Alberta	PRJNA514245
+SAMN43563275	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Alberta	PRJNA514245
+SAMN11022122	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:KS	PRJNA324573
+SAMN11022122	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:KS	PRJNA324573
+SAMN43564467	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43564467	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Quebec	PRJNA514245
+SAMN11854359	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN11854359	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN11854359	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN43564373	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43564373	gentamicin	<=	0.25	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN50215284	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215284	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215284	gentamicin	==	1	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215284	ceftazidime	==	32	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN31087179	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087179	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087179	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087179	ceftazidime	==	2	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN13019794	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN13019794	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN13019794	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN10620128	ciprofloxacin	>=	4	mg/L	MIC		CLSI	resistant	2017	USA: Rochester, NY	PRJNA224116
+SAMN10620128	meropenem	<=	0.25	mg/L	MIC		CLSI	susceptible	2017	USA: Rochester, NY	PRJNA224116
+SAMN10620128	gentamicin	<=	1	mg/L	MIC		CLSI	susceptible	2017	USA: Rochester, NY	PRJNA224116
+SAMN10221088	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN10221088	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN10221088	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN50215510	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215510	meropenem	>	16	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215510	ceftazidime	>	64	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN47638992	ciprofloxacin	==	16	mg/L	MIC		CLSI	resistant	2019	Brazil: Bambui	PRJNA224116
+SAMN47638992	gentamicin	<	0.12	mg/L	MIC		CLSI	susceptible	2019	Brazil: Bambui	PRJNA224116
+SAMN10221197	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221197	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221197	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221343	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN10221343	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN10221343	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN47623349	ciprofloxacin	==	0.12	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN47623349	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623349	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623349	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN50215209	ciprofloxacin	==	0.015	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215209	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215209	gentamicin	==	1	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215209	ceftazidime	==	0.125	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN10221055	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221055	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221055	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2017	USA:IA	PRJNA292663
+SAMN11372874	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:KS	PRJNA292663
+SAMN11372874	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:KS	PRJNA292663
+SAMN11372874	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:KS	PRJNA292663
+SAMN12943497	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12943497	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12943497	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2019	USA:GA	PRJNA292663
+SAMN43564547	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN43564547	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN43564499	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43564499	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN16551972	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:KY	PRJNA324573
+SAMN16551972	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:KY	PRJNA324573
+SAMN16245276	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16245276	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16245276	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN10221308	ciprofloxacin	==	0.03	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221308	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221308	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN12359824	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SD	PRJNA292663
+SAMN12359824	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SD	PRJNA292663
+SAMN12359824	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SD	PRJNA292663
+SAMN50215824	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215824	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215824	gentamicin	>	64	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215824	ceftazidime	==	64	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN09703864	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:KS	PRJNA324573
+SAMN09703864	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:KS	PRJNA324573
+SAMN13293927	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN13293927	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN13293927	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN16245133	ciprofloxacin	==	0.03	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CA	PRJNA292663
+SAMN16245133	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CA	PRJNA292663
+SAMN16245133	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CA	PRJNA292663
+SAMN16551975	ciprofloxacin	>=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:PA	PRJNA324573
+SAMN16551975	gentamicin	<=	1	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:PA	PRJNA324573
+SAMN16551975	ceftazidime	==	8	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:PA	PRJNA324573
+SAMN43563914	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43563914	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43564001	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN43564001	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN02581291	ciprofloxacin	>	2	mg/L	MIC		missing	not defined	2013	USA: Boston	PRJNA224116
+SAMN02581291	meropenem	<=	.25	mg/L	MIC		missing	not defined	2013	USA: Boston	PRJNA224116
+SAMN02581291	gentamicin	<=	1	mg/L	MIC		missing	not defined	2013	USA: Boston	PRJNA224116
+SAMN10221411	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221411	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221411	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN12359664	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:NC	PRJNA292663
+SAMN12359664	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:NC	PRJNA292663
+SAMN12359664	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:NC	PRJNA292663
+SAMN43562947	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43562947	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Quebec	PRJNA514245
+SAMN13019871	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN13019871	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN13019871	gentamicin	==	2	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN47623389	ciprofloxacin	==	0.5	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN47623389	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623389	gentamicin	==	1	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623389	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN16245262	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CA	PRJNA292663
+SAMN16245262	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CA	PRJNA292663
+SAMN16245262	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CA	PRJNA292663
+SAMN10221563	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10221563	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10221563	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN18634037	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA: IN	PRJNA318589
+SAMN18634037	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA: IN	PRJNA318589
+SAMN12943478	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12943478	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12943478	gentamicin	==	8	mg/L	MIC	Sensititre	CLSI	intermediate	2019	USA:SD	PRJNA292663
+SAMN50215179	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215179	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215179	gentamicin	>	64	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215179	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN12912141	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12912141	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12912141	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN10221282	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10221282	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10221282	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN08615704	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2017	USA:OK	PRJNA318591
+SAMN08615704	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2017	USA:OK	PRJNA318591
+SAMN12359774	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CA	PRJNA292663
+SAMN12359774	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CA	PRJNA292663
+SAMN12359774	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CA	PRJNA292663
+SAMN43564376	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43564376	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43562970	ciprofloxacin	==	0.12	mg/L	MIC	Sensititre	CLSI	intermediate	2013	Canada:Alberta	PRJNA514245
+SAMN43562970	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN10078342	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA: GA	PRJNA318589
+SAMN10078342	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA: GA	PRJNA318589
+SAMN47623330	ciprofloxacin	==	0.12	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN47623330	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623330	gentamicin	==	8	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN47623330	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN50215775	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215775	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215775	ceftazidime	==	32	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN43563241	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43563241	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Quebec	PRJNA514245
+SAMN18106123	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:ND	PRJNA324573
+SAMN18106123	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:ND	PRJNA324573
+SAMN16304072	ciprofloxacin	<=	1	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304072	meropenem	<=	1	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304072	gentamicin	<=	4	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304072	ceftazidime	==	16	mg/L	MIC	Sensititer	CLSI	resistant	2017	Canada: Quebec	PRJNA224116
+SAMN20200279	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2020	Canada	PRJNA318589
+SAMN20200279	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	Canada	PRJNA318589
+SAMN48590762	ciprofloxacin	==	0.25	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN48590762	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN48590762	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN48590762	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN50215483	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215483	meropenem	==	0.5	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215483	ceftazidime	==	1	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN12359837	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SD	PRJNA292663
+SAMN12359837	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SD	PRJNA292663
+SAMN12359837	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SD	PRJNA292663
+SAMN10221501	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:PA	PRJNA292663
+SAMN10221501	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:PA	PRJNA292663
+SAMN10221501	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:PA	PRJNA292663
+SAMN50215859	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215859	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215859	ceftazidime	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN10221245	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221245	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221245	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221336	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN10221336	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN10221336	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN10221242	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221242	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221242	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN17813944	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:TX	PRJNA325243
+SAMN17813944	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:TX	PRJNA325243
+SAMN47623322	ciprofloxacin	==	1	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN47623322	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623322	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623322	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN10221039	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221039	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221039	gentamicin	==	2	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN13429611	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:FL	PRJNA324565
+SAMN13429611	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:FL	PRJNA324565
+SAMN11352643	gentamicin	>	8	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:GA	PRJNA324565
+SAMN11352643	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:GA	PRJNA324565
+SAMN16304325	ciprofloxacin	<	0.015	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304325	meropenem	<	0.06	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304325	gentamicin	==	2	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304325	ceftazidime	<	0.25	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN43562951	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43562951	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN16304099	ciprofloxacin	<=	1	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304099	meropenem	<=	1	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304099	gentamicin	<=	4	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304099	ceftazidime	==	64	mg/L	MIC	Sensititer	CLSI	resistant	2017	Canada: Quebec	PRJNA224116
+SAMN14305398	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN14305398	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN14305398	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN12990642	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN12990642	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN12990642	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN12188553	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN12188553	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN12188553	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN16245112	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN16245112	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN16245112	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN31087309	ciprofloxacin	==	0.25	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087309	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087309	gentamicin	==	1	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087309	ceftazidime	==	16	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN20200267	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA: OH	PRJNA318589
+SAMN20200267	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA: OH	PRJNA318589
+SAMN43563231	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43563231	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN12587154	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TX	PRJNA292663
+SAMN12587154	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TX	PRJNA292663
+SAMN12587154	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TX	PRJNA292663
+SAMN47623363	ciprofloxacin	<=	0.02	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623363	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623363	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623363	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN16484153	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN16484153	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN16484153	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN14544542	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:VA	PRJNA481346
+SAMN14544542	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:VA	PRJNA481346
+SAMN22137296	gentamicin	>	8	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:OK	PRJNA318591
+SAMN22137296	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:OK	PRJNA318591
+SAMN12359564	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SC	PRJNA292663
+SAMN12359564	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SC	PRJNA292663
+SAMN12359564	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SC	PRJNA292663
+SAMN16245218	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16245218	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16245218	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN10221599	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SC	PRJNA292663
+SAMN10221599	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SC	PRJNA292663
+SAMN10221599	gentamicin	==	8	mg/L	MIC	Sensititre	CLSI	intermediate	2017	USA:SC	PRJNA292663
+SAMN43563796	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43563796	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN50215604	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215604	meropenem	==	0.25	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215604	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215604	ceftazidime	==	0.125	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN12995268	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12995268	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12995268	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN31087314	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087314	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087314	gentamicin	==	1	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087314	ceftazidime	==	8	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN12526318	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN12526318	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN12526318	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN11854356	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN11854356	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN11854356	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN16245279	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN16245279	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN16245279	gentamicin	==	8	mg/L	MIC	Sensititre	CLSI	intermediate	2019	USA:TN	PRJNA292663
+SAMN12359621	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:PA	PRJNA292663
+SAMN12359621	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:PA	PRJNA292663
+SAMN12359621	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:PA	PRJNA292663
+SAMN50215592	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215592	meropenem	==	0.015	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215592	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215592	ceftazidime	==	0.125	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN43563320	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43563320	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN16304299	ciprofloxacin	<	0.015	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304299	meropenem	<	0.06	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304299	gentamicin	==	1	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304299	ceftazidime	<	0.25	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN50215451	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215451	meropenem	>	16	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215451	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215451	ceftazidime	>	64	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN13293924	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN13293924	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN13293924	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN12943450	ciprofloxacin	==	0.03	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN12943450	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN12943450	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN47623366	ciprofloxacin	==	0.5	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN47623366	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623366	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623366	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN43563459	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN43563459	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN43563025	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN43563025	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN14125516	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:OK	PRJNA318591
+SAMN14125516	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:OK	PRJNA318591
+SAMN50215304	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215304	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215304	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215304	ceftazidime	==	32	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215246	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215246	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215246	gentamicin	==	4	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215246	ceftazidime	==	32	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN10393212	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:OK	PRJNA318591
+SAMN10393212	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:OK	PRJNA318591
+SAMN16245145	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN16245145	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN16245145	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN12359611	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CO	PRJNA292663
+SAMN12359611	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CO	PRJNA292663
+SAMN12359611	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CO	PRJNA292663
+SAMN12943448	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN12943448	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN12943448	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN12912165	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12912165	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12912165	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN10221000	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10221000	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10221000	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN12822670	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12822670	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12822670	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN15299147	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN15299147	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN15299147	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN12943688	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN12943688	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN12943688	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN13718753	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN13718753	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN13718753	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN10620096	ciprofloxacin	>=	4	mg/L	MIC		CLSI	resistant	2017	USA: Rochester, NY	PRJNA224116
+SAMN10620096	meropenem	<=	0.25	mg/L	MIC		CLSI	susceptible	2017	USA: Rochester, NY	PRJNA224116
+SAMN10620096	gentamicin	<=	1	mg/L	MIC		CLSI	susceptible	2017	USA: Rochester, NY	PRJNA224116
+SAMN31087413	ciprofloxacin	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087413	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087413	gentamicin	==	1	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087413	ceftazidime	==	4	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN43564216	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43564216	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN10221571	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221571	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221571	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221575	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221575	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221575	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN12360023	ciprofloxacin	==	0.25	mg/L	MIC	Sensititre	CLSI	resistant	2018	USA:TX	PRJNA292663
+SAMN12360023	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TX	PRJNA292663
+SAMN12360023	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TX	PRJNA292663
+SAMN12329384	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN12329384	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN12329384	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN10620176	ciprofloxacin	==	1	mg/L	MIC		CLSI	susceptible	2018	USA: Rochester, NY	PRJNA224116
+SAMN10620176	meropenem	<=	0.25	mg/L	MIC		CLSI	susceptible	2018	USA: Rochester, NY	PRJNA224116
+SAMN10620176	gentamicin	<=	1	mg/L	MIC		CLSI	susceptible	2018	USA: Rochester, NY	PRJNA224116
+SAMN10221230	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221230	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221230	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2017	USA:TX	PRJNA292663
+SAMN43564842	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43564842	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43564934	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43564934	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43563782	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43563782	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN31087299	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087299	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087299	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087299	ceftazidime	==	16	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN10221152	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SC	PRJNA292663
+SAMN10221152	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SC	PRJNA292663
+SAMN10221152	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SC	PRJNA292663
+SAMN23827525	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:VA	PRJNA481346
+SAMN23827525	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:VA	PRJNA481346
+SAMN43565078	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43565078	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43563014	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43563014	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN12359764	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN12359764	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN12359764	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN03177687	ciprofloxacin	<=	0.015	mg/L	MIC		CLSI	susceptible	2012	USA	PRJNA224116
+SAMN03177687	gentamicin	==	1	mg/L	MIC		CLSI	susceptible	2012	USA	PRJNA224116
+SAMN12609940	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN12609940	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN12609940	gentamicin	==	2	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN13340359	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:GA	PRJNA324565
+SAMN13340359	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:GA	PRJNA324565
+SAMN15053761	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN15053761	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN15053761	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN12913177	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN12913177	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN12913177	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2019	USA:OR	PRJNA292663
+SAMN43564518	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43564518	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:British Columbia	PRJNA514245
+SAMN03177659	ciprofloxacin	<=	0.015	mg/L	MIC		CLSI	susceptible	2012	USA	PRJNA224116
+SAMN03177659	gentamicin	==	1	mg/L	MIC		CLSI	susceptible	2012	USA	PRJNA224116
+SAMN10620118	ciprofloxacin	==	0.5	mg/L	MIC		CLSI	susceptible	2017	USA: Rochester, NY	PRJNA224116
+SAMN10620118	meropenem	<=	0.25	mg/L	MIC		CLSI	susceptible	2017	USA: Rochester, NY	PRJNA224116
+SAMN10620118	gentamicin	>=	16	mg/L	MIC		CLSI	resistant	2017	USA: Rochester, NY	PRJNA224116
+SAMN10221243	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221243	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221243	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN27960772	gentamicin	<=	0.25	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: OH	PRJNA318589
+SAMN27960772	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA: OH	PRJNA318589
+SAMN10221239	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221239	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221239	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN12359738	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:OR	PRJNA292663
+SAMN12359738	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:OR	PRJNA292663
+SAMN12359738	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:OR	PRJNA292663
+SAMN48590766	ciprofloxacin	<=	0.02	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN48590766	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN48590766	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN48590766	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN13049208	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:ND	PRJNA292663
+SAMN13049208	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:ND	PRJNA292663
+SAMN13049208	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2019	USA:ND	PRJNA292663
+SAMN12359955	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN12359955	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN12359955	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN10221018	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221018	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221018	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN12359795	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:OR	PRJNA292663
+SAMN12359795	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:OR	PRJNA292663
+SAMN12359795	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:OR	PRJNA292663
+SAMN43564978	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43564978	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN12943640	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN12943640	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN12943640	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN46558894	meropenem	>	32	mg/L	MIC		EUCAST	resistant	2019	Ireland	PRJNA224116
+SAMN46558894	gentamicin	>	256	mg/L	MIC		EUCAST	resistant	2019	Ireland	PRJNA224116
+SAMN10221444	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:KS	PRJNA292663
+SAMN10221444	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:KS	PRJNA292663
+SAMN10221444	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:KS	PRJNA292663
+SAMN50215503	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215503	meropenem	==	0.125	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215503	ceftazidime	==	4	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN12359794	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TN	PRJNA292663
+SAMN12359794	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TN	PRJNA292663
+SAMN12359794	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TN	PRJNA292663
+SAMN16304180	ciprofloxacin	<=	1	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304180	meropenem	<=	1	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304180	gentamicin	<=	4	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304180	ceftazidime	==	0.5	mg/L	MIC	Sensititer	CLSI	resistant	2017	Canada: Quebec	PRJNA224116
+SAMN50215777	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215777	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215777	ceftazidime	==	0.0625	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN11372833	ciprofloxacin	==	0.25	mg/L	MIC	Sensititre	CLSI	resistant	2018	USA:IA	PRJNA292663
+SAMN11372833	meropenem	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN11372833	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN50215656	ciprofloxacin	==	0.03	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215656	meropenem	==	0.03	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215656	gentamicin	==	4	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215656	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN43565192	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43565192	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN10220958	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10220958	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10220958	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN50215593	meropenem	<=	0.004	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215593	gentamicin	==	4	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215593	ceftazidime	==	0.125	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN12648977	ciprofloxacin	==	0.25	mg/L	MIC		CLSI	susceptible		missing	PRJNA224116
+SAMN12648977	gentamicin	==	1	mg/L	MIC		CLSI	susceptible		missing	PRJNA224116
+SAMN10221010	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221010	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221010	gentamicin	==	16	mg/L	MIC	Sensititre	CLSI	resistant	2017	USA:IA	PRJNA292663
+SAMN12587176	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TX	PRJNA292663
+SAMN12587176	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TX	PRJNA292663
+SAMN12587176	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2018	USA:TX	PRJNA292663
+SAMN12359709	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:NC	PRJNA292663
+SAMN12359709	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:NC	PRJNA292663
+SAMN12359709	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:NC	PRJNA292663
+SAMN20085877	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2020	Canada:Prince Edward Island	PRJNA503851
+SAMN20085877	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	Canada:Prince Edward Island	PRJNA503851
+SAMN11372842	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:NC	PRJNA292663
+SAMN11372842	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:NC	PRJNA292663
+SAMN11372842	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:NC	PRJNA292663
+SAMN15349898	gentamicin	==	2	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:KY	PRJNA324573
+SAMN15349898	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:KY	PRJNA324573
+SAMN12359585	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:PA	PRJNA292663
+SAMN12359585	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:PA	PRJNA292663
+SAMN12359585	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:PA	PRJNA292663
+SAMN50215289	ciprofloxacin	==	0.25	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215289	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215289	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215289	ceftazidime	==	0.5	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215797	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215797	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215797	ceftazidime	==	0.125	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN10221184	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SD	PRJNA292663
+SAMN10221184	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SD	PRJNA292663
+SAMN10221184	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SD	PRJNA292663
+SAMN50215810	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215810	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215810	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN43564611	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43564611	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN10221041	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221041	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221041	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN16245179	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN16245179	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN16245179	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN29770923	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:VA	PRJNA481346
+SAMN29770923	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:VA	PRJNA481346
+SAMN10221216	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221216	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221216	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221541	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:CO	PRJNA292663
+SAMN10221541	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:CO	PRJNA292663
+SAMN10221541	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:CO	PRJNA292663
+SAMN13153770	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN13153770	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN13153770	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:MD	PRJNA292663
+SAMN43564556	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43564556	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN10221168	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SD	PRJNA292663
+SAMN10221168	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SD	PRJNA292663
+SAMN10221168	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:SD	PRJNA292663
+SAMN18634048	gentamicin	>	8	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA: ID	PRJNA318589
+SAMN18634048	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA: ID	PRJNA318589
+SAMN10221352	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:PA	PRJNA292663
+SAMN10221352	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:PA	PRJNA292663
+SAMN10221352	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2017	USA:PA	PRJNA292663
+SAMN23827508	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:IL	PRJNA481346
+SAMN23827508	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:IL	PRJNA481346
+SAMN50215163	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215163	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215163	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215163	ceftazidime	==	1	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215533	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215533	meropenem	==	0.03	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215533	ceftazidime	==	2	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN12359665	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:NC	PRJNA292663
+SAMN12359665	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:NC	PRJNA292663
+SAMN12359665	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2018	USA:NC	PRJNA292663
+SAMN10221470	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221470	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221470	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN50215812	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215812	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215812	ceftazidime	==	16	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN16304273	ciprofloxacin	==	0.12	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304273	meropenem	<	0.06	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304273	gentamicin	==	1	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304273	ceftazidime	<	0.25	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN12990698	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12990698	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12990698	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN10221661	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221661	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221661	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN43563812	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43563812	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN12359993	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN12359993	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN12359993	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:IA	PRJNA292663
+SAMN10221013	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221013	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221013	gentamicin	==	16	mg/L	MIC	Sensititre	CLSI	resistant	2017	USA:IA	PRJNA292663
+SAMN13703506	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN13703506	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN13703506	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12943686	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN12943686	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN12943686	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN12289080	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN12289080	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN12289080	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN43564622	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43564622	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN50215800	ciprofloxacin	==	0.125	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215800	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215800	ceftazidime	==	8	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN10221229	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221229	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221229	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN43564597	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43564597	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Quebec	PRJNA514245
+SAMN10221062	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221062	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221062	gentamicin	<=	0.25	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN14008725	gentamicin	>	8	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA: GA	PRJNA318589
+SAMN14008725	ceftazidime	==	16	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA: GA	PRJNA318589
+SAMN14486745	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:MO	PRJNA481346
+SAMN14486745	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:MO	PRJNA481346
+SAMN20085883	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2020	Canada:Prince Edward Island	PRJNA503851
+SAMN20085883	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	Canada:Prince Edward Island	PRJNA503851
+SAMN16304166	ciprofloxacin	<=	1	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304166	meropenem	<=	1	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304166	gentamicin	<=	4	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304166	ceftazidime	==	1	mg/L	MIC	Sensititer	CLSI	resistant	2017	Canada: Quebec	PRJNA224116
+SAMN12990637	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN12990637	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN12990637	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN14448741	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN14448741	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN14448741	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN10221587	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN10221587	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN10221587	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN43563739	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43563739	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN50215705	ciprofloxacin	==	0.0625	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215705	meropenem	==	0.03	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215705	gentamicin	>	64	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215705	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN03177666	ciprofloxacin	==	0.5	mg/L	MIC		CLSI	susceptible	2012	USA	PRJNA224116
+SAMN03177666	gentamicin	>	16	mg/L	MIC		CLSI	resistant	2012	USA	PRJNA224116
+SAMN50215297	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215297	meropenem	==	0.03	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215297	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215297	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN10221640	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN10221640	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN10221640	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:MD	PRJNA292663
+SAMN20200250	gentamicin	<=	0.25	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA: IN	PRJNA318589
+SAMN20200250	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA: IN	PRJNA318589
+SAMN14008855	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA: GA	PRJNA318589
+SAMN14008855	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA: GA	PRJNA318589
+SAMN12924385	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN12924385	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN12924385	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN04022944	ciprofloxacin	>=	4	mg/L	MIC	missing	CLSI	resistant	2015	USA:Boston	PRJNA278886
+SAMN04022944	meropenem	<=	0.25	mg/L	MIC	missing	CLSI	susceptible	2015	USA:Boston	PRJNA278886
+SAMN04022944	gentamicin	<=	1	mg/L	MIC	missing	CLSI	susceptible	2015	USA:Boston	PRJNA278886
+SAMN04022944	ceftazidime	==	16	mg/L	MIC	missing	CLSI	resistant	2015	USA:Boston	PRJNA278886
+SAMN50215384	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215384	meropenem	==	0.5	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215384	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215384	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN48590765	ciprofloxacin	<=	0.02	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN48590765	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN48590765	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN48590765	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN22208273	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:IA	PRJNA318591
+SAMN22208273	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:IA	PRJNA318591
+SAMN50215652	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215652	meropenem	==	0.03	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215652	gentamicin	==	1	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215652	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN12359536	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TN	PRJNA292663
+SAMN12359536	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TN	PRJNA292663
+SAMN12359536	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TN	PRJNA292663
+SAMN30466958	ciprofloxacin	>=	4	mg/L	MIC	Sensititre	CLSI	resistant	2013	USA:Kansas	PRJNA224116
+SAMN30466958	gentamicin	>=	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	USA:Kansas	PRJNA224116
+SAMN10221040	ciprofloxacin	>	4	mg/L	MIC	Sensititre	CLSI	resistant	2017	USA:IA	PRJNA292663
+SAMN10221040	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221040	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2017	USA:IA	PRJNA292663
+SAMN10478608	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:ND	PRJNA324573
+SAMN10478608	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:ND	PRJNA324573
+SAMN16484128	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN16484128	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN16484128	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN48992306	ciprofloxacin	==	0.12	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN48992306	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN48992306	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN48992306	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN30603962	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:FL	PRJNA324565
+SAMN30603962	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:FL	PRJNA324565
+SAMN12359652	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:KS	PRJNA292663
+SAMN12359652	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:KS	PRJNA292663
+SAMN12359652	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2018	USA:KS	PRJNA292663
+SAMN43563627	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43563627	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43563680	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43563680	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN03177617	ciprofloxacin	<=	0.015	mg/L	MIC		CLSI	susceptible	2011	USA	PRJNA224116
+SAMN03177617	gentamicin	==	0.5	mg/L	MIC		CLSI	susceptible	2011	USA	PRJNA224116
+SAMN10221224	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221224	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN10221224	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TX	PRJNA292663
+SAMN43564705	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN43564705	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN21038376	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:NC	PRJNA324565
+SAMN21038376	ceftazidime	==	16	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:NC	PRJNA324565
+SAMN12723019	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:KS	PRJNA324573
+SAMN12723019	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:KS	PRJNA324573
+SAMN13064117	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN13064117	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN13064117	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN10221306	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221306	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221306	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN43564361	ciprofloxacin	==	0.12	mg/L	MIC	Sensititre	CLSI	intermediate	2013	Canada:Alberta	PRJNA514245
+SAMN43564361	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN50215210	ciprofloxacin	==	0.0625	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215210	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215210	gentamicin	>	64	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215210	ceftazidime	==	8	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215602	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215602	meropenem	==	0.25	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215602	gentamicin	>	64	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215602	ceftazidime	>	64	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN21038382	gentamicin	<=	1	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:MS	PRJNA324565
+SAMN18988769	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:KS	PRJNA324573
+SAMN18988769	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:KS	PRJNA324573
+SAMN50215659	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215659	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215659	gentamicin	==	1	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215659	ceftazidime	==	4	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN16304085	ciprofloxacin	<=	1	mg/L	MIC	Sensititer	CLSI	susceptible	2018	Canada: Quebec	PRJNA224116
+SAMN16304085	meropenem	<=	1	mg/L	MIC	Sensititer	CLSI	susceptible	2018	Canada: Quebec	PRJNA224116
+SAMN16304085	gentamicin	<=	4	mg/L	MIC	Sensititer	CLSI	susceptible	2018	Canada: Quebec	PRJNA224116
+SAMN16304085	ceftazidime	==	2	mg/L	MIC	Sensititer	CLSI	resistant	2018	Canada: Quebec	PRJNA224116
+SAMN10221593	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN10221593	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN10221593	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:OR	PRJNA292663
+SAMN13105179	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN13105179	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN13105179	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SC	PRJNA292663
+SAMN43563934	ciprofloxacin	==	0.03	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN43563934	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Alberta	PRJNA514245
+SAMN04621605	ciprofloxacin	<=	0.015	mg/L	MIC		CLSI	susceptible	2016	USA:CA	PRJNA268206
+SAMN04621605	meropenem	<=	0.06	mg/L	MIC		CLSI	susceptible	2016	USA:CA	PRJNA268206
+SAMN04621605	gentamicin	<=	0.25	mg/L	MIC		CLSI	susceptible	2016	USA:CA	PRJNA268206
+SAMN10221300	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221300	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221300	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN43564673	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43564673	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN16484115	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16484115	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16484115	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN04014889	ciprofloxacin	>	8	mg/L	MIC		CLSI	resistant		missing	PRJNA224116
+SAMN04014889	meropenem	>	16	mg/L	MIC		CLSI	resistant		missing	PRJNA224116
+SAMN04014889	gentamicin	>	16	mg/L	MIC		CLSI	resistant		missing	PRJNA224116
+SAMN04014889	ceftazidime	==	64	mg/L	MIC		CLSI	resistant		missing	PRJNA224116
+SAMN04014978	ciprofloxacin	>	8	mg/L	MIC		CLSI	resistant		missing	PRJNA224116
+SAMN04014978	meropenem	>	8	mg/L	MIC		CLSI	resistant		missing	PRJNA224116
+SAMN04014978	gentamicin	>	16	mg/L	MIC		CLSI	resistant		missing	PRJNA224116
+SAMN04014978	ceftazidime	>	128	mg/L	MIC		CLSI	resistant		missing	PRJNA224116
+SAMN11640643	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:FL	PRJNA324565
+SAMN11640643	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2018	USA:FL	PRJNA324565
+SAMN12995272	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12995272	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN12995272	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:GA	PRJNA292663
+SAMN50215269	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215269	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215269	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN50215269	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2017	United Kingdom	PRJNA514245
+SAMN24745768	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:OK	PRJNA318591
+SAMN24745768	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:OK	PRJNA318591
+SAMN11372895	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TX	PRJNA292663
+SAMN11372895	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TX	PRJNA292663
+SAMN11372895	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:TX	PRJNA292663
+SAMN12359698	ciprofloxacin	>	4	mg/L	MIC	Sensititre	CLSI	resistant	2018	USA:SD	PRJNA292663
+SAMN12359698	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SD	PRJNA292663
+SAMN12359698	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:SD	PRJNA292663
+SAMN12990671	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN12990671	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TN	PRJNA292663
+SAMN12990671	gentamicin	==	8	mg/L	MIC	Sensititre	CLSI	intermediate	2019	USA:TN	PRJNA292663
+SAMN16304310	ciprofloxacin	<	0.015	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304310	meropenem	<	0.06	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304310	gentamicin	==	0.5	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN16304310	ceftazidime	<	0.25	mg/L	MIC	Sensititer	CLSI	susceptible	2017	Canada: Quebec	PRJNA224116
+SAMN18988758	ciprofloxacin	>=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:PA	PRJNA324573
+SAMN18988758	gentamicin	<=	1	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:PA	PRJNA324573
+SAMN12359680	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CA	PRJNA224116
+SAMN12359680	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2018	USA:CA	PRJNA224116
+SAMN12359680	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2018	USA:CA	PRJNA224116
+SAMN13842449	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN13842449	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN13842449	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:NC	PRJNA292663
+SAMN13176243	ciprofloxacin	==	0.5	mg/L	MIC		CLSI	susceptible	2017	USA:Cincinnati	PRJNA514245
+SAMN13176243	meropenem	<=	0.25	mg/L	MIC		CLSI	susceptible	2017	USA:Cincinnati	PRJNA514245
+SAMN13176243	gentamicin	==	2	mg/L	MIC		CLSI	susceptible	2017	USA:Cincinnati	PRJNA514245
+SAMN13176243	ceftazidime	<=	1	mg/L	MIC		CLSI	susceptible	2017	USA:Cincinnati	PRJNA514245
+SAMN10221067	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221067	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN10221067	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:IA	PRJNA292663
+SAMN20085880	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2020	Canada:Prince Edward Island	PRJNA503851
+SAMN20085880	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	Canada:Prince Edward Island	PRJNA503851
+SAMN31087303	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087303	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087303	gentamicin	==	1	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087303	ceftazidime	==	2	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN12943562	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12943562	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN12943562	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN13340371	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN13340371	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN13340371	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:SD	PRJNA292663
+SAMN43563405	ciprofloxacin	==	0.12	mg/L	MIC	Sensititre	CLSI	intermediate	2013	Canada:Ontario	PRJNA514245
+SAMN43563405	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Ontario	PRJNA514245
+SAMN50215364	ciprofloxacin	==	0.008	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215364	meropenem	==	0.03	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215364	gentamicin	==	1	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215364	ceftazidime	==	4	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN16245287	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16245287	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16245287	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN21038401	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:FL	PRJNA324565
+SAMN21038401	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:FL	PRJNA324565
+SAMN50215145	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215145	meropenem	==	0.0625	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215145	gentamicin	==	1	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215145	ceftazidime	==	64	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN16245229	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16245229	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16245229	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN13474500	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CA	PRJNA292663
+SAMN13474500	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CA	PRJNA292663
+SAMN13474500	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CA	PRJNA292663
+SAMN43563454	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43563454	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada	PRJNA514245
+SAMN43563842	ciprofloxacin	==	0.12	mg/L	MIC	Sensititre	CLSI	intermediate	2013	Canada:British Columbia	PRJNA514245
+SAMN43563842	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN07291545	ciprofloxacin	>	8	mg/L	MIC		CLSI	resistant		missing	PRJNA224116
+SAMN07291545	meropenem	==	8	mg/L	MIC		CLSI	resistant		missing	PRJNA224116
+SAMN07291545	gentamicin	==	0.5	mg/L	MIC		CLSI	susceptible		missing	PRJNA224116
+SAMN07291545	ceftazidime	>	128	mg/L	MIC		CLSI	resistant		missing	PRJNA224116
+SAMN12990628	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN12990628	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN12990628	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:IA	PRJNA292663
+SAMN13176242	ciprofloxacin	>=	4	mg/L	MIC		CLSI	resistant	2017	USA:Cincinnati	PRJNA514245
+SAMN13176242	meropenem	<=	0.25	mg/L	MIC		CLSI	susceptible	2017	USA:Cincinnati	PRJNA514245
+SAMN13176242	gentamicin	>=	16	mg/L	MIC		CLSI	resistant	2017	USA:Cincinnati	PRJNA514245
+SAMN13176242	ceftazidime	<=	1	mg/L	MIC		CLSI	susceptible	2017	USA:Cincinnati	PRJNA514245
+SAMN10221427	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10221427	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN10221427	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:GA	PRJNA292663
+SAMN47623305	ciprofloxacin	==	0.5	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN47623305	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623305	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623305	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN50215620	ciprofloxacin	==	0.125	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215620	meropenem	==	0.125	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215620	gentamicin	>	64	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN50215620	ceftazidime	==	32	mg/L	MIC		EUCAST	not defined	2021	United Kingdom	PRJNA514245
+SAMN43563414	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Ontario	PRJNA514245
+SAMN43563414	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	Canada:Ontario	PRJNA514245
+SAMN23827520	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:MO	PRJNA481346
+SAMN23827520	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:MO	PRJNA481346
+SAMN10221659	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221659	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221659	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN31087272	ciprofloxacin	==	0.25	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087272	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087272	gentamicin	==	1	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087272	ceftazidime	==	2	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN16245180	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN16245180	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN16245180	gentamicin	==	1	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:TX	PRJNA292663
+SAMN24811822	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:NC	PRJNA318591
+SAMN24811822	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2021	USA:NC	PRJNA318591
+SAMN43564350	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN43564350	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:Quebec	PRJNA514245
+SAMN16245220	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16245220	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:PA	PRJNA292663
+SAMN16245220	gentamicin	==	8	mg/L	MIC	Sensititre	CLSI	intermediate	2019	USA:PA	PRJNA292663
+SAMN31087181	ciprofloxacin	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087181	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087181	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087181	ceftazidime	==	2	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN50215793	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215793	meropenem	==	0.125	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN50215793	ceftazidime	==	32	mg/L	MIC		EUCAST	not defined	2020	United Kingdom	PRJNA514245
+SAMN10221477	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221477	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN10221477	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2017	USA:TN	PRJNA292663
+SAMN13920444	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:KY	PRJNA324573
+SAMN13920444	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:KY	PRJNA324573
+SAMN13898692	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:MN	PRJNA324573
+SAMN13898692	ceftazidime	<=	4	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:MN	PRJNA324573
+SAMN13172700	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN13172700	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:CO	PRJNA292663
+SAMN13172700	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2019	USA:CO	PRJNA292663
+SAMN13392145	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:AL	PRJNA481346
+SAMN13392145	ceftazidime	>	16	mg/L	MIC	Sensititre	CLSI	not defined	2019	USA:AL	PRJNA481346
+SAMN43563417	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN43563417	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2013	Canada:British Columbia	PRJNA514245
+SAMN50215455	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215455	meropenem	>	16	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215455	gentamicin	>	64	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN50215455	ceftazidime	==	1	mg/L	MIC		EUCAST	not defined	2018	United Kingdom	PRJNA514245
+SAMN55283941	ciprofloxacin	>	2	mg/L	MIC	Sensititre	CLSI	resistant	2013	not collected	PRJNA514245
+SAMN55283941	meropenem	<=	1	mg/L	MIC	Sensititre	CLSI	susceptible	2013	not collected	PRJNA514245
+SAMN55283941	gentamicin	>	16	mg/L	MIC	Sensititre	CLSI	resistant	2013	not collected	PRJNA514245
+SAMN31087161	ciprofloxacin	==	0.25	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN31087161	meropenem	==	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087161	gentamicin	<=	0.5	mg/L	MIC	Sensititre	EUCAST	susceptible	2021	Netherlands	PRJNA224116
+SAMN31087161	ceftazidime	==	8	mg/L	MIC	Sensititre	EUCAST	resistant	2021	Netherlands	PRJNA224116
+SAMN16551976	ciprofloxacin	<=	0.06	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:PA	PRJNA324573
+SAMN16551976	gentamicin	<=	1	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:PA	PRJNA324573
+SAMN16551976	ceftazidime	<=	0.12	mg/L	MIC	Sensititre	CLSI	not defined	2020	USA:PA	PRJNA324573
+SAMN12091252	ciprofloxacin	<=	0.015	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN12091252	meropenem	<=	0.06	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN12091252	gentamicin	==	0.5	mg/L	MIC	Sensititre	CLSI	susceptible	2019	USA:OR	PRJNA292663
+SAMN47623373	ciprofloxacin	==	0.25	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN47623373	meropenem	<=	0.03	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN47623373	gentamicin	>	16	mg/L	MIC	Sensititre	EUCAST	resistant	2023	Mexico	PRJNA745210
+SAMN47623373	ceftazidime	<=	0.25	mg/L	MIC	Sensititre	EUCAST	susceptible	2023	Mexico	PRJNA745210
+SAMN50215313	ciprofloxacin	>	4	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215313	meropenem	==	0.03	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215313	gentamicin	==	2	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245
+SAMN50215313	ceftazidime	==	0.25	mg/L	MIC		EUCAST	not defined	2019	United Kingdom	PRJNA514245

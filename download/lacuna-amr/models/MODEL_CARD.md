@@ -34,3 +34,24 @@ not historical clinical calls.
 
 Generated 2026-11-01T11:32:40+00:00 from
 results/evaluation/*.json by workflow/scripts/gen_model_card.py.
+
+## v0.2.0 model artefact format (`lacuna-model/1`)
+
+`lacuna train` writes a JSON artefact with:
+- per drug: M0 feature mapping; M1/M2 model payloads (base64 pickle, SHA-256-checksummed),
+  Youden thresholds (clamped to [0,1]), Mondrian + marginal conformal quantiles, calibration
+  bookkeeping (method, calibration-set size, disjoint lineage groups), labelled counts and a
+  training-set hash;
+- lineage/dedup-cluster/bioproject/org/year metadata (so `validate` can rebuild and audit splits);
+- environment fingerprints (sklearn, numpy, lacuna versions, seed) enforced at load time
+  (fail-closed; `--allow-version-mismatch` escape hatch);
+- a `payload_sha256` over the whole document — any post-training edit invalidates the artefact.
+
+Trust model: the model payload is a pickle — only load artefacts you trained yourself or
+otherwise trust; lacuna verifies integrity hashes but cannot make an untrusted pickle safe.
+A v0.2.0 example artefact trained on this cohort (seed 20261101, M0+M1+M2) is retained at
+`examples/cli-demo/model.json`; the pilot research artefact remains at `models/pilot_model.json`.
+
+Known degenerate behaviour (measured, retained deliberately rather than hidden): M2 at
+ceftazidime scale (n=59) collapses to a near-constant predictor (S0 AUROC 0.5), consistent
+with the seed-sensitivity recorded by gate G5.

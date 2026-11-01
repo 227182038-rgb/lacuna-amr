@@ -1,0 +1,5 @@
+drug	organism_group	S_le_mg_L	R_gt_mg_L	source	version
+ciprofloxacin	Enterobacterales	0.25	0.5	EUCAST v16.1 breakpoint tables (user-supplied copy)	v16.1 valid from 2026-06-24
+gentamicin	Enterobacterales	2.0	2.0	EUCAST v16.1 breakpoint tables (user-supplied copy)	v16.1 valid from 2026-06-24
+ceftazidime	Enterobacterales	1.0	4.0	EUCAST v16.1 breakpoint tables (user-supplied copy)	v16.1 valid from 2026-06-24
+meropenem	Enterobacterales	2.0	8.0	EUCAST v16.1 breakpoint tables (user-supplied copy)	v16.1 valid from 2026-06-24
