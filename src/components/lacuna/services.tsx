@@ -7,9 +7,10 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/hooks/use-toast";
-import { Ban, Clock3, FileCheck2, Microscope, Send } from "lucide-react";
+import { Ban, Clock3, FileCheck2, Microscope, Send, TrendingUp } from "lucide-react";
 import { ErrorBox, LoadingBlock, SectionHeader } from "./ui-bits";
 import type { ServiceRequestRecord, ServiceResponse } from "@/lib/lacuna/api-types";
+import { PLAN_TIERS } from "@/lib/lacuna/market";
 
 const SKUS = [
   {
@@ -63,10 +64,41 @@ export function ServicesSection() {
   return (
     <div className="space-y-6">
       <SectionHeader
-        kicker="service layer"
+        kicker="service layer + pricing"
         title="Research-use-only audit services"
-        description="Three SKUs with SOPs, QA checks and limitations text (service/SKU_SHEETS.md). Client data is processed locally, never shared, deleted 30 days after delivery. Turnarounds derive from measured per-isolate costs — no invented market sizes or prices."
+        description="Three SKUs with SOPs, QA checks and limitations text (service/SKU_SHEETS.md). Client data is processed locally, never shared, deleted 30 days after delivery. Turnarounds derive from measured per-isolate costs. Market figures and pricing bands on this page come from cited public benchmarks (see the Market tab) — nothing is invented."
       />
+
+      <div>
+        <h3 className="mb-3 flex items-center gap-2 font-mono text-xs uppercase tracking-[0.18em] text-emerald-500">
+          <TrendingUp className="h-3.5 w-3.5" /> Plans — positioned against published benchmarks, not a price list
+        </h3>
+        <div className="grid gap-4 lg:grid-cols-3">
+          {PLAN_TIERS.map((p) => (
+            <Card key={p.id} className={`bg-zinc-900/60 ${p.accent === "emerald" ? "border-emerald-800/60" : p.accent === "amber" ? "border-amber-900/40" : "border-zinc-800"}`}>
+              <CardHeader className="pb-3">
+                <CardTitle className="text-base">{p.name}</CardTitle>
+                <CardDescription className="font-mono text-[11px] text-emerald-400">{p.positioning}</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-3 text-xs leading-relaxed">
+                <ul className="list-disc space-y-1 pl-5 text-zinc-400">
+                  {p.includes.map((i) => (
+                    <li key={i}>{i}</li>
+                  ))}
+                </ul>
+                <div className="space-y-1 border-t border-zinc-800 pt-2 text-[11px] text-zinc-500">
+                  <div><span className="text-zinc-400">Best for:</span> {p.bestFor}</div>
+                  <div><span className="text-zinc-400">Benchmark:</span> {p.benchmark}</div>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+        <p className="mt-2 text-[11px] leading-relaxed text-zinc-600">
+          Illustrative positioning only — commercial terms require legal review (commercial/ in the research repository contains the
+          contract template, regulatory memo — India/EU/US, all UNVERIFIED — risk register and data-protection checklist).
+        </p>
+      </div>
 
       <div className="grid gap-4 lg:grid-cols-3">
         {SKUS.map((sku) => (

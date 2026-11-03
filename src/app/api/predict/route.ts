@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { db } from "@/lib/db";
+import { recordAudit } from "@/lib/lacuna/audit-chain";
 import { DRUGS, RUO_NOTICE } from "@/lib/lacuna/data";
 import { engineSummary, predict } from "@/lib/lacuna/engine";
 
@@ -45,8 +46,9 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: out.error }, { status: 400 });
   }
 
+  let runId: string | null = null;
   try {
-    await db.predictRun.create({
+    const rec = await db.predictRun.create({
       data: {
         drug: out.drug,
         isolate: out.isolate,
@@ -59,9 +61,20 @@ export async function POST(req: Request) {
         output: JSON.stringify(out),
       },
     });
+    runId = rec.id;
   } catch {
     // best-effort persistence
   }
 
-  return NextResponse.json({ prediction: out });
+  await recordAudit("console", "predict.run", {
+    runId,
+    drug: out.drug,
+    isolate: out.isolate,
+    modelType: out.modelType,
+    call: out.call,
+    pR: Number(out.pR.toFixed(4)),
+    conformalSet: out.conformalSetMondrian,
+  });
+
+  return NextResponse.json({ prediction: out, runId });
 }

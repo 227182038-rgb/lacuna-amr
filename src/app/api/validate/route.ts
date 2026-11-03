@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { db } from "@/lib/db";
+import { recordAudit } from "@/lib/lacuna/audit-chain";
 import { DRUGS, loadHypotheses, loadMainResults, loadSplitsManifest, RUO_NOTICE, type FoldData } from "@/lib/lacuna/data";
 import { auditSplits } from "@/lib/lacuna/splits-audit";
 
@@ -147,6 +148,13 @@ export async function POST(req: Request) {
   } catch {
     // best-effort
   }
+
+  await recordAudit("console", "validate.run", {
+    runId,
+    drug: result.drug,
+    problems: result.problems.length,
+    verdict: result.verdict,
+  });
 
   return NextResponse.json({ audit: result, runId });
 }

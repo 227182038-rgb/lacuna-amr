@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { db } from "@/lib/db";
+import { recordAudit } from "@/lib/lacuna/audit-chain";
 import { auditAstRows, DEFAULT_THRESHOLDS, parseUserAst, type AuditThresholds } from "@/lib/lacuna/audit";
 import { loadAstTable, loadCohortTable } from "@/lib/lacuna/data";
 
@@ -68,6 +69,13 @@ export async function POST(req: Request) {
       // DB persistence is best-effort; the audit result is still returned
     }
   }
+
+  await recordAudit("console", "audit-dataset.run", {
+    source: body.source === "paste" ? "paste" : body.cohortOnly ? "cohort" : "ast-table",
+    nDrugs: audit.drugs.length,
+    nRows: rows.length,
+    verdicts: audit.drugs.map((d) => `${d.drug}:${d.verdict}`).join(" "),
+  });
 
   return NextResponse.json({ audit, savedRuns });
 }

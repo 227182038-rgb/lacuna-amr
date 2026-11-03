@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { db } from "@/lib/db";
+import { recordAudit } from "@/lib/lacuna/audit-chain";
 
 export const dynamic = "force-dynamic";
 
@@ -35,6 +36,13 @@ export async function POST(req: Request) {
       isolates: isolates ?? null,
       message: message || null,
     },
+  });
+
+  await recordAudit("console", "service.request", {
+    sku,
+    isolates: isolates ?? null,
+    org: org || null,
+    // name/email intentionally NOT recorded in the audit trail (data minimisation)
   });
 
   return NextResponse.json({

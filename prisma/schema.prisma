@@ -70,3 +70,57 @@ model ServiceRequest {
 
   @@index([createdAt])
 }
+
+// ---------------------------------------------------------------------------
+// Commercial layer (added 2026-11-04, see DEVIATIONS.md D-022..D-029)
+// ---------------------------------------------------------------------------
+
+// Append-only, hash-chained audit trail (21 CFR Part 11-style record keeping,
+// research-use). Each entry's hash = sha256(seq | prevHash | actor | action |
+// detail | createdAtISO), so tampering with any row breaks every later hash.
+model AuditLog {
+  seq       Int      @id @default(autoincrement())
+  id        String   @unique @default(cuid())
+  actor     String // "console" | "api:<keyPrefix>"
+  action    String // e.g. "predict.run", "batch.submit", "export.fhir", "key.issue"
+  detail    String // JSON descriptor (never payloads with personal data)
+  hash      String // sha256 hex of this entry
+  prevHash  String? // hash of the previous entry (null = genesis)
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}
+
+// API keys for programmatic access (lab pipeline integration). The full key is
+// shown once at issue; only its sha256 hash is stored.
+model ApiKey {
+  id         String    @id @default(cuid())
+  label      String
+  keyPrefix  String // first 12 chars, for display
+  keyHash    String // sha256(full key)
+  scope      String @default("read+predict") // "read" | "read+predict"
+  credits    Int       @default(100) // per-sample credits remaining
+  lastUsedAt DateTime?
+  revokedAt  DateTime?
+  createdAt  DateTime  @default(now())
+}
+
+// Batch scoring queue. Work is processed in chunks (see DEVIATIONS.md D-26):
+// each poll of GET /api/batch?id= advances the job by CHUNK isolates using the
+// deterministic engine, so progress reflects real computation.
+model BatchJob {
+  id        String   @id @default(cuid())
+  label     String
+  drug      String
+  modelType String   @default("M1")
+  n         Int // isolates submitted
+  done      Int      @default(0) // isolates scored so far
+  status    String   @default("queued") // queued | running | complete | failed
+  isolates  String // JSON array of biosamples (frozen at submission)
+  results   String   @default("[]") // JSON array of per-isolate predictions
+  summary   String? // JSON aggregate, written at completion
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([createdAt])
+}

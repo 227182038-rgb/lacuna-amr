@@ -2,32 +2,40 @@
 
 import { useState, type ComponentType } from "react";
 import { Badge } from "@/components/ui/badge";
-import { AlertTriangle, Briefcase, Dna, FileCheck2, FileText, FlaskConical, GitBranch, Layers, ScrollText, ShieldCheck, type LucideIcon } from "lucide-react";
+import { AlertTriangle, Briefcase, Boxes, Dna, FileCheck2, FileText, FlaskConical, GitBranch, Layers, Lock, ScrollText, ShieldCheck, TrendingUp, Workflow, type LucideIcon } from "lucide-react";
 import { OverviewSection } from "@/components/lacuna/overview";
+import { WorkflowSection } from "@/components/lacuna/workflow";
 import { CohortSection } from "@/components/lacuna/cohort";
 import { AuditSection } from "@/components/lacuna/audit";
 import { PredictSection } from "@/components/lacuna/predict";
+import { BatchSection } from "@/components/lacuna/batch";
 import { ValidateSection } from "@/components/lacuna/validate";
 import { GatesSection } from "@/components/lacuna/gates";
 import { ProvenanceSection } from "@/components/lacuna/provenance";
+import { MarketSection } from "@/components/lacuna/market";
 import { ServicesSection } from "@/components/lacuna/services";
+import { ComplianceSection } from "@/components/lacuna/compliance";
 import { ReportSection } from "@/components/lacuna/report";
 import { cn } from "@/lib/utils";
 
 type SectionComponent = ComponentType<{ onNavigate: (id: string) => void }>;
 
-const SECTION_IDS = ["overview", "cohort", "audit", "predict", "validate", "gates", "provenance", "services", "report"] as const;
+const SECTION_IDS = ["overview", "workflow", "cohort", "audit", "predict", "batch", "validate", "gates", "provenance", "market", "services", "compliance", "report"] as const;
 type SectionId = (typeof SECTION_IDS)[number];
 
 const SECTIONS: { id: SectionId; label: string; icon: LucideIcon; component: SectionComponent }[] = [
   { id: "overview", label: "Overview", icon: FlaskConical, component: OverviewSection },
+  { id: "workflow", label: "Workflow", icon: Workflow, component: WorkflowSection },
   { id: "cohort", label: "Cohort", icon: GitBranch, component: CohortSection },
   { id: "audit", label: "Dataset Audit", icon: FileCheck2, component: AuditSection },
   { id: "predict", label: "Predict", icon: Dna, component: PredictSection },
+  { id: "batch", label: "Batch", icon: Boxes, component: BatchSection },
   { id: "validate", label: "Validate", icon: ShieldCheck, component: ValidateSection },
   { id: "gates", label: "Gates", icon: Layers, component: GatesSection },
   { id: "provenance", label: "Provenance", icon: ScrollText, component: ProvenanceSection },
+  { id: "market", label: "Market", icon: TrendingUp, component: MarketSection },
   { id: "services", label: "Services", icon: Briefcase, component: ServicesSection },
+  { id: "compliance", label: "Compliance", icon: Lock, component: ComplianceSection },
   { id: "report", label: "Report", icon: FileText, component: ReportSection },
 ];
 
@@ -91,7 +99,7 @@ export default function Home() {
             LACUNA·AMR — audited genome-based AMR prediction. Apache-2.0. Research Use Only; not for clinical
             decision-making. EUCAST tables user-supplied, never bundled.
           </span>
-          <span className="font-mono">pilot run 2026-11-01 · seeds 20261101 / 42 · gates 9 PASS · 2 FAIL · 1 blocked</span>
+          <span className="font-mono">pilot run 2026-11-01 · seeds 20261101 / 42 · gates 9 PASS · 2 FAIL · 1 blocked · market research 2026-11-04</span>
         </div>
       </footer>
     </div>

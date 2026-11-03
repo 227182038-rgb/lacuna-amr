@@ -50,3 +50,29 @@ All notable changes to this project are documented here. Semantic versioning.
 - Tests on verbatim real-record fixtures (checksummed fixture manifest).
 - Research pipeline scripts (workflow/), frozen protocol, provenance ledger, pilot-scale results
   (EXPLORATORY; see FINAL_REPORT.md), manuscript and service documentation.
+
+## [0.3.0] — 2026-11-04
+### Added (web console commercial layer — research use only)
+- Market-research-backed commercial layer in the web console, built from cited demand
+  signals (commercial/MARKET_RESEARCH.md; Grand View Research, Bosetti et al. 2025,
+  Florensa et al. 2022, HL7 terminology, WHO GLASS, published pricing benchmarks —
+  all retrieved 2026-11-04).
+- Batch scoring queue (`POST/GET /api/batch`): whole labelled cohort per drug, staged
+  chunk processing (20 isolates/poll, real computation per poll — D-026), aggregate QA
+  (agreement with EUCAST labels, conformal set coverage, M0-vs-model agreement) and
+  per-isolate PredictRun traceability.
+- Hash-chained append-only audit trail (`AuditLog`; sha256(seq|prevHash|actor|action|
+  detail|ts)) with one-click chain verifier and CSV export; wired into predict,
+  audit-dataset, validate, service-request, batch, export and key actions (D-025).
+- Interoperability exports: FHIR R4 Bundle of Observations (v3-ObservationInterpretation
+  codes, no LOINC asserted — D-027); GLASS-style aggregate CSV with Wilson 95% CIs by
+  drug/country (not an official WHO format — D-028); predictions CSV; audit-trail CSV.
+- API keys (`/api/keys`): SHA-256-hashed, shown once, x-api-key auth on batch submissions
+  with per-isolate credits (100 at issue) — D-029 documents the demo enforcement boundary.
+- Console sections: Workflow (12-stage optimized pipeline map with live gate verdicts),
+  Batch, Market (cited research + demand→feature matrix + sources), Compliance;
+  Services gained benchmark-cited pricing tiers (not a price list — D-024).
+### Deviations
+- D-022…D-029 (protocol/DEVIATIONS.md): commercial-layer decisions, integrity handling of
+  market figures and pricing, audit-chain design, batch processing model, export labelling,
+  API-key boundary.
