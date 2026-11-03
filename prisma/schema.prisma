@@ -1,0 +1,72 @@
+// LACUNA-AMR web console — Prisma schema
+// Runs of the audit/predict engines and service-layer requests are persisted
+// so every interactive result shown in the UI is traceable to a stored record.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// A run of `audit-dataset` (label-heterogeneity audit + data-gate verdicts),
+// executed either on the bundled pilot cohort or on a user-pasted AST table.
+model AuditRun {
+  id          String   @id @default(cuid())
+  source      String // "cohort" (bundled pilot data) | "paste" (user TSV)
+  drug        String // drug the verdict row refers to, or "ALL"
+  verdict     String // PASS | FAIL
+  nLabelled   Int // labelled S/R isolates considered by the data gate
+  summary     String // one-line human summary
+  input       String // JSON: audit input descriptor (source, thresholds, row count)
+  results     String // JSON: full per-drug audit output (distributions + DG checks)
+  createdAt   DateTime @default(now())
+
+  @@index([createdAt])
+}
+
+// A single conformal-prediction lookup against the trained per-drug engine.
+model PredictRun {
+  id           String   @id @default(cuid())
+  drug         String
+  isolate      String? // biosample accession when a cohort isolate was scored
+  modelType    String // M0 | M1 | M2
+  m0Call       String? // S | R
+  pR           Float? // calibrated probability of resistance (M1/M2)
+  call         String? // S | R (thresholded)
+  conformalSet String? // S | R | S+R | ABSTAIN
+  input        String // JSON: feature toggles / isolate descriptor
+  output       String // JSON: full engine output incl. determinants + thresholds
+  createdAt    DateTime @default(now())
+
+  @@index([createdAt])
+}
+
+// A re-run of the split-leakage auditor (G3-style) on the sealed pilot splits.
+model ValidateRun {
+  id        String   @id @default(cuid())
+  drug      String
+  problems  Int // number of leakage problems found
+  verdict   String // PASS | FAIL
+  results   String // JSON: per-split overlap detail
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}
+
+// Service-layer inquiry (S1/S2/S3 SKU sheets; S3 is documented as blocked).
+model ServiceRequest {
+  id        String   @id @default(cuid())
+  sku       String // S1 | S2 | S3
+  name      String
+  email     String
+  org       String?
+  isolates  Int? // approximate collection size
+  message   String?
+  status    String   @default("received")
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}

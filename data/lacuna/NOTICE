@@ -1,0 +1,22 @@
+NOTICE — LACUNA-AMR
+
+This product includes software developed by the LACUNA-AMR project (Apache-2.0).
+
+Third-party components used (see provenance/license_audit.tsv for hashes and evidence):
+- AMRFinderPlus 4.2.7 + database 2026-08-07.1 (NCBI) — public domain, US Government work. NOT bundled;
+  invoked externally. Cite Feldgarden et al. 2021, doi:10.1038/s41598-021-91456-0.
+- sourmash 4.9.4 — BSD-3-Clause (Regenstrief Institute et al.).
+- numpy, scipy, scikit-learn, pandas, statsmodels, threadpoolctl — BSD-family licenses.
+- matplotlib — Matplotlib license (PSF-based, permissive).
+- openpyxl — MIT; biopython — Biopython License Agreement / BSD-3 dual license; joblib — BSD-3;
+  pytest — MIT (dev only); snakemake — MIT (workflow engine, optional).
+- BLAST+ 2.17.0 (NCBI, public domain) and HMMER 3.4 (BSD-style) — external tools for AMRFinderPlus.
+
+Data: all analysis data originate from public NCBI BioSample/Assembly records (NCBI states it places
+no restrictions on use or distribution of its data; submitters may assert their own rights — per-record
+provenance retained in data/manifest.tsv and provenance/ledger.tsv). No raw third-party assemblies are
+redistributed. EUCAST breakpoint tables are copyright EUCAST (free reuse with citation; not bundled).
+CARD/RGI (commercial license required) and CLSI M100 (paid standard) are EXCLUDED from all product
+paths and services.
+
+Outputs of this software are RESEARCH USE ONLY and carry no clinical or regulatory claims.

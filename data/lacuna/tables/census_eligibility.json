@@ -1,0 +1,127 @@
+{
+  "sample_size": 250,
+  "pool_size": 2518,
+  "sampling": "systematic every 10th uid",
+  "records_with_antibiogram_table": 250,
+  "metadata_presence": {
+    "with_collection_date": 244,
+    "with_geo_loc": 244,
+    "with_bioproject_link": 0
+  },
+  "per_drug_counts": {
+    "ciprofloxacin": {
+      "rows": 139,
+      "has_measurement": 139,
+      "mg_per_L": 129,
+      "no_method": 103,
+      "has_phenotype": 139,
+      "other_method": 36
+    },
+    "meropenem": {
+      "rows": 142,
+      "has_measurement": 142,
+      "mg_per_L": 142,
+      "no_method": 98,
+      "has_phenotype": 142,
+      "other_method": 44
+    },
+    "colistin": {
+      "rows": 63,
+      "has_measurement": 63,
+      "mg_per_L": 61,
+      "no_method": 54,
+      "has_phenotype": 63,
+      "other_method": 9
+    },
+    "gentamicin": {
+      "rows": 140,
+      "has_measurement": 140,
+      "mg_per_L": 140,
+      "no_method": 92,
+      "has_phenotype": 140,
+      "other_method": 48
+    },
+    "ceftazidime": {
+      "rows": 264,
+      "has_measurement": 264,
+      "no_method": 213,
+      "has_phenotype": 264,
+      "mg_per_L": 226,
+      "other_method": 51
+    }
+  },
+  "extrapolated_eligible_any_dilution": {
+    "ciprofloxacin": {
+      "sample_n_dilution": 0,
+      "fraction": 0.0,
+      "estimated_pool": 0
+    },
+    "meropenem": {
+      "sample_n_dilution": 0,
+      "fraction": 0.0,
+      "estimated_pool": 0
+    },
+    "colistin": {
+      "sample_n_dilution": 0,
+      "fraction": 0.0,
+      "estimated_pool": 0
+    },
+    "gentamicin": {
+      "sample_n_dilution": 0,
+      "fraction": 0.0,
+      "estimated_pool": 0
+    },
+    "ceftazidime": {
+      "sample_n_dilution": 0,
+      "fraction": 0.0,
+      "estimated_pool": 0
+    }
+  },
+  "extrapolated_eligible_by_platform": {
+    "ciprofloxacin": {
+      "any_dilution": 0,
+      "nonautomated_dilution": 0
+    },
+    "meropenem": {
+      "any_dilution": 0,
+      "nonautomated_dilution": 0
+    },
+    "colistin": {
+      "any_dilution": 0,
+      "nonautomated_dilution": 0
+    },
+    "gentamicin": {
+      "any_dilution": 0,
+      "nonautomated_dilution": 0
+    },
+    "ceftazidime": {
+      "any_dilution": 0,
+      "nonautomated_dilution": 0
+    }
+  },
+  "platform_distribution": {
+    "vitek": 1596,
+    "missing": 1251,
+    "sensititre": 355,
+    "microscan": 55,
+    "phoenix": 63,
+    "in-house": 29,
+    "disk diffusion": 1
+  },
+  "standard_distribution": {
+    "EUCAST": 777,
+    "CLSI": 2177,
+    "missing": 396
+  },
+  "method_distribution": {
+    "missing": 2577,
+    "96-well plate": 708,
+    "e-test": 26,
+    "agar dilution": 1,
+    "vitek 2 ast-gn60": 11,
+    "vitek 2 gn": 15,
+    "vitek 2 ast-gn90": 12
+  },
+  "note": "field-presence counting only; no MIC values were read, parsed or stored before protocol freeze",
+  "retrieved_utc": "2026-11-01T08:43:12Z"
+}

@@ -1,0 +1,47 @@
+{
+  "metric": "1 - jaccard similarity of sourmash sketches (k=31, scaled=1000)",
+  "n_genomes": 450,
+  "thresholds": {
+    "dedup": 0.303,
+    "fine": 0.303,
+    "coarse": 0.554
+  },
+  "threshold_method": "first local minimum of smoothed (window 9, 400-bin) empirical distance histogram; fallback values documented in DEVIATIONS D-011",
+  "fallbacks": {
+    "dedup": 0.383,
+    "fine": 0.303,
+    "coarse": 0.554
+  },
+  "distance_stats": {
+    "median": 0.6939,
+    "p5": 0.3725,
+    "p25": 0.53,
+    "p75": 0.7429
+  },
+  "n_clusters": {
+    "dedup": 139,
+    "fine": 139,
+    "coarse": 18
+  },
+  "coarse_sizes": {
+    "8": 128,
+    "3": 66,
+    "14": 14,
+    "4": 7,
+    "6": 7,
+    "11": 5,
+    "13": 3,
+    "10": 3,
+    "12": 2,
+    "15": 2,
+    "16": 1,
+    "7": 1,
+    "1": 1
+  },
+  "n_coarse_ge25": 2,
+  "n_dedup_survivors": 338,
+  "n_dropped": 112,
+  "n_cohort": 240,
+  "n_bioprojects": 11,
+  "frozen_before_phenotype_join": true
+}

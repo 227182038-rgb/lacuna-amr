@@ -1,0 +1,591 @@
+{
+ "H1": {
+  "ciprofloxacin": {
+   "M1_S1": {
+    "n_common": 178,
+    "AUROC_S0": 0.9777128242601388,
+    "AUROC_split": 0.979905005480453,
+    "delta": 0.002192181220314171,
+    "delta_ci95": [
+     -0.013942307692307643,
+     0.00872410032715371
+    ]
+   },
+   "M1_S2": {
+    "n_common": 78,
+    "AUROC_S0": 0.9592944369063772,
+    "AUROC_split": 0.9742198100407056,
+    "delta": 0.014925373134328401,
+    "delta_ci95": [
+     -0.019230769230769162,
+     0.031746031746031744
+    ]
+   },
+   "M1_S3": {
+    "n_common": 178,
+    "AUROC_S0": 0.9777128242601388,
+    "AUROC_split": 0.9645597369382535,
+    "delta": -0.01315308732188536,
+    "delta_ci95": [
+     -0.02356503281963477,
+     0.0
+    ]
+   },
+   "M2_S1": {
+    "n_common": 178,
+    "AUROC_S0": 0.597369382535623,
+    "AUROC_split": 0.526123492875411,
+    "delta": -0.07124588966021195,
+    "delta_ci95": [
+     -0.2062463986380304,
+     0.19774569402228984
+    ]
+   },
+   "M2_S2": {
+    "n_common": 78,
+    "AUROC_S0": 0.5461329715061058,
+    "AUROC_split": 0.32903663500678426,
+    "delta": -0.21709633649932158,
+    "delta_ci95": [
+     -1.0,
+     0.13942307692307693
+    ]
+   },
+   "M2_S3": {
+    "n_common": 178,
+    "AUROC_S0": 0.597369382535623,
+    "AUROC_split": 0.23438070880526118,
+    "delta": -0.3629886737303618,
+    "delta_ci95": [
+     -0.5957446808510638,
+     -0.21696939749182118
+    ]
+   }
+  },
+  "gentamicin": {
+   "M1_S1": {
+    "n_common": 229,
+    "AUROC_S0": 0.9078431372549018,
+    "AUROC_split": 0.8105580693815988,
+    "delta": -0.09728506787330304,
+    "delta_ci95": [
+     -0.17096146403905688,
+     -0.016389187349070685
+    ]
+   },
+   "M1_S2": {
+    "n_common": 0,
+    "note": "insufficient overlap"
+   },
+   "M1_S3": {
+    "n_common": 229,
+    "AUROC_S0": 0.9078431372549018,
+    "AUROC_split": 0.8326546003016592,
+    "delta": -0.07518853695324268,
+    "delta_ci95": [
+     -0.13172021898346348,
+     0.09092207792207788
+    ]
+   },
+   "M2_S1": {
+    "n_common": 229,
+    "AUROC_S0": 0.7566365007541479,
+    "AUROC_split": 0.5993212669683259,
+    "delta": -0.15731523378582202,
+    "delta_ci95": [
+     -0.22828307720663008,
+     0.04841932423454168
+    ]
+   },
+   "M2_S2": {
+    "n_common": 0,
+    "note": "insufficient overlap"
+   },
+   "M2_S3": {
+    "n_common": 229,
+    "AUROC_S0": 0.7566365007541479,
+    "AUROC_split": 0.5684766214177979,
+    "delta": -0.18815987933635003,
+    "delta_ci95": [
+     -0.47091172595520403,
+     -0.04255847538409098
+    ]
+   }
+  },
+  "ceftazidime": {
+   "M1_S1": {
+    "n_common": 59,
+    "AUROC_S0": 0.5827505827505828,
+    "AUROC_split": 0.622960372960373,
+    "delta": 0.04020979020979021,
+    "delta_ci95": [
+     -0.03964170413928291,
+     0.55
+    ]
+   },
+   "M1_S2": {
+    "n_common": 30,
+    "AUROC_S0": 0.6222222222222223,
+    "AUROC_split": 0.7422222222222221,
+    "delta": 0.11999999999999977,
+    "delta_ci95": [
+     0.0,
+     1.0
+    ]
+   },
+   "M1_S3": {
+    "n_common": 59,
+    "AUROC_S0": 0.5827505827505828,
+    "AUROC_split": 0.27913752913752915,
+    "delta": -0.30361305361305363,
+    "delta_ci95": [
+     -0.4383458646616542,
+     0.2454166666666664
+    ]
+   },
+   "M2_S1": {
+    "n_common": 59,
+    "AUROC_S0": 0.4831002331002331,
+    "AUROC_split": 0.44988344988344986,
+    "delta": -0.03321678321678323,
+    "delta_ci95": [
+     -0.10002485795454553,
+     0.15640624999999994
+    ]
+   },
+   "M2_S2": {
+    "n_common": 30,
+    "AUROC_S0": 0.4044444444444445,
+    "AUROC_split": 0.5,
+    "delta": 0.0955555555555555,
+    "delta_ci95": [
+     -0.5,
+     0.2729166666666553
+    ]
+   },
+   "M2_S3": {
+    "n_common": 59,
+    "AUROC_S0": 0.4831002331002331,
+    "AUROC_split": 0.24417249417249415,
+    "delta": -0.23892773892773894,
+    "delta_ci95": [
+     -0.4132689681455839,
+     0.34259259259259267
+    ]
+   }
+  }
+ },
+ "H2": {
+  "ciprofloxacin": {
+   "n_both_labels": 152,
+   "eucast": {
+    "VME": 0.13333333333333333,
+    "ME": 0.029118773946360154,
+    "AUROC": 0.9779054916985952
+   },
+   "submitter": {
+    "VME": 0.39428571428571424,
+    "ME": 0.04261083743842364,
+    "AUROC": 0.9756953391436148
+   },
+   "delta_VME_eucast_minus_submitter": -0.26095238095238094,
+   "delta_ME_eucast_minus_submitter": -0.01349206349206349,
+   "H2_criterion_ge2pp": true
+  },
+  "gentamicin": {
+   "n_both_labels": 158,
+   "eucast": {
+    "VME": 0.22666666666666666,
+    "ME": 0.05676392572944298,
+    "AUROC": 0.9548261715296198
+   },
+   "submitter": {
+    "VME": 0.3433333333333334,
+    "ME": 0.03499361430395913,
+    "AUROC": 0.9750338231372714
+   },
+   "delta_VME_eucast_minus_submitter": -0.11666666666666672,
+   "delta_ME_eucast_minus_submitter": 0.02177031142548385,
+   "H2_criterion_ge2pp": true
+  },
+  "ceftazidime": {
+   "n_both_labels": 32,
+   "eucast": {
+    "VME": 0.2333333333333333,
+    "ME": 0.31999999999999995,
+    "AUROC": 0.8111111111111111
+   },
+   "submitter": {
+    "VME": 0.39666666666666667,
+    "ME": 0.2333333333333333,
+    "AUROC": 0.8477777777777777
+   },
+   "delta_VME_eucast_minus_submitter": -0.16333333333333336,
+   "delta_ME_eucast_minus_submitter": 0.08666666666666664,
+   "H2_criterion_ge2pp": true
+  }
+ },
+ "H3": {
+  "ciprofloxacin": {
+   "M1_S1": {
+    "units": {
+     "8": {
+      "n": 109,
+      "n_R": 7,
+      "coverage_R_split": 0.42857142857142855,
+      "coverage_R_S0_same_isolates": 0.8571428571428571
+     },
+     "OTHER": {
+      "n": 38,
+      "n_R": 2,
+      "skip": "unit<30 or R<5"
+     },
+     "3": {
+      "n": 31,
+      "n_R": 8,
+      "coverage_R_split": 1.0,
+      "coverage_R_S0_same_isolates": 1.0
+     }
+    },
+    "n_units": 2,
+    "frac_units_R_coverage_below_0.85": 0.5,
+    "frac_units_R_coverage_below_0.85_S0_same_isolates": 0.0,
+    "note": "descriptive: number of units at pilot scale is small; no formal test"
+   },
+   "M1_S3": {
+    "units": {
+     "PRJNA292663|FDA": {
+      "n": 88,
+      "n_R": 1,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA224116|Wageningen Bioveterinary Research": {
+      "n": 12,
+      "n_R": 1,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA514245|National Center for Biotechnology Information": {
+      "n": 55,
+      "n_R": 6,
+      "coverage_R_split": 1.0,
+      "coverage_R_S0_same_isolates": 1.0
+     },
+     "OTHER_S3": {
+      "n": 23,
+      "n_R": 9,
+      "skip": "unit<30 or R<5"
+     }
+    },
+    "n_units": 1,
+    "frac_units_R_coverage_below_0.85": 0.0,
+    "frac_units_R_coverage_below_0.85_S0_same_isolates": 0.0,
+    "note": "descriptive: number of units at pilot scale is small; no formal test"
+   },
+   "M2_S1": {
+    "units": {
+     "8": {
+      "n": 109,
+      "n_R": 7,
+      "coverage_R_split": 1.0,
+      "coverage_R_S0_same_isolates": 1.0
+     },
+     "OTHER": {
+      "n": 38,
+      "n_R": 2,
+      "skip": "unit<30 or R<5"
+     },
+     "3": {
+      "n": 31,
+      "n_R": 8,
+      "coverage_R_split": 1.0,
+      "coverage_R_S0_same_isolates": 1.0
+     }
+    },
+    "n_units": 2,
+    "frac_units_R_coverage_below_0.85": 0.0,
+    "frac_units_R_coverage_below_0.85_S0_same_isolates": 0.0,
+    "note": "descriptive: number of units at pilot scale is small; no formal test"
+   },
+   "M2_S3": {
+    "units": {
+     "PRJNA292663|FDA": {
+      "n": 88,
+      "n_R": 1,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA224116|Wageningen Bioveterinary Research": {
+      "n": 12,
+      "n_R": 1,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA514245|National Center for Biotechnology Information": {
+      "n": 55,
+      "n_R": 6,
+      "coverage_R_split": 1.0,
+      "coverage_R_S0_same_isolates": 0.9166666666666666
+     },
+     "OTHER_S3": {
+      "n": 23,
+      "n_R": 9,
+      "skip": "unit<30 or R<5"
+     }
+    },
+    "n_units": 1,
+    "frac_units_R_coverage_below_0.85": 0.0,
+    "frac_units_R_coverage_below_0.85_S0_same_isolates": 0.0,
+    "note": "descriptive: number of units at pilot scale is small; no formal test"
+   },
+   "nearest_train_distance_S1_units": {
+    "8": 0.5998290146507647,
+    "OTHER": 0.6531879071135914,
+    "3": 0.6511230719380944
+   }
+  },
+  "gentamicin": {
+   "M1_S1": {
+    "units": {
+     "8": {
+      "n": 126,
+      "n_R": 9,
+      "coverage_R_split": 1.0,
+      "coverage_R_S0_same_isolates": 0.9444444444444444
+     },
+     "OTHER": {
+      "n": 41,
+      "n_R": 17,
+      "coverage_R_split": 0.29411764705882354,
+      "coverage_R_S0_same_isolates": 1.0
+     },
+     "3": {
+      "n": 62,
+      "n_R": 8,
+      "coverage_R_split": 1.0,
+      "coverage_R_S0_same_isolates": 1.0
+     }
+    },
+    "n_units": 3,
+    "frac_units_R_coverage_below_0.85": 0.3333333333333333,
+    "frac_units_R_coverage_below_0.85_S0_same_isolates": 0.0,
+    "note": "descriptive: number of units at pilot scale is small; no formal test"
+   },
+   "M1_S3": {
+    "units": {
+     "PRJNA318589|Vet-LIRN-CVM-FDA": {
+      "n": 14,
+      "n_R": 0,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA318591|Vet-LIRN-CVM-FDA": {
+      "n": 15,
+      "n_R": 1,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA324573|Vet-LIRN-CVM-FDA": {
+      "n": 13,
+      "n_R": 0,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA292663|FDA": {
+      "n": 88,
+      "n_R": 10,
+      "coverage_R_split": 0.4,
+      "coverage_R_S0_same_isolates": 0.95
+     },
+     "PRJNA224116|Wageningen Bioveterinary Research": {
+      "n": 18,
+      "n_R": 2,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA514245|National Center for Biotechnology Information": {
+      "n": 47,
+      "n_R": 16,
+      "coverage_R_split": 1.0,
+      "coverage_R_S0_same_isolates": 1.0
+     },
+     "PRJNA745210|SENASICA": {
+      "n": 11,
+      "n_R": 1,
+      "skip": "unit<30 or R<5"
+     },
+     "OTHER_S3": {
+      "n": 23,
+      "n_R": 4,
+      "skip": "unit<30 or R<5"
+     }
+    },
+    "n_units": 2,
+    "frac_units_R_coverage_below_0.85": 0.5,
+    "frac_units_R_coverage_below_0.85_S0_same_isolates": 0.0,
+    "note": "descriptive: number of units at pilot scale is small; no formal test"
+   },
+   "M2_S1": {
+    "units": {
+     "8": {
+      "n": 126,
+      "n_R": 9,
+      "coverage_R_split": 1.0,
+      "coverage_R_S0_same_isolates": 1.0
+     },
+     "OTHER": {
+      "n": 41,
+      "n_R": 17,
+      "coverage_R_split": 0.6470588235294118,
+      "coverage_R_S0_same_isolates": 1.0
+     },
+     "3": {
+      "n": 62,
+      "n_R": 8,
+      "coverage_R_split": 1.0,
+      "coverage_R_S0_same_isolates": 0.9375
+     }
+    },
+    "n_units": 3,
+    "frac_units_R_coverage_below_0.85": 0.3333333333333333,
+    "frac_units_R_coverage_below_0.85_S0_same_isolates": 0.0,
+    "note": "descriptive: number of units at pilot scale is small; no formal test"
+   },
+   "M2_S3": {
+    "units": {
+     "PRJNA318589|Vet-LIRN-CVM-FDA": {
+      "n": 14,
+      "n_R": 0,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA318591|Vet-LIRN-CVM-FDA": {
+      "n": 15,
+      "n_R": 1,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA324573|Vet-LIRN-CVM-FDA": {
+      "n": 13,
+      "n_R": 0,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA292663|FDA": {
+      "n": 88,
+      "n_R": 10,
+      "coverage_R_split": 0.8,
+      "coverage_R_S0_same_isolates": 1.0
+     },
+     "PRJNA224116|Wageningen Bioveterinary Research": {
+      "n": 18,
+      "n_R": 2,
+      "skip": "unit<30 or R<5"
+     },
+     "PRJNA514245|National Center for Biotechnology Information": {
+      "n": 47,
+      "n_R": 16,
+      "coverage_R_split": 0.6875,
+      "coverage_R_S0_same_isolates": 1.0
+     },
+     "PRJNA745210|SENASICA": {
+      "n": 11,
+      "n_R": 1,
+      "skip": "unit<30 or R<5"
+     },
+     "OTHER_S3": {
+      "n": 23,
+      "n_R": 4,
+      "skip": "unit<30 or R<5"
+     }
+    },
+    "n_units": 2,
+    "frac_units_R_coverage_below_0.85": 1.0,
+    "frac_units_R_coverage_below_0.85_S0_same_isolates": 0.0,
+    "note": "descriptive: number of units at pilot scale is small; no formal test"
+   },
+   "nearest_train_distance_S1_units": {
+    "8": 0.5959375861520289,
+    "OTHER": 0.6505305746904969,
+    "3": 0.6516633917117854
+   }
+  },
+  "ceftazidime": {
+   "M1_S1": {
+    "units": {
+     "OTHER": {
+      "n": 26,
+      "n_R": 10,
+      "skip": "unit<30 or R<5"
+     },
+     "8": {
+      "n": 33,
+      "n_R": 16,
+      "coverage_R_split": 0.4375,
+      "coverage_R_S0_same_isolates": 0.875
+     }
+    },
+    "n_units": 1,
+    "frac_units_R_coverage_below_0.85": 1.0,
+    "frac_units_R_coverage_below_0.85_S0_same_isolates": 0.0,
+    "note": "descriptive: number of units at pilot scale is small; no formal test"
+   },
+   "M2_S1": {
+    "units": {
+     "OTHER": {
+      "n": 26,
+      "n_R": 10,
+      "skip": "unit<30 or R<5"
+     },
+     "8": {
+      "n": 33,
+      "n_R": 16,
+      "coverage_R_split": 1.0,
+      "coverage_R_S0_same_isolates": 1.0
+     }
+    },
+    "n_units": 1,
+    "frac_units_R_coverage_below_0.85": 0.0,
+    "frac_units_R_coverage_below_0.85_S0_same_isolates": 0.0,
+    "note": "descriptive: number of units at pilot scale is small; no formal test"
+   },
+   "nearest_train_distance_S1_units": {
+    "OTHER": 0.7046090762149344,
+    "8": 0.6058805591724425
+   }
+  }
+ },
+ "H4": {
+  "ciprofloxacin": {
+   "n_resistant": 17,
+   "n_unexplained": 0,
+   "fraction": 0.0,
+   "ci95": [
+    0.0,
+    0.1950643229687386
+   ]
+  },
+  "gentamicin": {
+   "n_resistant": 34,
+   "n_unexplained": 3,
+   "fraction": 0.08823529411764706,
+   "ci95": [
+    0.01857950344084033,
+    0.23677527428692297
+   ]
+  },
+  "ceftazidime": {
+   "n_resistant": 26,
+   "n_unexplained": 0,
+   "fraction": 0.0,
+   "ci95": [
+    0.0,
+    0.1322746044977541
+   ]
+  }
+ },
+ "G5": {
+  "ciprofloxacin": {
+   "seed1": 0.9875,
+   "seed2": 0.9875
+  },
+  "gentamicin": {
+   "seed1": 0.946031746031746,
+   "seed2": 0.932112332112332
+  },
+  "ceftazidime": {
+   "seed1": 0.8076190476190476,
+   "seed2": 0.8914285714285715
+  }
+ }
+}

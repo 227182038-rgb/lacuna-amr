@@ -1,0 +1,32 @@
+{
+  "splits": {
+    "ciprofloxacin": {
+      "S0": "5 folds x 2 reps",
+      "S1": "3 groups: {'8': 109, 'OTHER': 38, '3': 31}",
+      "S2": "test years [2019.0, 2020.0, 2021.0, 2023.0] n=78",
+      "S2_note": "",
+      "S3": "4 groups: {'PRJNA292663|FDA': 88, 'PRJNA514245|National Center for Biotechnology Information': 55, 'OTHER_S3': 23, 'PRJNA224116|Wageningen Bioveterinary Research': 12}"
+    },
+    "gentamicin": {
+      "S0": "5 folds x 2 reps",
+      "S1": "3 groups: {'8': 126, '3': 62, 'OTHER': 41}",
+      "S2": "infeasible",
+      "S2_note": "infeasible at pilot scale: test n=60, R=4 (<50 R / 50 S required by protocol at full scale)",
+      "S3": "8 groups: {'PRJNA292663|FDA': 88, 'PRJNA514245|National Center for Biotechnology Information': 47, 'OTHER_S3': 23, 'PRJNA224116|Wageningen Bioveterinary Research': 18, 'PRJNA318591|Vet-LIRN-CVM-FDA': 15, 'PRJNA318589|Vet-LIRN-CVM-FDA': 14}"
+    },
+    "ceftazidime": {
+      "S0": "5 folds x 2 reps",
+      "S1": "2 groups: {'8': 33, 'OTHER': 26}",
+      "S2": "test years [2021.0, 2023.0] n=30",
+      "S2_note": "",
+      "S3": "4 groups: {'PRJNA514245|National Center for Biotechnology Information': 19, 'PRJNA224116|Wageningen Bioveterinary Research': 15, 'OTHER_S3': 14, 'PRJNA745210|SENASICA': 11}"
+    }
+  },
+  "sha256": {
+    "ciprofloxacin": "205a8dcc458552ec86cdeb96a408f1269052de01cbf90af9360fdb38f9c88cda",
+    "gentamicin": "fbacfb2b6642c91c9e97e7fd72ae8ee50edc0b2f1c3b4babeee0f67e9c3885d9",
+    "ceftazidime": "8bf4ede7f3f2e32b5b350fd03f1941f72ce30c4781db76c89084a7c7ad8d6921"
+  },
+  "sealed_utc": "2026-11-01",
+  "note": "test lists hashed before any model was fitted; single-opening rule enforced in evaluation script"
+}
