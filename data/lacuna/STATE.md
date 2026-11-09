@@ -26,6 +26,7 @@ Machine reality (probed 2026-11-01T08:00Z, see logs/stage0_env.log):
 | 10 service + commercial docs | DONE | — |
 | 11 manuscript + figures + checklists + PDF | DONE (G3 claims corrected + regenerated, D-019) | G9 PASS |
 | 12 reproducibility + red-team + final report | DONE | G8 PASS, G11 PASS |
+| 13 integration & API layer v0.4.0 (deep-research refresh, /api/v1 enforced+metered, OpenAPI 3.1, MCP server, Vecura-ready webhooks, Integrations console, roadmap PDF; RUO) | DONE | W1-W6 PASS (gates/evidence/) |
 
 ## Resume protocol
 After interruption: read protocol/PROTOCOL.md, this file, provenance/ledger.tsv, then continue at "next command". Never repeat completed work: check logs/ and results/ first.

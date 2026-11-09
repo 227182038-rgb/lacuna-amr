@@ -23,11 +23,34 @@ interface DemandSignal {
   shipped: boolean;
 }
 
+interface RefreshSource {
+  id: string;
+  title: string;
+  detail: string;
+  urls: { label: string; url: string }[];
+  retrieved: string;
+}
+
+interface RefreshSignal {
+  id: string;
+  signal: string;
+  evidence: string;
+  sourceIds: string[];
+  lacunaAnswer: string;
+  shipped: boolean;
+}
+
 interface MarketData {
   retrievedOn: string;
   integrityNote: string;
   sources: MarketSource[];
   signals: DemandSignal[];
+  refresh?: {
+    retrievedOn: string;
+    integrityNote: string;
+    sources: RefreshSource[];
+    signals: RefreshSignal[];
+  };
 }
 
 export function MarketSection({ onNavigate }: { onNavigate: (id: string) => void }) {
@@ -106,6 +129,86 @@ export function MarketSection({ onNavigate }: { onNavigate: (id: string) => void
               })}
             </div>
           </div>
+
+          {/* 2026-11-09 refresh — v0.4.0 integration-layer research */}
+          {data.refresh ? (
+            <div>
+              <h3 className="mb-3 flex items-center gap-2 font-mono text-xs uppercase tracking-[0.18em] text-emerald-500">
+                <TrendingUp className="h-3.5 w-3.5" /> 2026-11-09 refresh — integration-layer research
+              </h3>
+              <div className="mb-3 grid gap-3 lg:grid-cols-2">
+                {data.refresh.signals.map((s) => {
+                  const srcs = data.refresh!.sources.filter((r) => s.sourceIds.includes(r.id));
+                  return (
+                    <Card key={s.id} className="border-zinc-800 bg-zinc-900/60">
+                      <CardContent className="p-4">
+                        <div className="mb-2 flex items-start justify-between gap-2">
+                          <span className="text-sm font-semibold leading-snug text-zinc-100">{s.signal}</span>
+                          <span className="flex shrink-0 items-center gap-1 rounded border border-emerald-800 bg-emerald-950/50 px-1.5 py-0.5 font-mono text-[10px] text-emerald-300">
+                            <BadgeCheck className="h-3 w-3" /> SHIPPED
+                          </span>
+                        </div>
+                        <div className="flex gap-2 rounded-md border border-zinc-800 bg-zinc-950/40 p-2.5">
+                          <Quote className="mt-0.5 h-3.5 w-3.5 shrink-0 text-zinc-600" />
+                          <div>
+                            <p className="text-xs leading-relaxed text-zinc-400">{s.evidence}</p>
+                            {srcs.map((r) =>
+                              r.urls.map((u) => (
+                                <a
+                                  key={u.url}
+                                  href={u.url}
+                                  target="_blank"
+                                  rel="noreferrer noopener"
+                                  className="mt-1.5 mr-2 inline-flex items-center gap-1 font-mono text-[10px] text-emerald-400 underline underline-offset-2"
+                                >
+                                  {u.label} <ExternalLink className="h-3 w-3" />
+                                </a>
+                              ))
+                            )}
+                          </div>
+                        </div>
+                        <p className="mt-2.5 text-xs leading-relaxed text-zinc-300">
+                          <span className="font-mono text-[10px] uppercase tracking-wider text-emerald-500">LACUNA answer: </span>
+                          {s.lacunaAnswer}
+                        </p>
+                      </CardContent>
+                    </Card>
+                  );
+                })}
+              </div>
+              <Card className="border-zinc-800 bg-zinc-900/60">
+                <CardContent className="p-0">
+                  <div className="max-h-80 overflow-y-auto">
+                    {data.refresh.sources.map((s) => (
+                      <div key={s.id} className="border-b border-zinc-800/60 p-3.5 last:border-0">
+                        <div className="flex items-start justify-between gap-3">
+                          <div>
+                            <div className="text-xs font-medium leading-snug text-zinc-200">{s.title}</div>
+                            <p className="mt-1 text-[11px] leading-relaxed text-zinc-500">{s.detail}</p>
+                            <div className="mt-1.5 flex flex-wrap items-center gap-2">
+                              {s.urls.map((u) => (
+                                <a
+                                  key={u.url}
+                                  href={u.url}
+                                  target="_blank"
+                                  rel="noreferrer noopener"
+                                  className="inline-flex items-center gap-1 font-mono text-[10px] text-emerald-400 underline underline-offset-2"
+                                >
+                                  {u.label} <ExternalLink className="h-3 w-3" />
+                                </a>
+                              ))}
+                            </div>
+                          </div>
+                          <span className="shrink-0 rounded bg-zinc-800 px-1.5 py-0.5 font-mono text-[10px] text-zinc-400">↗ {s.id}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+              <p className="mt-2 text-[11px] leading-relaxed text-zinc-600">{data.refresh.integrityNote}</p>
+            </div>
+          ) : null}
 
           <Card className="border-zinc-800 bg-zinc-900/60">
             <CardHeader className="pb-2">

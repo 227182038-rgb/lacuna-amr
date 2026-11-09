@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --c-bg: #f7f6f5;
+    --c-accent: #a88827;
+    --c-text: #1b1a18;
+    --c-muted: #8e8c85;
+    --c-mid: #786e4f;
+  }
+  * { box-sizing: border-box; }
+  @page { size: 794px 1123px; margin: 0; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--c-bg);
+    font-family: 'Inter', 'Liberation Sans', sans-serif;
+  }
+  .cover {
+    position: relative;
+    width: 794px; height: 1123px;
+    background: var(--c-bg);
+    border: none; outline: none; box-shadow: none;
+  }
+  /* Layer 1 - background grid (clipped) */
+  .cover-layer-1 {
+    position: absolute; inset: 0;
+    overflow: hidden;
+    z-index: 1;
+    background-image:
+      linear-gradient(to right, rgba(120, 110, 79, 0.05) 0.5px, transparent 0.5px),
+      linear-gradient(to bottom, rgba(120, 110, 79, 0.05) 0.5px, transparent 0.5px);
+    background-size: 50px 50px;
+  }
+  /* Layer 2 - structure: ultra-thick vertical anchor line */
+  .cover-layer-2 { position: absolute; inset: 0; z-index: 2; }
+  .anchor-line {
+    position: absolute;
+    left: 95px;                 /* 0.12 * W */
+    top: 112px;                 /* 0.10 * H */
+    height: 899px;              /* to 0.90 * H */
+    width: 8px;                 /* 6pt */
+    background: var(--c-accent);
+  }
+  /* Layer 3 - content (left edge = line + 2U gap) */
+  .cover-layer-3 { position: absolute; inset: 0; z-index: 3; }
+  .kicker {
+    position: absolute; left: 178px; top: 168px;   /* 0.15 * H */
+    font-size: 16px; font-weight: 400;
+    letter-spacing: 3px; text-transform: uppercase;
+    color: var(--c-text); opacity: 0.6;
+    max-width: 540px;
+  }
+  .hero {
+    position: absolute; left: 178px; top: 337px;   /* 0.30 * H */
+    font-size: 62px; font-weight: 900; line-height: 1.15;
+    color: var(--c-text);
+    max-width: 560px;
+    letter-spacing: -1px;
+  }
+  .summary {
+    position: absolute; left: 178px; top: 562px;   /* 0.50 * H */
+    font-size: 17px; font-weight: 400; line-height: 1.6;
+    color: var(--c-text); opacity: 0.85;
+    max-width: 476px;                               /* W * 0.6 */
+  }
+  .meta {
+    position: absolute; left: 178px; top: 842px;   /* 0.75 * H */
+    font-size: 18px; font-weight: 400; line-height: 1.5;
+    color: var(--c-text); opacity: 0.85;
+    max-width: 500px;
+  }
+  .meta .strong { font-weight: 700; }
+  .footer {
+    position: absolute; left: 178px; top: 1010px;  /* 0.90 * H */
+    font-size: 14px; font-weight: 400;
+    letter-spacing: 3px; text-transform: uppercase;
+    color: var(--c-text); opacity: 0.6;
+    max-width: 560px;
+  }
+</style>
+</head>
+<body>
+  <div class="cover">
+    <div class="cover-layer-1"></div>
+    <div class="cover-layer-2"><div class="anchor-line"></div></div>
+    <div class="cover-layer-3">
+      <div class="kicker">Market-Readiness Roadmap &middot; v0.4.0 to revenue-ready</div>
+      <div class="hero">LACUNA&middot;AMR</div>
+      <div class="summary">
+        The step-by-step path from the verified v0.4.0 audit platform to a
+        market-ready AMR trust layer: current-state inventory, market
+        positioning, the Vecura integration, six delivery phases with exit
+        criteria, KPIs, risks and this week&rsquo;s actions.
+      </div>
+      <div class="meta">
+        <span class="strong">Prepared 9 November 2026</span><br>
+        Open core (Apache-2.0) &middot; Research Use Only<br>
+        Audit &amp; trust layer for AMR prediction
+      </div>
+      <div class="footer">Not for clinical decision-making</div>
+    </div>
+  </div>
+</body>
+</html>

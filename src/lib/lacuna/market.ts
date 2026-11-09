@@ -207,5 +207,122 @@ export function marketSummary() {
     sources: MARKET_SOURCES,
     signals: DEMAND_SIGNALS,
     plans: PLAN_TIERS,
+    refresh: MARKET_REFRESH_2026_11_09,
   };
 }
+
+// ---------------------------------------------------------------------------
+// 2026-11-09 refresh — v0.4.0 integration-layer research. Same citation rule
+// as above: every figure carries its source URL + retrieval date; one entry
+// may cite multiple URLs. Nothing is invented.
+// ---------------------------------------------------------------------------
+
+export interface RefreshSource {
+  id: string;
+  title: string;
+  detail: string;
+  urls: { label: string; url: string }[];
+  retrieved: string; // ISO date
+}
+
+export interface RefreshSignal {
+  id: string;
+  signal: string;
+  evidence: string;
+  sourceIds: string[]; // RefreshSource ids
+  lacunaAnswer: string;
+  shipped: boolean;
+}
+
+export const MARKET_REFRESH_2026_11_09: {
+  retrievedOn: string;
+  integrityNote: string;
+  sources: RefreshSource[];
+  signals: RefreshSignal[];
+} = {
+  retrievedOn: "2026-11-09",
+  integrityNote:
+    "Refresh block added with the v0.4.0 integration layer. Same rule as the original research: figures appear only with a citation, and each source URL was retrieved on the stated date.",
+  sources: [
+    {
+      id: "FBI-2026-SURV",
+      title: "Fortune Business Insights — Antimicrobial Resistance Surveillance Market",
+      detail: "AMR surveillance market USD 6.67B (2025) → USD 12.18B (2034), CAGR 6.92%.",
+      urls: [
+        {
+          label: "fortunebusinessinsights.com",
+          url: "https://www.fortunebusinessinsights.com/antimicrobial-resistance-surveillance-market-112167",
+        },
+      ],
+      retrieved: "2026-11-09",
+    },
+    {
+      id: "RAM-2026-SURV",
+      title: "Research and Markets — Antimicrobial Resistance Surveillance Market (2026–2034)",
+      detail: "AMR surveillance market US$5.9B (2026) → US$9.3B (2034), CAGR 5.8%.",
+      urls: [
+        {
+          label: "researchandmarkets.com",
+          url: "https://www.researchandmarkets.com/reports/6243559/antimicrobial-resistance-surveillance-market",
+        },
+      ],
+      retrieved: "2026-11-09",
+    },
+    {
+      id: "SPHERE-2026-SURV",
+      title: "Spherical Insights — Global Antimicrobial Resistance Surveillance Market Statistics Report till 2035",
+      detail: "AMR surveillance market USD 6.56B (2025) → USD 11.17B (2035), CAGR 5.47%.",
+      urls: [
+        {
+          label: "sphericalinsights.com",
+          url: "https://www.sphericalinsights.com/blogs/top-35-companies-global-antimicrobial-resistance-surveillance-market-statistics-report-till-2035",
+        },
+      ],
+      retrieved: "2026-11-09",
+    },
+    {
+      id: "WHO-GLASS-2026",
+      title: "WHO GLASS — Global Antimicrobial Resistance and Use Surveillance System",
+      detail: "100+ participating countries/territories; the 2025 GLASS report analyzed >23M confirmed infections.",
+      urls: [
+        { label: "who.int/initiatives/glass", url: "https://www.who.int/initiatives/glass" },
+        { label: "icars-global.org/glass-report-2025", url: "https://icars-global.org/glass-report-2025" },
+      ],
+      retrieved: "2026-11-09",
+    },
+    {
+      id: "EU-AI-ACT-2026",
+      title: "EU AI Act — timeline for high-risk AI obligations",
+      detail: "High-risk obligations apply Aug 2026 (new products) / Aug 2027 (products already carrying the CE mark).",
+      urls: [
+        { label: "ptc.com/en/blogs/medtech/eu-ai-act", url: "https://www.ptc.com/en/blogs/medtech/eu-ai-act" },
+        {
+          label: "tandemhealth.ai — EU AI Act explained for healthcare organisations",
+          url: "https://tandemhealth.ai/resources/knowledge/eu-ai-act-explained-what-healthcare-organisations-need-to-know",
+        },
+      ],
+      retrieved: "2026-11-09",
+    },
+    {
+      id: "VECURA-2026",
+      title: "Agentic-platform integration demand — Vecura (Nanyang Biologics / NYB.AI, Singapore)",
+      detail: "Agentic AI life-science platforms integrate external research tools programmatically, driving demand for standard API surfaces (OpenAPI, MCP) on research tooling.",
+      urls: [
+        { label: "nyb.group/ai-first-discovery-platform", url: "https://www.nyb.group/ai-first-discovery-platform" },
+        { label: "gosset.ai/companies/vecura", url: "https://gosset.ai/companies/vecura" },
+      ],
+      retrieved: "2026-11-09",
+    },
+  ],
+  signals: [
+    {
+      id: "agent-platform-integration",
+      signal: "Agent-platform integration (MCP + OpenAPI)",
+      evidence:
+        "Agentic life-science platforms such as Vecura (Nanyang Biologics / NYB.AI, Singapore) call external tools programmatically; exposing research engines behind standard, documented API surfaces is becoming a baseline expectation.",
+      sourceIds: ["VECURA-2026"],
+      lacunaAnswer: "Shipped v0.4.0: /api/mcp (JSON-RPC 2.0 MCP server, 5 tools) + /api/openapi.json (OpenAPI 3.1) + /api/v1 (API-key-metered REST).",
+      shipped: true,
+    },
+  ],
+};

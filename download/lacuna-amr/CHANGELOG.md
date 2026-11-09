@@ -76,3 +76,31 @@ All notable changes to this project are documented here. Semantic versioning.
 - D-022…D-029 (protocol/DEVIATIONS.md): commercial-layer decisions, integrity handling of
   market figures and pricing, audit-chain design, batch processing model, export labelling,
   API-key boundary.
+
+## [0.4.0] — 2026-11-09
+### Added (integration & API layer — research use only)
+- Deep-research refresh (2026-11-09): market re-sized from three cited sources; Vecura
+  platform identified (Nanyang Biologics / NYB.AI) with integration surface decided
+  (research/01-03 in the web repo; D-030).
+- Versioned, enforced, metered API `/api/v1/*` (predict/audit-dataset/validate/report/
+  manifest) with API-key auth (401/402/403), scopes (read, read+predict), per-call
+  credits, CORS, and a `{data, runId, creditsRemaining, notice}` envelope (D-032).
+- OpenAPI 3.1 contract at `/api/openapi.json` with x-ruo-notice and x-credit-cost
+  extensions on every operation.
+- MCP server at `/api/mcp` (JSON-RPC 2.0: initialize, tools/list with the 5 scientific
+  capabilities, tools/call reusing v1 auth + metering; batch support) — agent-platform
+  native surface (D-033).
+- Vecura-ready connector: outbound HMAC-SHA256-signed webhooks (audit/predict/validate/
+  report completed) with honest delivery logging; inbound receiver with timing-safe
+  signature verification; console Integrations section (config, event subscriptions,
+  secret rotation, connection test, event log, API usage metering) (D-031, D-034).
+- Market tab 2026-11-09 refresh block (surveillance market size, WHO GLASS scale, EU AI
+  Act dates, agentic-platform demand) — all entries cited with URL + retrieval date.
+- Web-layer verification gates W1-W6 executed with evidence (gates/evidence/).
+- Market-Readiness Roadmap PDF (download/LACUNA-Market-Readiness-Roadmap.pdf): current
+  state, positioning, Vecura integration plan, five delivery phases with exit criteria,
+  KPIs, risk register and next actions (D-038).
+### Deviations
+- D-030…D-038 (protocol/DEVIATIONS.md in the web repo): research refresh, Vecura
+  integration honesty boundary, enforced v1 API, MCP design, webhook model, pricing
+  posture, breakpoint/synthetic-data rules re-affirmed, auth boundary documented.

@@ -124,3 +124,40 @@ model BatchJob {
 
   @@index([createdAt])
 }
+
+// ---------------------------------------------------------------------------
+// Integration & API layer (added 2026-11-09, v0.4.0)
+// ---------------------------------------------------------------------------
+
+// Single-row-per-platform outbound connector config (currently "vecura").
+// hmacSecret is stored in full (console-only deployment, RUO demo boundary);
+// it is masked to its first 4 chars everywhere it is displayed.
+model IntegrationConfig {
+  id             String    @id @default(cuid())
+  platform       String    @default("vecura")
+  endpointUrl    String?
+  hmacSecret     String
+  events         String    @default("[]") // JSON array of subscribed outbound event types
+  active         Boolean   @default(true)
+  lastTestedAt   DateTime?
+  lastTestStatus String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+}
+
+// Every outbound/inbound webhook exchange (ping tests, signed event deliveries,
+// inbound signature verifications) with its real outcome — delivered/failed
+// outcomes are recorded honestly, including sandbox network failures.
+model WebhookEvent {
+  id         String   @id @default(cuid())
+  direction  String // "outbound" | "inbound"
+  platform   String   @default("vecura")
+  eventType  String
+  payload    String // JSON
+  status     String // "verified" | "rejected" | "delivered" | "failed"
+  httpStatus Int?
+  error      String?
+  createdAt  DateTime @default(now())
+
+  @@index([createdAt])
+}

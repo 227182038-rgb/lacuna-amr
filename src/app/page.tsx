@@ -2,7 +2,7 @@
 
 import { useState, type ComponentType } from "react";
 import { Badge } from "@/components/ui/badge";
-import { AlertTriangle, Briefcase, Boxes, Dna, FileCheck2, FileText, FlaskConical, GitBranch, Layers, Lock, ScrollText, ShieldCheck, TrendingUp, Workflow, type LucideIcon } from "lucide-react";
+import { AlertTriangle, Briefcase, Boxes, Dna, FileCheck2, FileText, FlaskConical, GitBranch, Layers, Lock, Plug, ScrollText, ShieldCheck, TrendingUp, Workflow, type LucideIcon } from "lucide-react";
 import { OverviewSection } from "@/components/lacuna/overview";
 import { WorkflowSection } from "@/components/lacuna/workflow";
 import { CohortSection } from "@/components/lacuna/cohort";
@@ -14,13 +14,14 @@ import { GatesSection } from "@/components/lacuna/gates";
 import { ProvenanceSection } from "@/components/lacuna/provenance";
 import { MarketSection } from "@/components/lacuna/market";
 import { ServicesSection } from "@/components/lacuna/services";
+import { IntegrationsSection } from "@/components/lacuna/integrations";
 import { ComplianceSection } from "@/components/lacuna/compliance";
 import { ReportSection } from "@/components/lacuna/report";
 import { cn } from "@/lib/utils";
 
 type SectionComponent = ComponentType<{ onNavigate: (id: string) => void }>;
 
-const SECTION_IDS = ["overview", "workflow", "cohort", "audit", "predict", "batch", "validate", "gates", "provenance", "market", "services", "compliance", "report"] as const;
+const SECTION_IDS = ["overview", "workflow", "cohort", "audit", "predict", "batch", "validate", "gates", "provenance", "market", "services", "integrations", "compliance", "report"] as const;
 type SectionId = (typeof SECTION_IDS)[number];
 
 const SECTIONS: { id: SectionId; label: string; icon: LucideIcon; component: SectionComponent }[] = [
@@ -35,6 +36,7 @@ const SECTIONS: { id: SectionId; label: string; icon: LucideIcon; component: Sec
   { id: "provenance", label: "Provenance", icon: ScrollText, component: ProvenanceSection },
   { id: "market", label: "Market", icon: TrendingUp, component: MarketSection },
   { id: "services", label: "Services", icon: Briefcase, component: ServicesSection },
+  { id: "integrations", label: "Integrations", icon: Plug, component: IntegrationsSection },
   { id: "compliance", label: "Compliance", icon: Lock, component: ComplianceSection },
   { id: "report", label: "Report", icon: FileText, component: ReportSection },
 ];
@@ -54,7 +56,7 @@ export default function Home() {
             </div>
             <div>
               <div className="font-mono text-sm font-semibold tracking-tight text-zinc-100">LACUNA·AMR</div>
-              <div className="hidden font-mono text-[10px] text-zinc-500 sm:block">audit console · v0.2.0 · Apache-2.0</div>
+              <div className="hidden font-mono text-[10px] text-zinc-500 sm:block">audit console · v0.4.0 · Apache-2.0</div>
             </div>
           </div>
           <div className="flex items-center gap-2">
