@@ -29,15 +29,39 @@ const GATE_TITLES: Record<string, string> = {
 };
 
 function extractVerdict(text: string): { verdict: GateEntry["verdict"]; raw: string } {
-  // Look at verdict lines only, in file order; overall verdict = most severe mentioned
+  // Verdict semantics (D-039): an explicit status word directly after the "Verdict:" label
+  // is authoritative ("Verdict: **PASS** (corrected after review of the first FAIL)" → PASS;
+  // historical/contextual FAIL mentions elsewhere never override it). Verdict lines that
+  // DEFER to per-item lines ("Verdict: see per-drug lines … (PASS requires …)") carry no
+  // status of their own — for those the per-item failure markers decide: heading verdicts
+  // ("## ciprofloxacin: FAIL (15 problems)"), explicit "- PROBLEM:" lines and tolerance
+  // breaches ("… |diff|=0.0139 -> CHECK (tolerance 0.01)") are FAIL evidence.
   const lines = text.split("\n");
   const verdictLines = lines.filter((l) => /verdict/i.test(l));
   const raw = verdictLines.map((l) => l.replace(/[*#]/g, "").trim()).join(" · ");
-  const hasFail = verdictLines.some((l) => /\bFAIL\b/i.test(l));
+
+  // 1. Explicit statuses on verdict lines (first status word after the label wins).
+  const explicit: string[] = [];
+  for (const l of verdictLines) {
+    const m = l.match(/verdict:?\s*\**\s*(PASS|FAIL|NOT ATTEMPTED)/i);
+    if (m) explicit.push(m[1].toUpperCase());
+  }
+  if (explicit.length > 0) {
+    if (explicit.includes("FAIL")) return { verdict: "FAIL", raw: raw || "PASS" };
+    if (explicit.includes("NOT ATTEMPTED")) return { verdict: "NOT ATTEMPTED", raw: raw || "PASS" };
+    return { verdict: "PASS", raw: raw || "PASS" };
+  }
+
+  // 2. Deferring verdict lines → scan the body's per-item verdict markers.
+  const itemFail =
+    lines.some((l) => /^#+\s*[^:]+:\s*FAIL\b/i.test(l)) || // "## ciprofloxacin: FAIL (15 problems)"
+    lines.some((l) => /^\s*-\s*PROBLEM:/i.test(l)) || // "- PROBLEM: S2: dedup-cluster overlap 23"
+    lines.some((l) => /->\s*CHECK\b/i.test(l)) || // "… |diff|=0.0139 -> CHECK (tolerance 0.01)"
+    lines.some((l) => /\bNOT OK\b/i.test(l));
+  if (itemFail) return { verdict: "FAIL", raw: raw || "PASS" };
+
   const hasNa = verdictLines.some((l) => /NOT ATTEMPTED/i.test(l));
-  // G3-style files have per-drug verdict lines; treat FAIL as dominating
-  const overall: GateEntry["verdict"] = hasFail ? "FAIL" : hasNa && verdictLines.length > 0 ? "NOT ATTEMPTED" : "PASS";
-  return { verdict: overall, raw: raw || "PASS" };
+  return { verdict: hasNa ? "NOT ATTEMPTED" : "PASS", raw: raw || "PASS" };
 }
 
 export function loadGates(): GateEntry[] {

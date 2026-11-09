@@ -165,12 +165,13 @@ export function buildOpenApiSpec(): Record<string, unknown> {
     openapi: "3.1.0",
     info: {
       title: "LACUNA-AMR API",
-      version: "0.4.0",
+      version: "0.5.0",
       summary: "Versioned, API-key-authenticated, credit-metered surface of the LACUNA-AMR research-use-only AMR dataset-audit and conformal-prediction console.",
       description:
         "All /api/v1/* operations require the x-api-key header and are metered per call (predict 1 credit, audit-dataset 5, validate 5, report 1, manifest 0). " +
-        "Keys are issued in the console (Compliance section, POST /api/keys) with scope 'read' or 'read+predict' and 100 demo credits. " +
+        "Keys are issued in the console (Compliance section, POST /api/keys) with scope 'read' or 'read+predict' and plan-governed credits; keys are scoped to the issuing organization workspace. " +
         "The same five operations are exposed as tools over JSON-RPC 2.0 MCP at POST /api/mcp (tools: audit_dataset, predict_resistance, validate_splits, generate_report, get_manifest). " +
+        "Unauthenticated infrastructure endpoints: GET /api/health (liveness/readiness) and GET /api/metrics (aggregate observability; Prometheus text via ?format=prometheus). " +
         RUO_NOTICE,
       license: { name: "Apache-2.0" },
     },
@@ -180,6 +181,7 @@ export function buildOpenApiSpec(): Record<string, unknown> {
       { name: "predict", description: "Conformal resistance prediction." },
       { name: "audit", description: "Dataset and split auditing." },
       { name: "reporting", description: "Reports and manifests." },
+      { name: "infra", description: "Health and metrics (unauthenticated; no tenant payloads)." },
     ],
     paths: {
       "/api/v1/predict": {
@@ -321,6 +323,56 @@ export function buildOpenApiSpec(): Record<string, unknown> {
           responses: responses(ManifestDataSchema, false),
         },
       },
+      "/api/health": {
+        get: {
+          tags: ["infra"],
+          summary: "Liveness + readiness probe",
+          description: "Unauthenticated. status is 'ok' when the database answers SELECT 1, 'degraded' (HTTP 503) otherwise. Returns no tenant data. Used by container healthchecks and load balancers.",
+          operationId: "getHealth",
+          security: [],
+          responses: {
+            "200": {
+              description: "Healthy",
+              content: {
+                "application/json": {
+                  schema: {
+                    type: "object",
+                    properties: {
+                      status: { type: "string", enum: ["ok", "degraded"] },
+                      checks: { type: "object", properties: { database: { type: "object", properties: { ok: { type: "boolean" }, latencyMs: { type: "integer", nullable: true } } } } },
+                      version: { type: "string" },
+                      uptimeSeconds: { type: "integer" },
+                    },
+                  },
+                },
+              },
+            },
+            "503": { description: "Degraded (database unreachable)." },
+          },
+        },
+      },
+      "/api/metrics": {
+        get: {
+          tags: ["infra"],
+          summary: "Observability snapshot (aggregates only)",
+          description: "Unauthenticated aggregate metrics over recorded samples: request/error/latency by route, webhook delivery outcomes and alert-rule states. No tenant payloads. Add ?format=prometheus for the Prometheus text exposition; ?window=N (minutes, default 15). Gate behind the reverse proxy in production (see DEVIATIONS.md D-046).",
+          operationId: "getMetrics",
+          security: [],
+          responses: {
+            "200": {
+              description: "Metrics snapshot",
+              content: {
+                "application/json": {
+                  schema: { type: "object", description: "See src/lib/lacuna/observability.ts MetricsSnapshot." },
+                },
+                "text/plain": {
+                  schema: { type: "string", description: "Prometheus exposition (?format=prometheus)." },
+                },
+              },
+            },
+          },
+        },
+      },
     },
     components: {
       securitySchemes: {
@@ -328,7 +380,7 @@ export function buildOpenApiSpec(): Record<string, unknown> {
           type: "apiKey",
           in: "header",
           name: "x-api-key",
-          description: "Key issued via the console (POST /api/keys). Scopes: 'read' or 'read+predict'; 100 demo credits per key.",
+          description: "Key issued via the console (POST /api/keys), scoped to the issuing organization workspace. Scopes: 'read' or 'read+predict'. Credits are plan-governed (200 community / 5,000 lab / 50,000+ enterprise per month).",
         },
       },
       schemas: {

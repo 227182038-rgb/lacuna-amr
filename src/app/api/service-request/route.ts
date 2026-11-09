@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { db } from "@/lib/db";
 import { recordAudit } from "@/lib/lacuna/audit-chain";
+import { resolveOrgContext } from "@/lib/lacuna/org-context";
+import { withMetrics } from "@/lib/lacuna/observability";
 
 export const dynamic = "force-dynamic";
 
@@ -14,7 +16,9 @@ const requestSchema = z.object({
   message: z.string().max(4000).optional().or(z.literal("")),
 });
 
-export async function POST(req: Request) {
+async function POST_impl(req: Request) {
+  const ctx = await resolveOrgContext(req);
+
   let body: unknown;
   try {
     body = await req.json();
@@ -29,6 +33,7 @@ export async function POST(req: Request) {
 
   const rec = await db.serviceRequest.create({
     data: {
+      organizationId: ctx.orgId,
       sku,
       name,
       email,
@@ -38,7 +43,7 @@ export async function POST(req: Request) {
     },
   });
 
-  await recordAudit("console", "service.request", {
+  await recordAudit(ctx.actor, "service.request", {
     sku,
     isolates: isolates ?? null,
     org: org || null,
@@ -53,8 +58,9 @@ export async function POST(req: Request) {
   });
 }
 
-export async function GET() {
-  const requests = await db.serviceRequest.findMany({ orderBy: { createdAt: "desc" }, take: 20 });
+async function GET_impl(req: Request) {
+  const ctx = await resolveOrgContext(req);
+  const requests = await db.serviceRequest.findMany({ where: { organizationId: ctx.orgId }, orderBy: { createdAt: "desc" }, take: 20 });
   return NextResponse.json({
     requests: requests.map((r) => ({
       id: r.id,
@@ -67,3 +73,6 @@ export async function GET() {
     })),
   });
 }
+
+export const POST = withMetrics("service-request", POST_impl);
+export const GET = withMetrics("service-request", GET_impl);

@@ -5,6 +5,8 @@ import { recordAudit } from "@/lib/lacuna/audit-chain";
 import { authenticateKey } from "@/lib/lacuna/api-auth";
 import { DRUGS, loadAstTable, loadCohortTable, RUO_NOTICE } from "@/lib/lacuna/data";
 import { predict } from "@/lib/lacuna/engine";
+import { resolveOrgContext } from "@/lib/lacuna/org-context";
+import { withMetrics } from "@/lib/lacuna/observability";
 
 export const dynamic = "force-dynamic";
 
@@ -85,12 +87,13 @@ function summarize(rows: BatchResultRow[], modelType: string): BatchSummary {
   };
 }
 
-export async function GET(req: Request) {
+async function GET_impl(req: Request) {
+  const ctx = await resolveOrgContext(req);
   const url = new URL(req.url);
   const id = url.searchParams.get("id");
 
   if (!id) {
-    const jobs = await db.batchJob.findMany({ orderBy: { createdAt: "desc" }, take: 20 });
+    const jobs = await db.batchJob.findMany({ where: { organizationId: ctx.orgId }, orderBy: { createdAt: "desc" }, take: 20 });
     return NextResponse.json({
       jobs: jobs.map((j) => ({
         id: j.id,
@@ -107,7 +110,10 @@ export async function GET(req: Request) {
   }
 
   const job = await db.batchJob.findUnique({ where: { id } });
-  if (!job) return NextResponse.json({ error: "Batch job not found." }, { status: 404 });
+  if (!job || job.organizationId !== ctx.orgId) {
+    // cross-tenant reads are indistinguishable from missing jobs
+    return NextResponse.json({ error: "Batch job not found." }, { status: 404 });
+  }
 
   if (job.status === "queued" || job.status === "running") {
     const isolates: string[] = JSON.parse(job.isolates);
@@ -140,6 +146,7 @@ export async function GET(req: Request) {
       try {
         await db.predictRun.create({
           data: {
+            organizationId: job.organizationId,
             drug: out.drug,
             isolate: out.isolate,
             modelType: out.modelType,
@@ -166,7 +173,7 @@ export async function GET(req: Request) {
     });
 
     if (status === "complete") {
-      await recordAudit("console", "batch.complete", {
+      await recordAudit(ctx.actor, "batch.complete", {
         batchId: job.id,
         label: job.label,
         drug: job.drug,
@@ -205,7 +212,12 @@ export async function GET(req: Request) {
   });
 }
 
-export async function POST(req: Request) {
+async function POST_impl(req: Request) {
+  // Workspace resolution FIRST: a signed-in session attributes the job to the
+  // user's active org; an API key attributes it to the key's org; otherwise
+  // the open workspace (v0.4.x behavior).
+  const ctx = await resolveOrgContext(req);
+
   let body: unknown;
   try {
     body = await req.json();
@@ -240,6 +252,7 @@ export async function POST(req: Request) {
 
   const job = await db.batchJob.create({
     data: {
+      organizationId: ctx.orgId,
       label,
       drug,
       modelType,
@@ -262,6 +275,10 @@ export async function POST(req: Request) {
   return NextResponse.json({
     job: { id: job.id, label: job.label, drug: job.drug, modelType: job.modelType, n: job.n, done: 0, status: "queued" },
     actor,
+    workspace: { id: ctx.orgId, name: ctx.orgName },
     notice: `Queued ${isolates.length} labelled cohort isolates. Processing advances in chunks of ${CHUNK} per poll — progress reflects real engine computation.`,
   });
 }
+
+export const GET = withMetrics("batch", GET_impl);
+export const POST = withMetrics("batch", POST_impl);

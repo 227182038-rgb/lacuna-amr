@@ -1,0 +1,33 @@
+# LACUNA-AMR reverse proxy (Caddy) — automatic TLS via Let's Encrypt.
+# The domain and ACME email come from the environment (docker-compose.yml).
+# /api/metrics is gated behind basic auth in production (see DEVIATIONS.md
+# D-046): scrapers pass the credentials, browsers get 401.
+
+{$LACUNA_DOMAIN} {
+	encode gzip
+
+	# health + metrics on the backend
+	handle /api/health* {
+		reverse_proxy app:3000
+	}
+	handle /api/metrics* {
+		basic_auth {
+			# generate with: caddy hash-password --plaintext '<prometheus password>'
+			prometheus {$PROMETHEUS_BASIC_AUTH_HASH}
+		}
+		reverse_proxy app:3000
+	}
+
+	# everything else (console + API)
+	handle {
+		reverse_proxy app:3000
+	}
+
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		X-Frame-Options "DENY"
+		-Server
+	}
+}

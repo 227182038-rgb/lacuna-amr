@@ -43,6 +43,53 @@ beside them. Plain language; no promotional claims.
   the raw-XML snapshots (the 0.1.0 archive did redistribute the xlsx, contradicting the
   project's own licence inventory).
 
+## Product v0.3.0 — commercial web layer (2026-11-09)
+
+Full-stack Next.js 16 console (Apache-2.0 open core unchanged): 14 sections — Overview, Workflow,
+Cohort, Dataset Audit, Predict, Batch, Validate, Gates, Provenance, Market, Services, Integrations,
+Compliance, Report. Deterministic TypeScript engine mirrors the CLI's audit logic on the frozen real
+pilot cohort (N=240, EXPLORATORY; no synthetic data — D-037). Batch queue; hash-chained audit trail
+(21 CFR Part 11-style, RUO); FHIR R4 / GLASS-style / CSV exports; API keys with scopes + credits;
+market research with cited figures; 3 SKUs with service-request flow. Deviations D-022…D-029.
+
+## Product v0.4.0 — integration & API layer (2026-11-09)
+
+- Enforced, versioned, metered REST API `/api/v1/*` (OpenAPI 3.1 at `/api/openapi.json`;
+  x-api-key auth; scopes `read` / `read+predict`; credits: predict 1, audit 5, validate 5,
+  report 1, manifest 0; every call lands in the hash-chained audit log).
+- MCP server `POST /api/mcp` (JSON-RPC 2.0: initialize / tools/list / tools/call; 5 tools;
+  same auth + metering) so agentic platforms invoke LACUNA natively.
+- Vecura integration (identity verified: agentic-AI life-science platform by Nanyang
+  Biologics / NYB.AI, Singapore — research note 01, `research/01-vecura-integration.md`):
+  outbound HMAC-SHA256-signed webhooks (predict.completed / audit.completed /
+  validate.completed / report.ready; 3 s timeout; every attempt logged), inbound
+  HMAC-verified receiver, connector console with test/rotate. Built to published patterns
+  only — labeled "Vecura-ready", no partnership claim (D-031). Live reachability probe
+  2026-11-09: vecura.com HTTP 307, app.vecura.com HTTP 200 from the deployment sandbox.
+- Market-readiness roadmap PDF (`download/LACUNA-Market-Readiness-Roadmap.pdf`): current
+  state, cited market positioning, Vecura integration plan, five delivery phases with exit
+  criteria, KPIs, risk register. Deviations D-030…D-038.
+
+## Final verification pass (2026-11-09, completion session)
+
+- `bun run lint` — clean (re-run after the D-039 fix).
+- Python package: **60/60 tests pass** (`python3 -m pytest tests/ -q` on this repository).
+- W-suite re-run: key issuance → metered predict (credits 100→99, RUO notice present);
+  webhook HMAC round-trip (bad signature 401 / good signature 200 `{received:true}`);
+  outbound deliveries logged honestly (delivered / verified / rejected); banned-claims
+  grep finds only the mandated negation ("it is not a partnership claim").
+- Browser E2E (headless): all 14 sections render and navigate; live conformal prediction
+  on SAMN10620096 (Mondrian set R, calibrated P(resistance)=1.000, 13 AMRFinderPlus
+  determinants listed, RUO notice); Integrations developer surface (REST / OpenAPI / MCP
+  endpoints + credit-cost table); Market 2026-11-09 refresh block; Compliance hash-chained
+  trail. Desktop 1440×900 and mobile 390×844 screenshots verified non-blank; zero page
+  errors.
+- **Integrity fix D-039**: the console's gate-verdict extractor mis-displayed G3 and G5
+  as PASS (their verdict lines defer to per-drug evidence, which the old parser never
+  read). Fixed in `src/lib/lacuna/gates.ts`; all 12 verdicts now match the gate table
+  above exactly (G3 FAIL, G5 FAIL, G7 NOT ATTEMPTED). Display-layer only; no data,
+  splits, models or results were touched.
+
 ## Gate table
 
 | Gate | Verdict | Evidence |

@@ -20,5 +20,9 @@
   surface with OpenAPI 3.1 (/api/openapi.json), MCP tool server (/api/mcp),
   HMAC-signed webhooks, API usage metering, and a cited 2026-11-09 market refresh.
 - Research notes 01-03 (Vecura integration, market/competitors, product decisions)
-  live in the web repository research/ folder; deviations D-030..D-038 in
-  protocol/DEVIATIONS.md.
+  live in the web repository research/ folder; deviations D-030..D-039 in
+  protocol/DEVIATIONS.md (D-039: final-pass fix of the console gate-verdict display).
+- Final verification (2026-11-09): lint clean; 60/60 Python tests; W1-W6 re-PASS;
+  Vecura live probe (vecura.com HTTP 307, app.vecura.com HTTP 200); browser E2E across
+  all 14 console sections with a live conformal prediction; console gate verdicts now
+  identical to FINAL_REPORT.md's gate table (G3 FAIL, G5 FAIL, G7 NOT ATTEMPTED).

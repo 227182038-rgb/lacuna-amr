@@ -1,20 +1,16 @@
 // /api/integrations/vecura — console-only management surface for the outbound
-// connector (platform "vecura").
-//   GET  → { config (secret masked), events (latest 20), usage (api:* audit
-//          aggregation, max 50) } — records audit action "integration.view".
+// connector (platform "vecura"). Phase 1 (v0.5.0): configs are PER WORKSPACE —
+// a signed-in org manages its own connector; unauthenticated visitors manage
+// the open-workspace row (v0.4.x behavior preserved).
+//   GET  → { config (secret masked), events (latest 20 for this workspace),
+//          usage (api:* audit aggregation, max 50) } — audit "integration.view".
 //   POST → { action: "save" | "test" | "rotate-secret" }
-//     save          — upsert the single IntegrationConfig row (generates a
-//                     secret if none exists); audit "integration.save".
-//     test          — send a REAL signed ping to the configured endpoint
-//                     (3s timeout) and record the honest outcome; audit
-//                     "integration.test".
-//     rotate-secret — new secret, returned ONCE in full; audit
-//                     "integration.rotate".
 
 import crypto from "crypto";
 import { NextResponse } from "next/server";
 import { db } from "@/lib/db";
 import { recordAudit } from "@/lib/lacuna/audit-chain";
+import { resolveOrgContext } from "@/lib/lacuna/org-context";
 import { signPayload } from "@/lib/lacuna/v1";
 
 export const dynamic = "force-dynamic";
@@ -57,15 +53,16 @@ function configPublic(config: {
   };
 }
 
-async function getConfig() {
-  return db.integrationConfig.findFirst({ where: { platform: PLATFORM } });
+async function getConfig(organizationId: string | null) {
+  return db.integrationConfig.findFirst({ where: { platform: PLATFORM, organizationId } });
 }
 
-export async function GET() {
-  const config = await getConfig();
+export async function GET(req: Request) {
+  const ctx = await resolveOrgContext(req);
+  const config = await getConfig(ctx.orgId);
 
   const events = await db.webhookEvent.findMany({
-    where: { platform: PLATFORM },
+    where: { platform: PLATFORM, organizationId: ctx.orgId },
     orderBy: { createdAt: "desc" },
     take: 20,
   });
@@ -92,10 +89,11 @@ export async function GET() {
     .sort((a, b) => b.count - a.count || b.lastAt.getTime() - a.lastAt.getTime())
     .slice(0, 50);
 
-  await recordAudit("console", "integration.view", {
+  await recordAudit(ctx.actor, "integration.view", {
     platform: PLATFORM,
     configured: Boolean(config),
     nWebhookEvents: events.length,
+    workspace: ctx.orgSlug ?? "open",
   });
 
   return NextResponse.json({
@@ -121,6 +119,8 @@ interface SaveBody {
 }
 
 export async function POST(req: Request) {
+  const ctx = await resolveOrgContext(req);
+
   let body: SaveBody;
   try {
     body = (await req.json()) as SaveBody;
@@ -133,7 +133,7 @@ export async function POST(req: Request) {
     const endpointUrl = typeof body.endpointUrl === "string" && body.endpointUrl.trim() !== "" ? body.endpointUrl.trim() : null;
     const events = Array.isArray(body.events) ? body.events.filter((e): e is string => typeof e === "string") : [];
 
-    const existing = await getConfig();
+    const existing = await getConfig(ctx.orgId);
     let secret: string;
     if (typeof body.hmacSecret === "string" && body.hmacSecret.trim() !== "") {
       secret = body.hmacSecret.trim();
@@ -149,14 +149,15 @@ export async function POST(req: Request) {
           data: { endpointUrl, hmacSecret: secret, events: JSON.stringify(events), active: true },
         })
       : await db.integrationConfig.create({
-          data: { platform: PLATFORM, endpointUrl, hmacSecret: secret, events: JSON.stringify(events), active: true },
+          data: { organizationId: ctx.orgId, platform: PLATFORM, endpointUrl, hmacSecret: secret, events: JSON.stringify(events), active: true },
         });
 
-    await recordAudit("console", "integration.save", {
+    await recordAudit(ctx.actor, "integration.save", {
       platform: PLATFORM,
       endpointUrl,
       events,
       secretGenerated: !existing && typeof body.hmacSecret !== "string",
+      workspace: ctx.orgSlug ?? "open",
     });
 
     return NextResponse.json({ ok: true, config: configPublic(config) });
@@ -164,7 +165,7 @@ export async function POST(req: Request) {
 
   // ------------------------------------------------------------------ test --
   if (body.action === "test") {
-    const config = await getConfig();
+    const config = await getConfig(ctx.orgId);
     if (!config) {
       return NextResponse.json({ ok: false, error: "No integration configured — save an endpoint first." }, { status: 400 });
     }
@@ -205,7 +206,7 @@ export async function POST(req: Request) {
 
     try {
       await db.webhookEvent.create({
-        data: { direction: "outbound", platform: PLATFORM, eventType: "ping", payload: rawBody, status, httpStatus, error },
+        data: { organizationId: ctx.orgId, direction: "outbound", platform: PLATFORM, eventType: "ping", payload: rawBody, status, httpStatus, error },
       });
     } catch {
       // best-effort logging
@@ -214,7 +215,7 @@ export async function POST(req: Request) {
       where: { id: config.id },
       data: { lastTestedAt: new Date(), lastTestStatus },
     });
-    await recordAudit("console", "integration.test", { platform: PLATFORM, endpointUrl: config.endpointUrl, status, httpStatus, error });
+    await recordAudit(ctx.actor, "integration.test", { platform: PLATFORM, endpointUrl: config.endpointUrl, status, httpStatus, error });
 
     // Honest outcome — a sandbox network failure is a real "failed" result.
     return NextResponse.json({ ok: status === "delivered", httpStatus, error });
@@ -222,13 +223,13 @@ export async function POST(req: Request) {
 
   // --------------------------------------------------------- rotate-secret --
   if (body.action === "rotate-secret") {
-    const config = await getConfig();
+    const config = await getConfig(ctx.orgId);
     if (!config) {
       return NextResponse.json({ ok: false, error: "No integration configured — save an endpoint first." }, { status: 400 });
     }
     const secret = crypto.randomBytes(24).toString("hex");
     const updated = await db.integrationConfig.update({ where: { id: config.id }, data: { hmacSecret: secret } });
-    await recordAudit("console", "integration.rotate", { platform: PLATFORM, configId: config.id });
+    await recordAudit(ctx.actor, "integration.rotate", { platform: PLATFORM, configId: config.id });
     // The full secret is returned exactly once; everywhere else it is masked.
     return NextResponse.json({ ok: true, secret, config: configPublic(updated) });
   }

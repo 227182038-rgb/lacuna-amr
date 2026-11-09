@@ -3,6 +3,8 @@ import { db } from "@/lib/db";
 import { recordAudit } from "@/lib/lacuna/audit-chain";
 import { auditAstRows, DEFAULT_THRESHOLDS, parseUserAst, type AuditThresholds } from "@/lib/lacuna/audit";
 import { loadAstTable, loadCohortTable } from "@/lib/lacuna/data";
+import { resolveOrgContext } from "@/lib/lacuna/org-context";
+import { withMetrics } from "@/lib/lacuna/observability";
 
 export const dynamic = "force-dynamic";
 
@@ -13,7 +15,9 @@ interface AuditBody {
   thresholds?: Partial<AuditThresholds>;
 }
 
-export async function POST(req: Request) {
+async function POST_impl(req: Request) {
+  const ctx = await resolveOrgContext(req);
+
   let body: AuditBody;
   try {
     body = (await req.json()) as AuditBody;
@@ -55,6 +59,7 @@ export async function POST(req: Request) {
     try {
       const rec = await db.auditRun.create({
         data: {
+          organizationId: ctx.orgId,
           source: body.source === "paste" ? "paste" : body.cohortOnly ? "cohort" : "ast-table",
           drug: d.drug,
           verdict: d.verdict,
@@ -70,18 +75,20 @@ export async function POST(req: Request) {
     }
   }
 
-  await recordAudit("console", "audit-dataset.run", {
+  await recordAudit(ctx.actor, "audit-dataset.run", {
     source: body.source === "paste" ? "paste" : body.cohortOnly ? "cohort" : "ast-table",
     nDrugs: audit.drugs.length,
     nRows: rows.length,
     verdicts: audit.drugs.map((d) => `${d.drug}:${d.verdict}`).join(" "),
+    workspace: ctx.orgSlug ?? "open",
   });
 
-  return NextResponse.json({ audit, savedRuns });
+  return NextResponse.json({ audit, savedRuns, workspace: { id: ctx.orgId, name: ctx.orgName } });
 }
 
-export async function GET() {
-  const runs = await db.auditRun.findMany({ orderBy: { createdAt: "desc" }, take: 20 });
+async function GET_impl(req: Request) {
+  const ctx = await resolveOrgContext(req);
+  const runs = await db.auditRun.findMany({ where: { organizationId: ctx.orgId }, orderBy: { createdAt: "desc" }, take: 20 });
   return NextResponse.json({
     runs: runs.map((r) => ({
       id: r.id,
@@ -94,3 +101,6 @@ export async function GET() {
     })),
   });
 }
+
+export const POST = withMetrics("audit-dataset", POST_impl);
+export const GET = withMetrics("audit-dataset", GET_impl);

@@ -32,10 +32,12 @@ export interface FhirExport {
   n: number;
 }
 
-export async function buildFhirExport(runId?: string, limit = 50): Promise<FhirExport> {
+export async function buildFhirExport(runId?: string, limit = 50, organizationId?: string | null): Promise<FhirExport> {
+  // Tenant scoping: only runs from the caller's workspace are exportable.
+  const orgFilter = { organizationId: organizationId ?? null };
   const runs = runId
-    ? await db.predictRun.findMany({ where: { id: runId }, take: 1 })
-    : await db.predictRun.findMany({ orderBy: { createdAt: "desc" }, take: limit });
+    ? await db.predictRun.findMany({ where: { id: runId, ...orgFilter }, take: 1 })
+    : await db.predictRun.findMany({ where: orgFilter, orderBy: { createdAt: "desc" }, take: limit });
 
   const entries = runs.map((r) => {
     const out = JSON.parse(r.output) as {
@@ -224,9 +226,10 @@ export async function buildAuditCsv(): Promise<{ filename: string; mime: string;
   };
 }
 
-export async function buildPredictionsCsv(drug?: string): Promise<{ filename: string; mime: string; content: string; n: number }> {
+export async function buildPredictionsCsv(drug?: string, organizationId?: string | null): Promise<{ filename: string; mime: string; content: string; n: number }> {
+  const orgFilter = drug ? { drug, organizationId: organizationId ?? null } : { organizationId: organizationId ?? null };
   const runs = await db.predictRun.findMany({
-    where: drug ? { drug } : undefined,
+    where: orgFilter,
     orderBy: { createdAt: "desc" },
     take: 500,
   });

@@ -3,6 +3,8 @@ import { db } from "@/lib/db";
 import { recordAudit } from "@/lib/lacuna/audit-chain";
 import { DRUGS, loadHypotheses, loadMainResults, loadSplitsManifest, RUO_NOTICE, type FoldData } from "@/lib/lacuna/data";
 import { auditSplits } from "@/lib/lacuna/splits-audit";
+import { resolveOrgContext } from "@/lib/lacuna/org-context";
+import { withMetrics } from "@/lib/lacuna/observability";
 
 export const dynamic = "force-dynamic";
 
@@ -25,7 +27,7 @@ function modelRow(fold: FoldData | undefined, model: "M0" | "M1" | "M2") {
   };
 }
 
-export async function GET() {
+async function GET_impl() {
   const main = loadMainResults();
   const hyp = loadHypotheses();
   const manifest = loadSplitsManifest();
@@ -120,7 +122,9 @@ interface ValidateBody {
 }
 
 /** Re-run the G3-style split-leakage auditor live on the sealed splits. */
-export async function POST(req: Request) {
+async function POST_impl(req: Request) {
+  const ctx = await resolveOrgContext(req);
+
   let body: ValidateBody;
   try {
     body = (await req.json()) as ValidateBody;
@@ -138,6 +142,7 @@ export async function POST(req: Request) {
   try {
     const rec = await db.validateRun.create({
       data: {
+        organizationId: ctx.orgId,
         drug: result.drug,
         problems: result.problems.length,
         verdict: result.verdict,
@@ -149,12 +154,16 @@ export async function POST(req: Request) {
     // best-effort
   }
 
-  await recordAudit("console", "validate.run", {
+  await recordAudit(ctx.actor, "validate.run", {
     runId,
     drug: result.drug,
     problems: result.problems.length,
     verdict: result.verdict,
+    workspace: ctx.orgSlug ?? "open",
   });
 
   return NextResponse.json({ audit: result, runId });
 }
+
+export const GET = withMetrics("validate", GET_impl);
+export const POST = withMetrics("validate", POST_impl);

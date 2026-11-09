@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, type ComponentType } from "react";
+import { useEffect, useState, type ComponentType } from "react";
 import { Badge } from "@/components/ui/badge";
-import { AlertTriangle, Briefcase, Boxes, Dna, FileCheck2, FileText, FlaskConical, GitBranch, Layers, Lock, Plug, ScrollText, ShieldCheck, TrendingUp, Workflow, type LucideIcon } from "lucide-react";
+import { Activity, AlertTriangle, Briefcase, Boxes, CreditCard, Dna, FileCheck2, FileText, FlaskConical, GitBranch, Layers, Lock, Plug, ScrollText, ShieldCheck, TrendingUp, Users, Workflow, type LucideIcon } from "lucide-react";
 import { OverviewSection } from "@/components/lacuna/overview";
 import { WorkflowSection } from "@/components/lacuna/workflow";
 import { CohortSection } from "@/components/lacuna/cohort";
@@ -17,11 +17,16 @@ import { ServicesSection } from "@/components/lacuna/services";
 import { IntegrationsSection } from "@/components/lacuna/integrations";
 import { ComplianceSection } from "@/components/lacuna/compliance";
 import { ReportSection } from "@/components/lacuna/report";
+import { WorkspaceSection } from "@/components/lacuna/workspace";
+import { BillingSection } from "@/components/lacuna/billing";
+import { ObservabilitySection } from "@/components/lacuna/observability";
+import { AccountWidget } from "@/components/lacuna/account-widget";
+import { useSession } from "@/lib/lacuna/session-store";
 import { cn } from "@/lib/utils";
 
 type SectionComponent = ComponentType<{ onNavigate: (id: string) => void }>;
 
-const SECTION_IDS = ["overview", "workflow", "cohort", "audit", "predict", "batch", "validate", "gates", "provenance", "market", "services", "integrations", "compliance", "report"] as const;
+const SECTION_IDS = ["overview", "workflow", "cohort", "audit", "predict", "batch", "validate", "gates", "provenance", "workspace", "billing", "market", "services", "integrations", "observability", "compliance", "report"] as const;
 type SectionId = (typeof SECTION_IDS)[number];
 
 const SECTIONS: { id: SectionId; label: string; icon: LucideIcon; component: SectionComponent }[] = [
@@ -34,9 +39,12 @@ const SECTIONS: { id: SectionId; label: string; icon: LucideIcon; component: Sec
   { id: "validate", label: "Validate", icon: ShieldCheck, component: ValidateSection },
   { id: "gates", label: "Gates", icon: Layers, component: GatesSection },
   { id: "provenance", label: "Provenance", icon: ScrollText, component: ProvenanceSection },
+  { id: "workspace", label: "Workspace", icon: Users, component: WorkspaceSection },
+  { id: "billing", label: "Billing", icon: CreditCard, component: BillingSection },
   { id: "market", label: "Market", icon: TrendingUp, component: MarketSection },
   { id: "services", label: "Services", icon: Briefcase, component: ServicesSection },
   { id: "integrations", label: "Integrations", icon: Plug, component: IntegrationsSection },
+  { id: "observability", label: "Observability", icon: Activity, component: ObservabilitySection },
   { id: "compliance", label: "Compliance", icon: Lock, component: ComplianceSection },
   { id: "report", label: "Report", icon: FileText, component: ReportSection },
 ];
@@ -44,6 +52,13 @@ const SECTIONS: { id: SectionId; label: string; icon: LucideIcon; component: Sec
 export default function Home() {
   const [active, setActive] = useState<SectionId>("overview");
   const Active = SECTIONS.find((s) => s.id === active)!.component;
+  // Workspace identity key: changing organization (or signing in/out) remounts
+  // the active section so every fetch is re-scoped to the new tenant.
+  const workspaceKey = useSession((s) => s.workspaceKey);
+
+  useEffect(() => {
+    if (useSession.getState().status === "loading") void useSession.getState().fetchSession();
+  }, []);
 
   return (
     <div className="flex min-h-screen flex-col bg-zinc-950 text-zinc-100">
@@ -56,14 +71,15 @@ export default function Home() {
             </div>
             <div>
               <div className="font-mono text-sm font-semibold tracking-tight text-zinc-100">LACUNA·AMR</div>
-              <div className="hidden font-mono text-[10px] text-zinc-500 sm:block">audit console · v0.4.0 · Apache-2.0</div>
+              <div className="hidden font-mono text-[10px] text-zinc-500 sm:block">audit console · v0.5.0 · Apache-2.0</div>
             </div>
           </div>
           <div className="flex items-center gap-2">
+            <AccountWidget onNavigate={(id) => setActive(id as SectionId)} />
             <Badge variant="outline" className="border-amber-800 bg-amber-950/40 font-mono text-[10px] text-amber-300">
               <AlertTriangle className="mr-1 h-3 w-3" /> RUO
             </Badge>
-            <Badge variant="outline" className="border-zinc-700 bg-zinc-900 font-mono text-[10px] text-zinc-400">
+            <Badge variant="outline" className="hidden border-zinc-700 bg-zinc-900 font-mono text-[10px] text-zinc-400 sm:inline-flex">
               pilot · exploratory
             </Badge>
           </div>
@@ -89,9 +105,9 @@ export default function Home() {
         </nav>
       </header>
 
-      {/* Content */}
+      {/* Content — keyed by workspace identity so tenant switches rescope all data */}
       <main className="mx-auto w-full max-w-[1600px] flex-1 px-4 py-6">
-        <Active onNavigate={(id) => setActive(id as SectionId)} />
+        <Active key={`${active}-${workspaceKey}`} onNavigate={(id) => setActive(id as SectionId)} />
       </main>
 
       {/* Footer */}
@@ -101,7 +117,7 @@ export default function Home() {
             LACUNA·AMR — audited genome-based AMR prediction. Apache-2.0. Research Use Only; not for clinical
             decision-making. EUCAST tables user-supplied, never bundled.
           </span>
-          <span className="font-mono">pilot run 2026-11-01 · seeds 20261101 / 42 · gates 9 PASS · 2 FAIL · 1 blocked · market research 2026-11-04</span>
+          <span className="font-mono">pilot run 2026-11-01 · seeds 20261101 / 42 · gates 9 PASS · 2 FAIL · 1 blocked · Phase 1 production foundation 2026-11-09</span>
         </div>
       </footer>
     </div>

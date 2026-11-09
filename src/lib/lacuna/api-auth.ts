@@ -14,6 +14,7 @@ export interface ApiKeyRec {
   keyPrefix: string;
   scope: string;
   credits: number;
+  organizationId: string | null; // owning organization; null = open workspace
 }
 
 export type KeyAuthResult =
@@ -27,5 +28,9 @@ export async function authenticateKey(req: Request): Promise<KeyAuthResult> {
   const rec = await db.apiKey.findFirst({ where: { keyHash: sha256(raw), revokedAt: null } });
   if (!rec) return { ok: false, status: 401, error: "Invalid or revoked API key." };
   if (rec.credits <= 0) return { ok: false, status: 402, error: "Key has no credits remaining." };
-  return { ok: true, rec: { id: rec.id, keyPrefix: rec.keyPrefix, scope: rec.scope, credits: rec.credits }, actor: `api:${rec.keyPrefix}` };
+  return {
+    ok: true,
+    rec: { id: rec.id, keyPrefix: rec.keyPrefix, scope: rec.scope, credits: rec.credits, organizationId: rec.organizationId },
+    actor: `api:${rec.keyPrefix}`,
+  };
 }

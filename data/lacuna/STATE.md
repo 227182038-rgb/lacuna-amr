@@ -27,14 +27,17 @@ Machine reality (probed 2026-11-01T08:00Z, see logs/stage0_env.log):
 | 11 manuscript + figures + checklists + PDF | DONE (G3 claims corrected + regenerated, D-019) | G9 PASS |
 | 12 reproducibility + red-team + final report | DONE | G8 PASS, G11 PASS |
 | 13 integration & API layer v0.4.0 (deep-research refresh, /api/v1 enforced+metered, OpenAPI 3.1, MCP server, Vecura-ready webhooks, Integrations console, roadmap PDF; RUO) | DONE | W1-W6 PASS (gates/evidence/) |
+| 14 final completion pass (lint clean; 60/60 Python tests; W-suite re-PASS; Vecura live probe vecura.com 307 / app.vecura.com 200; browser E2E 14 sections + live prediction; D-039 gate-display integrity fix) | DONE | W1-W6 re-PASS; verdicts match FINAL_REPORT gate table |
 
 ## Resume protocol
 After interruption: read protocol/PROTOCOL.md, this file, provenance/ledger.tsv, then continue at "next command". Never repeat completed work: check logs/ and results/ first.
 
 ## Next command
-None — research run and v0.2.0 product hardening complete. See FINAL_REPORT.md and
-examples/cli-demo/README.md. Full-scale run: `snakemake -j 2` on adequate hardware; the
-application workflow is `lacuna audit-dataset / train / predict / validate / report`.
+None — v0.4.0 platform complete and verified end-to-end (see FINAL_REPORT.md §Final
+verification pass). Next milestones are the Phase-1 items in
+`download/LACUNA-Market-Readiness-Roadmap.pdf` (multi-tenant auth, Stripe billing,
+production Postgres, joint Vecura MCP test, full-scale DG cohort run on adequate hardware).
+The application workflow is `lacuna audit-dataset / train / predict / validate / report`.
 
 ## Cohort decision (G1)
 Organism: Escherichia coli (K. pneumoniae failed DG; brief-mandated fallback). Drugs: ciprofloxacin,

@@ -1,0 +1,311 @@
+// LACUNA-AMR web console — Prisma schema
+// Runs of the audit/predict engines and service-layer requests are persisted
+// so every interactive result shown in the UI is traceable to a stored record.
+
+generator client {
+  provider = "prisma-client-js"
+  output   = env("PG_CLIENT_OUTPUT")
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// A run of `audit-dataset` (label-heterogeneity audit + data-gate verdicts),
+// executed either on the bundled pilot cohort or on a user-pasted AST table.
+model AuditRun {
+  id             String   @id @default(cuid())
+  organizationId String? // owning organization; null = open workspace (v0.4.x rows)
+  source         String // "cohort" (bundled pilot data) | "paste" (user TSV)
+  drug           String // drug the verdict row refers to, or "ALL"
+  verdict        String // PASS | FAIL
+  nLabelled      Int // labelled S/R isolates considered by the data gate
+  summary        String // one-line human summary
+  input          String // JSON: audit input descriptor (source, thresholds, row count)
+  results        String // JSON: full per-drug audit output (distributions + DG checks)
+  createdAt      DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([organizationId, createdAt])
+}
+
+// A single conformal-prediction lookup against the trained per-drug engine.
+model PredictRun {
+  id             String   @id @default(cuid())
+  organizationId String? // owning organization; null = open workspace (v0.4.x rows)
+  drug           String
+  isolate        String? // biosample accession when a cohort isolate was scored
+  modelType      String // M0 | M1 | M2
+  m0Call         String? // S | R
+  pR             Float? // calibrated probability of resistance (M1/M2)
+  call           String? // S | R (thresholded)
+  conformalSet   String? // S | R | S+R | ABSTAIN
+  input          String // JSON: feature toggles / isolate descriptor
+  output         String // JSON: full engine output incl. determinants + thresholds
+  createdAt      DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([organizationId, createdAt])
+}
+
+// A re-run of the split-leakage auditor (G3-style) on the sealed pilot splits.
+model ValidateRun {
+  id             String   @id @default(cuid())
+  organizationId String? // owning organization; null = open workspace (v0.4.x rows)
+  drug           String
+  problems       Int // number of leakage problems found
+  verdict        String // PASS | FAIL
+  results        String // JSON: per-split overlap detail
+  createdAt      DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([organizationId, createdAt])
+}
+
+// Service-layer inquiry (S1/S2/S3 SKU sheets; S3 is documented as blocked).
+model ServiceRequest {
+  id             String   @id @default(cuid())
+  organizationId String? // owning organization; null = open workspace / anonymous
+  sku            String // S1 | S2 | S3
+  name           String
+  email          String
+  org            String?
+  isolates       Int? // approximate collection size
+  message        String?
+  status         String   @default("received")
+  createdAt      DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([organizationId, createdAt])
+}
+
+// ---------------------------------------------------------------------------
+// Commercial layer (added 2026-11-04, see DEVIATIONS.md D-022..D-029)
+// ---------------------------------------------------------------------------
+
+// Append-only, hash-chained audit trail (21 CFR Part 11-style record keeping,
+// research-use). Each entry's hash = sha256(seq | prevHash | actor | action |
+// detail | createdAtISO), so tampering with any row breaks every later hash.
+model AuditLog {
+  seq       Int      @id @default(autoincrement())
+  id        String   @unique @default(cuid())
+  actor     String // "console" | "api:<keyPrefix>"
+  action    String // e.g. "predict.run", "batch.submit", "export.fhir", "key.issue"
+  detail    String // JSON descriptor (never payloads with personal data)
+  hash      String // sha256 hex of this entry
+  prevHash  String? // hash of the previous entry (null = genesis)
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}
+
+// API keys for programmatic access (lab pipeline integration). The full key is
+// shown once at issue; only its sha256 hash is stored.
+model ApiKey {
+  id             String    @id @default(cuid())
+  organizationId String? // owning organization; null = open workspace (v0.4.x keys)
+  label          String
+  keyPrefix      String // first 12 chars, for display
+  keyHash        String // sha256(full key)
+  scope          String @default("read+predict") // "read" | "read+predict"
+  credits        Int       @default(100) // per-sample credits remaining
+  lastUsedAt     DateTime?
+  revokedAt      DateTime?
+  createdAt      DateTime  @default(now())
+
+  @@index([organizationId])
+}
+
+// Batch scoring queue. Work is processed in chunks (see DEVIATIONS.md D-26):
+// each poll of GET /api/batch?id= advances the job by CHUNK isolates using the
+// deterministic engine, so progress reflects real computation.
+model BatchJob {
+  id             String   @id @default(cuid())
+  organizationId String? // owning organization; null = open workspace (v0.4.x jobs)
+  label          String
+  drug           String
+  modelType      String   @default("M1")
+  n              Int // isolates submitted
+  done           Int      @default(0) // isolates scored so far
+  status         String   @default("queued") // queued | running | complete | failed
+  isolates       String // JSON array of biosamples (frozen at submission)
+  results        String   @default("[]") // JSON array of per-isolate predictions
+  summary        String? // JSON aggregate, written at completion
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([createdAt])
+  @@index([organizationId, createdAt])
+}
+
+// ---------------------------------------------------------------------------
+// Integration & API layer (added 2026-11-09, v0.4.0)
+// ---------------------------------------------------------------------------
+
+// Outbound connector config, one row per platform per organization
+// (organizationId = null is the shared open workspace, the v0.4.0 legacy row).
+// hmacSecret is stored in full (console-only deployment, RUO demo boundary);
+// it is masked to its first 4 chars everywhere it is displayed.
+model IntegrationConfig {
+  id             String    @id @default(cuid())
+  organizationId String? // owning organization; null = open workspace
+  platform       String    @default("vecura")
+  endpointUrl    String?
+  hmacSecret     String
+  events         String    @default("[]") // JSON array of subscribed outbound event types
+  active         Boolean   @default(true)
+  lastTestedAt   DateTime?
+  lastTestStatus String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@index([organizationId, platform])
+}
+
+// Every outbound/inbound webhook exchange (ping tests, signed event deliveries,
+// inbound signature verifications) with its real outcome — delivered/failed
+// outcomes are recorded honestly, including sandbox network failures.
+model WebhookEvent {
+  id             String   @id @default(cuid())
+  organizationId String? // owning organization; null = open workspace
+  direction      String // "outbound" | "inbound"
+  platform       String   @default("vecura")
+  eventType      String
+  payload        String // JSON
+  status         String // "verified" | "rejected" | "delivered" | "failed"
+  httpStatus     Int?
+  error          String?
+  createdAt      DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([organizationId, createdAt])
+}
+
+// ---------------------------------------------------------------------------
+// Phase 1 — Production Foundation (added 2026-11-09, v0.5.0; see
+// protocol/DEVIATIONS.md D-040..D-048): multi-tenant auth, billing,
+// observability. organizationId = null everywhere means the shared OPEN
+// WORKSPACE (the unauthenticated v0.4.x demo console), so all pre-existing
+// rows keep working unchanged; organizations see only their own rows.
+// ---------------------------------------------------------------------------
+
+// Console account. Email + scrypt password hash (no external auth provider;
+// format "scrypt:N:r:p:saltB64:hashB64" — see src/lib/lacuna/auth.ts).
+model User {
+  id           String       @id @default(cuid())
+  email        String       @unique
+  name         String
+  passwordHash String
+  memberships  Membership[]
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+}
+
+// Server-side session (httpOnly cookie carries a random token; only its
+// SHA-256 hash is stored). activeOrgId caches the workspace switcher state.
+model Session {
+  id          String   @id @default(cuid())
+  userId      String
+  tokenHash   String   @unique
+  activeOrgId String? // must be an org the user holds a membership of
+  expiresAt   DateTime
+  createdAt   DateTime @default(now())
+
+  @@index([userId])
+}
+
+// A tenant workspace. The shared open workspace is NOT a row — it is the
+// organizationId = null state shared by unauthenticated visitors.
+model Organization {
+  id          String       @id @default(cuid())
+  name        String
+  slug        String       @unique
+  memberships Membership[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+}
+
+// User ↔ organization with role (owner | admin | member).
+model Membership {
+  id        String       @id @default(cuid())
+  userId    String
+  orgId     String
+  role      String       @default("member") // owner | admin | member
+  user      User         @relation(fields: [userId], references: [id])
+  org       Organization @relation(fields: [orgId], references: [id])
+  createdAt DateTime     @default(now())
+
+  @@unique([userId, orgId])
+  @@index([orgId])
+}
+
+// One subscription per organization. Provider is "stripe" when real Stripe
+// keys drive the lifecycle, "sandbox" for the built-in deterministic provider
+// (no real charges — sandbox mode is labelled everywhere it is surfaced).
+model BillingSubscription {
+  id                   String    @id @default(cuid())
+  organizationId       String    @unique
+  plan                 String // community | lab | enterprise
+  status               String // active | past_due | suspended | canceled
+  provider             String    @default("sandbox")
+  stripeCustomerId     String?
+  stripeSubscriptionId String?
+  currentPeriodEnd     DateTime?
+  cancelAtPeriodEnd    Boolean   @default(false)
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+}
+
+// Invoice ledger (sandbox provider mints these; Stripe mirrors via API).
+// Dunning progression: open → failed (attempt 1) → failed (attempts 2,3) →
+// subscription past_due → suspended with entitlements revoked.
+model BillingInvoice {
+  id             String    @id @default(cuid())
+  organizationId String
+  number         String // e.g. LAC-2026-000042
+  plan           String
+  amountCents    Int
+  currency       String    @default("usd")
+  status         String // open | paid | failed | void
+  attempts       Int       @default(0)
+  periodStart    DateTime
+  periodEnd      DateTime
+  dueAt          DateTime
+  paidAt         DateTime?
+  lastError      String?
+  provider       String    @default("sandbox")
+  stripeInvoiceId String?
+  createdAt      DateTime  @default(now())
+
+  @@index([organizationId, createdAt])
+}
+
+// Append-only billing lifecycle log — every grant, revocation, state change
+// and provider interaction is recorded (mirrors the AuditLog discipline).
+model BillingEvent {
+  id             String   @id @default(cuid())
+  organizationId String
+  type           String // checkout_completed | subscription_activated | invoice_paid | invoice_failed | dunning_retry | subscription_past_due | subscription_suspended | entitlements_revoked | subscription_resumed | subscription_canceled | credits_granted | credits_revoked | topup
+  detail         String // JSON
+  createdAt      DateTime @default(now())
+
+  @@index([organizationId, createdAt])
+}
+
+// Observability samples (in-app metrics store; the production deploy exposes
+// the same data via /api/metrics?format=prometheus).
+model MetricSample {
+  id         String   @id @default(cuid())
+  type       String // http | error | webhook | alert
+  route      String
+  method     String?
+  status     Int?
+  durationMs Int?
+  error      String?
+  requestId  String?
+  createdAt  DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([type, createdAt])
+}

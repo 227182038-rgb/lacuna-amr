@@ -1,9 +1,12 @@
 // POST /api/webhooks/vecura — inbound HMAC-verified webhook receiver.
 // The RAW request body is verified against the header
 //   x-lacuna-signature: sha256=<HMAC-SHA256(config.hmacSecret, rawBody)>
-// using crypto.timingSafeEqual. Valid → WebhookEvent "verified" + audit
-// "webhook.received" + 200 {received:true}; invalid/missing → WebhookEvent
-// "rejected" + 401. No configured integration → 401.
+// using crypto.timingSafeEqual. Phase 1 (v0.5.0): with per-organization
+// connector configs the signature is checked against EVERY active config of
+// the platform; the first constant-time match attributes the event to that
+// organization's workspace. Valid → WebhookEvent "verified" (with org
+// attribution) + audit "webhook.received" + 200; invalid/missing →
+// WebhookEvent "rejected" + 401; no configured integration → 401.
 
 import crypto from "crypto";
 import { NextResponse } from "next/server";
@@ -22,22 +25,12 @@ export async function OPTIONS() {
 export async function POST(req: Request) {
   const rawBody = await req.text();
 
-  const config = await db.integrationConfig.findFirst({ where: { platform: PLATFORM } });
-  if (!config) {
+  const configs = await db.integrationConfig.findMany({ where: { platform: PLATFORM, active: true } });
+  if (configs.length === 0) {
     return NextResponse.json({ error: "No integration configured." }, { status: 401 });
   }
 
   const signatureHeader = req.headers.get("x-lacuna-signature") ?? "";
-  const expected = `sha256=${signPayload(config.hmacSecret, rawBody)}`;
-
-  let valid = false;
-  if (signatureHeader.length === expected.length) {
-    try {
-      valid = crypto.timingSafeEqual(Buffer.from(signatureHeader, "utf8"), Buffer.from(expected, "utf8"));
-    } catch {
-      valid = false;
-    }
-  }
 
   // Best-effort event-type extraction for the log (never trusted for auth).
   let eventType = "unknown";
@@ -50,7 +43,24 @@ export async function POST(req: Request) {
     // non-JSON body — keep "unknown"
   }
 
-  if (!valid) {
+  // Match the signature against every active config (constant-time compare
+  // each); the matching secret identifies the sending workspace.
+  let matched: (typeof configs)[number] | null = null;
+  for (const config of configs) {
+    const expected = `sha256=${signPayload(config.hmacSecret, rawBody)}`;
+    if (signatureHeader.length === expected.length) {
+      try {
+        if (crypto.timingSafeEqual(Buffer.from(signatureHeader, "utf8"), Buffer.from(expected, "utf8"))) {
+          matched = config;
+          break;
+        }
+      } catch {
+        // continue to next config
+      }
+    }
+  }
+
+  if (!matched) {
     await db.webhookEvent.create({
       data: {
         direction: "inbound",
@@ -65,9 +75,20 @@ export async function POST(req: Request) {
   }
 
   await db.webhookEvent.create({
-    data: { direction: "inbound", platform: PLATFORM, eventType, payload: rawBody.slice(0, 4000), status: "verified" },
+    data: {
+      organizationId: matched.organizationId,
+      direction: "inbound",
+      platform: PLATFORM,
+      eventType,
+      payload: rawBody.slice(0, 4000),
+      status: "verified",
+    },
   });
-  await recordAudit("console", "webhook.received", { platform: PLATFORM, eventType });
+  await recordAudit("console", "webhook.received", {
+    platform: PLATFORM,
+    eventType,
+    workspace: matched.organizationId ?? "open",
+  });
 
   return corsJson({ received: true }, 200);
 }

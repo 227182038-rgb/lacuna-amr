@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { toast } from "@/hooks/use-toast";
-import { Copy, Download, FileJson, FileSpreadsheet, KeyRound, Link2, Loader2, ShieldCheck, Trash2 } from "lucide-react";
+import { Copy, Download, FileJson, FileSpreadsheet, KeyRound, Link2, Loader2, Scale, ShieldCheck, Trash2 } from "lucide-react";
 import { ErrorBox, LoadingBlock, SectionHeader } from "./ui-bits";
 
 // ---------------------------------------------------------------------------
@@ -70,7 +70,45 @@ export function ComplianceSection() {
         <ExportsPanel />
       </div>
       <ApiKeysPanel />
+      <LegalPackPanel />
     </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Phase 1 legal pack pointer (templates; see DEVIATIONS.md D-047)
+// ---------------------------------------------------------------------------
+
+function LegalPackPanel() {
+  const docs: [string, string][] = [
+    ["Terms of Service", "deploy/legal/TERMS_OF_SERVICE.md"],
+    ["Privacy Policy", "deploy/legal/PRIVACY_POLICY.md"],
+    ["Data Processing Agreement", "deploy/legal/DATA_PROCESSING_AGREEMENT.md"],
+    ["Incorporation checklist", "deploy/legal/INCORPORATION_CHECKLIST.md"],
+  ];
+  return (
+    <Card className="border-zinc-800 bg-zinc-900/60">
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2 text-base text-zinc-100">
+          <Scale className="h-4 w-4 text-emerald-400" /> Legal pack (Phase 1)
+        </CardTitle>
+        <CardDescription>
+          Templates for the production terms, privacy policy, DPA and the incorporation checklist that unblocks real
+          Stripe billing. They are drafts for counsel review — not in force, not legal advice; the sandbox cannot
+          register a legal entity, so billing runs in sandbox provider mode until that lands (DEVIATIONS.md D-042/D-047).
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <ul className="grid gap-1.5 sm:grid-cols-2">
+          {docs.map(([label, path]) => (
+            <li key={path} className="flex items-center justify-between gap-2 rounded-md border border-zinc-800 bg-zinc-950/60 px-3 py-2 text-xs">
+              <span className="text-zinc-300">{label}</span>
+              <code className="font-mono text-[10px] text-zinc-500">{path}</code>
+            </li>
+          ))}
+        </ul>
+      </CardContent>
+    </Card>
   );
 }
 

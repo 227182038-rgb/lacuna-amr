@@ -3,10 +3,12 @@ import { db } from "@/lib/db";
 import { recordAudit } from "@/lib/lacuna/audit-chain";
 import { DRUGS, RUO_NOTICE } from "@/lib/lacuna/data";
 import { engineSummary, predict } from "@/lib/lacuna/engine";
+import { resolveOrgContext } from "@/lib/lacuna/org-context";
+import { withMetrics } from "@/lib/lacuna/observability";
 
 export const dynamic = "force-dynamic";
 
-export async function GET(req: Request) {
+async function GET_impl(req: Request) {
   const url = new URL(req.url);
   const drug = url.searchParams.get("drug");
   if (!drug || !DRUGS.includes(drug as (typeof DRUGS)[number])) {
@@ -22,7 +24,10 @@ interface PredictBody {
   modelType?: "M0" | "M1" | "M2";
 }
 
-export async function POST(req: Request) {
+async function POST_impl(req: Request) {
+  // Workspace resolution: signed-in org, API-key org, or the open workspace.
+  const ctx = await resolveOrgContext(req);
+
   let body: PredictBody;
   try {
     body = (await req.json()) as PredictBody;
@@ -50,6 +55,7 @@ export async function POST(req: Request) {
   try {
     const rec = await db.predictRun.create({
       data: {
+        organizationId: ctx.orgId,
         drug: out.drug,
         isolate: out.isolate,
         modelType: out.modelType,
@@ -66,7 +72,7 @@ export async function POST(req: Request) {
     // best-effort persistence
   }
 
-  await recordAudit("console", "predict.run", {
+  await recordAudit(ctx.actor, "predict.run", {
     runId,
     drug: out.drug,
     isolate: out.isolate,
@@ -74,7 +80,11 @@ export async function POST(req: Request) {
     call: out.call,
     pR: Number(out.pR.toFixed(4)),
     conformalSet: out.conformalSetMondrian,
+    workspace: ctx.orgSlug ?? "open",
   });
 
-  return NextResponse.json({ prediction: out, runId });
+  return NextResponse.json({ prediction: out, runId, workspace: { id: ctx.orgId, name: ctx.orgName } });
 }
+
+export const GET = withMetrics("predict", GET_impl);
+export const POST = withMetrics("predict", POST_impl);

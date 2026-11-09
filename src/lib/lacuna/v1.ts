@@ -28,6 +28,7 @@ import {
 import { predict } from "./engine";
 import { auditAstRows, DEFAULT_THRESHOLDS, parseUserAst, type AuditThresholds } from "./audit";
 import { auditSplits } from "./splits-audit";
+import { recordMetric } from "./observability";
 
 // ---------------------------------------------------------------------------
 // CORS — the v1 surface (and openapi.json / mcp) is callable cross-origin by
@@ -128,13 +129,17 @@ export function signPayload(secret: string, rawBody: string): string {
 
 /**
  * Deliver a signed outbound webhook for `eventType` to the configured active
- * integration endpoint, if (and only if) the event is subscribed. The real
- * outcome (delivered/failed, HTTP status, error) is recorded as a WebhookEvent
- * row. Never throws — webhook delivery failure must never fail the API call.
+ * integration endpoint of the given workspace (organizationId = null selects
+ * the open-workspace config), if — and only if — the event is subscribed.
+ * The real outcome (delivered/failed, HTTP status, error) is recorded as a
+ * WebhookEvent row AND a webhook metric sample. Never throws — webhook
+ * delivery failure must never fail the API call.
  */
-export async function notifyWebhook(eventType: string, payload: Record<string, unknown>): Promise<void> {
+export async function notifyWebhook(eventType: string, payload: Record<string, unknown>, organizationId: string | null = null): Promise<void> {
   try {
-    const config = await db.integrationConfig.findFirst({ where: { platform: "vecura", active: true } });
+    const config = await db.integrationConfig.findFirst({
+      where: { platform: "vecura", active: true, organizationId },
+    });
     if (!config || !config.endpointUrl) return;
     let events: unknown;
     try {
@@ -173,11 +178,17 @@ export async function notifyWebhook(eventType: string, payload: Record<string, u
     }
     try {
       await db.webhookEvent.create({
-        data: { direction: "outbound", platform: "vecura", eventType, payload: body, status, httpStatus, error },
+        data: { organizationId, direction: "outbound", platform: "vecura", eventType, payload: body, status, httpStatus, error },
       });
     } catch {
       // best-effort logging
     }
+    await recordMetric({
+      type: "webhook",
+      route: `webhook:${eventType}`,
+      status: status === "delivered" ? 200 : 502,
+      error: error ?? undefined,
+    });
   } catch {
     // never throw
   }
@@ -242,6 +253,7 @@ export async function v1Predict(auth: V1Authed, body: unknown, via: CallSurface 
   try {
     const rec = await db.predictRun.create({
       data: {
+        organizationId: auth.rec.organizationId,
         drug: out.drug,
         isolate: out.isolate,
         modelType: out.modelType,
@@ -283,7 +295,7 @@ export async function v1Predict(auth: V1Authed, body: unknown, via: CallSurface 
       conformalSet: out.conformalSetMondrian,
       creditsRemaining,
     },
-  });
+  }, auth.rec.organizationId);
 
   return {
     ok: true,
@@ -343,6 +355,7 @@ export async function v1AuditDataset(auth: V1Authed, body: unknown, via: CallSur
     try {
       const rec = await db.auditRun.create({
         data: {
+          organizationId: auth.rec.organizationId,
           source: b.source === "paste" ? "paste" : b.cohortOnly ? "cohort" : "ast-table",
           drug: d.drug,
           verdict: d.verdict,
@@ -378,7 +391,7 @@ export async function v1AuditDataset(auth: V1Authed, body: unknown, via: CallSur
       overallVerdict: audit.overallVerdict,
       creditsRemaining,
     },
-  });
+  }, auth.rec.organizationId);
 
   return {
     ok: true,
@@ -408,6 +421,7 @@ export async function v1Validate(auth: V1Authed, body: unknown, via: CallSurface
   try {
     const rec = await db.validateRun.create({
       data: {
+        organizationId: auth.rec.organizationId,
         drug: result.drug,
         problems: result.problems.length,
         verdict: result.verdict,
@@ -438,7 +452,7 @@ export async function v1Validate(auth: V1Authed, body: unknown, via: CallSurface
       verdict: result.verdict,
       creditsRemaining,
     },
-  });
+  }, auth.rec.organizationId);
 
   return {
     ok: true,
@@ -464,7 +478,7 @@ export async function v1Report(auth: V1Authed, _body: unknown, via: CallSurface 
 
   await notifyWebhook("report.ready", {
     summary: { generatedAt: new Date().toISOString(), creditsRemaining },
-  });
+  }, auth.rec.organizationId);
 
   return { ok: true, status: 200, envelope: { data, creditsRemaining, notice: RUO_NOTICE } };
 }
