@@ -20,8 +20,10 @@ node_modules
 # production
 /build
 
-# misc
-.DS_Store
+# zip archives
+*.zip
+LACUNA-AMR-v0.5.0-Complete-Source.zip
+
 *.pem
 
 # debug
